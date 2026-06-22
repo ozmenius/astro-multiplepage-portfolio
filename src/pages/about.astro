@@ -1,208 +1,135 @@
 ---
-import Navigation from "../components/Navigation.astro";
-import Footer from "../components/Footer.astro";
-import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+import ContactForm from "../components/ContactForm.astro";
 import { aboutContent } from "../config/content.ts";
+import { getOrigin, aboutSchema } from "../utils/schema.ts";
+
+const origin = getOrigin(Astro.site);
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{aboutContent.meta.title}</title>
-    <meta name="description" content={aboutContent.meta.description} />
-    <script is:inline>
-      (function () {
-        const savedTheme = localStorage.getItem("theme") || "dark";
-        const prefersDark = window.matchMedia(
-          "(prefers-color-scheme: dark)"
-        ).matches;
-        const initialTheme =
-          savedTheme === "system"
-            ? prefersDark
-              ? "dark"
-              : "light"
-            : savedTheme;
-
-        if (initialTheme === "dark") {
-          document.documentElement.classList.add("dark");
-        } else {
-          document.documentElement.classList.remove("dark");
-        }
-      })();
-    </script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        window
-          .matchMedia("(prefers-color-scheme: dark)")
-          .addEventListener("change", (e) => {
-            if (localStorage.getItem("theme") === "system") {
-              if (e.matches) {
-                document.documentElement.classList.add("dark");
-              } else {
-                document.documentElement.classList.remove("dark");
-              }
-            }
-          });
-      });
-    </script>
-    <style>
-      .dot-hexagon-light {
-        background-image: radial-gradient(
-            circle,
-            #80808045 1px,
-            transparent 1px
-          ),
-          radial-gradient(circle, #80808045 1px, transparent 1px);
-        background-size: 24px 41.57px;
-        background-position:
-          0 0,
-          12px 20.78px;
-      }
-
-      .dot-hexagon-dark {
-        background-image: radial-gradient(
-            circle,
-            #ffffff35 1px,
-            transparent 1px
-          ),
-          radial-gradient(circle, #ffffff35 1px, transparent 1px);
-        background-size: 24px 41.57px;
-        background-position:
-          0 0,
-          12px 20.78px;
-      }
-    </style>
-  </head>
-  <body
-    class="min-h-screen flex flex-col bg-white dark:bg-neutral-900 transition-colors duration-300"
+<Layout
+  title={aboutContent.meta.title}
+  description={aboutContent.meta.description}
+  schema={aboutSchema(origin)}
+>
+  <section
+    class="relative z-20 w-full max-w-4xl mx-auto mt-16 sm:mt-24 mb-12 px-4 sm:px-6 lg:px-0"
   >
-    <div class="relative flex-grow flex flex-col overflow-x-hidden">
-      <div class="absolute inset-0 z-0 overflow-hidden">
-        <div
-          class="absolute inset-0 -z-10 dot-hexagon-light dark:dot-hexagon-dark"
-        >
+    <div class="relative z-20 w-full mx-auto lg:mx-0">
+      <h2
+        class="text-2xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-3xl lg:text-4xl"
+      >
+        {aboutContent.title}
+      </h2>
+      <div class="flex flex-col md:flex-row gap-8 mt-3 sm:mt-4 lg:mt-6">
+        <div class="w-full md:w-1/2 flex flex-col">
+          <p
+            class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+          >
+            {aboutContent.description}
+          </p>
+          <div class="mt-auto pt-4 flex flex-wrap gap-2">
+            {
+              aboutContent.skills.map((skill) => (
+                <span class="px-3 py-1 text-sm bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-200 rounded-full">
+                  {skill}
+                </span>
+              ))
+            }
+          </div>
         </div>
-        <div
-          class="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_50%,transparent_0%,rgba(255,255,255,0.5)_60%,rgba(255,255,255,0.9)_85%,white_100%)] dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_50%,transparent_0%,rgba(23,23,23,0.5)_60%,rgba(23,23,23,0.9)_85%,rgb(23,23,23)_100%)] -z-10"
-        >
+        <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+          <div class="relative w-full max-w-[360px] aspect-square">
+            <img
+              src={aboutContent.image.src}
+              alt={aboutContent.image.alt}
+              class="object-cover rounded-xl w-full h-full"
+            />
+          </div>
         </div>
-        <div
-          class="absolute left-0 right-0 top-0 -z-10 m-auto h-[1200px] w-[1200px] rounded-full bg-neutral-400 opacity-10 blur-[100px]"
-        >
+      </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row gap-8 md:gap-0 mt-12 sm:mt-20">
+      <div class="flex-1">
+        <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">
+          {aboutContent.experience.title}
+        </h2>
+        <div class="py-10 pl-7 sm:pl-0">
+          {
+            aboutContent.experience.items.map((item) => (
+              <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+                <div class="relative flex flex-col justify-start pl-12">
+                  <div class="absolute top-0 left-0 z-40 flex items-center justify-center -translate-x-1/2 bg-white border rounded-full dark:bg-neutral-950 w-14 h-14 border-neutral-300 dark:border-neutral-700">
+                    <svg
+                      class="w-7 h-7 text-neutral-700 dark:text-neutral-300"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <circle cx="12" cy="12" r="9" stroke-width="1.5" />
+                      <polygon
+                        points="15.5 8.5 13.2 13.2 8.5 15.5 10.8 10.8 15.5 8.5"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <p class="text-xs uppercase text-neutral-400 dark:text-neutral-500 tracking-widest">
+                    {item.period}
+                  </p>
+                  <h3 class="my-1 text-lg font-bold dark:text-neutral-100">
+                    {item.position}
+                  </h3>
+                  <p class="mb-1 text-sm font-medium dark:text-neutral-300">
+                    {item.company}
+                  </p>
+                  <p class="text-sm font-light text-neutral-600 dark:text-neutral-400">
+                    {item.summary ?? item.description}
+                  </p>
+                  {item.results && (
+                    <div class="mt-4">
+                      {item.resultsTitle && (
+                        <p class="text-[11px] font-semibold uppercase tracking-widest text-neutral-400 dark:text-neutral-500">
+                          {item.resultsTitle}
+                        </p>
+                      )}
+                      <ul class="mt-2 space-y-2.5">
+                        {item.results.map((result) => (
+                          <li>
+                            {result.label && (
+                              <span class="block text-sm font-medium text-neutral-700 dark:text-neutral-300">
+                                {result.label}
+                              </span>
+                            )}
+                            <span class="mt-1 flex flex-wrap gap-1.5">
+                              {result.metrics.map((metric) => (
+                                <span class="inline-block rounded-md bg-indigo-50 px-2 py-0.5 text-xs font-semibold text-indigo-700 dark:bg-indigo-500/10 dark:text-indigo-300">
+                                  {metric}
+                                </span>
+                              ))}
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              </div>
+            ))
+          }
         </div>
       </div>
 
-      <Navigation />
-      <section
-        class="relative z-20 w-full max-w-4xl mx-auto mt-16 sm:mt-24 mb-12 px-4 sm:px-6 lg:px-0"
-      >
-        <div class="relative z-20 w-full mx-auto lg:mx-0">
-          <h2
-            class="text-2xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-3xl lg:text-4xl"
-          >
-            {aboutContent.title}
-          </h2>
-          <div class="flex flex-col md:flex-row gap-8 mt-3 sm:mt-4 lg:mt-6">
-            <div class="w-full md:w-1/2 flex flex-col">
-              <p
-                class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
-              >
-                {aboutContent.description}
-              </p>
-              <div class="mt-auto pt-4 flex flex-wrap gap-2">
-                {
-                  aboutContent.skills.map((skill) => (
-                    <span class="px-3 py-1 text-sm bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-200 rounded-full">
-                      {skill}
-                    </span>
-                  ))
-                }
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 flex justify-center md:justify-end">
-              <div
-                class="relative w-full max-w-[360px] aspect-square"
-              >
-                <img
-                  src={aboutContent.image.src}
-                  alt={aboutContent.image.alt}
-                  class="object-cover rounded-xl w-full h-full"
-                />
-              </div>
-            </div>
-          </div>
+      <div class="w-full md:w-[360px] md:ml-8 md:flex-shrink-0">
+        <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">
+          {aboutContent.connect.title}
+        </h2>
+        <div class="mt-4">
+          <ContactForm />
         </div>
-
-        <div class="flex flex-col md:flex-row gap-8 md:gap-0 mt-12 sm:mt-20">
-          <div class="flex-1">
-            <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">
-              {aboutContent.experience.title}
-            </h2>
-            <div class="py-10">
-              {
-                aboutContent.experience.items.map((item) => (
-                  <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
-                    <div class="relative flex flex-col justify-start pl-12">
-                      <div class="absolute top-0 left-0 z-40 flex items-center justify-center -translate-x-1/2 bg-white border rounded-full dark:bg-neutral-950 w-14 h-14 border-neutral-300 dark:border-neutral-700">
-                        <svg
-                          class="w-8 h-8 text-neutral-700 dark:text-neutral-300"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="1.5"
-                            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                          />
-                        </svg>
-                      </div>
-                      <p class="text-xs uppercase text-neutral-400 dark:text-neutral-500 tracking-widest">
-                        {item.period}
-                      </p>
-                      <h3 class="my-1 text-lg font-bold dark:text-neutral-100">
-                        {item.position}
-                      </h3>
-                      <p class="mb-1 text-sm font-medium dark:text-neutral-300">
-                        {item.company}
-                      </p>
-                      <p class="text-sm font-light text-neutral-600 dark:text-neutral-400">
-                        {item.description}
-                      </p>
-                    </div>
-                  </div>
-                ))
-              }
-            </div>
-          </div>
-
-          <div class="w-full md:w-[360px] md:ml-8 md:flex-shrink-0">
-            <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">
-              {aboutContent.connect.title}
-            </h2>
-            <div class="py-[30px]">
-              <p
-                class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
-              >
-                {aboutContent.connect.description}
-                <a
-                  href={aboutContent.connect.email.href}
-                  class="text-indigo-600 underline"
-                >
-                  {aboutContent.connect.email.text}
-                </a>
-                .
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
     </div>
-
-    <Footer />
-  </body>
-</html>
+  </section>
+</Layout>

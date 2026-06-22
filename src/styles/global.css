@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Tailwind v4: bind the `dark:` variant to the `.dark` class on <html>
+   (set by the theme toggle / init script) instead of the OS media query. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Shared page chrome — used by the global Layout (was duplicated per page). */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.dot-hexagon-light {
+  background-image: radial-gradient(circle, #80808045 1px, transparent 1px),
+    radial-gradient(circle, #80808045 1px, transparent 1px);
+  background-size: 24px 41.57px;
+  background-position:
+    0 0,
+    12px 20.78px;
+}
+
+.dot-hexagon-dark {
+  background-image: radial-gradient(circle, #ffffff35 1px, transparent 1px),
+    radial-gradient(circle, #ffffff35 1px, transparent 1px);
+  background-size: 24px 41.57px;
+  background-position:
+    0 0,
+    12px 20.78px;
+}
+
+/* Blog article markdown starts with an <h1> that duplicates the page title. */
+.prose > h1:first-child {
+  display: none;
+}

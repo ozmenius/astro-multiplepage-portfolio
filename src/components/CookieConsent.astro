@@ -1,0 +1,76 @@
+---
+// Cookie consent banner (vanilla-cookieconsent v3), wired to Google Consent
+// Mode v2. The "analytics" category gates GTM/GA4: opting in updates
+// analytics_storage to "granted". The script only runs when GTM is configured.
+import "vanilla-cookieconsent/dist/cookieconsent.css";
+---
+
+<script>
+  import * as CookieConsent from "vanilla-cookieconsent";
+
+  if (import.meta.env.PUBLIC_GTM_ID) {
+    const gtag = window.gtag || function () {};
+
+    const updateConsent = () => {
+      gtag("consent", "update", {
+        analytics_storage: CookieConsent.acceptedCategory("analytics")
+          ? "granted"
+          : "denied",
+      });
+    };
+
+    CookieConsent.run({
+      guiOptions: {
+        consentModal: { layout: "box", position: "bottom right" },
+        preferencesModal: { layout: "box" },
+      },
+      categories: {
+        necessary: { enabled: true, readOnly: true },
+        analytics: {
+          services: {
+            ga4: { label: "Google Analytics 4 (via Google Tag Manager)" },
+          },
+        },
+      },
+      onFirstConsent: updateConsent,
+      onConsent: updateConsent,
+      onChange: updateConsent,
+      language: {
+        default: "en",
+        translations: {
+          en: {
+            consentModal: {
+              title: "We use cookies",
+              description:
+                'This site uses analytics cookies (Google Analytics via Tag Manager) to understand how visitors use it. They are only set with your consent — necessary cookies are always active. See the <a href="/privacy/">Privacy Policy</a>.',
+              acceptAllBtn: "Accept all",
+              acceptNecessaryBtn: "Reject all",
+              showPreferencesBtn: "Manage preferences",
+            },
+            preferencesModal: {
+              title: "Cookie preferences",
+              acceptAllBtn: "Accept all",
+              acceptNecessaryBtn: "Reject all",
+              savePreferencesBtn: "Save preferences",
+              closeIconLabel: "Close",
+              sections: [
+                {
+                  title: "Necessary cookies",
+                  description:
+                    "Required for the site to function (e.g. remembering your cookie choice and theme). Always active.",
+                  linkedCategory: "necessary",
+                },
+                {
+                  title: "Analytics cookies",
+                  description:
+                    "Help me understand how the site is used, via Google Analytics 4 (loaded through Google Tag Manager). No data is collected until you opt in.",
+                  linkedCategory: "analytics",
+                },
+              ],
+            },
+          },
+        },
+      },
+    });
+  }
+</script>

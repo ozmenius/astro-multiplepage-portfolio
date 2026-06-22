@@ -1,0 +1,149 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import {
+  siteConfig,
+  projectsContent,
+  getProjectBySlug,
+} from "../../config/content.ts";
+import { getOrigin, projectSchema } from "../../utils/schema.ts";
+
+export function getStaticPaths() {
+  return projectsContent.projects.map((project) => ({
+    params: { slug: project.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+if (!slug) {
+  return Astro.redirect("/projects/");
+}
+
+const project = getProjectBySlug(slug);
+
+if (!project) {
+  return Astro.redirect("/projects/");
+}
+
+const origin = getOrigin(Astro.site);
+---
+
+<Layout
+  title={`${project.name} — Dennis Özmen`}
+  description={project.summary}
+  schema={projectSchema(origin, project)}
+>
+  <article
+    class="relative z-20 w-full max-w-4xl mx-auto mt-16 sm:mt-24 mb-12 px-4 sm:px-7 lg:px-0"
+  >
+    <a
+      href="/projects/"
+      class="inline-flex items-center gap-1.5 text-sm text-neutral-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors"
+    >
+      <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M11 17l-5-5m0 0l5-5m-5 5h12"></path>
+      </svg>
+      All projects
+    </a>
+
+    <header class="mt-6">
+      <div
+        class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-semibold uppercase tracking-widest text-indigo-600 dark:text-indigo-400"
+      >
+        <span>{project.category}</span>
+        <span class="text-neutral-300 dark:text-neutral-600">•</span>
+        <span class="text-neutral-400 dark:text-neutral-500">
+          {project.period}
+        </span>
+      </div>
+      <h1
+        class="mt-3 text-3xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl"
+      >
+        {project.name}
+      </h1>
+      <p class="mt-4 text-lg leading-7 text-neutral-600 dark:text-neutral-400">
+        {project.summary}
+      </p>
+    </header>
+
+    <div class="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-3">
+      {
+        project.metrics.map((metric) => (
+          <div class="rounded-2xl border border-neutral-200 dark:border-neutral-700 bg-white/60 dark:bg-neutral-800/40 p-6 text-center">
+            <div class="text-3xl sm:text-4xl font-bold text-indigo-600 dark:text-indigo-400">
+              {metric.value}
+            </div>
+            <div class="mt-1.5 text-sm text-neutral-600 dark:text-neutral-400">
+              {metric.label}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+
+    <div class="mt-12 overflow-hidden rounded-2xl">
+      <img
+        src={project.image}
+        alt={project.name}
+        class="w-full h-auto aspect-[16/9] object-cover"
+      />
+    </div>
+
+    <div class="mt-12 space-y-10">
+      {
+        project.story.map((section) => (
+          <section>
+            <h2 class="text-xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-2xl">
+              {section.heading}
+            </h2>
+            <p class="mt-3 text-base leading-7 text-neutral-600 dark:text-neutral-400 sm:leading-8">
+              {section.body}
+            </p>
+          </section>
+        ))
+      }
+    </div>
+
+    <div class="mt-12 border-t border-neutral-200 dark:border-neutral-700 pt-8">
+      <h2
+        class="text-xs font-semibold uppercase tracking-widest text-neutral-400 dark:text-neutral-500"
+      >
+        What I did
+      </h2>
+      <div class="mt-4 flex flex-wrap gap-2">
+        {
+          project.services.map((service) => (
+            <span class="px-3 py-1 text-sm bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-200 rounded-full">
+              {service}
+            </span>
+          ))
+        }
+      </div>
+    </div>
+
+    <div class="mt-12">
+      <a
+        href={siteConfig.social.email}
+        class="group inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-neutral-900 rounded-lg hover:bg-neutral-800 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200 transition-all duration-300 hover:scale-105"
+      >
+        Want results like these? Let's talk
+        <svg
+          class="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2.5"
+            d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+        </svg>
+      </a>
+    </div>
+  </article>
+</Layout>
