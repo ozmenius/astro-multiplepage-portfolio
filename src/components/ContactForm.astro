@@ -97,7 +97,7 @@ const accessKey = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? "";
   const form = document.getElementById("contact-form") as HTMLFormElement | null;
   const statusEl = document.getElementById("cf-status");
   const submitBtn = document.getElementById("cf-submit") as HTMLButtonElement | null;
-  const FALLBACK = "Please email contact@dennisozmen.com directly.";
+  const FALLBACK = "Please try again later.";
 
   form?.addEventListener("submit", async (event) => {
     event.preventDefault();
