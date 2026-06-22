@@ -172,7 +172,7 @@ const projectInputs: Omit<Project, "href">[] = [
     title: "Consumer Electronics Store (DE/EU) — +150% Visibility",
     description:
       "+150% visibility, +110% top-3 rankings, and +4M organic visits YoY by rebuilding category-level SEO.",
-    image: "/assets/images/projects/project1.jpg",
+    image: "/assets/images/projects/consumer-electronics-store.jpg",
     category: "E-Commerce SEO",
     period: "12-month SEO program",
     summary:
@@ -210,7 +210,7 @@ const projectInputs: Omit<Project, "href">[] = [
     title: "Fashion E-Commerce (US) — +53.5% Revenue",
     description:
       "+53.5% revenue, +91.8% users, and +110% top-10 rankings YoY through combined SEO and CRO.",
-    image: "/assets/images/projects/project2.jpg",
+    image: "/assets/images/projects/fashion-ecommerce-us.jpg",
     category: "E-Commerce SEO & CRO",
     period: "Year-over-year program",
     summary:
