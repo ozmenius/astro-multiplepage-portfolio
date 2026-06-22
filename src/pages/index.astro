@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
 import { siteConfig, homeContent } from "../config/content.ts";
 import { getOrigin, homeSchema } from "../utils/schema.ts";
@@ -69,9 +70,15 @@ const origin = getOrigin(Astro.site);
         <div
           class="relative aspect-square w-full max-w-[280px] sm:max-w-[360px] lg:max-w-[420px] overflow-hidden rounded-2xl ring-1 ring-neutral-200 dark:ring-neutral-700 shadow-xl shadow-neutral-900/10 dark:shadow-black/40"
         >
-          <img
+          <Image
             src={homeContent.image.src}
             alt={homeContent.image.alt}
+            widths={[280, 360, 420, 560]}
+            sizes="(min-width: 1024px) 420px, (min-width: 640px) 360px, 280px"
+            format="webp"
+            quality={80}
+            loading="eager"
+            fetchpriority="high"
             class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
           />
         </div>

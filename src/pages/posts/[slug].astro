@@ -1,7 +1,22 @@
 ---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import { getPostBySlug, getAllPostSlugs } from "../../utils/getPosts";
 import { getOrigin, postSchema } from "../../utils/schema.ts";
+
+// Map a frontmatter image path (public) to its src/assets counterpart so the
+// hero is optimized (WebP + srcset). Falls back to the raw <img> if not found.
+const heroImages = import.meta.glob<{ default: ImageMetadata }>(
+  "../../assets/images/posts/*.{jpeg,jpg,png,webp}",
+  { eager: true },
+);
+function resolveHero(path?: string): ImageMetadata | undefined {
+  if (!path) return undefined;
+  const file = path.split("/").pop();
+  return Object.entries(heroImages).find(([k]) => k.endsWith("/" + file))?.[1]
+    .default;
+}
 
 export async function getStaticPaths() {
   const slugs = getAllPostSlugs();
@@ -29,6 +44,7 @@ if (!Content) {
   return Astro.redirect("/posts/");
 }
 
+const heroImage = resolveHero(frontmatter.image);
 const origin = getOrigin(Astro.site);
 const postSchemaData = postSchema(origin, {
   title: frontmatter.title || "",
@@ -95,12 +111,26 @@ const postSchemaData = postSchema(origin, {
     }
 
     {
-      frontmatter.image && (
-        <img
-          src={frontmatter.image}
+      heroImage ? (
+        <Image
+          src={heroImage}
           alt={frontmatter.title}
+          widths={[480, 800, 1200, 1600]}
+          sizes="(min-width: 896px) 896px, 100vw"
+          format="webp"
+          quality={80}
+          loading="eager"
+          fetchpriority="high"
           class="w-full rounded-xl mb-12 object-cover max-h-[480px]"
         />
+      ) : (
+        frontmatter.image && (
+          <img
+            src={frontmatter.image}
+            alt={frontmatter.title}
+            class="w-full rounded-xl mb-12 object-cover max-h-[480px]"
+          />
+        )
       )
     }
 

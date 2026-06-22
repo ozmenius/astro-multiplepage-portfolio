@@ -1,3 +1,11 @@
+import type { ImageMetadata } from "astro";
+// Imported from src/assets so Astro's build pipeline emits optimized WebP +
+// srcset. Public copies under /assets/images are kept for JSON-LD/OG URLs.
+import profilePhoto from "../assets/images/about/dennis-oezmen.png";
+import consumerElectronicsImg from "../assets/images/projects/consumer-electronics-store.jpg";
+import fashionEcommerceImg from "../assets/images/projects/fashion-ecommerce-us.jpg";
+import cybersecurityImg from "../assets/images/projects/project3.png";
+
 export const siteConfig = {
   name: "Dennis Özmen",
   title: "Dennis Özmen — SEO & Digital Marketing",
@@ -24,7 +32,7 @@ export const homeContent = {
     },
   },
   image: {
-    src: "/assets/images/about/dennis-oezmen.png",
+    src: profilePhoto,
     alt: "Dennis Özmen",
   },
   images: {
@@ -66,7 +74,7 @@ export const aboutContent = {
     "Team Leadership",
   ],
   image: {
-    src: "/assets/images/about/dennis-oezmen.png",
+    src: profilePhoto,
     alt: "Dennis Özmen",
   },
   experience: {
@@ -152,7 +160,8 @@ type Project = {
   name: string;
   title: string;
   description: string;
-  image: string;
+  image: string; // public path — used for JSON-LD / OG absolute URLs
+  imageAsset: ImageMetadata; // imported asset — optimized (WebP + srcset) for display
   href: string;
   category: string;
   period: string;
@@ -173,6 +182,7 @@ const projectInputs: Omit<Project, "href">[] = [
     description:
       "+150% visibility, +110% top-3 rankings, and +4M organic visits YoY by rebuilding category-level SEO.",
     image: "/assets/images/projects/consumer-electronics-store.jpg",
+    imageAsset: consumerElectronicsImg,
     category: "E-Commerce SEO",
     period: "12-month SEO program",
     summary:
@@ -211,6 +221,7 @@ const projectInputs: Omit<Project, "href">[] = [
     description:
       "+53.5% revenue, +91.8% users, and +110% top-10 rankings YoY through combined SEO and CRO.",
     image: "/assets/images/projects/fashion-ecommerce-us.jpg",
+    imageAsset: fashionEcommerceImg,
     category: "E-Commerce SEO & CRO",
     period: "Year-over-year program",
     summary:
@@ -249,6 +260,7 @@ const projectInputs: Omit<Project, "href">[] = [
     description:
       "+84.5% impressions, +46.6% non-brand traffic, and +51.5% AI-search traffic HoH via GEO and technical SEO.",
     image: "/assets/images/projects/project3.png",
+    imageAsset: cybersecurityImg,
     category: "GEO & Technical SEO",
     period: "Half-over-half program",
     summary:
