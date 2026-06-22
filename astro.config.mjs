@@ -1,11 +1,10 @@
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
-import vercel from '@astrojs/vercel/serverless';
+import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  adapter: vercel(),
-  integrations: [tailwind()],
+  site: 'https://dennisozmen.com',
+  integrations: [],
   server: {
     port: 4321,
     host: true
@@ -14,6 +13,7 @@ export default defineConfig({
     enabled: false
   },
   vite: {
+    plugins: [tailwindcss()],
     server: {
       headers: {
         'Cache-Control': 'no-cache, no-store, must-revalidate'
