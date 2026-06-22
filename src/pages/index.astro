@@ -1,6 +1,7 @@
 ---
 import Navigation from "../components/Navigation.astro";
 import Footer from "../components/Footer.astro";
+import "../styles/global.css";
 import { siteConfig, homeContent } from "../config/content.ts";
 ---
 
@@ -116,24 +117,24 @@ import { siteConfig, homeContent } from "../config/content.ts";
       <Navigation />
       <div class="relative flex flex-col flex-1 pt-4 min-h-0">
         <main class="flex-grow flex flex-col min-h-0">
-          <div class="flex-1 flex items-center justify-center min-h-0">
+          <div class="flex-1 flex items-center justify-center min-h-0 py-10 lg:py-0">
             <div
-              class="flex flex-row items-center justify-between w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 gap-12"
+              class="flex flex-col-reverse lg:flex-row items-center justify-between w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 gap-8 lg:gap-12"
             >
-              <div class="w-[45%] text-left">
+              <div class="w-full lg:w-[45%] text-center lg:text-left">
                 <h1
                   class="text-3xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl"
                 >
                   {homeContent.title}
                 </h1>
                 <p
-                  class="mt-3 text-lg leading-7 text-neutral-600 dark:text-neutral-400"
+                  class="mt-3 text-base sm:text-lg leading-7 text-neutral-600 dark:text-neutral-400"
                 >
                   {homeContent.description}
                 </p>
-                <div class="flex flex-row gap-4 mt-4">
+                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-5 justify-center lg:justify-start">
                   <a
-                    class="group inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-neutral-900 rounded-lg hover:bg-neutral-800 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200 transition-all duration-300 hover:scale-105 cursor-pointer"
+                    class="group inline-flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-medium text-white bg-neutral-900 rounded-lg hover:bg-neutral-800 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200 transition-all duration-300 hover:scale-105 cursor-pointer"
                     href={homeContent.buttons.about.href}
                     >{homeContent.buttons.about.text}<svg
                       class="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1"
@@ -148,7 +149,7 @@ import { siteConfig, homeContent } from "../config/content.ts";
                     ></a
                   >
                   <a
-                    class="group inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-neutral-900 bg-white border border-neutral-300 rounded-lg hover:bg-neutral-50 dark:bg-neutral-800 dark:text-neutral-100 dark:border-neutral-600 dark:hover:bg-neutral-700 transition-all duration-300 hover:scale-105 cursor-pointer"
+                    class="group inline-flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-medium text-neutral-900 bg-white border border-neutral-300 rounded-lg hover:bg-neutral-50 dark:bg-neutral-800 dark:text-neutral-100 dark:border-neutral-600 dark:hover:bg-neutral-700 transition-all duration-300 hover:scale-105 cursor-pointer"
                     href={homeContent.buttons.posts.href}
                     >{homeContent.buttons.posts.text}<svg
                       class="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1"
@@ -165,24 +166,15 @@ import { siteConfig, homeContent } from "../config/content.ts";
                 </div>
               </div>
               <div
-                class="relative w-[45%] flex items-center justify-center bg-transparent overflow-hidden z-20"
+                class="relative w-full lg:w-[45%] flex items-center justify-center bg-transparent z-20"
               >
                 <div
-                  class="relative overflow-hidden"
-                  style="width: min(700px, 45vw); height: min(700px, 70vh); max-width: 100%; max-height: 70vh;"
+                  class="relative aspect-square w-full max-w-[280px] sm:max-w-[360px] lg:max-w-[420px] overflow-hidden rounded-2xl ring-1 ring-neutral-200 dark:ring-neutral-700 shadow-xl shadow-neutral-900/10 dark:shadow-black/40"
                 >
                   <img
-                    src={homeContent.images.light}
-                    alt="Tech Background"
-                    class="w-full h-full object-contain animate-[float_15s_ease-in-out_infinite] hover:scale-125 transition-transform duration-300 opacity-90 dark:hidden"
-                    style="max-width: 100%; max-height: 100%;"
-                  />
-
-                  <img
-                    src={homeContent.images.dark}
-                    alt="Tech Background Dark"
-                    class="w-full h-full object-contain animate-[float_15s_ease-in-out_infinite] hover:scale-125 transition-transform duration-300 opacity-90 hidden dark:block"
-                    style="max-width: 100%; max-height: 100%;"
+                    src={homeContent.image.src}
+                    alt={homeContent.image.alt}
+                    class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
               </div>

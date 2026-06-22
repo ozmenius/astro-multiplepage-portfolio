@@ -10,9 +10,11 @@
         href="/"
         class="text-xl font-bold text-neutral-700 hover:text-neutral-400 dark:text-neutral-300 dark:hover:text-neutral-100 transition-colors"
       >
-        Your Portfolio
+        Dennis Özmen
       </a>
-      <div class="flex items-center space-x-6">
+
+      <!-- Desktop links -->
+      <div class="hidden sm:flex items-center space-x-6">
         <a
           href="/"
           class="text-neutral-600 hover:text-neutral-400 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors"
@@ -37,6 +39,7 @@
           id="theme-toggle"
           class="p-2 rounded-full text-neutral-600 hover:text-neutral-400 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors"
           title="Toggle theme"
+          aria-label="Toggle theme"
         >
           <svg
             class="w-5 h-5 theme-icon-light hidden"
@@ -58,38 +61,152 @@
           </svg>
         </button>
       </div>
+
+      <!-- Mobile controls -->
+      <div class="flex items-center gap-1 sm:hidden">
+        <button
+          id="theme-toggle-mobile"
+          class="p-2 rounded-full text-neutral-600 hover:text-neutral-400 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors"
+          title="Toggle theme"
+          aria-label="Toggle theme"
+        >
+          <svg
+            class="w-5 h-5 theme-icon-light hidden"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+            ></path>
+          </svg>
+          <svg
+            class="w-5 h-5 theme-icon-dark hidden"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+            ></path>
+          </svg>
+        </button>
+        <button
+          id="menu-toggle"
+          class="p-2 rounded-md text-neutral-600 hover:text-neutral-400 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            class="w-6 h-6 menu-icon-open"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+          <svg
+            class="w-6 h-6 menu-icon-close hidden"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu panel -->
+    <div
+      id="mobile-menu"
+      class="hidden sm:hidden pb-4 flex-col space-y-1"
+    >
+      <a
+        href="/"
+        class="block px-2 py-2 rounded-md text-base text-neutral-700 hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-neutral-800 transition-colors"
+        >Home</a
+      >
+      <a
+        href="/posts/"
+        class="block px-2 py-2 rounded-md text-base text-neutral-700 hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-neutral-800 transition-colors"
+        >Posts</a
+      >
+      <a
+        href="/projects/"
+        class="block px-2 py-2 rounded-md text-base text-neutral-700 hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-neutral-800 transition-colors"
+        >Projects</a
+      >
+      <a
+        href="/about/"
+        class="block px-2 py-2 rounded-md text-base text-neutral-700 hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-neutral-800 transition-colors"
+        >About</a
+      >
     </div>
   </div>
 </nav>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const themeToggle = document.getElementById("theme-toggle");
-    const lightIcon = themeToggle.querySelector(".theme-icon-light");
-    const darkIcon = themeToggle.querySelector(".theme-icon-dark");
+    const themeToggles = Array.from(
+      document.querySelectorAll("#theme-toggle, #theme-toggle-mobile")
+    );
 
     function updateThemeIcon(isDark) {
-      if (isDark) {
-        lightIcon.classList.add("hidden");
-        darkIcon.classList.remove("hidden");
-      } else {
-        lightIcon.classList.remove("hidden");
-        darkIcon.classList.add("hidden");
-      }
+      themeToggles.forEach((toggle) => {
+        const lightIcon = toggle.querySelector(".theme-icon-light");
+        const darkIcon = toggle.querySelector(".theme-icon-dark");
+        if (!lightIcon || !darkIcon) return;
+        lightIcon.classList.toggle("hidden", isDark);
+        darkIcon.classList.toggle("hidden", !isDark);
+      });
     }
 
-    const isDark = document.documentElement.classList.contains("dark");
-    updateThemeIcon(isDark);
+    updateThemeIcon(document.documentElement.classList.contains("dark"));
 
-    themeToggle.addEventListener("click", function () {
-      const isDark = document.documentElement.classList.contains("dark");
-      const newTheme = isDark ? "light" : "dark";
-
-      document.documentElement.classList.toggle("dark");
-
-      updateThemeIcon(!isDark);
-
-      localStorage.setItem("theme", newTheme);
+    themeToggles.forEach((toggle) => {
+      toggle.addEventListener("click", function () {
+        const isDark = document.documentElement.classList.contains("dark");
+        const newTheme = isDark ? "light" : "dark";
+        document.documentElement.classList.toggle("dark");
+        updateThemeIcon(!isDark);
+        localStorage.setItem("theme", newTheme);
+      });
     });
+
+    // Mobile hamburger menu
+    const menuToggle = document.getElementById("menu-toggle");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    if (menuToggle && mobileMenu) {
+      const openIcon = menuToggle.querySelector(".menu-icon-open");
+      const closeIcon = menuToggle.querySelector(".menu-icon-close");
+
+      function setMenuOpen(open) {
+        mobileMenu.classList.toggle("hidden", !open);
+        mobileMenu.classList.toggle("flex", open);
+        menuToggle.setAttribute("aria-expanded", String(open));
+        menuToggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+        if (openIcon) openIcon.classList.toggle("hidden", open);
+        if (closeIcon) closeIcon.classList.toggle("hidden", !open);
+      }
+
+      menuToggle.addEventListener("click", function () {
+        const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
+        setMenuOpen(!isOpen);
+      });
+
+      // Close the menu when a link is tapped
+      mobileMenu.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => setMenuOpen(false));
+      });
+    }
   });
 </script>
