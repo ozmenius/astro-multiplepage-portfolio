@@ -85,7 +85,7 @@ export const aboutContent = {
         position: "Team Lead, SEO",
         company: "Neil Patel Digital (Düsseldorf)",
         summary:
-          "Lead a team of in-house SEO managers and freelancers across a portfolio of 20+ international clients spanning fintech, e-commerce, cybersecurity SaaS, and enterprise MedTech. Own strategy, roadmaps, and P&L optimization, and build AI-powered, no-code SEO automation with Claude.",
+          "Lead a team of in-house SEO managers and freelancers across a portfolio of 20+ international clients spanning fintech, e-commerce, cybersecurity SaaS, and enterprise MedTech. Own strategy, roadmaps, and P&L optimization, and build AI-powered, no-code SEO automation.",
         resultsTitle: "Selected results",
         results: [
           {
