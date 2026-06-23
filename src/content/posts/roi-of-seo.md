@@ -15,7 +15,6 @@ That gap exists for a reason. SEO ROI is genuinely hard to measure. It compounds
 
 This guide gives you the formula, a step-by-step measurement process, industry benchmarks, and a forecasting model you can run in a spreadsheet before your next stakeholder meeting.
 
-[INTERNAL-LINK: organic search channel → what is SEO pillar page]
 
 > **Key Takeaways**
 > - The median SEO ROI across industries is 748% — meaning $7.48 returned per $1 invested. ([First Page Sage, 2025](https://firstpagesage.com/reports/seo-roi-statistics-fc/))
@@ -64,7 +63,7 @@ Set up conversion events in GA4 for your primary goals: purchases, lead form sub
 
 For non-e-commerce businesses, assign a monetary value to each lead conversion. The formula: average deal size × close rate = lead value. If your average deal is $5,000 and you close 20% of qualified leads, each organic lead is worth $1,000.
 
-To separate brand from non-brand organic traffic, cross-reference GA4 with Google Search Console. [INTERNAL-LINK: brand vs. non-brand traffic → Google Search Console guide] Non-brand organic traffic represents SEO-driven demand — visits from people who didn't already know your name. That's the traffic your SEO investment is generating.
+To separate brand from non-brand organic traffic, cross-reference GA4 with Google Search Console. The [Google Search Console for keyword research guide](https://dennisozmen.com/posts/google-search-console-for-keyword-research) walks through how to filter queries and isolate non-branded demand. Non-brand organic traffic represents SEO-driven demand — visits from people who didn't already know your name. That's the traffic your SEO investment is generating.
 
 ### Step 2: Calculate Total SEO Costs
 
@@ -134,7 +133,6 @@ Once you have your SEO ROI number, compare it to your other channels. SEO's 14.6
   <figcaption>SEO delivers a 5.8x cost-per-lead advantage over PPC, and an 8.6x higher lead close rate versus outbound marketing. Source: HubSpot via SEOProfy, 2025.</figcaption>
 </figure>
 
-[INTERNAL-LINK: content production costs → content strategy and planning guide]
 
 ---
 
@@ -234,9 +232,9 @@ Here's the tool stack that fills it.
 
 **GA4:** Your primary source for organic channel revenue, conversion event tracking, and assisted conversion data. Set up the organic channel group filter and enable e-commerce or lead tracking. Use data-driven attribution if your conversion volume supports it. If it doesn't, time-decay attribution is a better fallback than last-click — which systematically undervalues organic's contribution across multi-touch journeys.
 
-**Google Search Console:** Your source for branded vs. non-branded traffic splits and query-level click data. [INTERNAL-LINK: brand vs. non-brand traffic → Google Search Console guide] Filter by impressions and clicks to see which queries are driving organic traffic. Non-brand queries represent SEO-influenced demand.
+**Google Search Console:** Your source for branded vs. non-branded traffic splits and query-level click data. Use the [Google Search Console for keyword research](https://dennisozmen.com/posts/google-search-console-for-keyword-research) to filter by impressions and clicks and see which queries are driving organic traffic. Non-brand queries represent SEO-influenced demand.
 
-**A rank-tracking tool (Semrush or Ahrefs):** Keyword position movement is your leading indicator — it tells you whether your investment is building momentum before that momentum shows up in revenue numbers. [INTERNAL-LINK: keyword position tracking → SEO tools comparison]
+**A rank-tracking tool (Semrush or Ahrefs):** Keyword position movement is your leading indicator — it tells you whether your investment is building momentum before that momentum shows up in revenue numbers. Pair rank tracking with the [SEO KPIs framework](https://dennisozmen.com/posts/seo-kpis) to ensure position data connects to revenue metrics, not just ranking vanity.
 
 It's worth separating leading from lagging indicators in your reporting:
 
@@ -380,7 +378,7 @@ Projected ROI = (Annual Revenue − Annual SEO Cost) / Annual SEO Cost × 100
 
 **Build a 12-month model.** Flag months 1-4 as the investment phase: expect negative or near-zero ROI. Months 5-8 are your break-even window. Months 9-12 and beyond are the return phase. Any stakeholder conversation that doesn't acknowledge this timeline creates unrealistic expectations and early exits at the worst possible moment.
 
-[INTERNAL-LINK: keyword CTR benchmarks → keyword research guide]
+For finding keyword search volumes and estimating realistic traffic potential, [Google Keyword Planner for SEO](https://dennisozmen.com/posts/using-google-keyword-planner-for-seo) covers how to pull CPC data and volume estimates directly from the source.
 
 ---
 
@@ -440,7 +438,7 @@ Use the traffic value method as a proxy. Multiply your monthly organic sessions 
 
 ### Does AI change how you calculate SEO ROI?
 
-Yes, materially. AI Overviews now appear on 13.14% of all Google queries and reduce organic CTR from approximately 15% to 8% for affected results ([SEOProfy, 2025](https://seoprofy.com/blog/seo-roi-statistics/)). If your target keywords trigger AI Overviews — check via Search Console's Search Appearance filter — reduce your traffic projections by 15-25% before calculating ROI expectations. Ignoring this adjustment leads to systematically overstated forecasts in 2025-2026 campaigns.
+Yes, materially. [AI Overviews and AI search engines](https://dennisozmen.com/posts/ai-search) now appear on 13.14% of all Google queries and reduce organic CTR from approximately 15% to 8% for affected results ([SEOProfy, 2025](https://seoprofy.com/blog/seo-roi-statistics/)). If your target keywords trigger AI Overviews — check via Search Console's Search Appearance filter — reduce your traffic projections by 15-25% before calculating ROI expectations. Ignoring this adjustment leads to systematically overstated forecasts in 2025-2026 campaigns.
 
 ---
 
@@ -460,7 +458,7 @@ Key takeaways:
 
 Start by setting up organic conversion tracking in GA4 today. Run the manual calculation above with your last 90 days of data. That number is your baseline — and your argument for continued investment.
 
-[INTERNAL-LINK: organic conversion tracking setup → GA4 organic tracking guide]
+Once your tracking is in place, revisit the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) to build a dashboard that connects organic sessions, conversions, and revenue into a single reporting view your leadership team can act on.
 
 ---
 

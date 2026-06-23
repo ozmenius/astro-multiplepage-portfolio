@@ -15,7 +15,7 @@ Marketers are being told to "do GEO" alongside their SEO work. But almost nothin
 
 This article defines both disciplines clearly. It maps five key differences with real data, explains where AEO fits in the terminology debate, and gives you a practical framework for deciding how to split your effort between them. No hype. No "SEO is dead" framing. Just the data and a usable strategy.
 
-[INTERNAL-LINK: how AI is reshaping digital marketing -> What Is AI in Marketing post]
+For context on the broader shift behind this, see [what AI means for digital marketing](https://dennisozmen.com/posts/what-is-ai-in-marketing) as a starting point.
 
 > **Key Takeaways**
 > - GEO (Generative Engine Optimization) optimizes content to appear as a cited source in AI-generated answers from ChatGPT, Perplexity, Google AI Overviews, and Gemini.
@@ -57,7 +57,7 @@ SEO still excels at high-intent transactional queries, local search, and brand d
 
 The reframe that matters: SEO is the foundation. GEO is the optimization layer you build on top of it. Strong SEO pages -- those with topical authority, solid backlinks, and structured content -- are already close to GEO-ready. The additional investment required is smaller than most teams assume.
 
-[INTERNAL-LINK: SEO foundation that supports GEO -> SEO services or audit page]
+Understanding how to measure the SEO foundation that supports GEO is equally important — the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) covers which metrics to track as AI search reshapes click behavior.
 
 ## GEO vs SEO: The 5 Key Differences
 
@@ -127,7 +127,7 @@ Here's what each difference means in practice.
   <figcaption>Source: Aggarwal et al., Princeton / Georgia Tech / IIT Delhi, ACM KDD 2024 | Tested across 10,000 queries in 8 domains</figcaption>
 </figure>
 
-[INTERNAL-LINK: AI search optimization strategy -> AI Search Optimization Guide]
+For a full breakdown of how [AI search engines](https://dennisozmen.com/posts/ai-search) work and which platforms matter most in 2026, the AI search guide covers the platform landscape in detail.
 
 ## Why Does This Matter Now? The AI Search Shift
 
@@ -196,7 +196,7 @@ The danger is treating GEO and SEO as competing investments -- pulling budget fr
 
 ![Two roads merging into a single path through a forest, representing the convergence of GEO and SEO strategies toward a shared content foundation](/src/assets/images/posts/keyword-research-laptop.jpeg)
 
-[INTERNAL-LINK: content strategy built for AI and search -> Content Strategy pillar page]
+Building third-party authority across the web is one of the most efficient ways to strengthen both channels simultaneously. [Digital PR in SEO](https://dennisozmen.com/posts/what-is-digital-pr-in-seo) explains how earned media and brand mentions feed directly into GEO citation signals.
 
 ## How to Build a Dual GEO + SEO Strategy
 
@@ -284,7 +284,7 @@ The industry hasn't fully resolved this. Profound treats GEO and AEO as function
 
 **Practical verdict:** Use GEO when discussing optimization for ChatGPT, Perplexity, Google AI Overviews, and Gemini. Use AEO when specifically discussing traditional featured snippets and voice search, where the term retains historical clarity. Don't let the terminology debate delay your strategy. Whether you call it GEO or AEO, the tactical requirements overlap by roughly 80%.
 
-[INTERNAL-LINK: how Google AI Overviews work -> Google AI Overviews explainer]
+For a deeper look at how Google AI Overviews select and cite sources, the [AI search guide](https://dennisozmen.com/posts/ai-search) walks through the retrieval-augmented generation pipeline in detail.
 
 ## Frequently Asked Questions
 
@@ -321,7 +321,7 @@ The brands that will perform well in 2027 and beyond are the ones that treated G
 - Track AI visibility monthly alongside your standard organic metrics
 - Adjust your GEO/SEO budget split as your domain authority grows
 
-[INTERNAL-LINK: GEO vs SEO comparison -> update What Is AI in Marketing to link here]
+If you're ready to go deeper on GEO execution, the [full generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization) covers the Princeton research framework, GEO tools, and measurement in detail.
 
 ---
 

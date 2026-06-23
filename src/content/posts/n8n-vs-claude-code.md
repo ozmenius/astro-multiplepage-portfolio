@@ -15,7 +15,7 @@ Here's what's driving it: 84% of developers now use or plan to use AI tools in t
 
 By the end of this article, you'll know exactly what each tool does, which problems each one actually solves, and when using both together is the right call.
 
-[INTERNAL-LINK: AI coding tools overview -> pillar page on AI developer tools]
+For context on where AI tools sit in marketing workflows more broadly, see [what AI in marketing actually covers](https://dennisozmen.com/posts/what-is-ai-in-marketing).
 
 > **Key Takeaways**
 > - Claude Code is an AI coding agent for developers — it writes, edits, and runs code autonomously in your terminal.
@@ -49,7 +49,7 @@ It runs in the terminal, VS Code, JetBrains, and Claude.ai/code. Terminal comfor
 
 ![A developer working in a dark terminal environment running Claude Code — showing CLI output, file diffs, and autonomous code editing in action](/src/assets/images/posts/code-editor-software-development.jpeg)
 
-[INTERNAL-LINK: Claude Code overview -> dedicated Claude Code guide or review]
+For Claude prompts designed specifically for SEO tasks, [Claude SEO prompts](https://dennisozmen.com/posts/claude-seo-prompts) is a practical companion resource.
 
 ## What Is n8n?
 
@@ -73,7 +73,7 @@ AI is native to n8n, not bolted on. The platform includes a built-in Anthropic C
 
 ![The n8n visual workflow canvas showing an AI agent workflow — nodes representing a Claude model, data transformations, and downstream integrations connected in a clear pipeline](/src/assets/images/posts/workflow-automation-desk.jpeg)
 
-[INTERNAL-LINK: n8n workflow automation -> n8n tutorial or review post]
+Wondering how n8n stacks up against other automation platforms? The [n8n vs Make comparison](https://dennisozmen.com/posts/n8n-vs-make) covers pricing, AI agent capabilities, and when each tool wins.
 
 ## How Do n8n and Claude Code Actually Compare?
 
@@ -147,7 +147,7 @@ The clearest summary: Claude Code is the AI doing the work; n8n is the platform 
 
 One dimension worth highlighting separately: **data sovereignty**. Claude Code sends your code to Anthropic's cloud. Self-hosted n8n keeps all data on your own infrastructure. For teams in regulated industries — healthcare, finance, legal — this is often the deciding factor, and it's rarely mentioned in standard tool comparisons.
 
-[INTERNAL-LINK: workflow automation tools -> automation tools comparison roundup]
+If data pipeline work is on your radar alongside automation, the [n8n vs KNIME comparison](https://dennisozmen.com/posts/n8n-vs-knime) draws a clear line between automation and data science tooling.
 
 ## When Should You Use Claude Code?
 
@@ -164,7 +164,6 @@ AI coding tools deliver a 26-55% productivity improvement for developers, with t
 
 **Not the right tool for:** recurring scheduled automations, connecting SaaS apps without custom code, workflows that non-developers need to maintain, or any situation requiring long-running monitored execution. If the job is running reliably on a schedule rather than building something, look at n8n instead.
 
-[INTERNAL-LINK: Claude Code vs Cursor vs Copilot -> best AI coding tools comparison]
 
 ## When Should You Use n8n?
 
@@ -185,7 +184,7 @@ On that last point: using Claude Haiku for cheap classification steps and Claude
 
 > **Citation capsule:** Teams running multi-step AI workflows in n8n can use Claude Haiku for classification and Claude Sonnet for reasoning, saving up to 80% on API costs compared to a single-model approach. n8n's native Anthropic Chat Model node makes this dual-model strategy straightforward to implement. ([n8nlab.io / Cognival, 2025-2026](https://n8nlab.io/))
 
-[INTERNAL-LINK: calling Claude API from n8n -> Claude API integration guide]
+For a concrete example of how n8n fits into a real SEO automation stack, [how to automate SEO with AI](https://dennisozmen.com/posts/how-to-automate-seo-with-ai) walks through the full workflow.
 
 ## Can n8n and Claude Code Work Together?
 
@@ -281,7 +280,6 @@ The "build vs. operate" lifecycle framing is the most useful lens. Use Claude Co
 
 If you're primarily a developer, start with Claude Code via the Anthropic Pro plan. If you're automating business processes, start with n8n's self-hosted Community Edition — it's free and runs unlimited executions. If you're building an AI-powered product that needs both construction and reliable long-running operation, you now know exactly how to split the work.
 
-[INTERNAL-LINK: best workflow automation platforms -> automation tools pillar page]
 
 ---
 

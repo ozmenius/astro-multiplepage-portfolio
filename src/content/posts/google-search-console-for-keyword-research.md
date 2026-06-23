@@ -17,8 +17,6 @@ Organic search averages 33% of all website traffic across major industries ([Con
 
 By the end of this guide you'll have a repeatable five-step workflow: find quick-win keywords, surface hidden question queries, spot cannibalization, export your data, and turn everything into a 90-day content calendar. No paid tool required to start.
 
-[INTERNAL-LINK: keyword research process → keyword research pillar page]
-
 > **Key Takeaways**
 > - GSC's Performance report reveals keywords you already rank for, including "striking distance" queries at positions 4-20 where a single content update can meaningfully increase clicks.
 > - Nearly half of all GSC clicks (46.77%) are on queries Google anonymizes, so a systematic export-and-filter workflow is essential ([Ahrefs](https://ahrefs.com/blog/gsc-anonymized-queries/), Feb 2026).
@@ -77,8 +75,6 @@ This matters because it reframes the goal. The queries GSC does show you deserve
   <figcaption>Source: Ahrefs, February 2026 | 46.77% of all GSC clicks come from queries Google anonymizes and never displays in the query list.</figcaption>
 </figure>
 
-[INTERNAL-LINK: set up Google Search Console → Google Search Console setup guide for beginners]
-
 ## Step 1: How Do You Access the Performance Report?
 
 The Performance report lives at Search Console, then Performance, then Search results. Your first move every time should be setting the date range to the maximum 16 months and enabling all four metric columns — most accounts only show clicks and impressions by default.
@@ -91,7 +87,7 @@ Here's the exact setup sequence:
 4. Above the chart, confirm all four toggles are active: Total clicks, Total impressions, Average CTR, Average position. If any are greyed out, click them to enable.
 5. Scroll down to the **Queries** tab. This is your keyword dataset.
 
-Why does the 16-month window matter? CTR benchmarks shift over time, especially now. Position 1 organic CTR fell 32% year-over-year from 28% in 2024 to 19% in 2025 as AI Overviews expanded ([GrowthSRC](https://growthsrc.com/google-organic-ctr-study/), 2025). A longer date range lets you spot those trend lines in your own data, not just in industry studies.
+Why does the 16-month window matter? CTR benchmarks shift over time, especially now. Position 1 organic CTR fell 32% year-over-year from 28% in 2024 to 19% in 2025 as [AI Overviews](https://dennisozmen.com/posts/ai-search) expanded ([GrowthSRC](https://growthsrc.com/google-organic-ctr-study/), 2025). A longer date range lets you spot those trend lines in your own data, not just in industry studies.
 
 ### Query View vs. Page View
 
@@ -187,8 +183,6 @@ Now look for queries with high impressions and below-average CTR. Those are your
 
 You can also add a **Page** filter to drill into one specific URL. Paste the URL into the filter, apply the position range, and you'll see exactly which queries that page could climb for with a targeted update.
 
-[INTERNAL-LINK: how to optimize existing content → content optimization and on-page SEO guide]
-
 ## Step 3: How Do You Find Hidden Question Keywords with Regex?
 
 GSC's custom regex filter lets you surface all question-intent queries your site ranks for in one shot. This is a practitioner-level tactic, and it's one none of the top-ranking competitors on this topic cover.
@@ -222,8 +216,6 @@ After applying the filter, export the results. In your spreadsheet, group questi
 
 ![Google Search Console Queries tab with a custom regex filter applied showing question-intent keywords beginning with how, what, why, and other question words](/src/assets/images/posts/keyword-research-laptop.jpeg)
 
-[INTERNAL-LINK: content refresh strategy → SEO quick wins and content refresh guide]
-
 ## Step 4: How Do You Export GSC Data to Google Sheets?
 
 The GSC interface only shows 1,000 rows and won't let you sort across multiple dimensions at once. Exporting to Google Sheets unlocks full analysis: pivot tables, opportunity scoring, and a calendar-ready prioritization list you can actually act on.
@@ -248,7 +240,7 @@ Sort your query list by opportunity score descending. The top rows are your high
 
 If your site ranks for more than 1,000 queries, the export is a sample. You can work around this by applying multiple targeted filters before exporting — one for each position band or topic cluster — and combining the sheets. For a fully automated approach, the GSC API pulls up to 50,000 rows per day per property, and you can connect it to Looker Studio or a BigQuery pipeline without writing complex code.
 
-[INTERNAL-LINK: improving click-through rate → CTR optimization guide]
+Tracking clicks and impressions is only part of the picture. Connecting those numbers to business outcomes is covered in the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis).
 
 ## Step 5: How Does Date Comparison Reveal Trending Keywords?
 
@@ -332,9 +324,7 @@ GSC shows you data about your own site only. Paid tools like Semrush and Ahrefs 
 
 Use GSC alone when: running the quick-wins workflow on existing content, prioritizing content refreshes, or diagnosing CTR gaps. Add a paid tool when: finding keywords you don't rank for yet, assessing how competitive a keyword is before creating new content, or researching what your competitors rank for that you don't.
 
-The hybrid workflow looks like this. Use GSC to identify which existing pages deserve optimization investment. Use Semrush or Ahrefs to evaluate new keyword targets and validate that they're worth building new content around. Let first-party data guide the optimization side; let paid data guide the discovery side.
-
-[INTERNAL-LINK: keyword research process → full keyword research guide]
+The hybrid workflow looks like this. Use GSC to identify which existing pages deserve optimization investment. Use Semrush or Ahrefs to evaluate new keyword targets and validate that they're worth building new content around. Let first-party data guide the optimization side; let paid data guide the discovery side. For a free alternative that broadens keyword discovery beyond your own site, see the [Google Keyword Planner guide](https://dennisozmen.com/posts/using-google-keyword-planner-for-seo).
 
 ## Advanced GSC Keyword Research Techniques
 
@@ -362,7 +352,7 @@ The same seed keyword can show very different intent patterns by device. Split y
 
 The URL Inspection tool isn't a keyword research feature, but it's worth using before you invest time in updating a striking-distance page. Confirm the URL is indexed, mobile-friendly, and free of crawl errors. A content update on a page Google can't properly crawl won't move the needle.
 
-AI Overviews reduce organic CTR by approximately 67.8% for affected queries compared to queries without them ([Stan Ventures](https://www.stanventures.com/news/ai-overviews-impact-organic-ctrs-32-drop-3635/), 2025). That context makes cannibalization detection more urgent, not less: split authority between two weak pages loses more traffic in an AI Overview environment than it would have two years ago.
+AI Overviews reduce organic CTR by approximately 67.8% for affected queries compared to queries without them ([Stan Ventures](https://www.stanventures.com/news/ai-overviews-impact-organic-ctrs-32-drop-3635/), 2025). That context makes cannibalization detection more urgent, not less: split authority between two weak pages loses more traffic in an AI Overview environment than it would have two years ago. For a deeper look at how AI search is reshaping click behavior, the [AI search overview](https://dennisozmen.com/posts/ai-search) covers the full picture.
 
 ![Google Search Console Pages tab showing two different URLs competing for the same query with split impressions — a cannibalization signal requiring consolidation or intent differentiation](/src/assets/images/posts/google-search-engine-interface.jpeg)
 
@@ -400,8 +390,6 @@ Here's what matters most, distilled:
 - Date comparison is early warning infrastructure — use it monthly, not reactively.
 
 Set aside 30 minutes this week to run the striking-distance filter on your GSC data. Pick the five pages with the highest impression counts between positions 4 and 20. Those are your next content updates. The data is already there — you just need to act on it.
-
-[INTERNAL-LINK: content refresh strategy → SEO quick wins and content refresh guide]
 
 ---
 

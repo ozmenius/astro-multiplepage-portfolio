@@ -14,7 +14,7 @@ Here's the deceptive part: both tools are node-based, both are open-source, and 
 
 If you're connecting business apps and triggering automated actions, use n8n. If you're running statistical models, building ML pipelines, or preparing data for analysis, use KNIME. This guide explains exactly when each wins — and when you might actually use both together.
 
-[INTERNAL-LINK: open-source workflow automation → n8n overview/pillar page]
+For teams considering n8n for marketing tasks, [how to automate SEO with AI](https://dennisozmen.com/posts/how-to-automate-seo-with-ai) covers practical workflow patterns using n8n alongside LLMs.
 
 > **Key Takeaways**
 > - n8n (194K GitHub stars, 400+ integrations) is built for app-to-app workflow automation and AI agents.
@@ -44,7 +44,7 @@ The AI angle is real. n8n includes a native AI agent builder with LLM tool-calli
 
 ![n8n node-based visual workflow canvas showing interconnected automation nodes for app-to-app workflow automation](/src/assets/images/posts/code-editor-software-development.jpeg)
 
-[INTERNAL-LINK: n8n vs. Zapier → n8n vs Zapier comparison post]
+For a direct comparison of n8n against another major automation platform, see [n8n vs Make](https://dennisozmen.com/posts/n8n-vs-make) — which also covers how n8n's billing model compares at scale.
 
 ## What Is KNIME?
 
@@ -66,7 +66,6 @@ The user base skews heavily enterprise. According to Enlyft's 2024-2025 tracking
 
 ![KNIME Analytics Platform showing a data science workflow with machine learning nodes and statistical analysis pipelines](/src/assets/images/posts/data-server-infrastructure.jpeg)
 
-[INTERNAL-LINK: data science platforms → open-source data science tools roundup]
 
 ## How Do n8n and KNIME Actually Differ?
 
@@ -222,7 +221,7 @@ Choose n8n when your primary question is: "How do I connect these apps and trigg
 
 **The anti-pattern:** Don't use n8n as a data science environment. Its Code node can run JavaScript or Python snippets, but it lacks statistical libraries, native dataframe support, and model management. If you're training models or running statistical analysis, you'll hit a ceiling fast.
 
-[INTERNAL-LINK: AI agent builder → AI agents with n8n post]
+n8n's AI agent capabilities are a key differentiator here. For a detailed look at how n8n compares specifically in the AI-coding and automation space, the [n8n vs Claude Code comparison](https://dennisozmen.com/posts/n8n-vs-claude-code) breaks down the "build vs. operate" distinction that trips up a lot of teams.
 
 ## When Should You Choose KNIME?
 
@@ -257,7 +256,7 @@ This pattern gives you KNIME's unmatched analytical depth on the compute side, a
 
 The global workflow automation market was valued at $23.77 billion in 2025 and is projected to exceed $78 billion by 2030 ([Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/workflow-automation-market), 2025). Data-driven teams building this kind of hybrid architecture are positioning themselves ahead of that curve.
 
-[INTERNAL-LINK: n8n vs. Make → n8n vs Make comparison post]
+If your team is also considering how to use n8n for practical SEO workflows, [how to automate SEO with AI](https://dennisozmen.com/posts/how-to-automate-seo-with-ai) shows the full automation stack in action.
 
 ## Frequently Asked Questions
 
@@ -285,7 +284,7 @@ If your question is "how do I connect these apps and trigger actions?", use n8n.
 
 The workflow automation market is growing fast, and the teams that will lead it won't be ones who picked the "best" single tool. They'll be the ones who matched the right tool to the right job.
 
-[INTERNAL-LINK: n8n vs. Zapier → for readers in the automation camp evaluating other options]
+If you're firmly in the automation camp and choosing between platforms, the [n8n vs Make comparison](https://dennisozmen.com/posts/n8n-vs-make) gives you the pricing, AI agent, and ease-of-use breakdown you need to decide.
 
 ---
 

@@ -15,7 +15,6 @@ Digital PR exists to break into the other 6%. Rather than negotiating for links 
 
 This guide defines digital PR in SEO, explains its primary ranking benefits (including a new AI visibility angle most marketers are missing), and walks through a four-step campaign framework you can apply immediately.
 
-[INTERNAL-LINK: traditional link building → link building strategy guide]
 
 > **Key Takeaways**
 > - Digital PR earns editorial backlinks and brand mentions from authoritative publications using newsworthy assets — original data studies, expert commentary, and tools.
@@ -37,7 +36,6 @@ The core components of a digital PR campaign are four things: a linkable asset (
 
 ![A diagram illustrating earned, owned, and paid media showing digital PR positioned in the earned media zone, generating both editorial backlinks and brand authority signals](/src/assets/images/posts/digital-pr-business-success.jpeg)
 
-[INTERNAL-LINK: brand mentions → brand signals and entity authority guide]
 
 ## What Is the Main SEO Benefit of Digital PR?
 
@@ -53,9 +51,8 @@ But high-DA backlinks are only the starting point. There are four distinct SEO b
 
 **Referral traffic** from high-circulation publications compounds over time. A placement in a DR 80 national news site can drive direct visits for months after the initial publication date. That traffic signal feeds into Google's understanding of domain authority.
 
-**AI citation potential** is the newest and least-discussed benefit. In a May 2025 study of 75,000 brands, Ahrefs found that brand web mentions correlate with Google AI Overview visibility at 0.664, versus 0.218 for backlinks alone. Brands in the top quartile for web mentions averaged 169 AI Overview mentions — 10x more than the next tier, which averaged just 14 ([Ahrefs, May 2025](https://ahrefs.com/blog/ai-overview-brand-correlation/)). And 73.2% of SEO professionals now believe backlinks influence AI search result visibility ([Editorial.link, 2026](https://seomator.com/blog/backlinks-2024-data)).
+**AI citation potential** is the newest and least-discussed benefit. In a May 2025 study of 75,000 brands, Ahrefs found that brand web mentions correlate with [Google AI Overview](https://dennisozmen.com/posts/ai-search) visibility at 0.664, versus 0.218 for backlinks alone. Brands in the top quartile for web mentions averaged 169 AI Overview mentions — 10x more than the next tier, which averaged just 14 ([Ahrefs, May 2025](https://ahrefs.com/blog/ai-overview-brand-correlation/)). And 73.2% of SEO professionals now believe backlinks influence AI search result visibility ([Editorial.link, 2026](https://seomator.com/blog/backlinks-2024-data)).
 
-[INTERNAL-LINK: E-E-A-T signals → E-E-A-T explained guide]
 
 <figure>
   <svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horizontal bar chart showing correlation coefficients for Google AI Overview visibility: brand mentions at 0.664, branded anchors at 0.527, branded search volume at 0.392, and backlinks at 0.218">
@@ -159,7 +156,6 @@ The strongest asset types in 2025-2026 are original data studies (surveys with 1
 
 Avoid pitching content that exists elsewhere. Journalists receive hundreds of pitches weekly. An asset that repackages known information won't get picked up. What gets published is a finding that's new, counterintuitive, or timely.
 
-[INTERNAL-LINK: linkable asset → linkable asset creation guide]
 
 ### Step 2: Identify Target Publications
 
@@ -179,11 +175,10 @@ Keep the pitch to two paragraphs: one on the story angle, one on the data, plus 
 
 Track new referring domains via Ahrefs or Semrush, the domain rating of each placement, and organic keyword ranking changes for the target pages receiving the new links. Expect a lag: noticeable ranking movement averages 3.1 months from link acquisition ([Editorial.link, 2026](https://seomator.com/blog/backlinks-2024-data)).
 
-Also track brand mention frequency in AI-generated search results (Perplexity, ChatGPT, Google AI Overviews) using brand monitoring tools. Given the 0.664 correlation between brand mentions and AI Overview visibility ([Ahrefs, May 2025](https://ahrefs.com/blog/ai-overview-brand-correlation/)), this is no longer an optional vanity metric. It's a leading indicator of where search authority is heading.
+Also track brand mention frequency in AI-generated search results (Perplexity, ChatGPT, Google AI Overviews) using brand monitoring tools. Given the 0.664 correlation between brand mentions and AI Overview visibility ([Ahrefs, May 2025](https://ahrefs.com/blog/ai-overview-brand-correlation/)), this is no longer an optional vanity metric. It's a leading indicator of where search authority is heading. For a broader framework on optimizing for AI answers, the [generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization) covers the content signals that drive citation presence across platforms.
 
 ![A four-stage digital PR campaign flow diagram showing the sequential steps from asset creation through journalist outreach to editorial coverage and link measurement](/src/assets/images/posts/seo-analytics-dashboard.jpeg)
 
-[INTERNAL-LINK: domain rating → domain authority and DR explained]
 
 ## What Digital PR Tactics Work Best in 2025-2026?
 
@@ -199,7 +194,6 @@ Original data studies are the highest-performing tactic for earning DR 60+ place
 
 **Index and ranking content** ("Best Cities for X", "Top 50 Companies for Y") creates aspirational coverage. Brands, organizations, and individuals mentioned in the index share it, link to it, and sometimes write about it. The coverage scales beyond the initial outreach list.
 
-[INTERNAL-LINK: earned media SEO → earned media and SEO signals guide]
 
 ## Frequently Asked Questions
 
@@ -227,14 +221,13 @@ Yes — and this is the most underused argument for the tactic. Brand web mentio
 
 Digital PR earns editorial links from DR 60+ publications by creating newsworthy assets — not by asking for links. Its primary SEO benefit is high-authority backlinks that standard outreach can't match. Its compound value now extends to AI citation visibility, where brand mentions are 3x more correlated with AI Overview presence than backlinks alone.
 
-The four-step framework — asset creation, publication targeting, journalist outreach, measurement — makes digital PR predictable. Campaigns average 42 unique referring domains per cycle. Ranking impact shows at approximately 3.1 months. And the brand mention signal generated along the way feeds AI search visibility simultaneously.
+The four-step framework — asset creation, publication targeting, journalist outreach, measurement — makes digital PR predictable. Campaigns average 42 unique referring domains per cycle. Ranking impact shows at approximately 3.1 months. And the brand mention signal generated along the way feeds AI search visibility simultaneously. To track these outcomes properly, the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) covers the backlink growth and AI visibility metrics that belong on your reporting dashboard. For quantifying the business return, the [ROI of SEO guide](https://dennisozmen.com/posts/roi-of-seo) provides the formula and industry benchmarks.
 
 - Create assets with a genuine news hook — a finding editors want to cover, not content that asks for coverage
 - Target DR 50+ publications and match the asset to the editorial beat
 - Measure both traditional SEO outcomes and AI Overview brand mention frequency
 - Run multiple campaign cycles: the authority compounds, the brand signal grows, and the AI citation potential increases with each placement
 
-[INTERNAL-LINK: digital PR results → off-page SEO and link building pillar guide]
 
 ---
 

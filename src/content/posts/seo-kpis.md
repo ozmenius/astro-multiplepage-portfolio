@@ -15,7 +15,6 @@ Most SEO dashboards were built for a pre-AI world. The KPIs that made perfect se
 
 This guide covers the 10 most important SEO KPIs for 2026, organized from traffic to technical to AI-era. For each one, you'll find what it measures, why it matters, which tool tracks it, and what good looks like.
 
-[INTERNAL-LINK: SEO measurement fundamentals → SEO strategy pillar page]
 
 > **Key Takeaways**
 > - Organic search still delivers ~33% of all website traffic across key industries ([Conductor](https://www.conductor.com/academy/state-of-organic-marketing/), Jan 2025) — making it a primary revenue channel worth measuring rigorously.
@@ -36,7 +35,6 @@ That distinction matters. A KPI connects to a business outcome: revenue, leads, 
 
 There are three tiers of SEO KPIs worth distinguishing. Traffic and visibility KPIs (organic sessions, keyword rankings, CTR) show reach. Conversion and revenue KPIs (leads, pipeline, SEO ROI) prove business impact. Technical health KPIs (Core Web Vitals, indexation rate) are monitors, not success metrics. Build your dashboard in that order.
 
-[INTERNAL-LINK: how to build an SEO reporting framework → SEO reporting guide]
 
 <!-- Citation capsule: SEO KPI selection determines measurement maturity. Organizations with high SEO maturity track 3x more metrics than low-maturity peers, according to Conductor's January 2025 State of Organic Marketing report, surveying 350+ marketing professionals. The gap reflects investment in measurement infrastructure, not just tool access. -->
 
@@ -148,7 +146,7 @@ According to Conductor's January 2025 survey of 350+ marketing professionals, 91
 
 **What good looks like:** positive and improving SEO ROI, with organic contributing a documented share of total pipeline or revenue.
 
-[INTERNAL-LINK: how to calculate SEO ROI → SEO reporting guide]
+For a full breakdown of how to measure and benchmark this number, see the [ROI of SEO guide](https://dennisozmen.com/posts/roi-of-seo).
 
 ### 6. Backlink Growth (New Referring Domains per Month)
 
@@ -160,7 +158,7 @@ The goal is net-positive referring domain growth month over month. Lost domains 
 
 **What good looks like:** consistent net-positive referring domain growth, with earned links from relevant, authoritative domains in your niche.
 
-[INTERNAL-LINK: how to build links → backlink building guide]
+For earning high-authority referring domains through editorial coverage, [digital PR in SEO](https://dennisozmen.com/posts/what-is-digital-pr-in-seo) is the most effective tactic according to 48.6% of SEO professionals.
 
 <figure>
   <svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horizontal bar chart showing Spearman correlation of backlink metrics with Google rankings from Ahrefs 1 million SERP study 2024">
@@ -300,7 +298,6 @@ The framing matters here. Technical KPIs are monitors, not success metrics. A he
 
 ![A server infrastructure overview showing network connections and crawl pathways, representing the technical foundation that SEO crawl health metrics monitor](/src/assets/images/posts/keyword-research-laptop.jpeg)
 
-[INTERNAL-LINK: complete technical SEO checklist → technical SEO audit guide]
 
 ## SEO KPIs for SaaS and B2B
 
@@ -340,7 +337,7 @@ One capability worth enabling now: GSC's "AI Overviews" Search Appearance filter
 
 ![A business reporting dashboard open on a laptop screen, showing SEO performance metrics including organic traffic, keyword rankings, and conversion data charts](/src/assets/images/posts/seo-analytics-dashboard.jpeg)
 
-[INTERNAL-LINK: step-by-step GSC setup → Google Search Console tutorial]
+Not sure how to set up these filters? The [Google Search Console for keyword research guide](https://dennisozmen.com/posts/google-search-console-for-keyword-research) walks through the Performance report setup in detail.
 
 ## AI-Era SEO KPIs: What to Track in 2026
 
@@ -352,7 +349,7 @@ Four AI-era KPIs to add to your dashboard:
 Source: GSC Performance, filtered by "Search appearance: AI Overviews." This tells you whether your content is being pulled into AI answer blocks, even when it doesn't generate a click. Track month-over-month change. Growing AI Overview impression share for your target queries means your content is being recognized as authoritative enough to cite — which compounds brand authority even without a click.
 
 **B. Brand Citation Rate in AI Answers**
-Manual method: query your 20 top keywords in ChatGPT, Perplexity, and Google AI Overviews monthly. Log how often your brand or domain is cited. Calculate: citations divided by total queries sampled, multiplied by 100, equals your brand citation rate percentage. Tool method: Profound or Otterly at scale. Only 16% of brands do this systematically ([McKinsey](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/new-front-door-to-the-internet-winning-in-the-age-of-ai-search), Sep 2025). Starting now means tracking from a real baseline rather than scrambling later.
+Manual method: query your 20 top keywords in ChatGPT, Perplexity, and Google AI Overviews monthly. Log how often your brand or domain is cited. Calculate: citations divided by total queries sampled, multiplied by 100, equals your brand citation rate percentage. Tool method: Profound or Otterly at scale. Only 16% of brands do this systematically ([McKinsey](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/new-front-door-to-the-internet-winning-in-the-age-of-ai-search), Sep 2025). Starting now means tracking from a real baseline rather than scrambling later. The [generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization) covers the citation signals that drive AI answer visibility, including how to structure content for AI extraction.
 
 **C. AI-Referred Traffic**
 In GA4, filter Session default channel group for Referral, then look for sessions from chatgpt.com, perplexity.ai, gemini.google.com, and claude.ai. The absolute numbers are still small (ChatGPT delivers roughly 0.21% of traffic globally). Track the trend, not the current volume.
@@ -412,7 +409,7 @@ Introduced by Search Engine Land in June 2025: measure how consistently LLMs rec
   <figcaption>Source: Semrush 10M Keyword Study, 2025 | AI Overview prevalence peaked at 24.61% in July 2025, declined to 15.69% by November — still a structurally significant SERP feature affecting CTR at scale.</figcaption>
 </figure>
 
-[INTERNAL-LINK: how AI Overviews affect organic rankings → AI Overviews SEO guide]
+For a deeper look at how AI Overviews and platforms like Perplexity are reshaping organic visibility, see the guide to [AI search engines and their impact on CTR](https://dennisozmen.com/posts/ai-search).
 
 ## Frequently Asked Questions
 
@@ -450,7 +447,6 @@ High-maturity SEO organizations track 3x more metrics than low-maturity peers �
 - Technical KPIs are health monitors: set alerts, resolve issues, report them when they affect revenue
 - Build separate dashboards for executive, ops, and AI visibility reporting cadences
 
-[INTERNAL-LINK: building your first SEO dashboard → Looker Studio SEO reporting guide]
 
 ---
 

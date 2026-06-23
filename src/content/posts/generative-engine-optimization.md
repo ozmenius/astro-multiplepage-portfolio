@@ -15,7 +15,7 @@ The teams getting ahead of this aren't abandoning SEO. They're adding a second d
 
 This guide covers what GEO is, why it's distinct from SEO, which content signals the research says actually work, and how to measure it without relying on attribution data that captures only a fraction of the real impact. Every strategy here is grounded in the Princeton University / ACM KDD 2024 paper — the first large-scale controlled study of what makes content get cited in AI-generated answers.
 
-[INTERNAL-LINK: "AI search optimization" → pillar guide on optimizing for AI search engines]
+For a platform-level breakdown of how [AI search engines](https://dennisozmen.com/posts/ai-search) work — including how Google AI Overviews and ChatGPT select sources — the AI search guide covers the mechanics before this guide covers the optimization.
 
 > **Key Takeaways**
 > - Generative engine optimization (GEO) is the practice of structuring content so AI search engines cite it in generated answers — distinct from traditional SEO.
@@ -126,7 +126,7 @@ So are GEO and SEO competing? No. They share a foundation but diverge significan
 
 The practical upshot: about 70% of GEO tactics also improve SEO performance. Answer-first writing, authoritative citations, and structured data all serve both disciplines. The remaining 30% — passage-level clarity, expert quotations, and direct citation hygiene — are specific to GEO and worth adding to any content workflow.
 
-[INTERNAL-LINK: "differences between GEO and SEO" → detailed comparison guide on GEO vs. SEO]
+For a side-by-side breakdown of both disciplines — including a budget allocation framework and the five key differences — see the [GEO vs. SEO comparison](https://dennisozmen.com/posts/geo-vs-seo).
 
 ---
 
@@ -235,7 +235,7 @@ In regulated or high-stakes verticals, this pattern is especially pronounced. Su
 
 FAQ schema and Article schema help AI engines identify passage boundaries and extract structured answers cleanly. This is especially important for Google AI Overviews, which uses structured data as one of its key passage-identification signals.
 
-[INTERNAL-LINK: "E-E-A-T content signals" → guide on building E-E-A-T authority for AI and traditional search]
+Building E-E-A-T signals off-site is closely tied to [digital PR](https://dennisozmen.com/posts/what-is-digital-pr-in-seo) — earned media and brand mentions on authoritative third-party pages are among the clearest trust signals AI engines pick up during retrieval.
 
 ![A structured content outline on a whiteboard with clear sections and evidence citations marked, representing the answer-first writing structure that drives GEO performance](/src/assets/images/posts/seo-analytics-dashboard.jpeg)
 
@@ -293,7 +293,7 @@ Here's how to build a practical GEO toolstack by category.
 
 **Category 4: Attribution Tracking.** In GA4, filter source/medium for chatgpt.com, perplexity.ai, gemini.google.com, and claude.ai. Also monitor Google Search Console for branded query volume trends — these serve as a proxy for AI-driven awareness that doesn't result in direct clicks.
 
-[INTERNAL-LINK: "AI visibility monitoring tools" → comparison guide on GEO and AI search tracking platforms]
+If you're looking to automate parts of this monitoring workflow, [SEO automation with AI](https://dennisozmen.com/posts/how-to-automate-seo-with-ai) covers how to set up recurring checks without manual effort every month.
 
 ---
 
@@ -397,7 +397,6 @@ Surfer SEO's October 2025 analysis of 36 million AI Overviews and 46 million cit
 
 GEO stands for generative engine optimization — the practice of optimizing content to appear in AI-generated answers from platforms like ChatGPT, Perplexity, and Google AI Overviews. The term was formally introduced by Princeton University researchers in their 2024 ACM KDD paper, which tested the strategy across 10,000 queries and 10 AI search engines.
 
-[INTERNAL-LINK: "generative engine optimization (GEO)" → this page, for use in SEO glossary internal link]
 
 ### Is GEO replacing SEO?
 
@@ -411,7 +410,7 @@ GEO results are generally faster than traditional SEO. Content rewrites applying
 
 Prioritize in order of AI referral traffic share: ChatGPT (74.78%), Google AI Overviews via Gemini (11.56%), and Perplexity (7.23%), per SE Ranking's June 2026 study of 101,574 websites. ChatGPT's web-browsing index is powered by Bing, so strong Bing crawlability and high domain authority on Bing matter significantly for this channel.
 
-[INTERNAL-LINK: "Google AI Overviews" → dedicated guide on optimizing for Google AI Overview citations]
+For the full picture on how Google AI Overviews select citations and how platform mechanics differ across ChatGPT, Perplexity, and Google, the [AI search guide](https://dennisozmen.com/posts/ai-search) is the logical next read.
 
 ### How do I measure GEO performance?
 

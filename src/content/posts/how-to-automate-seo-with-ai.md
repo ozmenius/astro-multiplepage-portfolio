@@ -15,7 +15,7 @@ SEO is full of repetitive, data-heavy tasks that run on the same weekly cycle. R
 
 This guide covers which SEO tasks have high automation potential, which tools to use for each, and how to wire them into a working AI-powered workflow. No theory. Just the workflow.
 
-[INTERNAL-LINK: AI in marketing overview -> what-is-ai-in-marketing]
+If you're new to AI in marketing more broadly, start with [what AI in marketing actually means before getting into workflows](https://dennisozmen.com/posts/what-is-ai-in-marketing).
 
 > **Key Takeaways**
 > - 68% of SEO professionals use AI in their workflows, but most only automate 1-2 tasks ([Ahrefs, 2025](https://ahrefs.com/blog)).
@@ -48,7 +48,6 @@ The practical framework is simple. High-automation tasks are repetitive, structu
 | Link building outreach | Low/None | - | Human judgment required |
 | Creative direction | Low/None | - | Human judgment required |
 
-[INTERNAL-LINK: automated site audit workflow -> technical-seo-audit-guide]
 
 <figure>
   <svg viewBox="0 0 580 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horizontal bar chart showing SEO tasks ranked by estimated weekly time savings when automated with AI, with rank tracking and reporting at the top">
@@ -128,7 +127,7 @@ One emerging development worth tracking: Model Context Protocol (MCP) is becomin
 
 Keyword research has three AI-automatable sub-tasks: clustering, intent classification, and gap identification. Nearly 70% of businesses report improved SEO returns after integrating AI into their research workflows ([Semrush, 2024](https://www.semrush.com/)). The key distinction is that keyword *discovery* still benefits from human strategic judgment — AI excels at organizing and classifying keywords you've already identified.
 
-**Clustering at scale:** Export your keyword list from Semrush or Ahrefs into a spreadsheet. Feed it into Claude with this prompt structure:
+**Clustering at scale:** Export your keyword list from Semrush or Ahrefs into a spreadsheet. (You can also pull keyword data directly from [Google Search Console for keyword research](https://dennisozmen.com/posts/google-search-console-for-keyword-research) as a free starting point.) Feed it into Claude with this prompt structure:
 
 > "Here is a list of [N] keywords. Group them into topic clusters, label each cluster, identify the primary keyword per cluster, and flag which clusters have overlapping intent that could cause cannibalization."
 
@@ -138,7 +137,7 @@ A 500-keyword export that would take 3-4 hours to cluster manually runs through 
 
 **Content gap identification:** Export competitor keyword data from Ahrefs or Semrush, filter for keywords where your site has no ranking URL, and ask Claude to identify which gaps represent the highest-priority opportunities based on volume, intent, and topic adjacency to your existing content.
 
-[INTERNAL-LINK: keyword clustering with AI -> ai-keyword-research-guide]
+If you want to go deeper on finding the right keywords before clustering them, [Google Keyword Planner for SEO](https://dennisozmen.com/posts/using-google-keyword-planner-for-seo) is a solid free starting point.
 
 ## How to Automate Content and Metadata With AI
 
@@ -152,7 +151,7 @@ Meta descriptions, title tags, and content briefs are the highest-ROI tasks to a
 
 **Internal link suggestions:** Use Ahrefs' WordPress plugin or Link Whisper for passive suggestions as you publish. For active audits, paste your content inventory into Claude and ask: "Given this page's content, suggest 5 pages to link to with anchor text, based on topical relevance." Run this quarterly against your most recent content additions.
 
-[INTERNAL-LINK: AI-powered content brief -> content-brief-generation-workflow]
+For ready-to-use Claude prompts that handle brief generation, metadata, and clustering tasks, see [Claude SEO prompts](https://dennisozmen.com/posts/claude-seo-prompts).
 
 ## How to Automate Technical SEO With AI
 
@@ -168,7 +167,6 @@ You get a prioritized issue list with plain-English explanations — useful for 
 
 **Schema markup generation:** Provide your page content and ask Claude to output valid JSON-LD for the appropriate schema type (Article, FAQ, Product, LocalBusiness). Paste the output into the schema.org validator before implementation. This cuts schema production time from 20-30 minutes per page to under 5 minutes.
 
-[INTERNAL-LINK: automated site audit -> technical-seo-audit-guide]
 
 ## How to Build an AI SEO Automation Workflow
 
@@ -248,9 +246,9 @@ No one builds this workflow in a day. Here's a realistic phased approach.
 
 **Week 3:** Automate keyword clustering for your content calendar. Take your next month's keyword targets and run them through a clustering prompt. Group into topic clusters and assign primary keywords per cluster.
 
-**Month 2:** Connect tools via n8n or Zapier. Build the rank drop alert to AI analysis pipeline. When a significant drop triggers, a prompt automatically runs against the affected pages and emails a prioritized diagnosis.
+**Month 2:** Connect tools via n8n or Zapier. Build the rank drop alert to AI analysis pipeline. When a significant drop triggers, a prompt automatically runs against the affected pages and emails a prioritized diagnosis. (Choosing between these platforms? See the [n8n vs Make comparison](https://dennisozmen.com/posts/n8n-vs-make) for a direct breakdown.)
 
-[INTERNAL-LINK: automated SEO reporting -> looker-studio-seo-reporting-guide]
+Before building automated reports, make sure you know [which SEO KPIs are worth tracking](https://dennisozmen.com/posts/seo-kpis) — automated dashboards are only useful when the metrics are right.
 
 ## What NOT to Automate in SEO
 
@@ -337,7 +335,7 @@ Don't automate strategy, link building, or content that requires real expertise.
 
 LLM referral traffic grew 527% year-over-year ([SE Ranking, 2026](https://seranking.com/)). AI visibility — whether your content gets cited by ChatGPT, Perplexity, or Google's AI Overview — is becoming a real SEO outcome. The workflow you build for automation today is the same infrastructure that positions your content for AI citation tomorrow.
 
-[INTERNAL-LINK: best SEO platform for automation -> semrush-vs-ahrefs-comparison]
+If you're tracking the ROI of all this automation effort, [how to measure the ROI of SEO](https://dennisozmen.com/posts/roi-of-seo) gives you a framework to quantify the returns.
 
 ---
 

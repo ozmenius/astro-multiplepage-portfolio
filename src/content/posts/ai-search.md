@@ -22,7 +22,7 @@ This guide explains what AI search is, which platforms matter most in 2026, how 
 > - AI visitors convert at 4.4x the rate of traditional organic visitors ([Semrush, 2025](https://www.semrush.com/blog/ai-traffic-study/)) — so fewer clicks doesn't always mean less revenue.
 > - 85% of AI brand citations come from third-party pages, not the brand's own site ([AirOps/Kevin Indig, 2026](https://www.kevin-indig.com/ai-brand-citations/)).
 
-[INTERNAL-LINK: "zero-click search" → zero-click search and CTR recovery guide]
+For a broader look at how these changes fit into the marketing stack, see [what AI means for marketing as a whole](https://dennisozmen.com/posts/what-is-ai-in-marketing).
 
 ## What Is AI Search?
 
@@ -32,7 +32,7 @@ The timeline moves fast. ChatGPT launched in November 2022 and introduced most o
 
 The core difference from traditional search is intent resolution. Traditional search returns documents that might contain your answer. AI search attempts to resolve your intent directly, compiling an answer from several sources and citing between three and eight URLs. The user may never visit those URLs at all.
 
-[INTERNAL-LINK: "Google AI Overviews" → Google AI Overviews deep-dive guide]
+If you want to understand how this fits into a broader content strategy, [GEO vs. SEO](https://dennisozmen.com/posts/geo-vs-seo) explains how the two disciplines relate and where to focus effort first.
 
 ![A side-by-side annotated comparison of a traditional Google SERP showing ten blue links versus a Google AI Overview response with inline source citations highlighted](/src/assets/images/posts/keyword-research-laptop.jpeg)
 
@@ -79,7 +79,6 @@ Here's where the main platforms stand today:
 
 <!-- [PERSONAL EXPERIENCE] Running the same branded and category queries across ChatGPT, Perplexity, and Google AI Mode reveals something the aggregate data misses: the citation sets rarely overlap. A page cited by Perplexity isn't necessarily cited by ChatGPT. Appearing in one platform's outputs doesn't mean you've covered the others. Treating AI search as a single channel rather than platform-specific optimization problems leads to gaps. -->
 
-[INTERNAL-LINK: "Perplexity AI search engine" → Perplexity AI review and comparison]
 
 ## How Does Google AI Search Work?
 
@@ -166,7 +165,7 @@ The honest picture is: click volume is down for many informational queries, but 
   <figcaption>Source: Ahrefs, Dec 2025 | Average CTR by position with and without AI Overview present. Based on 300,000 keyword sample. Illustrative position-level estimates derived from aggregate 58% CTR reduction finding.</figcaption>
 </figure>
 
-[INTERNAL-LINK: "zero-click search" → zero-click search and CTR recovery guide]
+Tracking which metrics actually matter as CTR declines is its own challenge. The [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) covers how to adapt your measurement framework for this shift.
 
 ## What Is AI Image Search — and How Does It Work?
 
@@ -194,7 +193,7 @@ Here are the five levers that the evidence consistently points to:
 
 **3. Keep content current.** SE Ranking's 2025 study found that freshness within a three-month window meaningfully affects AI citation probability ([SE Ranking, 2025](https://seranking.com/blog/ai-traffic-study/)). Stale content — even high-quality stale content — loses ground to fresher sources. Quarterly review cycles for top-performing pages aren't optional in an AI search world.
 
-**4. Earn third-party mentions.** This is where most optimization programs miss. Research from AirOps and Kevin Indig found that 85% of AI brand citations originate from third-party pages — not the brand's own site ([AirOps/Kevin Indig, 2026](https://www.kevin-indig.com/ai-brand-citations/)). Press coverage, industry roundups, analyst reports, and community discussions on Reddit and LinkedIn all contribute to the signal pool that AI systems draw from. Off-site visibility is now a direct citation input.
+**4. Earn third-party mentions.** This is where most optimization programs miss. Research from AirOps and Kevin Indig found that 85% of AI brand citations originate from third-party pages — not the brand's own site ([AirOps/Kevin Indig, 2026](https://www.kevin-indig.com/ai-brand-citations/)). Press coverage, industry roundups, analyst reports, and community discussions on Reddit and LinkedIn all contribute to the signal pool that AI systems draw from. Off-site visibility is now a direct citation input. [Digital PR](https://dennisozmen.com/posts/what-is-digital-pr-in-seo) is one of the most direct levers for building this off-site signal base.
 
 **5. Implement structured data markup.** FAQPage and HowTo schema give AI systems machine-readable signals about your content's structure and question-answer pairs. They don't guarantee citation, but they reduce the friction between your content and AI extraction.
 
@@ -239,7 +238,6 @@ Here are the five levers that the evidence consistently points to:
   <figcaption>AI search optimization levers ranked by evidence-backed impact. Sources: SparkToro Jan 2026, Conductor 2026, AirOps/Kevin Indig 2026, SE Ranking 2025.</figcaption>
 </figure>
 
-[INTERNAL-LINK: "structured data markup" → schema markup implementation guide]
 
 ## Can You Remove AI from Google Search?
 
@@ -277,8 +275,6 @@ Not in total query volume terms. Google still holds 77% of all digital queries a
 
 Put your direct answer in the first 150 words of the page. Structure content in tightly scoped 120-180-word sections with clear headings. Keep pages updated within three months. Earn third-party coverage on industry sites, publications, and community platforms — 85% of AI brand citations originate off-domain ([AirOps/Kevin Indig, 2026](https://www.kevin-indig.com/ai-brand-citations/)). Implement FAQPage and HowTo schema markup. And build topical authority across a cluster of related content rather than targeting isolated keywords.
 
-[INTERNAL-LINK: "E-E-A-T signals" → E-E-A-T optimization guide]
-
 ## What AI Search Actually Means for Your Strategy
 
 AI search isn't replacing traditional search overnight. Google still processes the overwhelming majority of queries. But it is redistributing how clicks get allocated — and that redistribution is already large enough to show up in GSC data for informational content.
@@ -295,7 +291,7 @@ The practical priorities are clear:
 
 The teams that treat AI search as a parallel discovery channel alongside traditional SEO — rather than a threat to it — will be better positioned than those waiting for the dust to settle.
 
-[INTERNAL-LINK: "Google AI Overviews" → Google AI Overviews optimization guide]
+For a deeper dive into the content signals that drive AI citation, the [generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization) walks through the Princeton research framework in full.
 
 ---
 
