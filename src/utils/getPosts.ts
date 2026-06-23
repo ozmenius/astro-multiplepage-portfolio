@@ -6,6 +6,7 @@ const allMarkdownModules = import.meta.glob<{
     readTime?: string;
     image?: string;
     slug?: string;
+    faq?: { question: string; answer: string }[];
   };
   default: any;
 }>('../content/posts/*.md', { eager: true });
@@ -78,6 +79,7 @@ export function getPostBySlug(slug: string): {
     readTime?: string;
     image?: string;
     slug?: string;
+    faq?: { question: string; answer: string }[];
   };
   Content: any;
   slug: string;
