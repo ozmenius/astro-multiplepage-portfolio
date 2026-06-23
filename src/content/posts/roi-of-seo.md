@@ -4,8 +4,19 @@ description: "SEO ROI averages 748% over 2 years — but only if you measure it 
 date: "2026-05-20"
 dateAdded: "2026-05-20"
 readTime: "13 min read"
-image: "/src/assets/images/posts/seo-roi-business-analytics.jpeg"
+image: "/assets/images/posts/seo-roi-business-analytics.jpeg"
 slug: "roi-of-seo"
+faq:
+  - question: "What is a realistic ROI for SEO?"
+    answer: "The median SEO ROI across industries is 748%, but realistic expectations depend on investment stage. Expect 0-200% in months 1-6, and 300-800%+ by months 12-24 depending on your industry."
+  - question: "How long does it take to see ROI from SEO?"
+    answer: "Most businesses reach break-even between 6 and 12 months. Service businesses often break even in 5-6 months; competitive verticals like legal and financial services take 12-18 months."
+  - question: "Is SEO a better ROI than Google Ads?"
+    answer: "For 12-month+ horizons, SEO typically wins with a $31 cost per lead vs. $181 for PPC, a 5.8x efficiency advantage. For immediate traffic needs, paid search delivers faster results."
+  - question: "How do I calculate SEO ROI without e-commerce tracking?"
+    answer: "Use the traffic value method: multiply monthly organic sessions by the average CPC for your top-ranking keywords in Google Ads to get a conservative paid-equivalent floor value."
+  - question: "Does AI change how you calculate SEO ROI?"
+    answer: "Yes. AI Overviews appear on 13.14% of all Google queries and reduce organic CTR from roughly 15% to 8% for affected results. Reduce traffic projections by 15-25% for impacted keywords."
 ---
 # ROI of SEO: How to Calculate & Benchmark It
 
@@ -43,7 +54,7 @@ Let's break down each component.
 
 Why is SEO ROI uniquely difficult to measure? Three reasons. Attribution is murky — organic search assists far more conversions than it directly closes, so last-click models systematically undercount its contribution. Time lag is real — SEO compounds over months, not days. And separating brand from non-brand organic traffic requires combining GA4 data with Google Search Console, which most teams skip.
 
-![An analytics dashboard showing organic search performance metrics on a laptop screen, representing the measurement and reporting workflow for SEO ROI tracking](/src/assets/images/posts/seo-analytics-dashboard.jpeg)
+![An analytics dashboard showing organic search performance metrics on a laptop screen, representing the measurement and reporting workflow for SEO ROI tracking](/assets/images/posts/seo-analytics-dashboard.jpeg)
 
 ---
 
@@ -243,7 +254,7 @@ It's worth separating leading from lagging indicators in your reporting:
 
 If direct revenue attribution is difficult — for example, on a content-only site or an early-stage SEO program — use the traffic value method as a proxy. Multiply your monthly organic sessions by the average CPC for those keywords in Google Ads. That gives you a conservative "what would I have paid for this traffic?" floor estimate, which is defensible in a stakeholder conversation.
 
-![A digital marketer reviewing SEO analytics on dual monitors, showing the combined GA4 and Search Console workflow for measuring organic search ROI](/src/assets/images/posts/seo-roi-business-analytics.jpeg)
+![A digital marketer reviewing SEO analytics on dual monitors, showing the combined GA4 and Search Console workflow for measuring organic search ROI](/assets/images/posts/seo-roi-business-analytics.jpeg)
 
 ---
 
@@ -414,7 +425,7 @@ To run this for your own business, you need four numbers from GA4:
 
 If you want to save the model for monthly reporting, copy the formula into a Google Sheet with your inputs in clearly labeled cells. Track it month over month — the trend tells you as much as the absolute number.
 
-![A jar of coins with a small plant growing from the top, representing the compounding long-term returns that characterize SEO investment relative to paid media](/src/assets/images/posts/digital-pr-business-success.jpeg)
+![A jar of coins with a small plant growing from the top, representing the compounding long-term returns that characterize SEO investment relative to paid media](/assets/images/posts/digital-pr-business-success.jpeg)
 
 ---
 

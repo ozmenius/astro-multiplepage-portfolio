@@ -4,8 +4,19 @@ description: "Organic CTR dropped 61% on AI Overview queries. Here are the 10 SE
 date: "2026-05-26"
 dateAdded: "2026-05-26"
 readTime: "14 min read"
-image: "/src/assets/images/posts/seo-kpis-metrics-dashboard.jpeg"
+image: "/assets/images/posts/seo-kpis-metrics-dashboard.jpeg"
 slug: "seo-kpis"
+faq:
+  - question: "What are SEO KPIs?"
+    answer: "SEO KPIs are specific, measurable metrics that connect SEO activity to business outcomes like revenue, leads, or strategic goals — not just activity. Common examples include organic traffic, conversions from organic search, keyword rankings, and backlink growth."
+  - question: "What are the most important SEO KPIs?"
+    answer: "The 10 most important are: organic traffic, keyword rankings, organic CTR, conversions from organic, revenue from organic (SEO ROI), referring domain growth, branded vs. non-branded traffic split, Core Web Vitals, crawl health and indexation rate, and AI visibility / brand citation rate."
+  - question: "Which of these are the most important KPIs to consider for SEO?"
+    answer: "Organic conversions and revenue prove business impact and justify SEO investment. Organic traffic shows reach and keyword rankings show positioning. For 2026, also add organic CTR segmented by AI Overview presence and brand citation rate in AI answers to your dashboard."
+  - question: "What are technical SEO KPIs?"
+    answer: "Technical SEO KPIs measure crawlability, indexation, and page experience: Core Web Vitals pass rate (LCP, INP, CLS), indexation rate, crawl error count, mobile usability issues, and duplicate content instances. Only 48% of mobile pages pass all three Core Web Vitals (2025 Web Almanac)."
+  - question: "What SEO KPIs matter most for SaaS companies?"
+    answer: "SaaS SEO KPIs should focus on bottom-of-funnel outcomes: trial and demo signups from organic, MQL pipeline influenced by SEO, and organic traffic to high-intent pages like /pricing and /vs/. Track non-branded keyword coverage and content-assisted pipeline using multi-touch attribution."
 ---
 # SEO KPIs: 10 Most Important Metrics to Track
 
@@ -23,7 +34,7 @@ This guide covers the 10 most important SEO KPIs for 2026, organized from traffi
 > - Add at least one AI-era KPI (AI Overview impression share or brand citation rate) to your 2026 dashboard. Only 16% of brands currently do ([McKinsey](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/new-front-door-to-the-internet-winning-in-the-age-of-ai-search), Sep 2025).
 > - Track KPIs that connect to revenue. Traffic without conversion context is a vanity metric.
 
-![An SEO analyst reviewing a performance analytics dashboard on a wide monitor, with charts showing organic traffic, keyword rankings, and conversion trends](/src/assets/images/posts/seo-roi-business-analytics.jpeg)
+![An SEO analyst reviewing a performance analytics dashboard on a wide monitor, with charts showing organic traffic, keyword rankings, and conversion trends](/assets/images/posts/seo-roi-business-analytics.jpeg)
 
 ## What Are SEO KPIs?
 
@@ -296,7 +307,7 @@ One metric worth adding to your technical dashboard: index bloat ratio. This is 
 
 The framing matters here. Technical KPIs are monitors, not success metrics. A healthy crawl coverage rate doesn't impress a CFO. What impresses a CFO is connecting technical work to a downstream revenue outcome: "We fixed 200 crawl errors on our product pages — those pages now generate 12% more organic traffic." That's the communication frame that gets technical SEO work prioritized.
 
-![A server infrastructure overview showing network connections and crawl pathways, representing the technical foundation that SEO crawl health metrics monitor](/src/assets/images/posts/keyword-research-laptop.jpeg)
+![A server infrastructure overview showing network connections and crawl pathways, representing the technical foundation that SEO crawl health metrics monitor](/assets/images/posts/keyword-research-laptop.jpeg)
 
 
 ## SEO KPIs for SaaS and B2B
@@ -335,7 +346,7 @@ For AI-era tracking specifically: Profound and Otterly for automated brand citat
 
 One capability worth enabling now: GSC's "AI Overviews" Search Appearance filter, available since the 2024 rollout. Filtering your Performance report by this dimension segments clicks and impressions from queries where an AI Overview appeared. It's the single most important new GSC feature for 2026 KPI tracking, and most teams haven't turned it on.
 
-![A business reporting dashboard open on a laptop screen, showing SEO performance metrics including organic traffic, keyword rankings, and conversion data charts](/src/assets/images/posts/seo-analytics-dashboard.jpeg)
+![A business reporting dashboard open on a laptop screen, showing SEO performance metrics including organic traffic, keyword rankings, and conversion data charts](/assets/images/posts/seo-analytics-dashboard.jpeg)
 
 Not sure how to set up these filters? The [Google Search Console for keyword research guide](https://dennisozmen.com/posts/google-search-console-for-keyword-research) walks through the Performance report setup in detail.
 

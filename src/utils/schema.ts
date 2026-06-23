@@ -9,6 +9,7 @@ export type PostLike = {
   date?: string;
   image?: string;
   slug: string;
+  faq?: { question: string; answer: string }[];
 };
 
 export function getOrigin(site: URL | undefined): string {
@@ -189,42 +190,60 @@ export function postsSchema(origin: string, posts: PostLike[]) {
   };
 }
 
-/** Blog article: BlogPosting + BreadcrumbList + Person. */
+/** Blog article: BlogPosting + optional FAQPage + BreadcrumbList + Person. */
 export function postSchema(origin: string, post: PostLike) {
   const url = postUrl(origin, post.slug);
+
+  const graph: object[] = [
+    personNode(origin),
+    {
+      "@type": "BlogPosting",
+      "@id": `${url}#post`,
+      headline: post.title,
+      description: post.description || undefined,
+      image: post.image ? abs(origin, post.image) : undefined,
+      datePublished: post.date || undefined,
+      dateModified: post.date || undefined,
+      url,
+      mainEntityOfPage: url,
+      inLanguage: "en",
+      author: { "@id": `${origin}/#dennis` },
+      publisher: { "@id": `${origin}/#dennis` },
+      isPartOf: { "@id": `${origin}/posts/#blog` },
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${url}#breadcrumb`,
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: `${origin}/` },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Blog",
+          item: `${origin}/posts/`,
+        },
+        { "@type": "ListItem", position: 3, name: post.title, item: url },
+      ],
+    },
+  ];
+
+  if (post.faq && post.faq.length > 0) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": `${url}#faq`,
+      mainEntity: post.faq.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: item.answer,
+        },
+      })),
+    });
+  }
+
   return {
     "@context": "https://schema.org",
-    "@graph": [
-      personNode(origin),
-      {
-        "@type": "BlogPosting",
-        "@id": `${url}#post`,
-        headline: post.title,
-        description: post.description || undefined,
-        image: post.image ? abs(origin, post.image) : undefined,
-        datePublished: post.date || undefined,
-        dateModified: post.date || undefined,
-        url,
-        mainEntityOfPage: url,
-        inLanguage: "en",
-        author: { "@id": `${origin}/#dennis` },
-        publisher: { "@id": `${origin}/#dennis` },
-        isPartOf: { "@id": `${origin}/posts/#blog` },
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": `${url}#breadcrumb`,
-        itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: `${origin}/` },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "Blog",
-            item: `${origin}/posts/`,
-          },
-          { "@type": "ListItem", position: 3, name: post.title, item: url },
-        ],
-      },
-    ],
+    "@graph": graph,
   };
 }

@@ -4,8 +4,19 @@ description: "AI search is reshaping how people find information. Google AI Over
 date: "2026-01-07"
 dateAdded: "2026-01-07"
 readTime: "14 min read"
-image: "/src/assets/images/posts/ai-search-engine-technology.jpeg"
+image: "/assets/images/posts/ai-search-engine-technology.jpeg"
 slug: "ai-search"
+faq:
+  - question: "What is AI Mode in search?"
+    answer: "Google AI Mode is an opt-in search experience that generates a comprehensive synthesized answer for complex queries with inline citations. Unlike AI Overviews, it requires the user to select it and typically produces longer, more detailed responses with more cited sources."
+  - question: "How does Google AI search work?"
+    answer: "Google uses retrieval-augmented generation (RAG): it retrieves web pages, extracts key passages via Gemini models, synthesizes a response, and cites source URLs inline. E-E-A-T signals influence retrieval, and 44.2% of citations come from the first 30% of source content (SparkToro, Jan 2026)."
+  - question: "What's the difference between AI search and traditional search?"
+    answer: "Traditional search returns a ranked list of links for users to click. AI search generates a direct answer synthesized from multiple sources, often resolving the query without a click. In 2025, 58.5% of US searches already ended without a click to an external site (SparkToro/Datos, 2025)."
+  - question: "Is AI search replacing Google?"
+    answer: "Not in total query volume — Google still holds 77% of all digital queries as of June 2026 (First Page Sage). But among younger users and B2B research workflows, AI-native tools are gaining meaningful share, with 66% of 18-24 year-olds using ChatGPT for search (Fractl via SE Ranking, 2025)."
+  - question: "How do I get my website cited in AI search results?"
+    answer: "Put your direct answer in the first 150 words, structure content in 120-180-word sections, keep pages updated within three months, earn third-party coverage (85% of AI brand citations originate off-domain), and implement FAQPage and HowTo schema markup."
 ---
 # AI Search: How It Works and What It Means for SEO
 
@@ -34,7 +45,7 @@ The core difference from traditional search is intent resolution. Traditional se
 
 If you want to understand how this fits into a broader content strategy, [GEO vs. SEO](https://dennisozmen.com/posts/geo-vs-seo) explains how the two disciplines relate and where to focus effort first.
 
-![A side-by-side annotated comparison of a traditional Google SERP showing ten blue links versus a Google AI Overview response with inline source citations highlighted](/src/assets/images/posts/keyword-research-laptop.jpeg)
+![A side-by-side annotated comparison of a traditional Google SERP showing ten blue links versus a Google AI Overview response with inline source citations highlighted](/assets/images/posts/keyword-research-laptop.jpeg)
 
 <!-- [UNIQUE INSIGHT] The shift isn't just about format. It's about who controls the "last mile" of the user's information journey. Traditional search gave publishers that control — the user clicked through to their page. AI search gives it to the model. That redistribution has cascading implications for content strategy, brand awareness, and conversion attribution. -->
 
@@ -92,7 +103,7 @@ The RAG pipeline works roughly like this: a query comes in, Google's retrieval l
 
 The difference between AI Overviews and AI Mode matters for optimization. AI Overviews appear automatically and cannot be triggered or avoided by content changes alone. AI Mode is opt-in, generates longer and more detailed responses, and tends to cite more sources per query. Both rely on the same underlying retrieval infrastructure.
 
-![A flowchart diagram showing the retrieval-augmented generation pipeline from user query through source retrieval and passage extraction to the final AI-generated answer with citations](/src/assets/images/posts/data-server-infrastructure.jpeg)
+![A flowchart diagram showing the retrieval-augmented generation pipeline from user query through source retrieval and passage extraction to the final AI-generated answer with citations](/assets/images/posts/data-server-infrastructure.jpeg)
 
 ## How Is AI Search Affecting Organic Traffic?
 
@@ -179,7 +190,7 @@ The category breaks into three distinct use cases that each attract their own se
 
 **Practical AI image search** is the everyday use case. Point your phone's camera at a product, a plant, a restaurant menu, or a landmark, and Google Lens returns purchase options, species identification, translated text, or location details. For e-commerce brands, optimizing product images for AI image search — structured alt text, high-resolution product photography, image sitemaps — is an emerging visibility channel.
 
-![A smartphone camera viewfinder showing Google Lens identifying a product in a retail store, with AI-generated product information and purchase links overlaid on the screen](/src/assets/images/posts/smartphone-mobile-search.jpeg)
+![A smartphone camera viewfinder showing Google Lens identifying a product in a retail store, with AI-generated product information and purchase links overlaid on the screen](/assets/images/posts/smartphone-mobile-search.jpeg)
 
 ## How Do You Optimize for AI Search?
 

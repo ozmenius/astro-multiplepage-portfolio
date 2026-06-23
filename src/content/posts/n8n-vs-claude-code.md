@@ -4,8 +4,19 @@ description: "Claude Code writes code. n8n runs automations. They're not competi
 date: "2026-04-30"
 dateAdded: "2026-04-30"
 readTime: "10 min read"
-image: "/src/assets/images/posts/n8n-vs-claude-code-comparison.jpeg"
+image: "/assets/images/posts/n8n-vs-claude-code-comparison.jpeg"
 slug: "n8n-vs-claude-code"
+faq:
+  - question: "Is n8n better than Claude Code?"
+    answer: "They are not in the same category. n8n is better at running reliable automated workflows connecting multiple systems. Claude Code is better at writing, editing, and understanding complex code inside a developer's codebase. Comparing them is like asking whether a database is better than a code editor."
+  - question: "Can n8n use Claude?"
+    answer: "Yes. n8n has a native Anthropic Chat Model node supporting Claude Sonnet and Opus. You can call the Claude API directly from any n8n workflow for reasoning, classification, generation, or document analysis within a larger automated pipeline. The integration is official and maintained."
+  - question: "Do I need both n8n and Claude Code?"
+    answer: "It depends on your role. Developers working primarily on code will find Claude Code essential and may not need n8n. Technical ops teams automating business processes will find n8n valuable and may not need Claude Code. Teams building AI-powered products often benefit from both at different stages."
+  - question: "What's the cost difference?"
+    answer: "Claude Code starts at $20/month via the Anthropic Pro plan. n8n is free to self-host on the Community Edition; cloud plans start at $24/month. Self-hosted n8n on a $5/month VPS with unlimited executions is typically the cheapest path for high-volume automation teams."
+  - question: "Can Claude Code build n8n workflows?"
+    answer: "Yes. Claude Code can generate valid n8n workflow JSON from a natural-language description of what you want the automation to do. You describe the logic, Claude Code produces the workflow file, and you import it into n8n — cutting manual canvas-building time significantly for complex workflows."
 ---
 # n8n vs Claude Code: What's the Difference?
 
@@ -47,7 +58,7 @@ It runs in the terminal, VS Code, JetBrains, and Claude.ai/code. Terminal comfor
 
 > **Citation capsule:** Claude Code is the most-loved AI coding tool per JetBrains' April 2026 survey, with 46% user satisfaction. Heavy users average 20 hours per week, reflecting genuine integration into developer workflows — not occasional experimentation. ([JetBrains / VentureBeat, 2026](https://venturebeat.com/ai/claude-code/))
 
-![A developer working in a dark terminal environment running Claude Code — showing CLI output, file diffs, and autonomous code editing in action](/src/assets/images/posts/code-editor-software-development.jpeg)
+![A developer working in a dark terminal environment running Claude Code — showing CLI output, file diffs, and autonomous code editing in action](/assets/images/posts/code-editor-software-development.jpeg)
 
 For Claude prompts designed specifically for SEO tasks, [Claude SEO prompts](https://dennisozmen.com/posts/claude-seo-prompts) is a practical companion resource.
 
@@ -71,7 +82,7 @@ AI is native to n8n, not bolted on. The platform includes a built-in Anthropic C
 
 > **Citation capsule:** n8n has 230,000+ active users, 194,000+ GitHub stars, and 100M+ Docker pulls. It raised $180M at a $2.5B valuation in October 2025. The workflow automation market it serves is valued at $23.77B in 2025 and growing. ([Flowlyn, 2025](https://flowlyn.com/blog/n8n-statistics/) / [Mordor Intelligence, 2026](https://www.mordorintelligence.com/industry-reports/workflow-automation-market))
 
-![The n8n visual workflow canvas showing an AI agent workflow — nodes representing a Claude model, data transformations, and downstream integrations connected in a clear pipeline](/src/assets/images/posts/workflow-automation-desk.jpeg)
+![The n8n visual workflow canvas showing an AI agent workflow — nodes representing a Claude model, data transformations, and downstream integrations connected in a clear pipeline](/assets/images/posts/workflow-automation-desk.jpeg)
 
 Wondering how n8n stacks up against other automation platforms? The [n8n vs Make comparison](https://dennisozmen.com/posts/n8n-vs-make) covers pricing, AI agent capabilities, and when each tool wins.
 

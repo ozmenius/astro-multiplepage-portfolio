@@ -4,8 +4,19 @@ description: "n8n is open-source and free to self-host; Make has 3.1M users and 
 date: "2026-05-07"
 dateAdded: "2026-05-07"
 readTime: "14 min read"
-image: "/src/assets/images/posts/n8n-vs-make-automation-tools.jpeg"
+image: "/assets/images/posts/n8n-vs-make-automation-tools.jpeg"
 slug: "n8n-vs-make"
+faq:
+  - question: "Is n8n really free?"
+    answer: "The self-hosted Community Edition is free forever with unlimited executions. n8n Cloud starts at approximately 24 euros/month for 2,500 executions. For teams with DevOps capacity, total cost with a VPS is around $7-10/month. For teams without it, n8n Cloud is the realistic entry point."
+  - question: "Can n8n replace Make.com?"
+    answer: "For most automation use cases, yes — if your team has technical capacity. n8n's main gaps compared to Make are fewer pre-built integrations (400 vs. 2,100+) and a steeper learning curve for non-technical users. Custom HTTP integrations are manageable for developers but time-consuming for everyone else."
+  - question: "Which is better for AI agents — n8n or Make?"
+    answer: "n8n is significantly stronger for AI agent workflows. Its native LangChain integration and Agent-to-Agent feature (launched 2025) enable multi-step reasoning and tool use that Make cannot replicate natively. Make added AI module support but treats AI as an add-on, not an AI-first architecture."
+  - question: "What happened to Make.com's pricing in August 2025?"
+    answer: "Make switched from operations to a credits billing model on August 27, 2025. AI modules now consume credits proportional to token usage. A 10-step workflow calling an LLM can consume anywhere from 10 to 50+ credits per run depending on response length, making cost prediction harder for AI-heavy workflows."
+  - question: "Is n8n or Make better based on Reddit communities?"
+    answer: "Both have active communities. n8n's subreddit is developer- and AI-builder-focused, covering self-hosting and custom node development. Make's community is larger but more focused on no-code business automation. The consistent Reddit consensus: developers choose n8n, non-technical users choose Make."
 ---
 # n8n vs Make: Which Automation Tool Is Right for You?
 
@@ -28,7 +39,7 @@ If you're evaluating automation tools for SEO tasks specifically, see [how to au
 
 The core split is simple: n8n is an open-source, developer-oriented platform with a fair-code license and a per-execution billing model. Make.com is a proprietary visual canvas built for business users, billing by the module step (credit). That single billing difference — one execution versus one credit per module — is where most cost comparisons go wrong.
 
-![Side-by-side comparison of n8n's dark node-based canvas on the left and Make.com's colorful circular module view on the right, showing the visual difference between the two workflow automation interfaces](/src/assets/images/posts/n8n-knime-automation-circuit.jpeg)
+![Side-by-side comparison of n8n's dark node-based canvas on the left and Make.com's colorful circular module view on the right, showing the visual difference between the two workflow automation interfaces](/assets/images/posts/n8n-knime-automation-circuit.jpeg)
 
 | Feature | n8n | Make.com |
 |---|---|---|
@@ -50,7 +61,7 @@ n8n (pronounced "n-eight-n") is an open-source, fair-code workflow automation pl
 
 Founded in 2019, n8n now has 200,000+ active users and 3,000+ enterprise customers — including Vodafone and Delivery Hero ([n8n Official Blog](https://blog.n8n.io/series-b/), March 2025). In March 2025, it raised a $60M Series B at a $2.5B valuation, with the funding explicitly tied to expanding its AI agent capabilities.
 
-![A developer working with n8n's dark-themed node editor interface, building a complex workflow with multiple connected nodes and conditional logic](/src/assets/images/posts/code-editor-software-development.jpeg)
+![A developer working with n8n's dark-themed node editor interface, building a complex workflow with multiple connected nodes and conditional logic](/assets/images/posts/code-editor-software-development.jpeg)
 
 <!-- [ORIGINAL DATA] We built the same 5-step test workflow (HTTP request → data transform → Slack message → Google Sheets log → email notification) in both n8n Cloud and Make.com. n8n required 23 minutes and 5 nodes. Make required 19 minutes and 5 modules. Total execution cost on n8n: 1 execution (€0.0096 at Starter tier). On Make: 5 credits (approximately $0.0045 at Core tier). For this simple workflow, Make was faster to build and cheaper to run. The crossover changes significantly at 10+ steps and 1,000+ runs/month. -->
 

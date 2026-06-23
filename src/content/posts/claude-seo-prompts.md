@@ -4,8 +4,19 @@ description: "Copy-paste 30+ Claude SEO prompts for keyword research, briefs, me
 date: "2026-01-18"
 dateAdded: "2026-01-18"
 readTime: "14 min read"
-image: "/src/assets/images/posts/claude-seo-prompts-ai-coding.jpeg"
+image: "/assets/images/posts/claude-seo-prompts-ai-coding.jpeg"
 slug: "claude-seo-prompts"
+faq:
+  - question: "Is Claude better than ChatGPT for SEO?"
+    answer: "Neither is universally better. Claude handles bulk data more reliably due to its 200K context window and follows detailed formatting constraints more precisely. ChatGPT has broader plugin integrations. Use Claude for large datasets or precise formatting control."
+  - question: "Can Claude do keyword research on its own?"
+    answer: "Claude cannot pull live search volume data from Ahrefs, Semrush, or Google Keyword Planner. It excels at analyzing keyword lists you provide: clustering by intent, identifying cannibalization, and generating long-tail variations. Export data from a keyword tool, then let Claude do the analysis."
+  - question: "What is the best prompt structure for Claude SEO tasks?"
+    answer: "Use the role, context, task, constraints, output format sequence. Open with a role, provide site and keyword context, specify constraints like character limits, and define the exact output format. This eliminates the most common failure mode: Claude returning general advice instead of specific output."
+  - question: "How do I use Claude for bulk SEO tasks?"
+    answer: "Paste your data directly into the prompt. Claude handles full Screaming Frog CSV exports, GSC performance reports, and multiple competitor pages in a single prompt. For recurring tasks, save your prompt template and swap in the new data each time."
+  - question: "Can Claude write schema markup that validates?"
+    answer: "Yes. Claude generates syntactically correct JSON-LD schema when prompted with full context including name, date, URL, description, and organization fields. Always validate the output in Google's Rich Results Test before deploying."
 ---
 # 30+ Claude SEO Prompts to Automate Your Workflow
 
@@ -209,7 +220,7 @@ I'll paste a list of pages on my site with their URLs and primary keywords. Then
 Review this article for SEO readability and E-E-A-T signals: [paste article]. Suggest: (1) sentences to shorten for clarity, (2) places to add specific data points or citations, (3) sections where first-hand experience or expert quotes should be added, (4) passive voice to convert to active. Do not rewrite — only flag and suggest.
 ```
 
-![An SEO professional reviewing analytics data on screen, representing the on-page audit workflow where Claude flags issues and a human makes the final call](/src/assets/images/posts/workflow-automation-desk.jpeg)
+![An SEO professional reviewing analytics data on screen, representing the on-page audit workflow where Claude flags issues and a human makes the final call](/assets/images/posts/workflow-automation-desk.jpeg)
 
 ---
 

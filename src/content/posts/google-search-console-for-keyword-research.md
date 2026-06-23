@@ -4,8 +4,19 @@ description: "Use Google Search Console to find quick-win keywords, uncover hidd
 date: "2026-03-21"
 dateAdded: "2026-03-21"
 readTime: "14 min read"
-image: "/src/assets/images/posts/google-search-console-keyword-research.jpeg"
+image: "/assets/images/posts/google-search-console-keyword-research.jpeg"
 slug: "google-search-console-for-keyword-research"
+faq:
+  - question: "How many keywords does Google Search Console show?"
+    answer: "The GSC interface and CSV export cap at 1,000 rows per pull. Sites with more ranking queries need the GSC API, which allows up to 50,000 rows per day per property."
+  - question: "How far back does Google Search Console keyword data go?"
+    answer: "GSC retains performance data for a rolling 16-month window. Once a date falls outside that window, data is permanently deleted with no way to recover it. Export quarterly to maintain a longer record."
+  - question: "Why are some keywords hidden in Google Search Console?"
+    answer: "An Ahrefs analysis of 22 billion clicks found 46.77% of all GSC clicks are on queries Google anonymizes. These are typically low-volume, long-tail, or personally identifiable queries that still count toward totals."
+  - question: "What are striking-distance keywords in GSC?"
+    answer: "Striking-distance keywords rank between positions 4 and 20. A targeted content update can move them into the top 3, producing roughly a 5x increase in expected clicks based on CTR benchmarks from First Page Sage."
+  - question: "Is Google Search Console enough for keyword research?"
+    answer: "GSC is sufficient for optimizing existing content and finding quick wins. For new keyword discovery, difficulty scoring, or competitor gap analysis, pair it with a paid tool like Semrush or Ahrefs."
 ---
 # Google Search Console for Keyword Research
 
@@ -24,7 +35,7 @@ By the end of this guide you'll have a repeatable five-step workflow: find quick
 > - Exporting to Google Sheets with an opportunity score formula turns raw data into a prioritized action list.
 > - Date comparison catches trending and declining keywords before the traffic drop shows up in your analytics.
 
-![A laptop screen displaying Google Search Console's Performance report with keyword data and click metrics visible — the starting point for free keyword research](/src/assets/images/posts/seo-roi-business-analytics.jpeg)
+![A laptop screen displaying Google Search Console's Performance report with keyword data and click metrics visible — the starting point for free keyword research](/assets/images/posts/seo-roi-business-analytics.jpeg)
 
 ## What Data Does Google Search Console Give You?
 
@@ -93,7 +104,7 @@ Why does the 16-month window matter? CTR benchmarks shift over time, especially 
 
 The Queries tab shows performance by keyword. The Pages tab shows performance by URL. You'll use both, but for different purposes. Use Queries first to find which keywords have untapped potential. Switch to Pages when you want to drill into a specific URL and see all the queries it ranks for.
 
-![Google Search Console Performance report with the date range set to 16 months and all four metric columns enabled — Total clicks, Total impressions, Average CTR, and Average position](/src/assets/images/posts/seo-analytics-dashboard.jpeg)
+![Google Search Console Performance report with the date range set to 16 months and all four metric columns enabled — Total clicks, Total impressions, Average CTR, and Average position](/assets/images/posts/seo-analytics-dashboard.jpeg)
 
 ## Step 2: How Do You Find Quick-Win Keywords in GSC?
 
@@ -214,7 +225,7 @@ After applying the filter, export the results. In your spreadsheet, group questi
 
 91% of SEO respondents report that SEO positively impacted website performance and marketing goals in 2024 ([Conductor State of SEO](https://www.conductor.com/academy/organic-website-traffic-industry-benchmarks/), 2025). Question keyword analysis is one of the highest-leverage tactics within that broader SEO effort, and it costs nothing but time.
 
-![Google Search Console Queries tab with a custom regex filter applied showing question-intent keywords beginning with how, what, why, and other question words](/src/assets/images/posts/keyword-research-laptop.jpeg)
+![Google Search Console Queries tab with a custom regex filter applied showing question-intent keywords beginning with how, what, why, and other question words](/assets/images/posts/keyword-research-laptop.jpeg)
 
 ## Step 4: How Do You Export GSC Data to Google Sheets?
 
@@ -354,7 +365,7 @@ The URL Inspection tool isn't a keyword research feature, but it's worth using b
 
 AI Overviews reduce organic CTR by approximately 67.8% for affected queries compared to queries without them ([Stan Ventures](https://www.stanventures.com/news/ai-overviews-impact-organic-ctrs-32-drop-3635/), 2025). That context makes cannibalization detection more urgent, not less: split authority between two weak pages loses more traffic in an AI Overview environment than it would have two years ago. For a deeper look at how AI search is reshaping click behavior, the [AI search overview](https://dennisozmen.com/posts/ai-search) covers the full picture.
 
-![Google Search Console Pages tab showing two different URLs competing for the same query with split impressions — a cannibalization signal requiring consolidation or intent differentiation](/src/assets/images/posts/google-search-engine-interface.jpeg)
+![Google Search Console Pages tab showing two different URLs competing for the same query with split impressions — a cannibalization signal requiring consolidation or intent differentiation](/assets/images/posts/google-search-engine-interface.jpeg)
 
 ## Frequently Asked Questions
 

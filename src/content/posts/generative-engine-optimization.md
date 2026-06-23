@@ -4,8 +4,19 @@ description: "GEO optimizes content for AI-generated answers. Princeton research
 date: "2026-01-23"
 dateAdded: "2026-01-23"
 readTime: "13 min read"
-image: "/src/assets/images/posts/ai-content-writing-tool.jpeg"
+image: "/assets/images/posts/ai-content-writing-tool.jpeg"
 slug: "generative-engine-optimization"
+faq:
+  - question: "What does GEO stand for?"
+    answer: "GEO stands for generative engine optimization — the practice of optimizing content to appear in AI-generated answers from platforms like ChatGPT, Perplexity, and Google AI Overviews. The term was formally introduced by Princeton University researchers in their 2024 ACM KDD paper."
+  - question: "Is GEO replacing SEO?"
+    answer: "No. GEO and SEO are complementary disciplines. Only 38% of AI Overview citations overlap with top-10 organic results, meaning both channels require dedicated optimization. Most GEO tactics — high-quality content, authoritative citations, strong E-E-A-T signals — also benefit traditional SEO performance."
+  - question: "How long does GEO take to show results?"
+    answer: "GEO results are generally faster than traditional SEO. Content rewrites applying the Princeton signal framework — statistics, citations, answer-first structure, expert quotations — can begin appearing in AI-generated answers within 2-6 weeks. Branded search lift typically emerges on a 60-90 day horizon."
+  - question: "Which AI platforms should I prioritize for GEO?"
+    answer: "Prioritize by AI referral traffic share: ChatGPT (74.78%), Google AI Overviews via Gemini (11.56%), and Perplexity (7.23%), per SE Ranking's June 2026 study of 101,574 websites. ChatGPT's web-browsing index is powered by Bing, so strong Bing crawlability matters significantly."
+  - question: "How do I measure GEO performance?"
+    answer: "Use a four-metric stack: direct citation rate (manually query 20-50 target keywords monthly across ChatGPT, Perplexity, and Google AI Mode); AI referral traffic in GA4; branded search trends in Google Search Console as an awareness proxy; and pipeline velocity for contacts who found you via AI-cited content."
 ---
 # What Is Generative Engine Optimization (GEO)?
 
@@ -24,7 +35,7 @@ For a platform-level breakdown of how [AI search engines](https://dennisozmen.co
 > - AI referral traffic grew 16x from 2024 to 2026 — but standard GA4 attribution captures only 10-20% of AI-influenced pipeline.
 > - ChatGPT accounts for 74.78% of all AI referral traffic, making it the top platform to optimize for first. ([SE Ranking](https://seranking.com/blog/ai-traffic-research-study/), Jun 2026)
 
-![A marketing professional reviewing AI-generated search results on a laptop, exploring how AI search engines synthesize and cite content in generated answers](/src/assets/images/posts/ai-content-writing-tool.jpeg)
+![A marketing professional reviewing AI-generated search results on a laptop, exploring how AI search engines synthesize and cite content in generated answers](/assets/images/posts/ai-content-writing-tool.jpeg)
 
 ## What Is Generative Engine Optimization?
 
@@ -237,7 +248,7 @@ FAQ schema and Article schema help AI engines identify passage boundaries and ex
 
 Building E-E-A-T signals off-site is closely tied to [digital PR](https://dennisozmen.com/posts/what-is-digital-pr-in-seo) — earned media and brand mentions on authoritative third-party pages are among the clearest trust signals AI engines pick up during retrieval.
 
-![A structured content outline on a whiteboard with clear sections and evidence citations marked, representing the answer-first writing structure that drives GEO performance](/src/assets/images/posts/seo-analytics-dashboard.jpeg)
+![A structured content outline on a whiteboard with clear sections and evidence citations marked, representing the answer-first writing structure that drives GEO performance](/assets/images/posts/seo-analytics-dashboard.jpeg)
 
 <!-- [PERSONAL EXPERIENCE] In our experience, the fastest GEO wins come from retrofitting existing pages rather than creating new content. When we applied the Princeton signal framework to a definitional page — adding a named statistic, an expert quotation, and restructuring the opening paragraph as a direct answer — the page began appearing in Perplexity answers for its target query within five weeks. The content itself hadn't changed fundamentally; the structure and signal density had. -->
 
@@ -381,7 +392,7 @@ A B2B software company adds FAQ schema markup to a product category page, struct
 
 A health content publisher audits which authoritative institutions AI systems already cite in their vertical — NIH, Mayo Clinic, CDC — and restructures their content to explicitly cite and build on those sources rather than competing with them. Over a 90-day period, their pages begin appearing alongside those institutions in health-related AI Overviews for long-tail queries where NIH doesn't have direct coverage.
 
-![A Perplexity search interface displaying an AI-generated answer that cites multiple sources, illustrating how AI engines synthesize content from cited pages into structured responses](/src/assets/images/posts/digital-pr-research-citations.jpeg)
+![A Perplexity search interface displaying an AI-generated answer that cites multiple sources, illustrating how AI engines synthesize content from cited pages into structured responses](/assets/images/posts/digital-pr-research-citations.jpeg)
 
 Surfer SEO's October 2025 analysis of 36 million AI Overviews and 46 million citations found that YouTube accounts for approximately 23.3% of all citations, and Wikipedia 18.4% ([Surfer SEO AI Citation Report](https://surferseo.com/blog/ai-citation-report/), Oct 2025). These patterns suggest AI engines have well-established citation preferences at the platform level. Understanding the citation hierarchy in your specific vertical is a foundational GEO research step that most practitioners skip.
 
