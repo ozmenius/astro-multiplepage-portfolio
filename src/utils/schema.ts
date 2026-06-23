@@ -29,7 +29,7 @@ export function personNode(origin: string) {
     image: abs(origin, "/assets/images/about/dennis-oezmen.png"),
     jobTitle: "Team Lead, SEO",
     description: siteConfig.description,
-    email: siteConfig.social.email.replace("mailto:", ""),
+    email: "contact@dennisozmen.com",
     worksFor: { "@type": "Organization", name: "Neil Patel Digital" },
     alumniOf: [
       {
