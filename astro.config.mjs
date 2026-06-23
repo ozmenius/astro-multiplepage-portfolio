@@ -1,40 +1,97 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
-import vercel from '@astrojs/vercel';
 
-// Only active during Vercel builds (process.env.VERCEL === '1').
-// Rewrites inline markdown <img src="/assets/..."> to Vercel's image
-// optimization endpoint so they are served as WebP on the live site.
-// On localhost the plugin is a no-op so images load normally.
-function rehypeVercelImages() {
-  if (!process.env.VERCEL) return () => {};
-  return (tree) => {
-    function walk(node) {
+// Build-time rehype plugin: converts inline markdown images to WebP and
+// rewrites them as <picture> with srcset. Uses sharp (Astro's own dependency)
+// — no extra packages needed. Generated WebP files are saved to public/ and
+// committed alongside the originals so they're available on every host.
+function rehypeResponsiveImages() {
+  return async (tree) => {
+    // Collect all inline post images without needing unist-util-visit
+    const nodes = [];
+    function walk(node, parent, index) {
       if (
         node.tagName === 'img' &&
         typeof node.properties?.src === 'string' &&
-        node.properties.src.startsWith('/assets/')
+        node.properties.src.startsWith('/assets/images/posts/')
       ) {
-        const src = encodeURIComponent(node.properties.src);
-        node.properties.src = `/_vercel/image?url=${src}&w=1200&q=80`;
-        node.properties.loading = node.properties.loading ?? 'lazy';
-        node.properties.decoding = 'async';
+        nodes.push({ node, parent, index });
       }
-      if (Array.isArray(node.children)) node.children.forEach(walk);
+      if (Array.isArray(node.children)) {
+        node.children.forEach((child, i) => walk(child, node, i));
+      }
     }
-    walk(tree);
+    walk(tree, null, 0);
+    if (nodes.length === 0) return;
+
+    const sharp = (await import('sharp')).default;
+    const { existsSync } = await import('fs');
+    const { join, basename, extname } = await import('path');
+
+    const PUBLIC_DIR = new URL('./public', import.meta.url).pathname;
+    const IMG_DIR = join(PUBLIC_DIR, 'assets/images/posts');
+    const WIDTHS = [400, 800, 1200];
+    const SIZES = '(min-width: 896px) 896px, 100vw';
+
+    await Promise.all(
+      nodes.map(async ({ node, parent, index }) => {
+        const src = node.properties.src;
+        const srcPath = join(PUBLIC_DIR, src);
+        if (!existsSync(srcPath)) return;
+
+        const stem = basename(src, extname(src));
+
+        const srcsetParts = await Promise.all(
+          WIDTHS.map(async (w) => {
+            const name = `${stem}-${w}w.webp`;
+            const dest = join(IMG_DIR, name);
+            if (!existsSync(dest)) {
+              await sharp(srcPath)
+                .resize(w, null, { withoutEnlargement: true })
+                .webp({ quality: 80 })
+                .toFile(dest);
+            }
+            return `/assets/images/posts/${name} ${w}w`;
+          })
+        );
+
+        parent.children[index] = {
+          type: 'element',
+          tagName: 'picture',
+          properties: {},
+          children: [
+            {
+              type: 'element',
+              tagName: 'source',
+              properties: {
+                type: 'image/webp',
+                srcset: srcsetParts.join(', '),
+                sizes: SIZES,
+              },
+              children: [],
+            },
+            {
+              ...node,
+              properties: {
+                ...node.properties,
+                loading: node.properties.loading ?? 'lazy',
+                decoding: 'async',
+              },
+            },
+          ],
+        };
+      })
+    );
   };
 }
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://dennisozmen.com',
-  output: 'static',
-  adapter: vercel(),
   integrations: [sitemap()],
   markdown: {
-    rehypePlugins: [rehypeVercelImages],
+    rehypePlugins: [rehypeResponsiveImages],
   },
   server: {
     port: 4321,
