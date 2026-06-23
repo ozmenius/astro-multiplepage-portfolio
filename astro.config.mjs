@@ -31,9 +31,7 @@ function rehypeVercelImages() {
 export default defineConfig({
   site: 'https://dennisozmen.com',
   output: 'static',
-  adapter: vercel({
-    imageService: true,
-  }),
+  adapter: vercel(),
   integrations: [sitemap()],
   markdown: {
     rehypePlugins: [rehypeVercelImages],
