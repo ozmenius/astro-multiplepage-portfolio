@@ -13,7 +13,7 @@ export const siteConfig = {
     "Strategic SEO and digital marketing expert with 10+ years of experience scaling organic visibility, GEO, and marketing automation.",
   social: {
     linkedin: "https://www.linkedin.com/in/dennisoezmen/",
-    email: "mailto:contact@dennisozmen.com",
+    github: "https://github.com/ozmenius",
   },
 };
 
