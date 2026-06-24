@@ -34,7 +34,7 @@ This guide explains what AI search is, which platforms matter most in 2026, how 
 
 For a broader look at how these changes fit into the marketing stack, see [what AI means for marketing as a whole](https://dennisozmen.com/posts/what-is-ai-in-marketing).
 
-## What Is AI Search?
+## What is AI search?
 
 AI search uses large language models to generate a direct, synthesized answer at the top of a results page, pulling from multiple sources rather than showing a ranked list of links. Google AI Overviews alone now reach 2 billion monthly users globally ([Google, 2025](https://blog.google/products/search/ai-overviews-usage-global/)). That makes this the fastest-adopted change to search in the past two decades.
 
@@ -48,7 +48,7 @@ If you want to understand how this fits into a broader content strategy, [GEO vs
 
 <!-- [UNIQUE INSIGHT] The shift isn't just about format. It's about who controls the "last mile" of the user's information journey. Traditional search gave publishers that control — the user clicked through to their page. AI search gives it to the model. That redistribution has cascading implications for content strategy, brand awareness, and conversion attribution. -->
 
-## What Are the Major AI Search Platforms?
+## What are the major AI search platforms?
 
 As of Q2 2026, Google holds 77% of all digital queries and ChatGPT holds 17.9% ([First Page Sage, Jun 2026](https://firstpagesage.com/reports/ai-search-market-share/)). That headline number obscures something important for B2B marketers: among AI-driven referral traffic specifically, the platform mix looks very different.
 
@@ -58,9 +58,9 @@ Here's where the main platforms stand today:
 
 **ChatGPT Search.** OpenAI's search integration reached 900 million weekly active users in February 2026 ([OpenAI, Feb 2026](https://openai.com/blog/chatgpt-user-milestone)). Among B2B AI referrals, ChatGPT drives 62.6% of traffic, far ahead of any other platform ([Goodie, Mar-Apr 2026](https://goodie.com/ai-referral-study/)). It's no longer just a writing tool. It's a discovery engine.
 
-**Perplexity AI.** Perplexity's core differentiation is citation transparency. It shows sources inline, cites more URLs per answer than most alternatives, and appeals to research-heavy queries. Its B2B referral share sits at 7.3%.
+**Perplexity AI.** Perplexity's main differentiation is citation transparency. It shows sources inline, cites more URLs per answer than most alternatives, and appeals to research-heavy queries. Its B2B referral share sits at 7.3%.
 
-**Microsoft Copilot.** Integrated deeply into Windows, Microsoft 365, and Edge, Copilot reaches users in workflow contexts rather than standalone search sessions. Enterprise distribution is its main advantage.
+**Microsoft Copilot.** Integrated into Windows, Microsoft 365, and Edge, Copilot reaches users in workflow contexts rather than standalone search sessions. Enterprise distribution is its main advantage.
 
 **Anthropic Claude.** Claude holds 18.5% of B2B AI referrals ([Goodie, Mar-Apr 2026](https://goodie.com/ai-referral-study/)). That's a striking share for a platform with no traditional search product. Its growth reflects enterprise adoption and developer use. Google's Gemini sits at 10.6%.
 
@@ -90,7 +90,7 @@ Here's where the main platforms stand today:
 <!-- [PERSONAL EXPERIENCE] Running the same branded and category queries across ChatGPT, Perplexity, and Google AI Mode reveals something the aggregate data misses: the citation sets rarely overlap. A page cited by Perplexity isn't necessarily cited by ChatGPT. Appearing in one platform's outputs doesn't mean you've covered the others. Treating AI search as a single channel rather than platform-specific optimization problems leads to gaps. -->
 
 
-## How Does Google AI Search Work?
+## How does Google AI search work?
 
 Google AI Mode and AI Overviews use retrieval-augmented generation (RAG): Google's systems retrieve relevant web pages, extract key passages, feed them to a language model, and synthesize a response with inline source citations. One finding from SparkToro's January 2026 citation analysis is particularly actionable: 44.2% of LLM citations come from the first 30% of the source content ([SparkToro, Jan 2026](https://sparktoro.com/blog/llm-citation-study/)).
 
@@ -104,7 +104,7 @@ The difference between AI Overviews and AI Mode matters for optimization. AI Ove
 
 ![A flowchart diagram showing the retrieval-augmented generation pipeline from user query through source retrieval and passage extraction to the final AI-generated answer with citations](/assets/images/posts/data-server-infrastructure.jpeg)
 
-## How Is AI Search Affecting Organic Traffic?
+## How is AI search affecting organic traffic?
 
 AI Overviews correlate with a 58% lower average CTR for top-ranking pages, based on analysis of 300,000 keywords ([Ahrefs, Dec 2025](https://ahrefs.com/blog/ai-overviews-study/)). This isn't an isolated finding. Three independent studies all point in the same direction: Ahrefs at 58%, an ISB/CMU field study at 38%, and Seer Interactive's analysis at 61% ([Seer Interactive, Sep 2025](https://www.seerinteractive.com/insights/ai-overviews-ctr-impact)).
 
@@ -177,21 +177,21 @@ The honest picture is this: click volume is down for many informational queries,
 
 Tracking which metrics actually matter as CTR declines is its own challenge. The [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) covers how to adapt your measurement framework for this shift.
 
-## What Is AI Image Search, and How Does It Work?
+## What is AI image search, and how does it work?
 
 AI image search uses computer vision and multimodal models to identify objects, scenes, people, and context within images, going far beyond traditional reverse image lookup. Google Lens processes more than 20 billion visual searches per month. Its AI layer can now answer questions about what it sees, not just match visually similar images.
 
 The category breaks into three distinct use cases that each attract their own search demand.
 
-**AI reverse image search** finds the origin and other instances of an uploaded image. Google's reverse image search, TinEye, and Bing Visual Search all use AI to surface contextually similar results. This is useful for journalists verifying image authenticity, brands tracking unauthorized use of their assets, and researchers tracing visual content provenance.
+Reverse image search finds the origin and other instances of an uploaded image. Google's reverse image search, TinEye, and Bing Visual Search all use AI to surface contextually similar results. This is useful for journalists verifying image authenticity, brands tracking unauthorized use of their assets, and researchers tracing visual content provenance.
 
-**AI face search** identifies or finds information about people in photos. Tools like Google Lens and PimEyes use facial recognition models for this purpose. The category has significant privacy implications. Most jurisdictions restrict or prohibit using face search to identify private individuals without consent. Commercial applications focus on authorized identity verification and secure access rather than open lookups.
+Face search identifies or finds information about people in photos. Tools like Google Lens and PimEyes use facial recognition models for this purpose. The category has significant privacy implications. Most jurisdictions restrict or prohibit using face search to identify private individuals without consent. Commercial applications focus on authorized identity verification and secure access rather than open lookups.
 
-**Practical AI image search** is the everyday use case. Point your phone's camera at a product, a plant, a restaurant menu, or a landmark, and Google Lens returns purchase options, species identification, translated text, or location details. For e-commerce brands, optimizing product images for AI image search, through structured alt text, high-resolution product photography, and image sitemaps, is an emerging visibility channel.
+The everyday use case is the most practical. Point your phone's camera at a product, a plant, a restaurant menu, or a landmark, and Google Lens returns purchase options, species identification, translated text, or location details. For e-commerce brands, optimizing product images for AI image search, through structured alt text, high-resolution product photography, and image sitemaps, is an emerging visibility channel.
 
 ![A smartphone camera viewfinder showing Google Lens identifying a product in a retail store, with AI-generated product information and purchase links overlaid on the screen](/assets/images/posts/smartphone-mobile-search.jpeg)
 
-## How Do You Optimize for AI Search?
+## How do you optimize for AI search?
 
 Getting cited in AI search responses requires more than a top-10 ranking. AI visitors are worth 4.4x more in conversion value than traditional organic visitors ([Semrush, 2025](https://www.semrush.com/blog/ai-traffic-study/)). That makes the optimization worth pursuing directly, not as a side effect of traditional SEO.
 
@@ -249,9 +249,9 @@ Here are the five levers that the evidence consistently points to:
 </figure>
 
 
-## Can You Remove AI from Google Search?
+## Can you remove AI from Google search?
 
-You can't permanently disable AI Overviews, but several workarounds reduce or eliminate them for your own browsing. This question matters for two reasons: some users genuinely want to bypass AI answers, and the data on user sentiment reveals something significant about AI search adoption. Among 18-24 year-olds, 66% use ChatGPT for search compared to 69% who use Google ([Fractl via SE Ranking, 2025](https://seranking.com/blog/ai-in-search-statistics/)). That means AI-native search behavior is strongest in the youngest demographic.
+You can't permanently disable AI Overviews, but several workarounds reduce or eliminate them for your own browsing. This question matters for two reasons: some users genuinely want to bypass AI answers, and the data on user sentiment reveals something significant about AI search adoption. Among 18-24 year-olds, 66% use ChatGPT for search compared to 69% who use Google ([Fractl via SE Ranking, 2025](https://seranking.com/blog/ai-in-search-statistics/)). AI-native search behavior is strongest in the youngest demographic.
 
 Here are the practical options for bypassing AI Overviews:
 
@@ -261,7 +261,7 @@ Here are the practical options for bypassing AI Overviews:
 
 **Alternative search engines.** DuckDuckGo and Kagi don't surface AI-generated answer boxes in the same format as Google. Kagi's paid model explicitly positions itself as a human-curated alternative. Both return traditional ranked link results as their default experience.
 
-The irony worth noting: the users most motivated to remove AI from search are often the high-information, research-oriented users who were most valuable to content publishers. Their preference for traditional results is a signal, not an anomaly.
+Worth noting: the users most motivated to remove AI from search are often the high-information, research-oriented users who were most valuable to content publishers. Their preference for traditional results is a signal, not an anomaly.
 
 ## Frequently Asked Questions
 
@@ -285,7 +285,7 @@ Not in total query volume terms. Google still holds 77% of all digital queries a
 
 Put your direct answer in the first 150 words of the page. Structure content in tightly scoped 120-180-word sections with clear headings. Keep pages updated within three months. Earn third-party coverage on industry sites, publications, and community platforms. 85% of AI brand citations originate off-domain ([AirOps/Kevin Indig, 2026](https://www.kevin-indig.com/ai-brand-citations/)). Implement FAQPage and HowTo schema markup. Build topical authority across a cluster of related content rather than targeting isolated keywords.
 
-## What AI Search Actually Means for Your Strategy
+## What AI search actually means for your strategy
 
 AI search isn't replacing traditional search overnight. Google still processes the overwhelming majority of queries. But it is redistributing how clicks get allocated. That redistribution is already large enough to show up in GSC data for informational content.
 

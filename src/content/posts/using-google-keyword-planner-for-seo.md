@@ -18,7 +18,6 @@ faq:
   - question: "What's the best free alternative to GKP for SEO?"
     answer: "Google Search Console shows real impressions and clicks for keywords your site already ranks for. Pair them: GKP for new keyword discovery, GSC for validating volume and intent on your existing content."
 ---
-# Using Google Keyword Planner for SEO (Free Guide)
 
 Google Keyword Planner is technically free. It's also built for advertisers, not SEOs. That gap between its name-brand credibility and its real-world SEO utility is exactly why so many guides either oversell it or skip it in favor of paid tools. Neither approach helps someone who just wants to do solid keyword research without spending money.
 
@@ -31,7 +30,7 @@ This guide covers exact steps to access GKP without any ad spend, how to extract
 > - Best use: keyword discovery, seasonal trends, and long-tail ideation, not precise volume measurement.
 > - Pair with Google Search Console for volume validation as a free two-tool stack.
 
-## What Is Google Keyword Planner?
+## What is Google Keyword Planner?
 
 Google Keyword Planner is a free tool inside Google Ads, used by 7 million businesses running Google Ads campaigns ([DemandSage](https://www.demandsage.com/google-ads-statistics/), 2026). It was designed to help advertisers estimate search demand before setting up paid campaigns, not for organic SEO. But because it pulls from Google's own search data, SEOs use it as a starting point for [keyword research](/blog/keyword-research).
 
@@ -43,7 +42,7 @@ One thing to clarify upfront: the "Competition" column in GKP shows how many adv
 
 ![Google Keyword Planner landing screen inside Google Ads showing the Discover new keywords and Get search volume options side by side](/assets/images/posts/google-search-engine-interface.jpeg)
 
-## How Do I Access Google Keyword Planner for Free?
+## How do I access Google Keyword Planner for free?
 
 You need a Google Ads account, but you don't need to spend any money. The critical step is choosing "Expert Mode" during setup. This bypasses the campaign creation flow that Google defaults new users into. Without it, you'll be pushed to create an active campaign before you can access any tools.
 
@@ -55,7 +54,7 @@ Here are the exact steps:
 4. Complete the billing information section. Google requires this, but no charge occurs without an active campaign running.
 5. Once inside, navigate to **Tools (the wrench icon) > Keyword Planner.**
 
-One thing non-advertisers should know: without an active, spending Google Ads campaign, GKP shows volume ranges instead of exact numbers. A keyword with 3,200 monthly searches appears as "1K-10K." That's the trade-off for free access, directional signal rather than precise measurement.
+One thing non-advertisers should know: without an active, spending Google Ads campaign, GKP shows volume ranges instead of exact numbers. A keyword with 3,200 monthly searches appears as "1K-10K." That's the trade-off for free access — directional signal rather than precise measurement.
 
 Exact volumes unlock only when your account has running campaigns. For most SEOs who aren't also running paid ads, ranges are what you'll work with.
 
@@ -63,11 +62,11 @@ Exact volumes unlock only when your account has running campaigns. For most SEOs
 
 ![Annotated screenshot of the Google Ads setup flow showing the Switch to Expert Mode link and the Create an account without a campaign option highlighted](/assets/images/posts/seo-analytics-dashboard.jpeg)
 
-## How to Use Google Keyword Planner for SEO
+## How to use Google Keyword Planner for SEO
 
 GKP is most useful for two SEO tasks: discovering keyword ideas you haven't considered, and checking seasonal demand patterns. Google processes 15% of daily searches that have never been searched before ([Ranktracker](https://www.ranktracker.com/blog/google-search-statistics/), 2025). GKP's discovery engine helps surface the recurring part of that long tail before it appears in your GSC data.
 
-### Discover New Keywords
+### Discover new keywords
 
 Enter a seed keyword (e.g., "email marketing") or a competitor's URL in the "Discover new keywords" tab. GKP returns related terms with volume ranges, average CPC, and ad competition. Filter by location and language for local or international research.
 
@@ -75,13 +74,13 @@ Use the **"Refine keywords"** sidebar to filter by brand vs. non-brand, keyword 
 
 The **"Broaden your search"** suggestion box surfaces semantically adjacent topics. That's useful for building topical clusters around a pillar page.
 
-### Check Seasonal Trends
+### Check seasonal trends
 
 The 12-month trend graph is genuinely one of GKP's stronger features. A query like "Christmas gift ideas" shows a clear spike in November and December, which GKP represents accurately even with rounded volumes. For content planning, this seasonal signal is reliable directional data.
 
 One workaround for the 12-month averaging problem: change the date range filter to a single month (December only, for example) to see non-averaged volumes for that period. This partially bypasses the smoothing effect that makes annual averages misleading for seasonal keywords.
 
-### Export and Organize
+### Export and organize
 
 Download results as a CSV and open in Google Sheets. Filter out the "0-10" bucket, which hides most long-tail keywords anyway (more on this below). Sort by CPC as a rough proxy for commercial intent. High-CPC, moderate-volume keywords often signal strong buyer intent, which is useful for prioritizing content around product or service pages.
 
@@ -119,23 +118,23 @@ Download results as a CSV and open in Google Sheets. Filter out the "0-10" bucke
   <figcaption>Source: Ahrefs, November 2021 — same 72,635-keyword dataset, accuracy defined as within 50% of GSC actuals</figcaption>
 </figure>
 
-## What Are Google Keyword Planner's Limitations for SEO?
+## What are Google Keyword Planner's limitations for SEO?
 
-This is where most guides go soft. Per Ahrefs' study of 72,635 keywords tested against Google Search Console actuals, GKP overestimated search volumes in 91.45% of cases ([Ahrefs](https://ahrefs.com/blog/gkp-data/), 2021). In 54.28% of those cases, the overestimation was classified as "drastic," not a small rounding error, but a significant inflation. Understanding why matters as much as knowing the number.
+This is where most guides go soft. Per Ahrefs' study of 72,635 keywords tested against Google Search Console actuals, GKP overestimated search volumes in 91.45% of cases ([Ahrefs](https://ahrefs.com/blog/gkp-data/), 2021). In 54.28% of those cases, the overestimation was classified as "drastic" — not a small rounding error, but a significant inflation. Understanding why matters as much as knowing the number.
 
 <!-- [UNIQUE INSIGHT] The root cause is keyword clustering. GKP groups semantically related variants — "running shoes" and "shoes for running" — into the same ad auction data cluster and assigns them the same volume figure pulled from that combined pool. The dominant variant gets inflated numbers; the distinction between variants disappears entirely. This is why GKP shows "10K-100K" for a term your GSC data shows receiving 2,400 clicks per month. It's not random noise — it's a systematic structural artifact of how the tool was built for ad buying, not search analysis. -->
 
 Here are the specific limitations to work around:
 
-**Volume ranges instead of exact numbers.** Non-advertisers see "1K-10K" rather than the actual figure. When two keyword candidates both land in the same range bucket, you can't prioritize between them using GKP alone.
+Volume ranges instead of exact numbers: non-advertisers see "1K-10K" rather than the actual figure. When two keyword candidates both land in the same range bucket, you can't prioritize between them using GKP alone.
 
-**The grouping problem.** Semantically close variants share volume data from the same ad auction cluster. "Email marketing tool" and "email marketing software" may show identical numbers because GKP pools them together. That inflates the dominant term and hides meaningful search behavior differences.
+The grouping problem: semantically close variants share volume data from the same ad auction cluster. "Email marketing tool" and "email marketing software" may show identical numbers because GKP pools them together. That inflates the dominant term and hides meaningful search behavior differences.
 
-**Ad competition is not SEO difficulty.** The "Competition" column measures how many advertisers bid on a keyword. A keyword with "High" ad competition can be straightforward to rank for organically. Don't use it as a proxy for organic keyword difficulty. Use a dedicated SEO tool for that signal.
+Ad competition is not SEO difficulty: the "Competition" column measures how many advertisers bid on a keyword. A keyword with "High" ad competition can be straightforward to rank for organically. Don't use it as a proxy for organic keyword difficulty. Use a dedicated SEO tool for that signal.
 
-**Long-tail blind spot.** 94.74% of all keywords receive 10 or fewer monthly searches ([Ranktracker](https://www.ranktracker.com/blog/keyword-statistics/), 2025). GKP rounds these to "0-10" or returns no data at all, effectively hiding the majority of the search landscape. And 91.8% of all search queries are long-tail keywords (Backlinko analysis of 306 million keywords, cited by Ranktracker, 2025). That's a large gap in coverage.
+Long-tail blind spot: 94.74% of all keywords receive 10 or fewer monthly searches ([Ranktracker](https://www.ranktracker.com/blog/keyword-statistics/), 2025). GKP rounds these to "0-10" or returns no data at all, effectively hiding the majority of the search landscape. And 91.8% of all search queries are long-tail keywords (Backlinko analysis of 306 million keywords, cited by Ranktracker, 2025). That's a large gap in coverage.
 
-**12-month averaging masks seasonality.** GKP displays 12-month averages by default. A keyword with 10,000 searches in December and 200 in July shows as approximately 800/month. That misrepresents both the peak opportunity and the off-peak reality. Use the date range filter workaround mentioned above for seasonal topics.
+12-month averaging masks seasonality: GKP displays 12-month averages by default. A keyword with 10,000 searches in December and 200 in July shows as approximately 800/month. That misrepresents both the peak opportunity and the off-peak reality. Use the date range filter workaround mentioned above for seasonal topics.
 
 <figure>
   <svg viewBox="0 0 560 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horizontal bar chart showing how often GKP overestimates search volume: roughly accurate 45.22 percent, drastically overestimated 54.28 percent, underestimated 0.5 percent">
@@ -170,39 +169,33 @@ Here are the specific limitations to work around:
 
 > **Citation capsule:** Per Ahrefs' study of 72,635 keywords cross-referenced against Google Search Console actuals, Google Keyword Planner overestimated search volumes in 91.45% of cases. In 54.28% of instances, the overestimation was classified as drastic. GKP was roughly accurate, within 50% of actual volume, in just 45.22% of cases. ([Ahrefs](https://ahrefs.com/blog/gkp-data/), November 2021)
 
-## How Does Google Keyword Planner Compare to Other Free Tools?
+## How does Google Keyword Planner compare to other free tools?
 
 GKP is most useful as a discovery and trend-checking tool. It doesn't cover every SEO need, and pairing it with [Google Search Console](https://dennisozmen.com/posts/google-search-console-for-keyword-research) and one supplementary tool covers most gaps without a paid subscription. Here's how the common alternatives stack up.
 
-**GKP vs. Google Search Console**
-
-GSC shows actual click and impression data for keywords your site already ranks for. These are real volumes from your own organic performance, not estimates. GKP shows potential keywords you haven't targeted yet, at estimated volumes. The best practice: use GKP to discover new targets, then validate demand and intent using GSC data for any keyword your site already has some footprint on.
+GKP vs. Google Search Console: GSC shows actual click and impression data for keywords your site already ranks for. These are real volumes from your own organic performance, not estimates. GKP shows potential keywords you haven't targeted yet, at estimated volumes. The best practice: use GKP to discover new targets, then validate demand and intent using GSC data for any keyword your site already has some footprint on.
 
 In our experience, the fastest-win keywords almost always come from this overlap. GKP suggests a term in the "1K-10K" range, and GSC shows your site already getting impressions at position 20-40 for it. That's a far easier target than a keyword you have zero presence for.
 
-**GKP vs. Ubersuggest**
+GKP vs. Ubersuggest: Ubersuggest surfaces long-tail suggestions and shows SEO difficulty scores — the organic ranking difficulty metric GKP lacks entirely. Ubersuggest's free tier has query limits. GKP has none. GKP wins for raw discovery volume and Google-native data. Ubersuggest wins for difficulty scoring on a free budget.
 
-Ubersuggest surfaces long-tail suggestions and shows SEO difficulty scores, the organic ranking difficulty metric GKP lacks entirely. Ubersuggest's free tier has query limits. GKP has none. GKP wins for raw discovery volume and Google-native data. Ubersuggest wins for difficulty scoring on a free budget.
-
-**GKP vs. Keywords Everywhere**
-
-Keywords Everywhere is a browser extension that overlays volume data (sourced partly from GKP) directly on Google SERPs, at roughly $10 per 100,000 credits. It's useful for quick research during normal browsing. GKP is better for bulk discovery and CSV export when you're building out a keyword list systematically.
+GKP vs. Keywords Everywhere: Keywords Everywhere is a browser extension that overlays volume data (sourced partly from GKP) directly on Google SERPs, at roughly $10 per 100,000 credits. It's useful for quick research during normal browsing. GKP is better for bulk discovery and CSV export when you're building out a keyword list systematically.
 
 The practical free stack for most budget SEOs: GKP for discovery and trends, GSC for validation and volume reality checks, and one supplementary tool for organic difficulty scoring. If AI search is part of your strategy, understanding how [AI Overviews and tools like Perplexity](https://dennisozmen.com/posts/ai-search) are changing which queries drive clicks adds important context to volume estimates.
 
-## Pro Tips for Getting More from Google Keyword Planner
+## Pro tips for getting more from Google Keyword Planner
 
 Most SEOs use GKP at about 20% of its capability. These workflow adjustments extract more signal from the same free tool without any workarounds that risk account issues.
 
-**Use competitor URLs as seeds.** Instead of a keyword, enter a competitor's URL in the "Discover new keywords" input. GKP analyzes the page and returns keywords it associates with that content. This is a reverse-engineering approach most beginners miss. It surfaces opportunities you wouldn't think to search for directly.
+Use competitor URLs as seeds: instead of a keyword, enter a competitor's URL in the "Discover new keywords" input. GKP analyzes the page and returns keywords it associates with that content. This is a reverse-engineering approach most beginners miss. It surfaces opportunities you wouldn't think to search for directly.
 
-**Run the same keyword in multiple locations.** Volume data shifts by geography. Running "emergency plumber" for New York versus Chicago reveals local demand differences. This is genuinely useful for multi-location businesses or local SEO planning where national averages hide meaningful regional signals.
+Run the same keyword in multiple locations: volume data shifts by geography. Running "emergency plumber" for New York versus Chicago reveals local demand differences. This is genuinely useful for multi-location businesses or local SEO planning where national averages hide meaningful regional signals.
 
-**Use the date range filter for seasonality.** Set the date range to a single specific month (December, for example) instead of the default 12-month average. This gives you non-averaged volumes for that period and partially bypasses the seasonal smoothing problem described in the limitations section.
+Use the date range filter for seasonality: set the date range to a single specific month (December, for example) instead of the default 12-month average. This gives you non-averaged volumes for that period and partially bypasses the seasonal smoothing problem described in the limitations section.
 
-**Sort exported data by CPC, not volume.** After downloading your CSV, filter out the "0-10" bucket and sort by CPC descending. High-CPC, moderate-volume keywords often indicate strong commercial intent. It's a rough proxy, not a replacement for proper intent analysis, but it's a fast first filter.
+Sort exported data by CPC, not volume: after downloading your CSV, filter out the "0-10" bucket and sort by CPC descending. High-CPC, moderate-volume keywords often indicate strong commercial intent. It's a rough proxy, not a replacement for proper intent analysis, but it's a fast first filter.
 
-**Cross-reference 3-5 targets in GSC before committing.** Before building a content piece around a GKP discovery, check your GSC data for related impressions. If Google is already showing your site for that keyword at position 15-50, targeting it directly is a faster path to traffic than starting from scratch.
+Cross-reference 3-5 targets in GSC before committing: before building a content piece around a GKP discovery, check your GSC data for related impressions. If Google is already showing your site for that keyword at position 15-50, targeting it directly is a faster path to traffic than starting from scratch.
 
 ## Frequently Asked Questions
 
@@ -226,9 +219,9 @@ Google restricts exact monthly search volumes to accounts actively spending on G
 
 Google Search Console is the most accurate free option. It shows real impressions and clicks for keywords your site already has visibility for. For discovery of keywords you haven't targeted yet, GKP remains the strongest free option. Pair them: GKP for new keyword ideas, GSC for validating volume and intent on your existing content.
 
-## What Google Keyword Planner Is Actually Good For
+## What Google Keyword Planner is actually good for
 
-GKP is free, Google-native, and unlimited in its query volume. Those three things make it a legitimate starting point for keyword research, especially for anyone not yet ready to invest in a paid tool.
+GKP is free, Google-native, and unlimited in its query volume. Those things make it a legitimate starting point for keyword research, especially for anyone not yet ready to invest in a paid tool.
 
 The honest version: treat it as a discovery and trend tool, not a volume measurement tool. The Ahrefs data on its accuracy limitations is real and worth keeping in mind every time you see a range like "10K-100K." That number reflects ad auction cluster data, not a clean picture of what people are actually searching.
 

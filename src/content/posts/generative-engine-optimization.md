@@ -18,7 +18,6 @@ faq:
   - question: "How do I measure GEO performance?"
     answer: "Use a four-metric stack: direct citation rate (manually query 20-50 target keywords monthly across ChatGPT, Perplexity, and Google AI Mode); AI referral traffic in GA4; branded search trends in Google Search Console as an awareness proxy; and pipeline velocity for contacts who found you via AI-cited content."
 ---
-# What Is Generative Engine Optimization (GEO)?
 
 AI Overviews now appear on roughly 48% of tracked Google queries, up 58% year over year, and position-1 organic click-through rates have fallen 58% on those queries ([Ahrefs](https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/), Dec 2025). That's not a slow trend. It's a structural shift that happened while most content teams were still optimizing for the traditional ten blue links.
 
@@ -37,7 +36,7 @@ For a platform-level breakdown of how [AI search engines](https://dennisozmen.co
 
 ![A marketing professional reviewing AI-generated search results on a laptop, exploring how AI search engines synthesize and cite content in generated answers](/assets/images/posts/ai-content-writing-tool.jpeg)
 
-## What Is Generative Engine Optimization?
+## What is generative engine optimization?
 
 Generative engine optimization is the practice of structuring and signaling content so that AI search engines, ChatGPT, Perplexity, and Google AI Overviews, cite it inside generated answers rather than just linking to it. Princeton University researchers formally defined the discipline in 2024 when they tested 10,000 queries across 10 AI engines and found GEO strategies could boost content visibility by up to 40% ([Aggarwal et al., ACM KDD 2024](https://dl.acm.org/doi/10.1145/3637528.3671900)).
 
@@ -47,7 +46,7 @@ That's the origin of the term. Before the Princeton paper, SEOs were noticing AI
 
 Why does this matter right now? Because AI search scale is no longer hypothetical. Google AI Overviews reaches 2 billion monthly users ([Google](https://blog.google/products/search/), 2025), and ChatGPT hit 900 million weekly users by February 2026 ([OpenAI](https://openai.com/), Feb 2026). Website traffic from AI search engines grew 16x between 2024 and 2026, going from 0.02% to 0.32% of total site traffic ([SE Ranking](https://seranking.com/blog/ai-traffic-research-study/), Jun 2026).
 
-### GEO Covers Three AI Search Surfaces
+### GEO covers three AI search surfaces
 
 Most practitioners focus on one platform. The full GEO opportunity spans three distinct surfaces, each with different mechanics:
 
@@ -63,9 +62,9 @@ The underlying difference from traditional search: these systems don't retrieve 
 
 ---
 
-## GEO vs. SEO: What's Actually Different?
+## GEO vs. SEO: what's actually different?
 
-SEO optimizes for ranking position in a list of links. GEO optimizes for citation inside a synthesized paragraph. Only 38% of URLs cited in Google AI Overviews also appear in the traditional top-10 organic results, down from 76% in mid-2025 ([Ahrefs Brand Radar](https://ahrefs.com/blog/ai-overview-citations-top-10/), 2026). That gap is widening fast. It means a strong organic ranking no longer guarantees AI visibility.
+SEO optimizes for ranking position in a list of links. GEO optimizes for citation inside a synthesized paragraph. Only 38% of URLs cited in Google AI Overviews also appear in the traditional top-10 organic results, down from 76% in mid-2025 ([Ahrefs Brand Radar](https://ahrefs.com/blog/ai-overview-citations-top-10/), 2026). That gap is widening fast. A strong organic ranking no longer guarantees AI visibility.
 
 This is the most underappreciated structural fact in search right now. Most content teams assume that if they rank well in traditional search, AI Overviews will pick them up automatically. The data says otherwise. A domain can dominate page-one rankings and be invisible in AI-generated answers, and vice versa.
 
@@ -145,11 +144,11 @@ For a side-by-side breakdown of both disciplines, including a budget allocation 
 
 ---
 
-## How Does Generative Engine Optimization Work?
+## How does generative engine optimization work?
 
 AI search engines run content through a three-stage pipeline, retrieval, ranking, and synthesis, and GEO is about clearing every stage of that pipeline. Princeton's GEO-bench study isolated the exact signals that increase citation rates: adding expert quotations boosted AI visibility by +41%, statistics by +32%, and authoritative citations by +30% ([Aggarwal et al., ACM KDD 2024](https://dl.acm.org/doi/10.1145/3637528.3671900)).
 
-Let's walk through each stage.
+Here's how each stage works.
 
 **Stage 1: Retrieval.** The AI engine queries a search index, Google's for AI Overviews, Bing's for ChatGPT, a mix for Perplexity, and pulls candidate pages for a given query. Traditional SEO signals matter here: crawlability, indexation, topical relevance, and domain authority all influence whether your page enters the candidate pool.
 
@@ -212,37 +211,37 @@ Different platforms also weight signals differently. Google AI Overviews places 
 
 ---
 
-## What Are the Most Effective GEO Strategies?
+## What are the most effective GEO strategies?
 
 The five highest-ROI GEO tactics, ranked by the Princeton evidence, are: answer-first structuring, statistic density, expert quotations, authoritative citations, and fluency optimization. AI visitors who arrive via these signals spend 67.7% more time on-site than organic search visitors ([SE Ranking](https://seranking.com/blog/ai-traffic-research-study/), Jun 2026). That suggests GEO traffic arrives with more intent, not just more curiosity.
 
 Here's how each tactic works in practice.
 
-### Answer-First Passage Writing
+### Answer-first passage writing
 
 Open every section with the direct answer, then expand. This isn't just readability advice. It's the structural pattern AI synthesis engines prefer. SparkToro's January 2026 analysis found that 44.2% of LLM citations come from content in the first 30% of a page ([SparkToro](https://sparktoro.com/), Jan 2026). Your answer needs to be early and unambiguous.
 
 In practice: lead every H2 section with a 40-60 word paragraph that states the answer directly. Save the nuance, caveats, and supporting context for subsequent paragraphs. AI engines are scanning for extractable passages. Dense, hedged paragraphs don't survive the synthesis stage.
 
-### Statistic Density with Named Sources
+### Statistic density with named sources
 
 Including at least two or three verified statistics per 500 words, each with a named source and year, increases AI citation likelihood by 32% on average. Vague claims ("studies show...") are effectively invisible to AI systems. Specific claims with attributed sources are far more extractable.
 
 The format matters: `([Source Name](url), year)` gives AI systems everything they need to verify and cite the claim. Omit the source, and the statistic loses most of its citation value regardless of how precise it is.
 
-### Expert Quotations with Affiliation
+### Expert quotations with affiliation
 
 Quoting named practitioners directly, with their title and organizational affiliation, is the single highest-impact GEO signal in the Princeton study, at +41% citation lift. Why? AI systems treat direct quotations as high-confidence factual units. A named expert quote is more extractable, more verifiable, and more distinctive than paraphrased analysis.
 
 The quote needs to be attributable. "According to a marketing expert" provides no citation lift. "According to Lily Ray, VP of SEO at Amsive" provides meaningful structured context that AI engines can use.
 
-### Authoritative Citations to Primary Sources
+### Authoritative citations to primary sources
 
 Link to primary sources: academic papers, government data, official reports, peer-reviewed studies. Linking to roundup articles that themselves cite primary sources loses much of the citation signal.
 
 In regulated or high-stakes verticals, this pattern is especially pronounced. Surfer SEO's analysis of 36 million AI Overviews found that in the Health vertical, NIH content accounts for approximately 39% of all AI Overview citations, followed by Healthline at 15% and Mayo Clinic at 14.8% ([Surfer SEO AI Citation Report](https://surferseo.com/blog/ai-citation-report/), Oct 2025). AI engines in sensitive verticals follow existing institutional trust hierarchies. You either align with them or work around them.
 
-### Structured Data and Schema Markup
+### Structured data and schema markup
 
 FAQ schema and Article schema help AI engines identify passage boundaries and extract structured answers cleanly. This is especially important for Google AI Overviews, which uses structured data as one of its key passage-identification signals.
 
@@ -258,7 +257,7 @@ Building E-E-A-T signals off-site is closely tied to [digital PR](https://dennis
 
 ---
 
-## What Tools Do You Use for Generative Engine Optimization?
+## What tools do you use for generative engine optimization?
 
 There's no single "GEO tool" equivalent to Semrush for SEO. The GEO toolset is assembled from AI visibility monitoring platforms, traditional SEO tools with AI-specific features, and direct platform testing. ChatGPT accounts for 74.78% of all AI referral traffic, followed by Gemini at 11.56% and Perplexity at 7.23% ([SE Ranking](https://seranking.com/blog/ai-traffic-research-study/), Jun 2026). Tool prioritization should start with ChatGPT/Bing-indexed content, not Perplexity.
 
@@ -312,7 +311,7 @@ If you're looking to automate parts of this monitoring workflow, [SEO automation
 
 ---
 
-## How Do You Measure Generative Engine Optimization?
+## How do you measure generative engine optimization?
 
 GEO measurement requires a different KPI stack than SEO, because AI chatbots frequently synthesize answers without passing referral data to GA4. Standard attribution tools capture only 10-20% of AI-influenced pipeline ([Mersel AI / imarkInfotech measurement frameworks](https://imarkinfotechdigital.com/), 2026). Using GA4 referral traffic as your primary GEO metric is like measuring email marketing performance using only direct traffic.
 
@@ -374,21 +373,21 @@ Here's the four-metric stack that captures the full picture.
 
 ---
 
-## GEO in Action: Real-World Examples
+## GEO in action: real-world examples
 
 The clearest GEO wins come from content rewrites that apply the Princeton signal framework directly, not from domain authority campaigns or link building. In the Health vertical, NIH content captures roughly 39% of all Google AI Overview citations, followed by Healthline at 15% and Mayo Clinic at 14.8% ([Surfer SEO AI Citation Report](https://surferseo.com/blog/ai-citation-report/), Oct 2025). These patterns show that AI citation authority follows existing institutional trust. That's something content structure can work with or around.
 
 Here are three concrete patterns that consistently produce GEO results.
 
-**Example 1: The Definitional Rewrite**
+**Example 1: The definitional rewrite**
 
 A page defining an industry term gets rewritten from a narrative overview into an answer-first structure. The opening paragraph becomes a 50-word direct definition with a named statistic and source. The second paragraph adds an expert quotation with affiliation. Within five weeks, the page appears in Perplexity answers for its primary target query. The content didn't become more accurate. It became more extractable.
 
-**Example 2: The FAQ Schema Addition**
+**Example 2: The FAQ schema addition**
 
 A B2B software company adds FAQ schema markup to a product category page, structuring five common questions as explicit H3s with 50-60 word answer paragraphs each citing primary research. The page begins appearing in Google AI Overview citations for three of the five question variants within four weeks. The schema signals page structure cleanly and the answer passages are self-contained. That's exactly what the AI synthesis stage needs.
 
-**Example 3: The Vertical Authority Alignment**
+**Example 3: The vertical authority alignment**
 
 A health content publisher audits which authoritative institutions AI systems already cite in their vertical, NIH, Mayo Clinic, CDC, and restructures their content to explicitly cite and build on those sources rather than competing with them. Over a 90-day period, their pages begin appearing alongside those institutions in health-related AI Overviews for long-tail queries where NIH doesn't have direct coverage.
 
@@ -429,7 +428,7 @@ Use a four-metric stack: direct citation rate (manually query 20-50 target keywo
 
 ---
 
-## The Clearest Path Forward
+## The clearest path forward
 
 GEO is neither a replacement for SEO nor an optional add-on. It's the practice of ensuring content clears all three stages of the AI search pipeline, retrieval, ranking, and synthesis, using signals the Princeton research has now quantified in controlled conditions.
 

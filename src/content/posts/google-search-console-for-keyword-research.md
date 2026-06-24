@@ -36,7 +36,7 @@ By the end of this guide you'll have a repeatable five-step workflow: find quick
 
 ![A laptop screen displaying Google Search Console's Performance report with keyword data and click metrics visible — the starting point for free keyword research](/assets/images/posts/seo-roi-business-analytics.jpeg)
 
-## What Data Does Google Search Console Give You?
+## What data does Google Search Console give you?
 
 GSC's Performance report surfaces four core metrics for every query your site ranks for: impressions, clicks, CTR, and average position. Unlike third-party tools that estimate these numbers, this data comes directly from Google. It's first-party, and it's exact for your property.
 
@@ -44,21 +44,21 @@ GSC's Performance report surfaces four core metrics for every query your site ra
 
 That said, GSC has real limitations. Knowing them before you build your workflow saves you from misreading the data later.
 
-### The Four Core Metrics
+### The four core metrics
 
-**Impressions** count how many times any URL from your site appeared in Google search results for a given query, even if the user didn't see or click it. **Clicks** count the number of times a user actually clicked through to your site. **CTR** (click-through rate) is clicks divided by impressions. It tells you whether your title and meta description are compelling enough to earn the click. **Average position** shows where your page typically ranks for that query across all searches.
+Impressions count how many times any URL from your site appeared in Google search results for a given query, even if the user didn't see or click it. Clicks count the number of times a user actually clicked through to your site. CTR (click-through rate) is clicks divided by impressions. It tells you whether your title and meta description are compelling enough to earn the click. Average position shows where your page typically ranks for that query across all searches.
 
 Each metric tells a different story. High impressions with low clicks mean your page ranks but doesn't earn the click. Low impressions mean you barely rank at all. Both problems need different fixes.
 
-### The 16-Month Data Window
+### The 16-month data window
 
 GSC retains performance data for a rolling 16-month window. Once a date falls outside that window, the data is permanently deleted with no way to recover it ([Google Search Central via SEO Testing](https://seotesting.com/google-search-console/data-limitations/), 2024). This isn't a soft limit. Export your full dataset to Google Sheets at least once per quarter to build a longer historical record.
 
-### The 1,000-Row Export Cap
+### The 1,000-row export cap
 
 The GSC interface and CSV export both cap at 1,000 rows per pull. For smaller sites, that's rarely an issue. For larger sites with thousands of ranking queries, you're working with a sample, not the full picture. The GSC API allows up to 50,000 rows per day per property per search type ([Google Search Central](https://developers.google.com/webmaster-tools/limits)), which is the right solution for sites where the 1,000-row limit is binding.
 
-### The Anonymization Problem
+### The anonymization problem
 
 Here's the limitation nobody mentions prominently enough. A study of 22 billion clicks across 887,534 GSC properties found that 46.77% of all GSC clicks are on queries Google anonymizes and never shows you by name ([Ahrefs](https://ahrefs.com/blog/gsc-anonymized-queries/), February 2026). These queries count toward your totals but don't appear in the query list. They're typically low-volume, long-tail, or queries Google considers personally identifiable.
 
@@ -85,7 +85,7 @@ This matters because it reframes the goal. The queries GSC does show you deserve
   <figcaption>Source: Ahrefs, February 2026 | 46.77% of all GSC clicks come from queries Google anonymizes and never displays in the query list.</figcaption>
 </figure>
 
-## Step 1: How Do You Access the Performance Report?
+## Step 1: How do you access the Performance report?
 
 The Performance report lives at Search Console, then Performance, then Search results. Your first move every time should be setting the date range to the maximum 16 months and enabling all four metric columns. Most accounts only show clicks and impressions by default.
 
@@ -99,13 +99,13 @@ Here's the exact setup sequence:
 
 Why does the 16-month window matter? CTR benchmarks shift over time, especially now. Position 1 organic CTR fell 32% year-over-year from 28% in 2024 to 19% in 2025 as [AI Overviews](https://dennisozmen.com/posts/ai-search) expanded ([GrowthSRC](https://growthsrc.com/google-organic-ctr-study/), 2025). A longer date range lets you spot those trend lines in your own data, not just in industry studies.
 
-### Query View vs. Page View
+### Query view vs. page view
 
 The Queries tab shows performance by keyword. The Pages tab shows performance by URL. You'll use both, but for different purposes. Use Queries first to find which keywords have untapped potential. Switch to Pages when you want to drill into a specific URL and see all the queries it ranks for.
 
 ![Google Search Console Performance report with the date range set to 16 months and all four metric columns enabled — Total clicks, Total impressions, Average CTR, and Average position](/assets/images/posts/seo-analytics-dashboard.jpeg)
 
-## Step 2: How Do You Find Quick-Win Keywords in GSC?
+## Step 2: How do you find quick-win keywords in GSC?
 
 Filter by average position between 4 and 20, then sort by impressions descending. These are pages one content update away from a meaningful traffic increase. They represent the highest ROI work in most SEO programs.
 
@@ -113,7 +113,7 @@ This range is called "striking distance" because a modest improvement, moving fr
 
 <!-- Citation capsule: Position 1 in Google earns a 39.8% click-through rate. Position 5 earns only 5.1%, an 87% reduction in expected clicks. A page at position 5 with 5,000 monthly impressions is leaving approximately 1,740 clicks per month uncaptured compared to a position-1 ranking. Source: First Page Sage, May 2025. -->
 
-The drop from position 1 (39.8% CTR) to position 5 (5.1% CTR) represents an 87% reduction in expected clicks. Position 10 earns just 1.6%. The CTR cliff is steep, and positions 4 through 20 sit right at the most actionable part of that curve.
+The drop from position 1 (39.8% CTR) to position 5 (5.1% CTR) is an 87% reduction in expected clicks. Position 10 earns just 1.6%. The CTR cliff is steep, and positions 4 through 20 sit right at the most actionable part of that curve.
 
 <figure>
   <svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart showing click-through rates by Google search result position from position 1 at 39.8 percent down to position 10 at 1.6 percent, illustrating the steep CTR cliff">
@@ -181,7 +181,7 @@ The drop from position 1 (39.8% CTR) to position 5 (5.1% CTR) represents an 87% 
   <figcaption>Source: First Page Sage, May 2025 | CTR drops 87% from position 1 to position 5. Pages ranked 4-20 are the highest-ROI optimization targets.</figcaption>
 </figure>
 
-### How to Apply the Striking-Distance Filter
+### How to apply the striking-distance filter
 
 1. In the Performance report, scroll to the Queries table.
 2. Click **+ New** above the table to add a filter.
@@ -193,7 +193,7 @@ Now look for queries with high impressions and below-average CTR. Those are your
 
 You can also add a **Page** filter to drill into one specific URL. Paste the URL into the filter, apply the position range, and you'll see exactly which queries that page could climb for with a targeted update.
 
-## Step 3: How Do You Find Hidden Question Keywords with Regex?
+## Step 3: How do you find hidden question keywords with regex?
 
 GSC's custom regex filter lets you surface all question-intent queries your site ranks for in one shot. This is a practitioner-level tactic, and it's one none of the top-ranking competitors on this topic cover.
 
@@ -207,7 +207,7 @@ The regex pattern is:
 
 This matches any query that starts with a question word. Applied across your full query set, it returns every question-intent query your site already ranks for, regardless of position.
 
-### How to Apply the Regex Filter
+### How to apply the regex filter
 
 1. In the Queries table, click **+ New** above the table.
 2. Choose **Query**, then select **Custom (regex)** from the match type dropdown.
@@ -218,7 +218,7 @@ Why does this matter? Question queries are prime candidates for FAQ sections, fe
 
 For a cleaner view of non-branded opportunity, add a second filter excluding your brand name. Set another query filter to **Does not contain [your brand]**. Now you're looking at pure organic question traffic.
 
-### Turning Question Queries into Content Actions
+### Turning question queries into content actions
 
 After applying the filter, export the results. In your spreadsheet, group question queries by topic. A cluster of "how to" queries around one subtopic signals a missing FAQ section or an entirely new supporting article. Questions at positions 5 through 15 with meaningful impressions are your best featured snippet targets. They're close enough to the top that a well-structured answer could vault the page.
 
@@ -226,13 +226,13 @@ After applying the filter, export the results. In your spreadsheet, group questi
 
 ![Google Search Console Queries tab with a custom regex filter applied showing question-intent keywords beginning with how, what, why, and other question words](/assets/images/posts/keyword-research-laptop.jpeg)
 
-## Step 4: How Do You Export GSC Data to Google Sheets?
+## Step 4: How do you export GSC data to Google Sheets?
 
 The GSC interface only shows 1,000 rows and won't let you sort across multiple dimensions at once. Exporting to Google Sheets unlocks full analysis: pivot tables, opportunity scoring, and a calendar-ready prioritization list you can actually act on.
 
 The export button sits above the chart in the Performance report. Click **Export**, then choose **Google Sheets**. Google creates a new spreadsheet with separate tabs for queries, pages, countries, and devices.
 
-### Building an Opportunity Score
+### Building an opportunity score
 
 The raw data is useful. The opportunity score makes it actionable. Here's the formula:
 
@@ -246,13 +246,13 @@ For example, a query with 3,000 impressions and a current CTR of 4% gives: `3000
 
 Sort your query list by opportunity score descending. The top rows are your highest-leverage content targets. Add a "Content action" column with one of three labels: **Optimize existing** (page ranks but needs improvement), **Add FAQ** (add a targeted Q&A block), or **Create new page** (query has no strong existing URL).
 
-### A Note on the 1,000-Row Cap
+### A note on the 1,000-row cap
 
 If your site ranks for more than 1,000 queries, the export is a sample. You can work around this by applying multiple targeted filters before exporting, one for each position band or topic cluster, and combining the sheets. For a fully automated approach, the GSC API pulls up to 50,000 rows per day per property, and you can connect it to Looker Studio or a BigQuery pipeline without writing complex code.
 
 Tracking clicks and impressions is only part of the picture. Connecting those numbers to business outcomes is covered in the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis).
 
-## Step 5: How Does Date Comparison Reveal Trending Keywords?
+## Step 5: How does date comparison reveal trending keywords?
 
 GSC's built-in date comparison feature reveals which keywords are gaining momentum and which are quietly declining. You see this before the drop shows up in your Google Analytics revenue data.
 
@@ -260,7 +260,7 @@ To enable it: in the Performance report, click the date range, then switch to th
 
 <!-- [PERSONAL EXPERIENCE] When we ran a date comparison audit on a 200-page B2B site, we found 23 queries that had dropped from positions 1-5 to positions 6-15 over 12 months. All 23 had experienced minimal content updates since their original publication. Refreshing six of them over 30 days improved their average position by 4.2 spots and recovered approximately 30% of the lost traffic. The data was sitting in GSC the entire time. -->
 
-### What to Look for in the Comparison View
+### What to look for in the comparison view
 
 Queries with rising impressions but falling CTR signal new competition entering the SERP. Your page is maintaining or improving its position, but the SERP around it has changed. AI Overviews, new paid ads, or a rich result has pushed your result further down the visible fold.
 
@@ -315,7 +315,7 @@ Seasonal windows are also visible here. Compare October to October of the prior 
   <figcaption>Source: GrowthSRC, 2025 | AI Overviews drove a 32% YoY decline in position 1 CTR and a 39.5% decline at position 2.</figcaption>
 </figure>
 
-## Is Google Search Console Enough, or Do You Need Paid Tools?
+## Is Google Search Console enough, or do you need paid tools?
 
 GSC shows you data about your own site only. Paid tools like Semrush and Ahrefs show competitor keyword data, search volume estimates, and keyword difficulty scores. They solve different problems. The answer isn't one or the other. It's knowing which to use when.
 
@@ -336,11 +336,11 @@ Use GSC alone when: running the quick-wins workflow on existing content, priorit
 
 The hybrid workflow looks like this. Use GSC to identify which existing pages deserve optimization investment. Use Semrush or Ahrefs to evaluate new keyword targets and validate that they're worth building new content around. Let first-party data guide the optimization side. Let paid data guide the discovery side. For a free alternative that broadens keyword discovery beyond your own site, see the [Google Keyword Planner guide](https://dennisozmen.com/posts/using-google-keyword-planner-for-seo).
 
-## Advanced GSC Keyword Research Techniques
+## Advanced GSC keyword research techniques
 
 Once you've run the standard workflow, three advanced techniques unlock a second layer of keyword intelligence most practitioners skip entirely.
 
-### Cannibalization Detection
+### Cannibalization detection
 
 Keyword cannibalization happens when two pages on your site compete for the same primary query. Google splits impressions and link equity between them, and neither page ranks as well as one authoritative page would.
 
@@ -350,15 +350,15 @@ You can also export page-level data to Google Sheets and build a pivot table wit
 
 <!-- [ORIGINAL DATA] When we analyzed a 150-page B2B SaaS site using this method, we found 11 cannibalized query pairs. Seven of them involved blog posts competing with service pages for the same informational query. Consolidating four pairs over 60 days resulted in an average position improvement of 3.1 spots per affected query and a 22% increase in organic clicks to those pages combined. -->
 
-### Country Filter for International Opportunity
+### Country filter for international opportunity
 
 Filter your Performance report by a specific country where you're seeing unexpected impressions. This surfaces organic interest in markets or languages you haven't explicitly targeted. If you're getting 800 monthly impressions in Germany for a query you've never optimized for, that's an untapped content opportunity, possibly a translated article or a country-specific variation.
 
-### Device Segmentation
+### Device segmentation
 
 The same seed keyword can show very different intent patterns by device. Split your Performance report by Desktop vs. Mobile (using the Device filter). A query that converts at high rates on desktop might be predominantly navigational on mobile. Knowing that changes both your content approach and your CTR expectations for that segment.
 
-### A Note on URL Inspection
+### A note on URL inspection
 
 The URL Inspection tool isn't a keyword research feature, but it's worth using before you invest time in updating a striking-distance page. Confirm the URL is indexed, mobile-friendly, and free of crawl errors. A content update on a page Google can't properly crawl won't move the needle.
 
@@ -388,11 +388,11 @@ Striking-distance keywords are queries where your page ranks between position 4 
 
 GSC is sufficient for optimizing existing content and finding quick wins on your own site. For discovering keywords you don't yet rank for, assessing keyword difficulty, or researching competitor gaps, you'll need a paid tool alongside it. The most effective approach: use GSC to drive content optimization decisions, and use Semrush or Ahrefs to identify net-new keyword targets worth building content around.
 
-## Put the Workflow to Work
+## Put the workflow to work
 
 GSC's Performance report is the most underused free tool in SEO. The striking-distance filter gives you the highest-ROI starting point. The regex question filter surfaces FAQ and snippet candidates your competitors aren't touching. Exporting to Sheets with an opportunity score turns raw data into a prioritized action list. And date comparison catches keyword decay before it becomes a traffic problem.
 
-Here's what matters most, distilled:
+What matters most, distilled:
 
 - The striking-distance filter (positions 4-20, sorted by impressions) is the fastest path to more traffic from existing pages.
 - The regex question filter surfaces FAQ and featured-snippet opportunities that most tools don't surface efficiently.

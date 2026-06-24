@@ -25,7 +25,7 @@ The problem isn't access. It's that most prompt guides online are written for Ch
 
 This guide gives you 30+ copy-paste Claude prompts, organized by SEO task. Each one is tested and ready to run. Find your current task, copy the prompt, replace the bracketed context with your own data, and go.
 
-If you want broader context on how AI is changing the marketing toolkit, the [AI in marketing overview](https://dennisozmen.com/posts/what-is-ai-in-marketing) covers the landscape beyond SEO.
+If you want broader context on how AI is changing the marketing toolkit, the [AI in marketing overview](https://dennisozmen.com/posts/what-is-ai-in-marketing) covers the space beyond SEO.
 
 > **Key Takeaways**
 > - 86% of SEO pros now use AI in their workflow. Most prompts online aren't built for Claude's specific strengths. ([Aira State of SEO Report](https://www.taylorscherseo.com/blog/ai-seo-statistics), 2025)
@@ -73,7 +73,7 @@ If you want broader context on how AI is changing the marketing toolkit, the [AI
   <figcaption>AI adoption rates across SEO and marketing roles, 2025. Most teams are already using AI. The edge comes from using better prompts.</figcaption>
 </figure>
 
-## Claude Prompts for Keyword Research
+## Claude prompts for keyword research
 
 AI-assisted SEO teams publish 17 articles per month versus 12 for non-AI teams. That's a 42% output difference ([Ahrefs](https://ahrefs.com/blog/ai-seo-statistics/), Nov 2025). Keyword research is where that velocity starts. Claude won't pull live search volume data, but it excels at analyzing keyword lists you provide. It clusters by intent, spots cannibalization, and generates long-tail variations at scale.
 
@@ -115,7 +115,7 @@ For pulling real keyword data to feed into these prompts, the [Google Search Con
 
 ---
 
-## Claude Prompts for Content Briefs
+## Claude prompts for content briefs
 
 The average AI-assisted blog post costs $131 to produce, compared to $611 for a fully human-written post. That's a 4.7x cost difference ([Ahrefs](https://ahrefs.com/blog/ai-seo-statistics/), Nov 2025). Content briefs are where that cost advantage compounds. A well-structured Claude brief cuts research and outlining time in half, and the output quality is consistent enough to hand directly to a writer.
 
@@ -149,9 +149,9 @@ Create a content brief template for [type of page, e.g., "city landing pages for
 
 ---
 
-## How Do You Write Title Tags and Meta Descriptions with Claude?
+## How do you write title tags and meta descriptions with Claude?
 
-On-page metadata is one of the most time-consuming batch tasks in SEO. It's also one of the clearest wins for Claude prompts. A 2025 study by HubSpot found that nearly 50% of marketers save 1-5 hours per week using AI tools. Metadata batch work is one of the highest-frequency time savers ([CoSchedule](https://coschedule.com/ai-marketing-statistics), 2025). Claude handles character constraints reliably when you tell it to include a character count alongside each output.
+On-page metadata is one of the most time-consuming batch tasks in SEO. It's also one of the clearest wins for Claude prompts. A 2025 study by HubSpot found that nearly 50% of marketers save 1-5 hours per week using AI tools. Metadata batch work is consistently one of the highest-frequency time savers ([CoSchedule](https://coschedule.com/ai-marketing-statistics), 2025). Claude handles character constraints reliably when you tell it to include a character count alongside each output.
 
 One practical tip: always add "include character count in parentheses after each option" to any title or meta prompt. Claude will count accurately and flag anything over the limit without being asked to re-run.
 
@@ -187,9 +187,9 @@ My page answers the question "[question keyword]". Write 5 title tag variations 
 
 ---
 
-## Claude Prompts for On-Page SEO Optimization
+## Claude prompts for on-page SEO optimization
 
-83.82% of marketers report increased productivity since adopting AI tools ([CoSchedule](https://coschedule.com/ai-marketing-statistics), 2025). On-page SEO tasks, such as heading audits, internal link mapping, and E-E-A-T reviews, are among the highest-frequency manual workflows where that productivity gain shows up fastest. These prompts treat Claude as a second pair of eyes. It flags issues and explains reasoning, but doesn't auto-publish anything.
+83.82% of marketers report increased productivity since adopting AI tools ([CoSchedule](https://coschedule.com/ai-marketing-statistics), 2025). On-page SEO tasks — heading audits, internal link mapping, E-E-A-T reviews — are among the highest-frequency manual workflows where that productivity gain shows up fastest. These prompts treat Claude as a second pair of eyes. It flags issues and explains reasoning, but doesn't auto-publish anything.
 
 The audit prompts here are most effective when paired with chain-of-thought instructions. Adding "explain your reasoning for each flag" forces Claude to surface the logic behind each recommendation. That way you can validate it rather than blindly accept it.
 
@@ -223,7 +223,7 @@ Review this article for SEO readability and E-E-A-T signals: [paste article]. Su
 
 ---
 
-## Claude Prompts for Schema Markup
+## Claude prompts for schema markup
 
 Schema markup is a direct structured data signal that helps both Google and AI systems parse and attribute your content. Claude generates syntactically correct JSON-LD schema when you provide full context. It handles multiple schema types in a single prompt. Always validate output in Google's Rich Results Test before deploying. Claude's schema is accurate but should be treated as a first draft.
 
@@ -255,9 +255,9 @@ Generate a complete JSON-LD LocalBusiness schema block for: Business name: [name
 
 ---
 
-## Claude Prompts for Link Building
+## Claude prompts for link building
 
-Link building is the SEO task that benefits most from personalization at scale. It's also where generic AI output is most likely to get ignored. The outreach prompts below are structured to force Claude away from template language and toward references that are specific to the target site. Specificity is what makes cold outreach actually work.
+Link building is the SEO task that benefits most from personalization at scale. It's also where generic AI output is most likely to get ignored. The outreach prompts below force Claude away from template language and toward references specific to the target site. Specificity is what makes cold outreach actually work.
 
 For the broken link and competitor gap prompts, paste real domain data. Claude's analysis of 50-100 domains is more useful than its guesses about what might be out there.
 
@@ -287,11 +287,11 @@ My company has the following original data: [describe data/research]. Generate 8
 
 ---
 
-## Claude Prompts for Technical SEO
+## Claude prompts for technical SEO
 
 Technical SEO is where Claude's 200K context window creates the biggest gap over other AI tools. You can paste a full Screaming Frog crawl export, hundreds of rows, and Claude will classify errors, identify patterns, and produce a prioritized fix list in under a minute. Running that same analysis manually would take an hour or more.
 
-The crawl analysis prompt below is the one I use most often in client work. When I ran it on a 47-page site's Screaming Frog export, Claude flagged 12 redirect chains, 3 duplicate title tags, and 8 pages with missing H1s in roughly 90 seconds. That's a real-time workflow shift.
+The crawl analysis prompt below is the one I use most often in client work. When I ran it on a 47-page site's Screaming Frog export, Claude flagged 12 redirect chains, 3 duplicate title tags, and 8 pages with missing H1s in roughly 90 seconds. That's a real time difference.
 
 **Prompt 27: Screaming Frog crawl analysis**
 
@@ -319,9 +319,9 @@ Here is my hreflang implementation across [X] pages: [paste hreflang tags or lis
 
 ---
 
-## Claude Prompts for GEO and AI Search Optimization
+## Claude prompts for GEO and AI search optimization
 
-68% of marketing organizations are actively adapting their strategies for AI search ([BrightEdge](https://www.brightedge.com/news/press-releases/brightedge-survey-reveals-68-marketers-are-embracing-ai-search-shift), June 2025). Generative Engine Optimization, which means optimizing for AI Overviews, Perplexity citations, and Claude.ai's own web search, is the emerging layer of SEO that most prompt guides ignore entirely. These prompts are built for it.
+68% of marketing organizations are actively adapting their strategies for AI search ([BrightEdge](https://www.brightedge.com/news/press-releases/brightedge-survey-reveals-68-marketers-are-embracing-ai-search-shift), June 2025). Generative Engine Optimization — optimizing for AI Overviews, Perplexity citations, and Claude.ai's own web search — is the emerging layer of SEO that most prompt guides ignore entirely. These prompts are built for it.
 
 The formatting insight matters here: LLMs are 28-40% more likely to cite content with clear headings, bullets, and tables ([HubSpot Research](https://www.taylorscherseo.com/blog/ai-seo-statistics), 2025). These prompts help you audit and rewrite content specifically for AI extractability.
 
@@ -349,21 +349,21 @@ The Claude-on-Claude angle is real and underused. Claude.ai now has web search. 
 
 ---
 
-## What Makes Claude SEO Prompts Work Better?
+## What makes Claude SEO prompts work better?
 
 Prompt engineering for SEO isn't complicated, but there are a handful of Claude-specific patterns that consistently produce better output than generic prompting. Nearly 50% of marketers now save 1-5 hours weekly with AI. The teams saving the most are the ones with structured prompt systems, not one-off requests ([CoSchedule](https://coschedule.com/ai-marketing-statistics), 2025).
 
 Here's what separates prompts that produce usable SEO output from prompts that produce generic content.
 
-### Role Prompting First
+### Role prompting first
 
 Always open with a role. "You are a senior SEO content strategist" or "You are a technical SEO specialist" tells Claude to apply the appropriate frame before it starts generating. Claude follows role constraints more precisely than open-ended requests. The difference between "write a content brief" and "You are a senior SEO strategist. Write a content brief" is measurable in output quality.
 
-### Context Before Task
+### Context before task
 
 Before stating the task, give Claude four things: what the site or page is about, the target keyword, the target audience, and any constraints such as brand voice, character limits, or CMS format. More context produces tighter, more specific output. Skipping context is the single most common reason Claude returns generic advice instead of specific deliverables.
 
-### XML-Tagged Prompt Architecture
+### XML-tagged prompt architecture
 
 For complex multi-step tasks, XML tags improve output precision reliably. Here's the structure:
 
@@ -419,15 +419,15 @@ This structure works because it separates what Claude is from what you want it t
   <figcaption>Estimated first-run usability rates by prompt structure type, based on prompt testing across keyword research, on-page, and technical SEO tasks. XML-tagged prompts with full context consistently produce the most specific, actionable output.</figcaption>
 </figure>
 
-### Iterative Refinement
+### Iterative refinement
 
 Claude responds well to specific refinement requests. "Keep the structure, but make the tone more direct and cut 20% of words" produces better results than re-running the same prompt. Treat the first output as a draft and the conversation as a collaborative editing session. One well-scoped refinement instruction usually closes the gap between good and ready-to-use.
 
-### Bulk Data Prompting
+### Bulk data prompting
 
 Paste full CSV exports, crawl data, or Google Search Console reports directly into the prompt. Claude's 200K context window handles this without truncation. For recurring tasks, save your structured prompt and replace only the data block each time. This turns a 30-minute manual analysis into a 2-minute Claude prompt.
 
-### Chain-of-Thought for Audits
+### Chain-of-thought for audits
 
 Add "explain your reasoning for each flag" to any audit prompt. This forces Claude to surface its logic so you can validate recommendations rather than applying them blindly. For technical SEO audits especially, understanding why Claude flagged something is as valuable as the flag itself.
 
@@ -457,7 +457,7 @@ Yes. Claude generates syntactically correct JSON-LD schema when prompted with fu
 
 ---
 
-## Using These Prompts in Practice
+## Using these prompts in practice
 
 87% of content marketers now use AI in at least one stage of their workflow ([Ahrefs](https://ahrefs.com/blog/ai-seo-statistics/), Nov 2025). The teams who get the most out of it aren't running more prompts. They're running better-structured ones, with real context and specific output requirements.
 
@@ -465,7 +465,7 @@ These prompts work when you do two things: provide actual data (your real keywor
 
 Pick one category, run the first prompt with your own data, and iterate from there. The prompts that work best in your workflow are the ones you've tuned to your specific context.
 
-The GEO and AI search prompts are the category I'd start with if you're already comfortable with the rest. That's where the competitive gap is widest. Most SEO teams aren't optimizing for AI citation yet, and the content that gets there first will be the content AI systems learn to reference. The [AI search guide](https://dennisozmen.com/posts/ai-search) covers how Google AI Mode, Perplexity, and AI Overviews are reshaping which content gets cited.
+The GEO and AI search prompts are the category worth starting with if you're already comfortable with the rest. That's where the competitive gap is widest. Most SEO teams aren't optimizing for AI citation yet, and the content that gets there first is what AI systems learn to reference. The [AI search guide](https://dennisozmen.com/posts/ai-search) covers how Google AI Mode, Perplexity, and AI Overviews are reshaping which content gets cited.
 
 ---
 
