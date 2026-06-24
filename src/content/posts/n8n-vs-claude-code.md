@@ -1,6 +1,6 @@
 ---
 title: "n8n vs Claude Code: What's the Difference?"
-description: "Claude Code writes code. n8n runs automations. They're not competitors — they solve different problems. Here's when to use each, and when to use both."
+description: "Claude Code writes code. n8n runs automations. They're not competitors. They solve different problems. Here's when to use each, and when to use both."
 date: "2026-04-30"
 dateAdded: "2026-04-30"
 readTime: "10 min read"

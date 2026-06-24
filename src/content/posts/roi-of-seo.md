@@ -1,6 +1,6 @@
 ---
 title: "ROI of SEO: How to Calculate & Benchmark It"
-description: "SEO ROI averages 748% over 2 years — but only if you measure it right. Learn the formula, benchmarks, and 2025 data to prove SEO value."
+description: "SEO ROI averages 748% over 2 years, but only if you measure it right. Learn the formula, benchmarks, and 2025 data to prove SEO value."
 date: "2026-05-20"
 dateAdded: "2026-05-20"
 readTime: "13 min read"

@@ -1,6 +1,6 @@
 ---
 title: "SEO KPIs: 10 Most Important Metrics to Track"
-description: "Organic CTR dropped 61% on AI Overview queries. Here are the 10 SEO KPIs that actually reflect performance in 2026 — from traffic to AI visibility."
+description: "Organic CTR dropped 61% on AI Overview queries. Here are the 10 SEO KPIs that actually reflect performance in 2026, from traffic to AI visibility."
 date: "2026-05-26"
 dateAdded: "2026-05-26"
 readTime: "14 min read"

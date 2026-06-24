@@ -1,6 +1,6 @@
 ---
 title: "How to Automate SEO With AI: A Practical Guide"
-description: "68% of SEOs already use AI—but most only automate 1-2 tasks. Learn which SEO tasks to automate, which tools to use, and how to build a real workflow."
+description: "68% of SEOs already use AI, but most only automate 1-2 tasks. Learn which SEO tasks to automate, which tools to use, and how to build a real workflow."
 date: "2026-04-07"
 dateAdded: "2026-04-07"
 readTime: "14 min read"

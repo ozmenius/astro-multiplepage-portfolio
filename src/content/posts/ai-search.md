@@ -1,6 +1,6 @@
 ---
 title: "AI Search: How It Works and What It Means for SEO"
-description: "AI search is reshaping how people find information. Google AI Overviews reach 2B users monthly — here's how it works and what it means for organic traffic."
+description: "AI search is reshaping how people find information. Google AI Overviews reach 2B users monthly. Here's how it works and what it means for organic traffic."
 date: "2026-01-07"
 dateAdded: "2026-01-07"
 readTime: "14 min read"

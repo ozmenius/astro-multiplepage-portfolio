@@ -1,6 +1,6 @@
 ---
 title: "What Is AI in Marketing? The Complete 2026 Guide"
-description: "AI in marketing uses machine learning to personalize, automate, and optimize campaigns. 94% of marketing teams use it—here's what it does and how to get started."
+description: "AI in marketing uses machine learning to personalize, automate, and optimize campaigns. 94% of marketing teams use it. Here's what it does and how to get started."
 date: "2026-06-22"
 readTime: "12 min read"
 image: "/assets/images/posts/what-is-ai-in-marketing-hero.jpeg"

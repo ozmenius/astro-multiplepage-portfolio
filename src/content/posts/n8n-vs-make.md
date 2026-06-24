@@ -1,6 +1,6 @@
 ---
 title: "n8n vs Make: Which Automation Tool Wins?"
-description: "n8n is open-source and free to self-host; Make has 3.1M users and a visual canvas. Compare pricing, AI agents, and complexity to choose right."
+description: "n8n is open-source and free to self-host. Make has 3.1M users and a visual canvas. Compare pricing, AI agents, and complexity to choose right."
 date: "2026-05-07"
 dateAdded: "2026-05-07"
 readTime: "14 min read"

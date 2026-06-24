@@ -1,6 +1,6 @@
 ---
 title: "Using Google Keyword Planner for SEO (Free Guide)"
-description: "GKP is free but overestimates volumes in 91% of cases. Here's how to use it for SEO effectively — and when to pair it with other free tools."
+description: "GKP is free but overestimates volumes in 91% of cases. Here's how to use it for SEO effectively. Learn when to pair it with other free tools."
 date: "2026-06-20"
 dateAdded: "2026-06-20"
 readTime: "9 min read"
