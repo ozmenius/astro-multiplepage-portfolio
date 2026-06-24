@@ -92,7 +92,7 @@ export function contactSchema(origin: string) {
     "@type": "ContactPage",
     "@id": `${origin}/contact/#contactpage`,
     url: `${origin}/contact/`,
-    name: "Contact — Dennis Özmen",
+    name: "Contact",
     description:
       "Get in touch with Dennis Özmen about SEO, GEO, and digital marketing.",
     inLanguage: "en",
@@ -175,7 +175,7 @@ export function postsSchema(origin: string, posts: PostLike[]) {
     "@type": "Blog",
     "@id": `${origin}/posts/#blog`,
     url: `${origin}/posts/`,
-    name: "Blog — Dennis Özmen",
+    name: "Blog",
     description: "Articles and notes on SEO, GEO, and digital marketing.",
     inLanguage: "en",
     publisher: { "@id": `${origin}/#dennis` },

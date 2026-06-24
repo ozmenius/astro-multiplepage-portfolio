@@ -53,7 +53,7 @@ type ExperienceItem = {
 
 export const aboutContent = {
   meta: {
-    title: "About — Dennis Özmen",
+    title: "About",
     description:
       "SEO & digital marketing expert with 10+ years of experience in SEO, GEO, CRO, email marketing, and content.",
   },
@@ -301,7 +301,7 @@ const projects: Project[] = projectInputs.map((project) => ({
 
 export const projectsContent = {
   meta: {
-    title: "Projects — Dennis Özmen",
+    title: "Projects",
     description: "Selected SEO and digital marketing results",
   },
   title: "Selected Results",
