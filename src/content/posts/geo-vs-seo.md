@@ -18,7 +18,6 @@ faq:
   - question: "Is the GEO/SEO budget split the same for every industry?"
     answer: "Not exactly. The 80/20 to 50/50 framework is a starting point based on domain authority. Industries with high informational query volume like finance, healthcare, and B2B SaaS see AI Overviews more frequently, making earlier GEO investment worthwhile. Transactional e-commerce may skew toward SEO longer."
 ---
-# GEO vs SEO: Key Differences Explained (2026)
 
 Here's the number that changed everything: in early 2026, 68.01% of all U.S. Google searches ended without a single click ([SparkToro / Similarweb, June 2026](https://searchengineland.com/google-zero-click-searches-2026-study-479717)). That's the highest zero-click rate ever recorded. The rules of search have changed.
 

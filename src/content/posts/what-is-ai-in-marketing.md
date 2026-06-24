@@ -6,7 +6,6 @@ readTime: "12 min read"
 image: "/assets/images/posts/what-is-ai-in-marketing-hero.jpeg"
 slug: "what-is-ai-in-marketing"
 ---
-# What Is AI in Marketing? The Complete 2026 Guide
 Here's a number that should give every marketing leader pause: in 2026, 94% of marketing teams use AI in some form — but only 41% can prove it's actually delivering business value ([Jasper.ai, *State of AI Marketing 2026*](https://www.jasper.ai/state-of-ai-marketing-2026)).
 
 That's not a tools problem. It's a strategy problem.

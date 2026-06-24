@@ -18,7 +18,6 @@ faq:
   - question: "What's the best free alternative to GKP for SEO?"
     answer: "Google Search Console shows real impressions and clicks for keywords your site already ranks for. Pair them: GKP for new keyword discovery, GSC for validating volume and intent on your existing content."
 ---
-# Using Google Keyword Planner for SEO (Free Guide)
 
 Google Keyword Planner is technically free. It's also built for advertisers, not SEOs. That gap between its name-brand credibility and its real-world SEO utility is exactly why so many guides either oversell it or skip it in favor of paid tools — neither of which helps someone who just wants to do solid keyword research without spending money.
 

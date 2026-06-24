@@ -18,7 +18,6 @@ faq:
   - question: "Is Google Search Console enough for keyword research?"
     answer: "GSC is sufficient for optimizing existing content and finding quick wins. For new keyword discovery, difficulty scoring, or competitor gap analysis, pair it with a paid tool like Semrush or Ahrefs."
 ---
-# Google Search Console for Keyword Research
 
 Position 1 in Google earns a 39.8% click-through rate. Position 5 earns 5.1%. The data to move your pages from one to the other is already sitting inside your Google Search Console, completely free ([First Page Sage](https://firstpagesage.com/reports/google-click-through-rates-ctrs-by-ranking-position/), May 2025).
 

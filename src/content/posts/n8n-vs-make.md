@@ -18,7 +18,6 @@ faq:
   - question: "Is n8n or Make better based on Reddit communities?"
     answer: "Both have active communities. n8n's subreddit is developer- and AI-builder-focused, covering self-hosting and custom node development. Make's community is larger but more focused on no-code business automation. The consistent Reddit consensus: developers choose n8n, non-technical users choose Make."
 ---
-# n8n vs Make: Which Automation Tool Is Right for You?
 
 Make.com has 3.1 million users and ran 5.6 billion scenarios in 2024. n8n just raised $60M at a $2.5B valuation and now sits at $40M ARR — growing 5x in a single year. Both tools automate workflows. But they're built for fundamentally different people, with fundamentally different cost structures.
 

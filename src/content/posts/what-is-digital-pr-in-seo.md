@@ -18,7 +18,6 @@ faq:
   - question: "Can digital PR help with AI search visibility?"
     answer: "Yes. Brand web mentions — the primary output of digital PR — correlate with Google AI Overview visibility at 0.664 versus 0.218 for backlinks alone, a 3x difference across 75,000 brands studied by Ahrefs in May 2025."
 ---
-# What Is Digital PR in SEO? Benefits and How It Works
 
 Here's a number worth sitting with: 94% of all online content earns zero external backlinks — across 912 million posts analyzed ([Backlinko, Content Study](https://backlinko.com/content-study)). That's not a writing problem. It's a distribution and credibility problem.
 

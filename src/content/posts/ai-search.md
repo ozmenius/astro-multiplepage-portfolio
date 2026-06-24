@@ -18,7 +18,6 @@ faq:
   - question: "How do I get my website cited in AI search results?"
     answer: "Put your direct answer in the first 150 words, structure content in 120-180-word sections, keep pages updated within three months, earn third-party coverage (85% of AI brand citations originate off-domain), and implement FAQPage and HowTo schema markup."
 ---
-# AI Search: How It Works and What It Means for SEO
 
 AI traffic grew roughly 8x year-over-year in 2025 ([SE Ranking, 2025](https://seranking.com/blog/ai-traffic-study/)). At the same time, 58.5% of US searches now end without a single click to an external site ([SparkToro/Datos, 2025](https://sparktoro.com/blog/in-2024-60-something-percent-of-google-searches-ended-without-a-click/)). If you built your organic strategy around the ten-blue-links era, that combination should prompt a hard look at what's changed.
 
@@ -30,14 +29,14 @@ This guide explains what AI search is, which platforms matter most in 2026, how 
 > - AI search uses large language models to generate direct answers, synthesizing multiple sources rather than returning a list of links.
 > - Google AI Overviews now reach 2 billion monthly users globally ([Google, 2025](https://blog.google/products/search/ai-overviews-usage-global/)).
 > - AI Overviews correlate with a 58% lower average CTR for top-ranking pages, based on 300,000 keywords ([Ahrefs, Dec 2025](https://ahrefs.com/blog/ai-overviews-study/)).
-> - AI visitors convert at 4.4x the rate of traditional organic visitors ([Semrush, 2025](https://www.semrush.com/blog/ai-traffic-study/)) — so fewer clicks doesn't always mean less revenue.
+> - AI visitors convert at 4.4x the rate of traditional organic visitors ([Semrush, 2025](https://www.semrush.com/blog/ai-traffic-study/)), so fewer clicks doesn't always mean less revenue.
 > - 85% of AI brand citations come from third-party pages, not the brand's own site ([AirOps/Kevin Indig, 2026](https://www.kevin-indig.com/ai-brand-citations/)).
 
 For a broader look at how these changes fit into the marketing stack, see [what AI means for marketing as a whole](https://dennisozmen.com/posts/what-is-ai-in-marketing).
 
 ## What Is AI Search?
 
-AI search uses large language models to generate a direct, synthesized answer at the top of a results page, pulling from multiple sources rather than showing a ranked list of links. Google AI Overviews alone now reach 2 billion monthly users globally ([Google, 2025](https://blog.google/products/search/ai-overviews-usage-global/)) — making this the fastest-adopted change to search in the past two decades.
+AI search uses large language models to generate a direct, synthesized answer at the top of a results page, pulling from multiple sources rather than showing a ranked list of links. Google AI Overviews alone now reach 2 billion monthly users globally ([Google, 2025](https://blog.google/products/search/ai-overviews-usage-global/)). That makes this the fastest-adopted change to search in the past two decades.
 
 The timeline moves fast. ChatGPT launched in November 2022 and introduced most of the world to conversational AI. Microsoft integrated GPT-4 into Bing in early 2023. Google launched AI Overviews (then called Search Generative Experience) in 2024, followed by the full Google AI Mode rollout in 2025. Each step pulled more of the discovery process away from ranked links and toward synthesized responses.
 
@@ -51,19 +50,19 @@ If you want to understand how this fits into a broader content strategy, [GEO vs
 
 ## What Are the Major AI Search Platforms?
 
-As of Q2 2026, Google holds 77% of all digital queries and ChatGPT holds 17.9% ([First Page Sage, Jun 2026](https://firstpagesage.com/reports/ai-search-market-share/)). But that headline number obscures something important for B2B marketers: among AI-driven referral traffic specifically, the platform mix looks very different.
+As of Q2 2026, Google holds 77% of all digital queries and ChatGPT holds 17.9% ([First Page Sage, Jun 2026](https://firstpagesage.com/reports/ai-search-market-share/)). That headline number obscures something important for B2B marketers: among AI-driven referral traffic specifically, the platform mix looks very different.
 
 Here's where the main platforms stand today:
 
 **Google AI Mode and AI Overviews.** Google operates two distinct AI search experiences. AI Overviews appear automatically on a wide range of queries, particularly informational ones. AI Mode is an opt-in experience that generates a fuller synthesized response for complex queries. Both use Google's Gemini models.
 
-**ChatGPT Search.** OpenAI's search integration reached 900 million weekly active users in February 2026 ([OpenAI, Feb 2026](https://openai.com/blog/chatgpt-user-milestone)). Among B2B AI referrals, ChatGPT drives 62.6% of traffic — far ahead of any other platform ([Goodie, Mar-Apr 2026](https://goodie.com/ai-referral-study/)). It's no longer just a writing tool. It's a discovery engine.
+**ChatGPT Search.** OpenAI's search integration reached 900 million weekly active users in February 2026 ([OpenAI, Feb 2026](https://openai.com/blog/chatgpt-user-milestone)). Among B2B AI referrals, ChatGPT drives 62.6% of traffic, far ahead of any other platform ([Goodie, Mar-Apr 2026](https://goodie.com/ai-referral-study/)). It's no longer just a writing tool. It's a discovery engine.
 
 **Perplexity AI.** Perplexity's core differentiation is citation transparency. It shows sources inline, cites more URLs per answer than most alternatives, and appeals to research-heavy queries. Its B2B referral share sits at 7.3%.
 
 **Microsoft Copilot.** Integrated deeply into Windows, Microsoft 365, and Edge, Copilot reaches users in workflow contexts rather than standalone search sessions. Enterprise distribution is its main advantage.
 
-**Anthropic Claude.** Claude holds 18.5% of B2B AI referrals ([Goodie, Mar-Apr 2026](https://goodie.com/ai-referral-study/)) — a striking share for a platform with no traditional search product. Its growth reflects enterprise adoption and developer use. Google's Gemini sits at 10.6%.
+**Anthropic Claude.** Claude holds 18.5% of B2B AI referrals ([Goodie, Mar-Apr 2026](https://goodie.com/ai-referral-study/)). That's a striking share for a platform with no traditional search product. Its growth reflects enterprise adoption and developer use. Google's Gemini sits at 10.6%.
 
 <figure>
   <svg viewBox="0 0 560 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horizontal bar chart showing AI search platform share by total query volume: Google 77%, ChatGPT 17.9%, Other 5.1%">
@@ -95,11 +94,11 @@ Here's where the main platforms stand today:
 
 Google AI Mode and AI Overviews use retrieval-augmented generation (RAG): Google's systems retrieve relevant web pages, extract key passages, feed them to a language model, and synthesize a response with inline source citations. One finding from SparkToro's January 2026 citation analysis is particularly actionable: 44.2% of LLM citations come from the first 30% of the source content ([SparkToro, Jan 2026](https://sparktoro.com/blog/llm-citation-study/)).
 
-That number has direct implications for how content should be structured. If the model is extracting from the top third of your page, your answer needs to be there — not buried in paragraph eight.
+That number has direct implications for how content should be structured. If the model is extracting from the top third of your page, your answer needs to be there, not buried in paragraph eight.
 
-The RAG pipeline works roughly like this: a query comes in, Google's retrieval layer identifies pages with relevant content, key passages are extracted, the language model synthesizes those passages into a coherent answer, and source URLs are attached. The model doesn't read your entire page. It extracts passages that match the query's informational need.
+The RAG pipeline works roughly like this. A query comes in. Google's retrieval layer identifies pages with relevant content. Key passages are extracted. The language model synthesizes those passages into a coherent answer. Source URLs are attached. The model doesn't read your entire page. It extracts passages that match the query's informational need.
 
-[E-E-A-T signals](https://developers.google.com/search/docs/appearance/e-e-a-t) influence which pages get retrieved in the first place. Pages with strong author credentials, clear expertise signals, and high domain authority are more likely to enter the candidate pool. Being in the candidate pool is a prerequisite for being cited — which is why [E-E-A-T signals](https://developers.google.com/search/docs/appearance/e-e-a-t) matter for AI search optimization, not just traditional rankings.
+[E-E-A-T signals](https://developers.google.com/search/docs/appearance/e-e-a-t) influence which pages get retrieved in the first place. Pages with strong author credentials, clear expertise signals, and high domain authority are more likely to enter the candidate pool. Being in the candidate pool is a prerequisite for being cited. That's why [E-E-A-T signals](https://developers.google.com/search/docs/appearance/e-e-a-t) matter for AI search optimization, not just traditional rankings.
 
 The difference between AI Overviews and AI Mode matters for optimization. AI Overviews appear automatically and cannot be triggered or avoided by content changes alone. AI Mode is opt-in, generates longer and more detailed responses, and tends to cite more sources per query. Both rely on the same underlying retrieval infrastructure.
 
@@ -109,11 +108,11 @@ The difference between AI Overviews and AI Mode matters for optimization. AI Ove
 
 AI Overviews correlate with a 58% lower average CTR for top-ranking pages, based on analysis of 300,000 keywords ([Ahrefs, Dec 2025](https://ahrefs.com/blog/ai-overviews-study/)). This isn't an isolated finding. Three independent studies all point in the same direction: Ahrefs at 58%, an ISB/CMU field study at 38%, and Seer Interactive's analysis at 61% ([Seer Interactive, Sep 2025](https://www.seerinteractive.com/insights/ai-overviews-ctr-impact)).
 
-The scale of zero-click search is the broader context. In 2025, 58.5% of US searches ended without a click to an external site ([SparkToro/Datos, 2025](https://sparktoro.com/blog/in-2024-60-something-percent-of-google-searches-ended-without-a-click/)). On mobile, that figure reaches approximately 75%. Informational queries — the bread and butter of content-driven SEO programs — are most affected.
+The scale of zero-click search is the broader context. In 2025, 58.5% of US searches ended without a click to an external site ([SparkToro/Datos, 2025](https://sparktoro.com/blog/in-2024-60-something-percent-of-google-searches-ended-without-a-click/)). On mobile, that figure reaches approximately 75%. Informational queries, the bread and butter of content-driven SEO programs, are most affected.
 
 Google's counter-narrative is that AI Overviews drive higher-quality clicks because users who click through after seeing an AI answer have more specific intent. The data partially supports this. Semrush found that AI search visitors are worth 4.4x more in conversion value than traditional organic visitors ([Semrush, 2025](https://www.semrush.com/blog/ai-traffic-study/)). Adobe Digital Insights tracked a 693% year-over-year increase in AI-driven referral traffic to retail sites across more than 1 trillion US visits ([Adobe Digital Insights, Jan 2026](https://blog.adobe.com/en/publish/2025/01/15/adobe-analytics-data-shows-surge-ai-driven-traffic-to-retail-websites)).
 
-The honest picture is: click volume is down for many informational queries, but the clicks that do happen are more qualified. Teams that optimize for AI citation can participate in both dynamics.
+The honest picture is this: click volume is down for many informational queries, but the clicks that do happen are more qualified. Teams that optimize for AI citation can participate in both dynamics.
 
 <figure>
   <svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing click-through rate with and without Google AI Overviews present, for organic positions 1 through 5">
@@ -178,23 +177,23 @@ The honest picture is: click volume is down for many informational queries, but 
 
 Tracking which metrics actually matter as CTR declines is its own challenge. The [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) covers how to adapt your measurement framework for this shift.
 
-## What Is AI Image Search — and How Does It Work?
+## What Is AI Image Search, and How Does It Work?
 
-AI image search uses computer vision and multimodal models to identify objects, scenes, people, and context within images, going far beyond traditional reverse image lookup. Google Lens processes more than 20 billion visual searches per month, and its AI layer can now answer questions about what it sees, not just match visually similar images.
+AI image search uses computer vision and multimodal models to identify objects, scenes, people, and context within images, going far beyond traditional reverse image lookup. Google Lens processes more than 20 billion visual searches per month. Its AI layer can now answer questions about what it sees, not just match visually similar images.
 
 The category breaks into three distinct use cases that each attract their own search demand.
 
-**AI reverse image search** finds the origin and other instances of an uploaded image. Google's reverse image search, TinEye, and Bing Visual Search all use AI to surface contextually similar results — useful for journalists verifying image authenticity, brands tracking unauthorized use of their assets, and researchers tracing visual content provenance.
+**AI reverse image search** finds the origin and other instances of an uploaded image. Google's reverse image search, TinEye, and Bing Visual Search all use AI to surface contextually similar results. This is useful for journalists verifying image authenticity, brands tracking unauthorized use of their assets, and researchers tracing visual content provenance.
 
-**AI face search** identifies or finds information about people in photos. Tools like Google Lens and PimEyes use facial recognition models for this purpose. The category has significant privacy implications: most jurisdictions restrict or prohibit using face search to identify private individuals without consent. Commercial applications focus on authorized identity verification and secure access rather than open lookups.
+**AI face search** identifies or finds information about people in photos. Tools like Google Lens and PimEyes use facial recognition models for this purpose. The category has significant privacy implications. Most jurisdictions restrict or prohibit using face search to identify private individuals without consent. Commercial applications focus on authorized identity verification and secure access rather than open lookups.
 
-**Practical AI image search** is the everyday use case. Point your phone's camera at a product, a plant, a restaurant menu, or a landmark, and Google Lens returns purchase options, species identification, translated text, or location details. For e-commerce brands, optimizing product images for AI image search — structured alt text, high-resolution product photography, image sitemaps — is an emerging visibility channel.
+**Practical AI image search** is the everyday use case. Point your phone's camera at a product, a plant, a restaurant menu, or a landmark, and Google Lens returns purchase options, species identification, translated text, or location details. For e-commerce brands, optimizing product images for AI image search, through structured alt text, high-resolution product photography, and image sitemaps, is an emerging visibility channel.
 
 ![A smartphone camera viewfinder showing Google Lens identifying a product in a retail store, with AI-generated product information and purchase links overlaid on the screen](/assets/images/posts/smartphone-mobile-search.jpeg)
 
 ## How Do You Optimize for AI Search?
 
-Getting cited in AI search responses requires more than a top-10 ranking. AI visitors are worth 4.4x more in conversion value than traditional organic visitors ([Semrush, 2025](https://www.semrush.com/blog/ai-traffic-study/)) — which makes the optimization worth pursuing directly, not as a side effect of traditional SEO.
+Getting cited in AI search responses requires more than a top-10 ranking. AI visitors are worth 4.4x more in conversion value than traditional organic visitors ([Semrush, 2025](https://www.semrush.com/blog/ai-traffic-study/)). That makes the optimization worth pursuing directly, not as a side effect of traditional SEO.
 
 Here are the five levers that the evidence consistently points to:
 
@@ -202,9 +201,9 @@ Here are the five levers that the evidence consistently points to:
 
 **2. Write in tightly structured sections.** Conductor's 2026 analysis found that content structured in 120-180-word sections with clear headings performs better in AI citation than long unbroken passages ([Conductor, 2026](https://conductor.com/academy/ai-overviews-optimization/)). AI models extract passages, not pages. Shorter, clearly scoped sections are easier to extract without losing context.
 
-**3. Keep content current.** SE Ranking's 2025 study found that freshness within a three-month window meaningfully affects AI citation probability ([SE Ranking, 2025](https://seranking.com/blog/ai-traffic-study/)). Stale content — even high-quality stale content — loses ground to fresher sources. Quarterly review cycles for top-performing pages aren't optional in an AI search world.
+**3. Keep content current.** SE Ranking's 2025 study found that freshness within a three-month window meaningfully affects AI citation probability ([SE Ranking, 2025](https://seranking.com/blog/ai-traffic-study/)). Stale content, even high-quality stale content, loses ground to fresher sources. Quarterly review cycles for top-performing pages aren't optional in an AI search world.
 
-**4. Earn third-party mentions.** This is where most optimization programs miss. Research from AirOps and Kevin Indig found that 85% of AI brand citations originate from third-party pages — not the brand's own site ([AirOps/Kevin Indig, 2026](https://www.kevin-indig.com/ai-brand-citations/)). Press coverage, industry roundups, analyst reports, and community discussions on Reddit and LinkedIn all contribute to the signal pool that AI systems draw from. Off-site visibility is now a direct citation input. [Digital PR](https://dennisozmen.com/posts/what-is-digital-pr-in-seo) is one of the most direct levers for building this off-site signal base.
+**4. Earn third-party mentions.** This is where most optimization programs miss. Research from AirOps and Kevin Indig found that 85% of AI brand citations originate from third-party pages, not the brand's own site ([AirOps/Kevin Indig, 2026](https://www.kevin-indig.com/ai-brand-citations/)). Press coverage, industry roundups, analyst reports, and community discussions on Reddit and LinkedIn all contribute to the signal pool that AI systems draw from. Off-site visibility is now a direct citation input. [Digital PR](https://dennisozmen.com/posts/what-is-digital-pr-in-seo) is one of the most direct levers for building this off-site signal base.
 
 **5. Implement structured data markup.** FAQPage and HowTo schema give AI systems machine-readable signals about your content's structure and question-answer pairs. They don't guarantee citation, but they reduce the friction between your content and AI extraction.
 
@@ -252,7 +251,7 @@ Here are the five levers that the evidence consistently points to:
 
 ## Can You Remove AI from Google Search?
 
-You can't permanently disable AI Overviews, but several workarounds reduce or eliminate them for your own browsing. This question matters for two reasons: some users genuinely want to bypass AI answers, and the data on user sentiment reveals something significant about AI search adoption. Among 18-24 year-olds, 66% use ChatGPT for search compared to 69% who use Google ([Fractl via SE Ranking, 2025](https://seranking.com/blog/ai-in-search-statistics/)) — meaning AI-native search behavior is strongest in the youngest demographic.
+You can't permanently disable AI Overviews, but several workarounds reduce or eliminate them for your own browsing. This question matters for two reasons: some users genuinely want to bypass AI answers, and the data on user sentiment reveals something significant about AI search adoption. Among 18-24 year-olds, 66% use ChatGPT for search compared to 69% who use Google ([Fractl via SE Ranking, 2025](https://seranking.com/blog/ai-in-search-statistics/)). That means AI-native search behavior is strongest in the youngest demographic.
 
 Here are the practical options for bypassing AI Overviews:
 
@@ -272,7 +271,7 @@ Google AI Mode is a dedicated, opt-in search experience that generates a compreh
 
 ### How does Google AI search work?
 
-Google uses retrieval-augmented generation (RAG): it retrieves relevant web pages, extracts key passages using its Gemini language models, synthesizes a response, and cites source URLs inline. E-E-A-T signals influence which pages enter the retrieval candidate pool. Critically, 44.2% of citations come from the first 30% of source content ([SparkToro, Jan 2026](https://sparktoro.com/blog/llm-citation-study/)), which means content structure directly affects citation probability.
+Google uses retrieval-augmented generation (RAG): it retrieves relevant web pages, extracts key passages using its Gemini language models, synthesizes a response, and cites source URLs inline. E-E-A-T signals influence which pages enter the retrieval candidate pool. Critically, 44.2% of citations come from the first 30% of source content ([SparkToro, Jan 2026](https://sparktoro.com/blog/llm-citation-study/)). That means content structure directly affects citation probability.
 
 ### What's the difference between AI search and traditional search?
 
@@ -280,15 +279,15 @@ Traditional search returns a ranked list of links and expects the user to click 
 
 ### Is AI search replacing Google?
 
-Not in total query volume terms. Google still holds 77% of all digital queries as of June 2026 ([First Page Sage, Jun 2026](https://firstpagesage.com/reports/ai-search-market-share/)). But in specific demographics and use cases — particularly younger users and B2B research workflows — AI-native tools are gaining share meaningfully. 66% of 18-24 year-olds already use ChatGPT for search ([Fractl via SE Ranking, 2025](https://seranking.com/blog/ai-in-search-statistics/)). The replacement narrative is premature, but the redistribution is real.
+Not in total query volume terms. Google still holds 77% of all digital queries as of June 2026 ([First Page Sage, Jun 2026](https://firstpagesage.com/reports/ai-search-market-share/)). But in specific demographics and use cases, particularly younger users and B2B research workflows, AI-native tools are gaining share meaningfully. 66% of 18-24 year-olds already use ChatGPT for search ([Fractl via SE Ranking, 2025](https://seranking.com/blog/ai-in-search-statistics/)). The replacement narrative is premature, but the redistribution is real.
 
 ### How do I get my website cited in AI search results?
 
-Put your direct answer in the first 150 words of the page. Structure content in tightly scoped 120-180-word sections with clear headings. Keep pages updated within three months. Earn third-party coverage on industry sites, publications, and community platforms — 85% of AI brand citations originate off-domain ([AirOps/Kevin Indig, 2026](https://www.kevin-indig.com/ai-brand-citations/)). Implement FAQPage and HowTo schema markup. And build topical authority across a cluster of related content rather than targeting isolated keywords.
+Put your direct answer in the first 150 words of the page. Structure content in tightly scoped 120-180-word sections with clear headings. Keep pages updated within three months. Earn third-party coverage on industry sites, publications, and community platforms. 85% of AI brand citations originate off-domain ([AirOps/Kevin Indig, 2026](https://www.kevin-indig.com/ai-brand-citations/)). Implement FAQPage and HowTo schema markup. Build topical authority across a cluster of related content rather than targeting isolated keywords.
 
 ## What AI Search Actually Means for Your Strategy
 
-AI search isn't replacing traditional search overnight. Google still processes the overwhelming majority of queries. But it is redistributing how clicks get allocated — and that redistribution is already large enough to show up in GSC data for informational content.
+AI search isn't replacing traditional search overnight. Google still processes the overwhelming majority of queries. But it is redistributing how clicks get allocated. That redistribution is already large enough to show up in GSC data for informational content.
 
 The instinct to wait and see is understandable but costly. The brands accumulating AI citations now are building a discovery channel that compounds. Third-party coverage drives citations. Citations build topical authority signals. Topical authority improves retrieval candidacy. Retrieval candidacy determines whether you're in the answer at all.
 
@@ -297,10 +296,10 @@ The practical priorities are clear:
 - Structure your introductions to answer the query directly, not to build to a conclusion
 - Treat third-party press coverage, analyst mentions, and community discussions as citation inputs, not just PR
 - Audit your top-performing pages against the first-30% citation pattern
-- Track AI-sourced traffic separately from organic in GA4, and monitor conversion quality — not just volume
-- Don't optimize only for one platform; ChatGPT, Perplexity, and Google AI Mode each have distinct citation patterns
+- Track AI-sourced traffic separately from organic in GA4, and monitor conversion quality, not just volume
+- Don't optimize only for one platform. ChatGPT, Perplexity, and Google AI Mode each have distinct citation patterns
 
-The teams that treat AI search as a parallel discovery channel alongside traditional SEO — rather than a threat to it — will be better positioned than those waiting for the dust to settle.
+The teams that treat AI search as a parallel discovery channel alongside traditional SEO, rather than a threat to it, will be better positioned than those waiting for the dust to settle.
 
 For a deeper dive into the content signals that drive AI citation, the [generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization) walks through the Princeton research framework in full.
 

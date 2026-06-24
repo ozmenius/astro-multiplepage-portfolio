@@ -18,7 +18,6 @@ faq:
   - question: "Does AI change how you calculate SEO ROI?"
     answer: "Yes. AI Overviews appear on 13.14% of all Google queries and reduce organic CTR from roughly 15% to 8% for affected results. Reduce traffic projections by 15-25% for impacted keywords."
 ---
-# ROI of SEO: How to Calculate & Benchmark It
 
 Most companies invest in SEO for months before anyone asks the uncomfortable question: is this actually working? According to [Search Engine Land](https://seoprofy.com/blog/seo-roi-statistics/), 49% of marketers say organic search delivers the highest ROI of any channel they run. Yet the majority still can't calculate what that ROI actually is.
 

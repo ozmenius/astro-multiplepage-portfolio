@@ -18,7 +18,6 @@ faq:
   - question: "How do I measure GEO performance?"
     answer: "Use a four-metric stack: direct citation rate (manually query 20-50 target keywords monthly across ChatGPT, Perplexity, and Google AI Mode); AI referral traffic in GA4; branded search trends in Google Search Console as an awareness proxy; and pipeline velocity for contacts who found you via AI-cited content."
 ---
-# What Is Generative Engine Optimization (GEO)?
 
 AI Overviews now appear on roughly 48% of tracked Google queries — up 58% year over year — and position-1 organic click-through rates have fallen 58% on those queries ([Ahrefs](https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/), Dec 2025). That's not a slow trend. It's a structural shift that happened while most content teams were still optimizing for the traditional ten blue links.
 

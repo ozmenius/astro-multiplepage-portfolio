@@ -18,7 +18,6 @@ faq:
   - question: "Do I need n8n or Zapier to automate SEO?"
     answer: "Not to start. Most SEO platforms have built-in automation for alerts and scheduled reports. n8n and Zapier become valuable when you want to connect multiple tools, such as routing a rank drop alert into a Claude analysis prompt that emails a summary to Slack."
 ---
-# How to Automate SEO With AI: A Practical Guide
 
 Here's what's strange about AI in SEO: 68% of SEO professionals already use it in their workflow ([Ahrefs, Nov 2025](https://ahrefs.com/blog)) — yet most teams are still running rank reports and writing meta descriptions by hand. The gap between adoption and actual automation is wider than almost anyone admits.
 
