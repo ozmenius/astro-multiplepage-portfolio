@@ -75,7 +75,7 @@ If you want broader context on how AI is changing the marketing toolkit, the [AI
 
 ## Claude Prompts for Keyword Research
 
-AI-assisted SEO teams publish 17 articles per month versus 12 for non-AI teams. That's a 42% output difference ([Ahrefs](https://ahrefs.com/blog/ai-seo-statistics/), Nov 2025). Keyword research is where that velocity starts. Claude won't pull live search volume data, but it excels at analyzing keyword lists you provide: clustering by intent, spotting cannibalization, and generating long-tail variations at scale.
+AI-assisted SEO teams publish 17 articles per month versus 12 for non-AI teams. That's a 42% output difference ([Ahrefs](https://ahrefs.com/blog/ai-seo-statistics/), Nov 2025). Keyword research is where that velocity starts. Claude won't pull live search volume data, but it excels at analyzing keyword lists you provide. It clusters by intent, spots cannibalization, and generates long-tail variations at scale.
 
 <!-- [UNIQUE INSIGHT] Claude's 200K context window is the real advantage here. Paste a full CSV export from Semrush or Ahrefs - 500+ keywords - directly into one prompt. Claude classifies intent, groups clusters, and suggests content types without truncating. No other tool in the SEO workflow handles that volume cleanly in a single pass. -->
 
@@ -189,7 +189,7 @@ My page answers the question "[question keyword]". Write 5 title tag variations 
 
 ## Claude Prompts for On-Page SEO Optimization
 
-83.82% of marketers report increased productivity since adopting AI tools ([CoSchedule](https://coschedule.com/ai-marketing-statistics), 2025). On-page SEO tasks, such as heading audits, internal link mapping, and E-E-A-T reviews, are among the highest-frequency manual workflows where that productivity gain shows up fastest. These prompts treat Claude as a second pair of eyes: it flags issues and explains reasoning, but doesn't auto-publish anything.
+83.82% of marketers report increased productivity since adopting AI tools ([CoSchedule](https://coschedule.com/ai-marketing-statistics), 2025). On-page SEO tasks, such as heading audits, internal link mapping, and E-E-A-T reviews, are among the highest-frequency manual workflows where that productivity gain shows up fastest. These prompts treat Claude as a second pair of eyes. It flags issues and explains reasoning, but doesn't auto-publish anything.
 
 The audit prompts here are most effective when paired with chain-of-thought instructions. Adding "explain your reasoning for each flag" forces Claude to surface the logic behind each recommendation. That way you can validate it rather than blindly accept it.
 

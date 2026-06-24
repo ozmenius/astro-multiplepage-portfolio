@@ -28,7 +28,7 @@ For teams considering n8n for marketing tasks, [how to automate SEO with AI](htt
 > - n8n (194K GitHub stars, 400+ integrations) is built for app-to-app workflow automation and AI agents.
 > - KNIME (Gartner Magic Quadrant Leader for 6 consecutive years, 100K+ registered users) is built for data science, ML pipelines, and analytics.
 > - Both are node-based and open-source. That's where the similarities end.
-> - The smartest enterprise move: use KNIME to analyze, use n8n to deliver the results. ([GitHub n8n-io/n8n](https://github.com/n8n-io/n8n), 2026; [Gartner](https://www.gartner.com/en/documents/5509595), 2024)
+> - The smartest enterprise move: use KNIME to analyze, use n8n to deliver the results. ([GitHub n8n-io/n8n](https://github.com/n8n-io/n8n), 2026, [Gartner](https://www.gartner.com/en/documents/5509595), 2024)
 
 ## What Is n8n?
 
