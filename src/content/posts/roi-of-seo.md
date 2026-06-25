@@ -53,7 +53,7 @@ Let's break down each component.
 
 Why is SEO ROI uniquely difficult to measure? Three reasons. Attribution is murky. Organic search assists far more conversions than it directly closes, so last-click models systematically undercount its contribution. Time lag is real. SEO compounds over months, not days. And separating brand from non-brand organic traffic requires combining GA4 data with Google Search Console, which most teams skip.
 
-![An analytics dashboard showing organic search performance metrics on a laptop screen, representing the measurement and reporting workflow for SEO ROI tracking](/assets/images/posts/seo-analytics-dashboard.jpeg)
+![An analytics dashboard showing organic search performance metrics on a laptop screen, representing the measurement and reporting workflow for SEO ROI tracking](/assets/images/posts/roi-organic-performance-dashboard.jpeg)
 
 ---
 
@@ -253,7 +253,7 @@ Worth separating in your reporting: leading versus lagging indicators.
 
 If direct revenue attribution is difficult, for example on a content-only site or an early-stage SEO program, use the traffic value method as a proxy. Multiply your monthly organic sessions by the average CPC for those keywords in Google Ads. That gives you a conservative "what would I have paid for this traffic?" floor estimate, which is defensible in a stakeholder conversation.
 
-![A digital marketer reviewing SEO analytics on dual monitors, showing the combined GA4 and Search Console workflow for measuring organic search ROI](/assets/images/posts/seo-roi-business-analytics.jpeg)
+![A digital marketer reviewing SEO analytics on dual monitors, showing the combined GA4 and Search Console workflow for measuring organic search ROI](/assets/images/posts/roi-ga4-search-console-dual-monitor.jpeg)
 
 ---
 
@@ -424,7 +424,7 @@ To run this for your own business, you need four numbers from GA4:
 
 If you want to save the model for monthly reporting, copy the formula into a Google Sheet with your inputs in clearly labeled cells. Track it month over month. The trend tells you as much as the absolute number.
 
-![A jar of coins with a small plant growing from the top, representing the compounding long-term returns that characterize SEO investment relative to paid media](/assets/images/posts/digital-pr-business-success.jpeg)
+![A jar of coins with a small plant growing from the top, representing the compounding long-term returns that characterize SEO investment relative to paid media](/assets/images/posts/roi-compounding-returns-jar.jpeg)
 
 ---
 

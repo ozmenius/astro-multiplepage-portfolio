@@ -44,7 +44,7 @@ There's a meaningful difference between the three categories of AI marketers enc
 
 Most teams start with generative AI because the entry point is lowest: write a prompt, get an output. The highest long-term impact, however, typically comes from predictive and agentic systems that connect to CRM data and campaign infrastructure.
 
-![A marketing team analyzing AI-driven analytics data on large monitors, the modern AI-assisted marketing workflow in practice](/assets/images/posts/ai-assisted-marketing.jpeg)
+![A marketing team analyzing AI-driven analytics data on large monitors, the modern AI-assisted marketing workflow in practice](/assets/images/posts/ai-marketing-team-analytics.jpeg)
 
 ## How is AI used in marketing? 7 core use cases
 
@@ -228,7 +228,7 @@ Improvado's 2025 AI marketing cost analysis found that even lightweight AI tools
 **The over-automation trap**
 Can you run too much AI? Yes. In 2026, Averi.ai found that 73% of marketing teams combining AI with human oversight outperform teams using AI autonomously, on both engagement and conversion metrics. Removing human judgment from brand decisions, messaging strategy, creative direction, crisis response, trades short-term efficiency for long-term brand exposure.
 
-![A digital marketer reviewing AI-generated campaign output on screen, representing the human-in-the-loop model that outperforms fully automated approaches](/assets/images/posts/ai-hand.jpeg)
+![A digital marketer reviewing AI-generated campaign output on screen, representing the human-in-the-loop model that outperforms fully automated approaches](/assets/images/posts/ai-marketing-human-in-loop.jpeg)
 
 ## How to use AI in marketing: a 5-step starting framework
 

@@ -219,7 +219,7 @@ I'll paste a list of pages on my site with their URLs and primary keywords. Then
 Review this article for SEO readability and E-E-A-T signals: [paste article]. Suggest: (1) sentences to shorten for clarity, (2) places to add specific data points or citations, (3) sections where first-hand experience or expert quotes should be added, (4) passive voice to convert to active. Do not rewrite — only flag and suggest.
 ```
 
-![An SEO professional reviewing analytics data on screen, representing the on-page audit workflow where Claude flags issues and a human makes the final call](/assets/images/posts/workflow-automation-desk.jpeg)
+![An SEO professional reviewing analytics data on screen, representing the on-page audit workflow where Claude flags issues and a human makes the final call](/assets/images/posts/claude-prompts-audit-review.jpeg)
 
 ---
 

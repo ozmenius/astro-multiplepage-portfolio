@@ -50,7 +50,7 @@ The AI angle is real. n8n includes a native AI agent builder with LLM tool-calli
 
 **Best for:** Developers, ops teams, marketing engineers, AI engineers automating business workflows.
 
-![n8n node-based visual workflow canvas showing interconnected automation nodes for app-to-app workflow automation](/assets/images/posts/code-editor-software-development.jpeg)
+![n8n node-based visual workflow canvas showing interconnected automation nodes for app-to-app workflow automation](/assets/images/posts/n8n-knime-workflow-canvas.jpeg)
 
 For a direct comparison of n8n against another major automation platform, see [n8n vs Make](https://dennisozmen.com/posts/n8n-vs-make), which also covers how n8n's billing model compares at scale.
 
@@ -72,7 +72,7 @@ The user base skews heavily enterprise. According to Enlyft's 2024-2025 tracking
 
 **Best for:** Data scientists, analysts, researchers, BI teams, and data engineers building ML pipelines and ETL workflows.
 
-![KNIME Analytics Platform showing a data science workflow with machine learning nodes and statistical analysis pipelines](/assets/images/posts/data-server-infrastructure.jpeg)
+![KNIME Analytics Platform showing a data science workflow with machine learning nodes and statistical analysis pipelines](/assets/images/posts/knime-data-science-workflow.jpeg)
 
 
 ## How do n8n and KNIME actually differ?

@@ -44,7 +44,7 @@ It also differs from standard link building. Guest posting and link outreach neg
 
 The core components of a digital PR campaign are four things: a linkable asset (data study, original research, calculator, or tool), journalist outreach, earned media coverage, and the editorial backlinks and brand mentions that result. Each component serves a different SEO function. The asset creates credibility, the outreach creates reach, the coverage creates links, and the mentions create entity signals for both traditional search and AI-generated results.
 
-![A diagram illustrating earned, owned, and paid media showing digital PR positioned in the earned media zone, generating both editorial backlinks and brand authority signals](/assets/images/posts/digital-pr-business-success.jpeg)
+![A diagram illustrating earned, owned, and paid media showing digital PR positioned in the earned media zone, generating both editorial backlinks and brand authority signals](/assets/images/posts/digital-pr-earned-owned-paid-media.jpeg)
 
 
 ## What is the main SEO benefit of digital PR?
@@ -187,7 +187,7 @@ Track new referring domains via Ahrefs or Semrush, the domain rating of each pla
 
 Also track brand mention frequency in AI-generated search results (Perplexity, ChatGPT, Google AI Overviews) using brand monitoring tools. Given the 0.664 correlation between brand mentions and AI Overview visibility ([Ahrefs, May 2025](https://ahrefs.com/blog/ai-overview-brand-correlation/)), this is no longer an optional vanity metric. It's a leading indicator of where search authority is heading. For a broader framework on optimizing for AI answers, the [generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization) covers the content signals that drive citation presence across platforms.
 
-![A four-stage digital PR campaign flow diagram showing the sequential steps from asset creation through journalist outreach to editorial coverage and link measurement](/assets/images/posts/seo-analytics-dashboard.jpeg)
+![A four-stage digital PR campaign flow diagram showing the sequential steps from asset creation through journalist outreach to editorial coverage and link measurement](/assets/images/posts/digital-pr-campaign-flow-diagram.jpeg)
 
 
 ## What digital PR tactics work best in 2025-2026?

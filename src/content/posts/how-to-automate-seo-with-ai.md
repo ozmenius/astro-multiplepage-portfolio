@@ -131,7 +131,7 @@ Technical SEO tools (Screaming Frog + AI interpretation) cover crawl data analys
 
 One emerging development worth tracking: Model Context Protocol (MCP) is becoming the standard for connecting LLMs directly to SEO tool APIs. Ahrefs' Agent A already uses it. It's early-stage, but it points toward a near future where your AI assistant pulls keyword data directly from Ahrefs without a manual export step.
 
-![An analytics dashboard with charts and data visualizations representing an AI-powered SEO tool stack connecting data sources, LLMs, and automation platforms](/assets/images/posts/seo-analytics-dashboard.jpeg)
+![An analytics dashboard with charts and data visualizations representing an AI-powered SEO tool stack connecting data sources, LLMs, and automation platforms](/assets/images/posts/automate-seo-tool-stack.jpeg)
 
 ## How to automate keyword research with AI
 

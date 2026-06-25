@@ -57,7 +57,7 @@ It runs in the terminal, VS Code, JetBrains, and Claude.ai/code. Terminal comfor
 
 > **Citation capsule:** Claude Code is the most-loved AI coding tool per JetBrains' April 2026 survey, with 46% user satisfaction. Heavy users average 20 hours per week, reflecting genuine integration into developer workflows, not occasional experimentation. ([JetBrains / VentureBeat, 2026](https://venturebeat.com/ai/claude-code/))
 
-![A developer working in a dark terminal environment running Claude Code — showing CLI output, file diffs, and autonomous code editing in action](/assets/images/posts/code-editor-software-development.jpeg)
+![A developer working in a dark terminal environment running Claude Code — showing CLI output, file diffs, and autonomous code editing in action](/assets/images/posts/n8n-claude-code-terminal.jpeg)
 
 For Claude prompts designed specifically for SEO tasks, [Claude SEO prompts](https://dennisozmen.com/posts/claude-seo-prompts) is a practical companion resource.
 
@@ -81,7 +81,7 @@ AI is native to n8n, not bolted on. The platform includes a built-in Anthropic C
 
 > **Citation capsule:** n8n has 230,000+ active users, 194,000+ GitHub stars, and 100M+ Docker pulls. It raised $180M at a $2.5B valuation in October 2025. The workflow automation market it serves is valued at $23.77B in 2025 and growing. ([Flowlyn, 2025](https://flowlyn.com/blog/n8n-statistics/) / [Mordor Intelligence, 2026](https://www.mordorintelligence.com/industry-reports/workflow-automation-market))
 
-![The n8n visual workflow canvas showing an AI agent workflow — nodes representing a Claude model, data transformations, and downstream integrations connected in a clear pipeline](/assets/images/posts/workflow-automation-desk.jpeg)
+![The n8n visual workflow canvas showing an AI agent workflow — nodes representing a Claude model, data transformations, and downstream integrations connected in a clear pipeline](/assets/images/posts/n8n-claude-code-workflow-canvas.jpeg)
 
 Wondering how n8n stacks up against other automation platforms? The [n8n vs Make comparison](https://dennisozmen.com/posts/n8n-vs-make) covers pricing, AI agent capabilities, and when each tool wins.
 

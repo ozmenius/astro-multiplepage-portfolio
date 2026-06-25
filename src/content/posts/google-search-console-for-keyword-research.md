@@ -34,7 +34,7 @@ By the end of this guide you'll have a repeatable five-step workflow: find quick
 > - Exporting to Google Sheets with an opportunity score formula turns raw data into a prioritized action list.
 > - Date comparison catches trending and declining keywords before the traffic drop shows up in your analytics.
 
-![A laptop screen displaying Google Search Console's Performance report with keyword data and click metrics visible — the starting point for free keyword research](/assets/images/posts/seo-roi-business-analytics.jpeg)
+![A laptop screen displaying An illustration of a search performance dashboard with keyword data and click metrics — the starting point for free keyword research](/assets/images/posts/gsc-performance-report-overview.jpeg)
 
 ## What data does Google Search Console give you?
 
@@ -103,7 +103,7 @@ Why does the 16-month window matter? CTR benchmarks shift over time, especially 
 
 The Queries tab shows performance by keyword. The Pages tab shows performance by URL. You'll use both, but for different purposes. Use Queries first to find which keywords have untapped potential. Switch to Pages when you want to drill into a specific URL and see all the queries it ranks for.
 
-![Google Search Console Performance report with the date range set to 16 months and all four metric columns enabled — Total clicks, Total impressions, Average CTR, and Average position](/assets/images/posts/seo-analytics-dashboard.jpeg)
+![An illustration of a 16-month search performance graph with four metrics enabled — clicks, impressions, CTR, and position](/assets/images/posts/gsc-date-range-metrics.jpeg)
 
 ## Step 2: How do you find quick-win keywords in GSC?
 
@@ -224,7 +224,7 @@ After applying the filter, export the results. In your spreadsheet, group questi
 
 91% of SEO respondents report that SEO positively impacted website performance and marketing goals in 2024 ([Conductor State of SEO](https://www.conductor.com/academy/organic-website-traffic-industry-benchmarks/), 2025). Question keyword analysis is one of the highest-leverage tactics within that broader SEO effort, and it costs nothing but time.
 
-![Google Search Console Queries tab with a custom regex filter applied showing question-intent keywords beginning with how, what, why, and other question words](/assets/images/posts/keyword-research-laptop.jpeg)
+![An illustration of a regex filter applied to a query list, surfacing question-intent keywords beginning with how, what, and why](/assets/images/posts/gsc-queries-regex-filter.jpeg)
 
 ## Step 4: How do you export GSC data to Google Sheets?
 
@@ -364,7 +364,7 @@ The URL Inspection tool isn't a keyword research feature, but it's worth using b
 
 AI Overviews reduce organic CTR by approximately 67.8% for affected queries compared to queries without them ([Stan Ventures](https://www.stanventures.com/news/ai-overviews-impact-organic-ctrs-32-drop-3635/), 2025). That context makes cannibalization detection more urgent, not less: split authority between two weak pages loses more traffic in an AI Overview environment than it would have two years ago. For a deeper look at how AI search is reshaping click behavior, the [AI search overview](https://dennisozmen.com/posts/ai-search) covers the full picture.
 
-![Google Search Console Pages tab showing two different URLs competing for the same query with split impressions — a cannibalization signal requiring consolidation or intent differentiation](/assets/images/posts/google-search-engine-interface.jpeg)
+![An illustration of two URLs competing for the same query with split impressions — a cannibalization signal requiring consolidation or intent differentiation](/assets/images/posts/gsc-pages-cannibalization.jpeg)
 
 ## Frequently Asked Questions
 

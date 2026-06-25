@@ -43,7 +43,7 @@ The platforms GEO applies to today include Google AI Overviews, Perplexity, Chat
 
 What makes GEO distinct from "just being good at SEO" is the unit of optimization. SEO optimizes a full page for a target keyword. GEO optimizes a specific *passage* within a page: a 40-60 word self-contained paragraph with a clear claim, a statistic, and a source attribution. AI models extract these passages for synthesis. Keyword density and backlink count have near-zero effect on whether a passage gets cited ([Aggarwal et al., ACM KDD 2024](https://arxiv.org/abs/2311.09735)).
 
-![A glowing AI chat interface displaying synthesized search results on a dark monitor screen, representing how generative AI platforms surface cited content rather than ranked links](/assets/images/posts/ai-search-neural-network.jpeg)
+![A glowing AI chat interface displaying synthesized search results on a dark monitor screen, representing how generative AI platforms surface cited content rather than ranked links](/assets/images/posts/geo-vs-seo-ai-chat-interface.jpeg)
 
 ### What about AEO (Answer Engine Optimization)?
 
@@ -204,7 +204,7 @@ The shared signals between GEO and SEO include E-E-A-T signals, content depth an
 
 The danger is treating GEO and SEO as competing investments, pulling budget from one to fund the other. The BrightEdge data makes a strong case that they reinforce each other. A strong organic ranker that adds citation-optimized passages becomes a strong AI citation candidate too. The incremental GEO investment on top of a solid SEO foundation is smaller than starting from scratch on either dimension.
 
-![Two roads merging into a single path through a forest, representing the convergence of GEO and SEO strategies toward a shared content foundation](/assets/images/posts/keyword-research-laptop.jpeg)
+![Two roads merging into a single path through a forest, representing the convergence of GEO and SEO strategies toward a shared content foundation](/assets/images/posts/geo-vs-seo-roads-merging.jpeg)
 
 Building third-party authority across the web is one of the most efficient ways to strengthen both channels simultaneously. [Digital PR in SEO](https://dennisozmen.com/posts/what-is-digital-pr-in-seo) explains how earned media and brand mentions feed directly into GEO citation signals.
 

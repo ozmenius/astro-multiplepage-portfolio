@@ -40,7 +40,7 @@ One thing to clarify upfront: the "Competition" column in GKP shows how many adv
 
 <!-- [UNIQUE INSIGHT] GKP's volume data is calibrated to ad auction behavior, not organic search. Google groups semantically similar keyword variants — "running shoes" and "shoes for running" — into the same auction cluster and assigns them identical volume figures. This inflates the dominant term's number and hides meaningful distinctions between variants. That clustering is the root cause behind GKP's well-documented overestimation problem, but very few guides explain the mechanism. -->
 
-![Google Keyword Planner landing screen inside Google Ads showing the Discover new keywords and Get search volume options side by side](/assets/images/posts/google-search-engine-interface.jpeg)
+![An illustration of a keyword tool landing screen showing the Discover new keywords and Get search volume options side by side](/assets/images/posts/keyword-planner-landing-screen.jpeg)
 
 ## How do I access Google Keyword Planner for free?
 
@@ -60,7 +60,7 @@ Exact volumes unlock only when your account has running campaigns. For most SEOs
 
 <!-- [PERSONAL EXPERIENCE] In practice, the ranges are good enough for triage. When I'm deciding whether a keyword is worth targeting at all, knowing it lands in "1K-10K" versus "100-1K" gives me enough to prioritize. The problem shows up when two keywords sit in the same range bucket — say, both show "1K-10K" — and I need to know which gets more traffic. That's where GKP falls short and GSC data becomes essential. -->
 
-![Annotated screenshot of the Google Ads setup flow showing the Switch to Expert Mode link and the Create an account without a campaign option highlighted](/assets/images/posts/seo-analytics-dashboard.jpeg)
+![An illustration of the account setup flow showing the Switch to Expert Mode link and the Create an account without a campaign option highlighted](/assets/images/posts/keyword-planner-ads-setup-flow.jpeg)
 
 ## How to use Google Keyword Planner for SEO
 

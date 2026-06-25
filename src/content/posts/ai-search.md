@@ -44,7 +44,7 @@ The core difference from traditional search is intent resolution. Traditional se
 
 If you want to understand how this fits into a broader content strategy, [GEO vs. SEO](https://dennisozmen.com/posts/geo-vs-seo) explains how the two disciplines relate and where to focus effort first.
 
-![A side-by-side annotated comparison of a traditional Google SERP showing ten blue links versus a Google AI Overview response with inline source citations highlighted](/assets/images/posts/keyword-research-laptop.jpeg)
+![A side-by-side annotated comparison of a traditional Google SERP showing ten blue links versus a Google AI Overview response with inline source citations highlighted](/assets/images/posts/ai-search-serp-vs-overview-comparison.jpeg)
 
 <!-- [UNIQUE INSIGHT] The shift isn't just about format. It's about who controls the "last mile" of the user's information journey. Traditional search gave publishers that control — the user clicked through to their page. AI search gives it to the model. That redistribution has cascading implications for content strategy, brand awareness, and conversion attribution. -->
 
@@ -102,7 +102,7 @@ The RAG pipeline works roughly like this. A query comes in. Google's retrieval l
 
 The difference between AI Overviews and AI Mode matters for optimization. AI Overviews appear automatically and cannot be triggered or avoided by content changes alone. AI Mode is opt-in, generates longer and more detailed responses, and tends to cite more sources per query. Both rely on the same underlying retrieval infrastructure.
 
-![A flowchart diagram showing the retrieval-augmented generation pipeline from user query through source retrieval and passage extraction to the final AI-generated answer with citations](/assets/images/posts/data-server-infrastructure.jpeg)
+![A flowchart diagram showing the retrieval-augmented generation pipeline from user query through source retrieval and passage extraction to the final AI-generated answer with citations](/assets/images/posts/ai-search-rag-pipeline-flowchart.jpeg)
 
 ## How is AI search affecting organic traffic?
 
@@ -189,7 +189,7 @@ Face search identifies or finds information about people in photos. Tools like G
 
 The everyday use case is the most practical. Point your phone's camera at a product, a plant, a restaurant menu, or a landmark, and Google Lens returns purchase options, species identification, translated text, or location details. For e-commerce brands, optimizing product images for AI image search, through structured alt text, high-resolution product photography, and image sitemaps, is an emerging visibility channel.
 
-![A smartphone camera viewfinder showing Google Lens identifying a product in a retail store, with AI-generated product information and purchase links overlaid on the screen](/assets/images/posts/smartphone-mobile-search.jpeg)
+![A smartphone camera viewfinder showing Google Lens identifying a product in a retail store, with AI-generated product information and purchase links overlaid on the screen](/assets/images/posts/ai-search-google-lens-mobile.jpeg)
 
 ## How do you optimize for AI search?
 
