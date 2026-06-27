@@ -25,7 +25,7 @@ AI search isn't some distant event on the horizon. Google AI Overviews appear on
 
 This guide explains what AI search is, which platforms matter most in 2026, how Google's AI systems actually select sources, what the traffic impact data shows, and what you can do about it.
 
-> **Key Takeaways**
+## Key Takeaways
 > - AI search uses large language models to generate direct answers, synthesizing multiple sources rather than returning a list of links.
 > - Google AI Overviews now reach 2 billion monthly users globally ([Google, 2025](https://blog.google/products/search/ai-overviews-usage-global/)).
 > - AI Overviews correlate with a 58% lower average CTR for top-ranking pages, based on 300,000 keywords ([Ahrefs, Dec 2025](https://ahrefs.com/blog/ai-overviews-study/)).

@@ -27,7 +27,7 @@ Organic search averages 33% of all website traffic across major industries ([Con
 
 By the end of this guide you'll have a repeatable five-step workflow: find quick-win keywords, surface hidden question queries, spot cannibalization, export your data, and turn everything into a 90-day content calendar. No paid tool required to start.
 
-> **Key Takeaways**
+## Key Takeaways
 > - GSC's Performance report reveals keywords you already rank for, including "striking distance" queries at positions 4-20 where a single content update can meaningfully increase clicks.
 > - Nearly half of all GSC clicks (46.77%) are on queries Google anonymizes, so a systematic export-and-filter workflow is essential ([Ahrefs](https://ahrefs.com/blog/gsc-anonymized-queries/), Feb 2026).
 > - The regex question filter surfaces FAQ and featured-snippet candidates that most competitors skip entirely.

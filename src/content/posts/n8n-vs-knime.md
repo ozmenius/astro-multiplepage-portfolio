@@ -24,7 +24,7 @@ If you're connecting business apps and triggering automated actions, use n8n. If
 
 For teams considering n8n for marketing tasks, [how to automate SEO with AI](https://dennisozmen.com/posts/how-to-automate-seo-with-ai) covers practical workflow patterns using n8n alongside LLMs.
 
-> **Key Takeaways**
+## Key Takeaways
 > - n8n (194K GitHub stars, 400+ integrations) is built for app-to-app workflow automation and AI agents.
 > - KNIME (Gartner Magic Quadrant Leader for 6 consecutive years, 100K+ registered users) is built for data science, ML pipelines, and analytics.
 > - Both are node-based and open-source. That's where the similarities end.

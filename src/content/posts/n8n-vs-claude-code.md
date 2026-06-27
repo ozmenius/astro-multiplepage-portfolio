@@ -27,7 +27,7 @@ By the end of this article, you'll know exactly what each tool does, which probl
 
 For context on where AI tools sit in marketing workflows more broadly, see [what AI in marketing actually covers](https://dennisozmen.com/posts/what-is-ai-in-marketing).
 
-> **Key Takeaways**
+## Key Takeaways
 > - Claude Code is an AI coding agent for developers. It writes, edits, and runs code autonomously in your terminal.
 > - n8n is a visual workflow automation platform with 400+ integrations and 230,000+ active users ([Flowlyn, 2025](https://flowlyn.com/blog/n8n-statistics/)).
 > - These tools are not competitors. Claude Code builds logic. n8n operates it reliably on a schedule.

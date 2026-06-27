@@ -27,7 +27,7 @@ This guide gives you 30+ copy-paste Claude prompts, organized by SEO task. Each 
 
 If you want broader context on how AI is changing the marketing toolkit, the [AI in marketing overview](https://dennisozmen.com/posts/what-is-ai-in-marketing) covers the space beyond SEO.
 
-> **Key Takeaways**
+## Key Takeaways
 > - 86% of SEO pros now use AI in their workflow. Most prompts online aren't built for Claude's specific strengths. ([Aira State of SEO Report](https://www.taylorscherseo.com/blog/ai-seo-statistics), 2025)
 > - Claude's 200K context window lets you paste full crawl exports, multiple competitor pages, and large keyword lists in a single prompt.
 > - Prompts organized by task: keyword research, content briefs, title tags, on-page SEO, schema, GEO optimization, and link building.

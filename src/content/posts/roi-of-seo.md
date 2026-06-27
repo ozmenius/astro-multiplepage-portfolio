@@ -26,7 +26,7 @@ That gap exists for a reason. SEO ROI is genuinely hard to measure. It compounds
 This guide gives you the formula, a step-by-step measurement process, industry benchmarks, and a forecasting model you can run in a spreadsheet before your next stakeholder meeting.
 
 
-> **Key Takeaways**
+## Key Takeaways
 > - The median SEO ROI across industries is 748%, meaning $7.48 returned per $1 invested. ([First Page Sage, 2025](https://firstpagesage.com/reports/seo-roi-statistics-fc/))
 > - ROI varies sharply by industry: real estate reaches 1,389%, while e-commerce sits at 317%.
 > - Most businesses break even between month 6 and month 12, then compounding accelerates.

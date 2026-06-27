@@ -14,7 +14,7 @@ Most coverage of AI in marketing focuses on which tools to use. Far less address
 
 This guide covers all of it: the definition, the use cases, the real brand examples, the honest tradeoffs, and a practical framework for getting started.
 
-> **Key Takeaways**
+## Key Takeaways
 > - AI in marketing applies machine learning, NLP, and predictive analytics to automate decisions, personalize experiences, and optimize campaigns at scale.
 > - In 2026, 94% of marketing teams use AI, yet only 41% can prove business value, mainly because most skip pre-deployment measurement baselines. ([Jasper.ai, State of AI Marketing 2026](https://www.jasper.ai/state-of-ai-marketing-2026))
 > - The most-adopted AI applications are content writing (55%), research (47%), and social media management (38%). ([HubSpot AI Trends Report, 2025](https://www.hubspot.com/state-of-marketing))

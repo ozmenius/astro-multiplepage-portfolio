@@ -23,7 +23,7 @@ Google Keyword Planner is technically free. It's also built for advertisers, not
 
 This guide covers exact steps to access GKP without any ad spend, how to extract SEO-useful data from it, and where it breaks down with actual data. No vague warnings, no promotional detours.
 
-> **Key Takeaways**
+## Key Takeaways
 > - GKP is free via a Google Ads account with no ad spend required. Setup takes under 10 minutes.
 > - Volumes appear as ranges (e.g., "1K-10K"), not exact figures, for non-advertisers.
 > - Per Ahrefs' study of 72,635 keywords, GKP overestimated search volumes in 91.45% of cases ([Ahrefs](https://ahrefs.com/blog/gkp-data/), 2021).

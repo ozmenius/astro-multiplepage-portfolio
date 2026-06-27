@@ -25,7 +25,7 @@ Choosing the wrong one means rebuilding your automations in 12 months. And it ha
 
 This guide covers pricing, AI agent capabilities, ease of use, and the three-way n8n vs Make vs Zapier breakdown, with real numbers, not marketing copy. The global [workflow automation tools](/) market is valued at $23.77 billion in 2025 and growing to $40.77 billion by 2031 ([Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/workflow-automation-market), 2025). Getting your tool choice right matters more than ever.
 
-> **Key Takeaways**
+## Key Takeaways
 > - n8n is open-source, self-hostable, and bills per full workflow execution, making it substantially cheaper at high volumes.
 > - Make.com has 3.1M users, 2,100+ integrations, and a visual canvas that non-technical teams can actually learn.
 > - Make switched from "operations" to "credits" billing in August 2025. AI-heavy workflows now cost more and are harder to predict.

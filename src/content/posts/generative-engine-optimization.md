@@ -27,7 +27,7 @@ This guide covers what GEO is, why it's distinct from SEO, which content signals
 
 For a platform-level breakdown of how [AI search engines](https://dennisozmen.com/posts/ai-search) work, including how Google AI Overviews and ChatGPT select sources, the AI search guide covers the mechanics before this guide covers the optimization.
 
-> **Key Takeaways**
+## Key Takeaways
 > - Generative engine optimization (GEO) is the practice of structuring content so AI search engines cite it in generated answers, distinct from traditional SEO.
 > - A Princeton University study of 10,000 queries found GEO content strategies can increase AI citation rates by up to 40%. ([Aggarwal et al., ACM KDD 2024](https://dl.acm.org/doi/10.1145/3637528.3671900))
 > - The three highest-impact content signals: expert quotations (+41% citation lift), statistics (+32%), and authoritative citations (+30%).

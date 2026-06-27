@@ -26,7 +26,7 @@ Most SEO dashboards were built for a pre-AI world. The KPIs that made perfect se
 This guide covers the 10 most important SEO KPIs for 2026, organized from traffic to technical to AI-era. For each one, you'll find what it measures, why it matters, which tool tracks it, and what good looks like.
 
 
-> **Key Takeaways**
+## Key Takeaways
 > - Organic search still delivers ~33% of all website traffic across key industries ([Conductor](https://www.conductor.com/academy/state-of-organic-marketing/), Jan 2025), making it a primary revenue channel worth measuring rigorously.
 > - AI Overviews now suppress position-1 CTR by 58% when present ([Ahrefs](https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/), Feb 2026), making AI-segmented CTR a required KPI, not optional.
 > - High-maturity SEO organizations track 3x as many metrics as low-maturity peers. Measurement infrastructure is itself a competitive advantage.

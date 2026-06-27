@@ -26,7 +26,7 @@ Digital PR exists to break into the other 6%. Rather than negotiating for links 
 This guide defines digital PR in SEO, explains its primary ranking benefits (including a new AI visibility angle most marketers are missing), and walks through a four-step campaign framework you can apply immediately.
 
 
-> **Key Takeaways**
+## Key Takeaways
 > - Digital PR earns editorial backlinks and brand mentions from authoritative publications using newsworthy assets, original data studies, expert commentary, and tools.
 > - The average domain rating of links earned through digital PR is 61, with over 20% of placements in the DR 70-79 band ([Reboot Online, 2024](https://www.rebootonline.com/digital-pr-statistics/)).
 > - Brand web mentions now correlate with Google AI Overview visibility at 0.664, versus 0.218 for backlinks alone, a 3x difference across 75,000 brands ([Ahrefs, May 2025](https://ahrefs.com/blog/ai-overview-brand-correlation/)).

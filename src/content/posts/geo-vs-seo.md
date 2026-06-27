@@ -27,7 +27,7 @@ This article defines both disciplines clearly. It maps five key differences with
 
 For context on the broader shift behind this, see [what AI means for digital marketing](https://dennisozmen.com/posts/what-is-ai-in-marketing) as a starting point.
 
-> **Key Takeaways**
+## Key Takeaways
 > - GEO (Generative Engine Optimization) optimizes content to appear as a cited source in AI-generated answers from ChatGPT, Perplexity, Google AI Overviews, and Gemini.
 > - SEO targets traditional search rankings, and it remains the most reliable foundation for AI citation. 54.5% of Google AI Overview citations overlap with organic rankings. ([BrightEdge, Feb 2026](https://www.brightedge.com/resources/weekly-ai-search-insights/rank-overlap-after-16-months-of-aio))
 > - Brands cited in AI Overviews earn 35% more organic clicks and 91% more paid clicks vs. non-cited competitors. ([Ahrefs, Dec 2025](https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/))

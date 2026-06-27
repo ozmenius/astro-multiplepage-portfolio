@@ -27,7 +27,7 @@ This guide covers which SEO tasks have high automation potential, which tools to
 
 If you're new to AI in marketing more broadly, start with [what AI in marketing actually means before getting into workflows](https://dennisozmen.com/posts/what-is-ai-in-marketing).
 
-> **Key Takeaways**
+## Key Takeaways
 > - 68% of SEO professionals use AI in their workflows, but most only automate 1-2 tasks ([Ahrefs, 2025](https://ahrefs.com/blog)).
 > - The highest-ROI tasks to automate: weekly reporting, bulk metadata, keyword clustering, and technical audit interpretation.
 > - AI saves marketing professionals an average of 6.1 hours per week. Heavy users report up to 11 hours ([HubSpot, 2026](https://www.hubspot.com/state-of-marketing); [ZoomInfo, 2025](https://www.zoominfo.com/)).
