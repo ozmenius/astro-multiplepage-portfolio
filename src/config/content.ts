@@ -5,6 +5,7 @@ import profilePhoto from "../assets/images/about/dennis-oezmen.png";
 import consumerElectronicsImg from "../assets/images/projects/consumer-electronics-store.jpg";
 import fashionEcommerceImg from "../assets/images/projects/fashion-ecommerce-us.jpg";
 import cybersecurityImg from "../assets/images/projects/project3.png";
+import pottsalatImg from "../assets/images/projects/pottsalat.jpg";
 
 export const siteConfig = {
   name: "Dennis Özmen",
@@ -290,6 +291,45 @@ const projectInputs: Omit<Project, "href">[] = [
       "Schema & entities",
       "Content",
       "AI-crawler optimization",
+    ],
+  },
+  {
+    slug: "pottsalat",
+    name: "Pottsalat",
+    title: "Pottsalat — +135.8% Top-10 Keywords",
+    description:
+      "+135.8% top-10 keywords, 2x Sistrix visibility, and -57% cost per acquisition through combined SEO and SEA.",
+    image: "/assets/images/projects/pottsalat.jpg",
+    imageAsset: pottsalatImg,
+    category: "SEO & SEA",
+    period: "15-month program (Nov 2022 – Feb 2024)",
+    summary:
+      "Running organic and paid search side by side to grow visibility for the Ruhr-area salad and bowl brand Pottsalat while cutting acquisition costs.",
+    metrics: [
+      { value: "+135.8%", label: "Top-10 keywords" },
+      { value: "2x", label: "Sistrix visibility index" },
+      { value: "-57%", label: "Cost per acquisition" },
+    ],
+    story: [
+      {
+        heading: "The Challenge",
+        body: "Pottsalat's category and location pages were thin and generic, organized around internal naming rather than how people actually searched, leaving real keyword demand uncaptured. On the paid and lifecycle side, the stack had outgrown its budget: Klaviyo billed per contact in the database rather than per email sent, and Adspert's automated bidding layer added significant cost on top of Google Ads. Brand-term clicks alone cost close to €0.09, and the resulting cost per acquisition exceeded the average order value — every paid acquisition was a net loss before margin was even considered.",
+      },
+      {
+        heading: "The Approach",
+        body: "After comprehensive keyword research, we rebuilt the site's category and location landing pages around search intent — replacing generic catch-alls with dedicated pages mapped to the exact terms and categories people were searching for. On paid search, we canceled Adspert and rebuilt the Google Ads account by hand, moving to Smart Bidding strategies and using custom scripts to continuously monitor and optimize campaign structure and performance. On email, we replaced Klaviyo with Brevo to switch from per-contact to per-email pricing, cutting costs immediately, then built out several automation workflows in Brevo and ran A/B tests to improve them further. Brevo also unlocked WhatsApp as a new newsletter channel.",
+      },
+      {
+        heading: "The Results",
+        body: "The intent-matched landing pages didn't just lift visibility — they acquired customers who hadn't found Pottsalat before. Average rankings improved from position 30.7 to 26.4, with top-10 keywords up +135.8% and the Sistrix visibility index doubling. Backlinks grew +71.7%, cost per acquisition fell -57% (€35 to €15), and brand CPC dropped from €0.09 to €0.02. Email click-through rate rose from 1.3% to 1.96% and open rate from 13.6% to 17.79%, at a 66.5% lower campaign cost.",
+      },
+    ],
+    services: [
+      "SEO",
+      "SEA",
+      "Local SEO",
+      "Email Marketing",
+      "Content & Webshop Optimization",
     ],
   },
 ];
