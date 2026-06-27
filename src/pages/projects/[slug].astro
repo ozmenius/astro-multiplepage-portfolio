@@ -32,6 +32,7 @@ const origin = getOrigin(Astro.site);
 <Layout
   title={project.name}
   description={project.summary}
+  image={project.image}
   schema={projectSchema(origin, project)}
 >
   <article

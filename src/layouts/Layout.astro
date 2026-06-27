@@ -10,12 +10,20 @@ import "../styles/global.css";
 interface Props {
   title: string;
   description?: string;
+  image?: string;
   schema?: unknown;
   bodyClass?: string;
 }
 
-const { title, description, schema, bodyClass = "" } = Astro.props;
+const {
+  title,
+  description,
+  image = "/assets/images/about/dennis-oezmen.png",
+  schema,
+  bodyClass = "",
+} = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? "https://dennisozmen.com");
+const ogImageURL = new URL(image, canonicalURL.origin);
 ---
 
 <html lang="en">
@@ -28,6 +36,19 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? "https://dennisoz
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:site_name" content="Dennis Özmen" />
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:image" content={ogImageURL} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    {description && <meta name="twitter:description" content={description} />}
+    <meta name="twitter:image" content={ogImageURL} />
+
     {schema && <JsonLd schema={schema} />}
     <ConsentMode />
     <GoogleTagManager />
