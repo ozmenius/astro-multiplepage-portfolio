@@ -12,7 +12,7 @@ Make.com has 3.1 million users and ran 5.6 billion scenarios in 2024. n8n raised
 
 Choosing the wrong one means rebuilding your automations in 12 months. And it happens more often than vendors admit — usually because teams optimise for the slickest demo rather than their actual technical capacity, data requirements, and execution volume.
 
-This guide covers pricing, AI agent capabilities, ease of use, and the three-way n8n vs Make vs Zapier breakdown, with real numbers, not marketing copy. The global [workflow automation tools](/) market is valued at $23.77 billion in 2025 and growing to $40.77 billion by 2031 ([Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/workflow-automation-market), 2025). Getting your tool choice right matters more than ever.
+This guide covers pricing, AI agent capabilities, ease of use, and the three-way n8n vs Make vs Zapier breakdown, with real numbers, not marketing copy. The global workflow automation tools market is valued at $23.77 billion in 2025 and growing to $40.77 billion by 2031 ([Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/workflow-automation-market), 2025). Getting your tool choice right matters more than ever.
 
 ## Key Takeaways
 > - n8n is open-source, self-hostable, and bills per full workflow execution, making it substantially cheaper at high volumes.
