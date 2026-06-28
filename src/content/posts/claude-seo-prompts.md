@@ -6,30 +6,19 @@ dateAdded: "2026-01-18"
 readTime: "14 min read"
 image: "/assets/images/posts/claude-seo-prompts-ai-coding.jpeg"
 slug: "claude-seo-prompts"
-faq:
-  - question: "Is Claude better than ChatGPT for SEO?"
-    answer: "Neither is universally better. Claude handles bulk data more reliably due to its 200K context window and follows detailed formatting constraints more precisely. ChatGPT has broader plugin integrations. Use Claude for large datasets or precise formatting control."
-  - question: "Can Claude do keyword research on its own?"
-    answer: "Claude cannot pull live search volume data from Ahrefs, Semrush, or Google Keyword Planner. It excels at analyzing keyword lists you provide: clustering by intent, identifying cannibalization, and generating long-tail variations. Export data from a keyword tool, then let Claude do the analysis."
-  - question: "What is the best prompt structure for Claude SEO tasks?"
-    answer: "Use the role, context, task, constraints, output format sequence. Open with a role, provide site and keyword context, specify constraints like character limits, and define the exact output format. This eliminates the most common failure mode: Claude returning general advice instead of specific output."
-  - question: "How do I use Claude for bulk SEO tasks?"
-    answer: "Paste your data directly into the prompt. Claude handles full Screaming Frog CSV exports, GSC performance reports, and multiple competitor pages in a single prompt. For recurring tasks, save your prompt template and swap in the new data each time."
-  - question: "Can Claude write schema markup that validates?"
-    answer: "Yes. Claude generates syntactically correct JSON-LD schema when prompted with full context including name, date, URL, description, and organization fields. Always validate the output in Google's Rich Results Test before deploying."
 ---
 
-Here's where the SEO industry actually stands: 86% of SEO professionals have integrated AI into their workflow as of 2025, up from 65% the year before ([Aira State of SEO Report](https://www.taylorscherseo.com/blog/ai-seo-statistics), 2025). That's majority adoption. It's not a trend. It's the baseline.
+Here's where the SEO industry actually stands: 86% of SEO professionals have integrated AI into their workflow as of 2025, up from 65% the year before ([Aira, State of SEO Report 2025](https://sqmagazine.co.uk/ai-seo-statistics/)). That's majority adoption. It's not a trend. It's the baseline.
 
-The problem isn't access. It's that most prompt guides online are written for ChatGPT, not Claude. They miss what Claude does differently: a 200,000-token context window, tighter instruction-following, and reliable structured output. You can paste an entire Screaming Frog crawl export, three competitor pages, and a keyword list into a single Claude prompt. No other tool handles that input volume as cleanly.
+The problem isn't access. It's that most prompt guides online are written for ChatGPT, not Claude. They miss what Claude does differently: a context window that scales up to 1 million tokens on current models, tighter instruction-following, and reliable structured output. You can paste an entire Screaming Frog crawl export, three competitor pages, and a keyword list into a single Claude prompt. No other tool handles that input volume as cleanly.
 
 This guide gives you 30+ copy-paste Claude prompts, organized by SEO task. Each one is tested and ready to run. Find your current task, copy the prompt, replace the bracketed context with your own data, and go.
 
 If you want broader context on how AI is changing the marketing toolkit, the [AI in marketing overview](https://dennisozmen.com/posts/what-is-ai-in-marketing) covers the space beyond SEO.
 
 ## Key Takeaways
-> - 86% of SEO pros now use AI in their workflow. Most prompts online aren't built for Claude's specific strengths. ([Aira State of SEO Report](https://www.taylorscherseo.com/blog/ai-seo-statistics), 2025)
-> - Claude's 200K context window lets you paste full crawl exports, multiple competitor pages, and large keyword lists in a single prompt.
+> - 86% of SEO pros now use AI in their workflow. Most prompts online aren't built for Claude's specific strengths. ([Aira, State of SEO Report 2025](https://sqmagazine.co.uk/ai-seo-statistics/))
+> - Claude's large context window — up to 1 million tokens on current models via the API, up to 500K on paid Claude.ai plans — lets you paste full crawl exports, multiple competitor pages, and large keyword lists in a single prompt.
 > - Prompts organized by task: keyword research, content briefs, title tags, on-page SEO, schema, GEO optimization, and link building.
 > - GEO and AI search prompts are the highest-value emerging category. 68% of marketing organizations are already adapting for AI search. ([BrightEdge](https://www.brightedge.com/news/press-releases/brightedge-survey-reveals-68-marketers-are-embracing-ai-search-shift), June 2025)
 
@@ -151,7 +140,7 @@ Create a content brief template for [type of page, e.g., "city landing pages for
 
 ## How do you write title tags and meta descriptions with Claude?
 
-On-page metadata is one of the most time-consuming batch tasks in SEO. It's also one of the clearest wins for Claude prompts. A 2025 study by HubSpot found that nearly 50% of marketers save 1-5 hours per week using AI tools. Metadata batch work is consistently one of the highest-frequency time savers ([CoSchedule](https://coschedule.com/ai-marketing-statistics), 2025). Claude handles character constraints reliably when you tell it to include a character count alongside each output.
+On-page metadata is one of the most time-consuming batch tasks in SEO. It's also one of the clearest wins for Claude prompts. CoSchedule's 2025 State of AI in Marketing report found that nearly 50% of marketers save 1-5 hours per week using AI tools. Metadata batch work is consistently one of the highest-frequency time savers ([CoSchedule](https://coschedule.com/ai-marketing-statistics), 2025). Claude handles character constraints reliably when you tell it to include a character count alongside each output.
 
 One practical tip: always add "include character count in parentheses after each option" to any title or meta prompt. Claude will count accurately and flag anything over the limit without being asked to re-run.
 
@@ -289,7 +278,7 @@ My company has the following original data: [describe data/research]. Generate 8
 
 ## Claude prompts for technical SEO
 
-Technical SEO is where Claude's 200K context window creates the biggest gap over other AI tools. You can paste a full Screaming Frog crawl export, hundreds of rows, and Claude will classify errors, identify patterns, and produce a prioritized fix list in under a minute. Running that same analysis manually would take an hour or more.
+Technical SEO is where Claude's large context window creates the biggest gap over other AI tools. You can paste a full Screaming Frog crawl export, hundreds of rows, and Claude will classify errors, identify patterns, and produce a prioritized fix list in under a minute. Running that same analysis manually would take an hour or more.
 
 The crawl analysis prompt below is the one I use most often in client work. When I ran it on a 47-page site's Screaming Frog export, Claude flagged 12 redirect chains, 3 duplicate title tags, and 8 pages with missing H1s in roughly 90 seconds. That's a real time difference.
 
@@ -323,7 +312,7 @@ Here is my hreflang implementation across [X] pages: [paste hreflang tags or lis
 
 68% of marketing organizations are actively adapting their strategies for AI search ([BrightEdge](https://www.brightedge.com/news/press-releases/brightedge-survey-reveals-68-marketers-are-embracing-ai-search-shift), June 2025). Generative Engine Optimization — optimizing for AI Overviews, Perplexity citations, and Claude.ai's own web search — is the emerging layer of SEO that most prompt guides ignore entirely. These prompts are built for it.
 
-The formatting insight matters here: LLMs are 28-40% more likely to cite content with clear headings, bullets, and tables ([HubSpot Research](https://www.taylorscherseo.com/blog/ai-seo-statistics), 2025). These prompts help you audit and rewrite content specifically for AI extractability.
+The formatting insight matters here: LLMs are 28-40% more likely to cite content with clear headings, bullets, and tables ([HubSpot Research](https://blog.hubspot.com/marketing/generative-engine-optimization-statistics), 2025). These prompts help you audit and rewrite content specifically for AI extractability.
 
 For a full breakdown of how Generative Engine Optimization differs from traditional SEO, the [GEO guide](https://dennisozmen.com/posts/generative-engine-optimization) covers citation signals, content structure, and what AI systems prioritize when selecting sources.
 
@@ -425,7 +414,7 @@ Claude responds well to specific refinement requests. "Keep the structure, but m
 
 ### Bulk data prompting
 
-Paste full CSV exports, crawl data, or Google Search Console reports directly into the prompt. Claude's 200K context window handles this without truncation. For recurring tasks, save your structured prompt and replace only the data block each time. This turns a 30-minute manual analysis into a 2-minute Claude prompt.
+Paste full CSV exports, crawl data, or Google Search Console reports directly into the prompt. Claude's large context window — up to 1 million tokens on current models — handles this without truncation. For recurring tasks, save your structured prompt and replace only the data block each time. This turns a 30-minute manual analysis into a 2-minute Claude prompt.
 
 ### Chain-of-thought for audits
 
@@ -437,7 +426,7 @@ Add "explain your reasoning for each flag" to any audit prompt. This forces Clau
 
 ### Is Claude better than ChatGPT for SEO?
 
-Neither is universally better. Claude handles bulk data more reliably due to its 200K context window. Paste a full crawl export, GSC report, or multiple competitor pages in one prompt. It also follows detailed formatting constraints more precisely, which matters for title tag batches, schema generation, and style-constrained content. ChatGPT has broader plugin integrations. Use Claude when you need to process large datasets or need precise formatting control.
+Neither is universally better. Claude handles bulk data more reliably, thanks to a context window that scales up to 1 million tokens on current models. Paste a full crawl export, GSC report, or multiple competitor pages in one prompt. It also follows detailed formatting constraints more precisely, which matters for title tag batches, schema generation, and style-constrained content. ChatGPT has broader plugin integrations. Use Claude when you need to process large datasets or need precise formatting control.
 
 ### Can Claude do keyword research on its own?
 
@@ -471,9 +460,9 @@ The GEO and AI search prompts are the category worth starting with if you're alr
 
 ## Sources
 
-- Aira, *State of SEO Report 2025*, via Taylor Scher SEO, retrieved 2026-06-23, https://www.taylorscherseo.com/blog/ai-seo-statistics
-- Ahrefs, *AI in Content Marketing: Statistics and Trends*, November 2025, https://ahrefs.com/blog/ai-seo-statistics/
-- CoSchedule, *State of AI in Marketing 2025*, retrieved 2026-06-23, https://coschedule.com/ai-marketing-statistics
+- Aira, *State of SEO Report 2025*, cited via SQ Magazine, retrieved 2026-06-28, https://sqmagazine.co.uk/ai-seo-statistics/
+- Ahrefs, *90+ AI SEO Statistics for 2025 (Fresh and Original Data)*, updated November 2025, https://ahrefs.com/blog/ai-seo-statistics/
+- CoSchedule, *State of AI in Marketing 2025* (survey of 1,005 marketing professionals, Dec 2024), https://coschedule.com/ai-marketing-statistics
 - BrightEdge, *Survey: 68% of Marketers Are Embracing the AI Search Shift*, June 2025, https://www.brightedge.com/news/press-releases/brightedge-survey-reveals-68-marketers-are-embracing-ai-search-shift
-- HubSpot, *AI Trends Report 2025*, via Taylor Scher SEO, https://www.taylorscherseo.com/blog/ai-seo-statistics
-- Anthropic, *Claude Model Overview and Context Window Specifications*, 2025, https://www.anthropic.com/claude
+- HubSpot, *Generative Engine Optimization Statistics*, 2025, https://blog.hubspot.com/marketing/generative-engine-optimization-statistics
+- Anthropic / Claude Support, *How large is the context window on paid Claude plans?*, 2026, https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans
