@@ -186,6 +186,19 @@ Sort exported data by CPC, not volume: after downloading your CSV, filter out th
 
 Cross-reference 3-5 targets in GSC before committing: before building a content piece around a GKP discovery, check your GSC data for related impressions. If Google is already showing your site for that keyword at position 15-50, targeting it directly is a faster path to traffic than starting from scratch.
 
+## What Google Keyword Planner is actually good for
+
+GKP is free, Google-native, and unlimited in its query volume. Those things make it a legitimate starting point for keyword research, especially for anyone not yet ready to invest in a paid tool.
+
+The honest version: treat it as a discovery and trend tool, not a volume measurement tool. The Ahrefs data on its accuracy limitations is real and worth keeping in mind every time you see a range like "10K-100K." That number reflects ad auction cluster data, not a clean picture of what people are actually searching.
+
+- GKP is free with a no-spend Google Ads account. Setup takes under 10 minutes.
+- Use it for keyword discovery and seasonal trends. Treat volume ranges as directional, not precise.
+- The "Competition" metric is for advertisers. Use GSC or a paid tool for organic difficulty.
+- Best results come from pairing GKP with GSC and one supplementary tool for difficulty scoring.
+
+If you're just starting with keyword research, GKP is the right place to begin. It's free, it pulls from Google's own data, and working with it teaches you to think in terms of search demand. When you're ready for exact volumes and organic difficulty scoring, Ahrefs, Semrush, and Moz each offer meaningful upgrades. Once you have a keyword list, the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) shows how to connect ranking and traffic targets to measurable business outcomes.
+
 ## Sources
 
 - Ahrefs, *GSC vs. GKP: Comparing Search Volumes for 72k Keywords*, November 2021, https://ahrefs.com/blog/gsc-gkp-search-volume-study/
@@ -215,19 +228,3 @@ Google restricts exact monthly search volumes to accounts actively spending on G
 ### What's the best free alternative to GKP for SEO?
 
 Google Search Console is the most accurate free option. It shows real impressions and clicks for keywords your site already has visibility for. For discovery of keywords you haven't targeted yet, GKP remains the strongest free option. Pair them: GKP for new keyword ideas, GSC for validating volume and intent on your existing content.
-
-## What Google Keyword Planner is actually good for
-
-GKP is free, Google-native, and unlimited in its query volume. Those things make it a legitimate starting point for keyword research, especially for anyone not yet ready to invest in a paid tool.
-
-The honest version: treat it as a discovery and trend tool, not a volume measurement tool. The Ahrefs data on its accuracy limitations is real and worth keeping in mind every time you see a range like "10K-100K." That number reflects ad auction cluster data, not a clean picture of what people are actually searching.
-
-- GKP is free with a no-spend Google Ads account. Setup takes under 10 minutes.
-- Use it for keyword discovery and seasonal trends. Treat volume ranges as directional, not precise.
-- The "Competition" metric is for advertisers. Use GSC or a paid tool for organic difficulty.
-- Best results come from pairing GKP with GSC and one supplementary tool for difficulty scoring.
-
-If you're just starting with keyword research, GKP is the right place to begin. It's free, it pulls from Google's own data, and working with it teaches you to think in terms of search demand. When you're ready for exact volumes and organic difficulty scoring, Ahrefs, Semrush, and Moz each offer meaningful upgrades. Once you have a keyword list, the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) shows how to connect ranking and traffic targets to measurable business outcomes.
-
----
-
