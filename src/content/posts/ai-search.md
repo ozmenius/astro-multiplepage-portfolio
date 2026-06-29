@@ -309,5 +309,3 @@ Not in total query volume terms. Google still holds roughly 77% of all digital q
 ### How do I get my website cited in AI search results?
 
 Put your direct answer in the first 150 words of the page. Structure content in tightly scoped 120-180-word sections with clear headings. Keep pages updated within three months. Earn third-party coverage on industry sites, publications, and community platforms. 85% of AI brand citations originate off-domain ([AirOps/Kevin Indig, 2026](https://www.airops.com/report/the-2026-state-of-ai-search)). Implement FAQPage and HowTo schema markup. Build topical authority across a cluster of related content rather than targeting isolated keywords.
-
----
