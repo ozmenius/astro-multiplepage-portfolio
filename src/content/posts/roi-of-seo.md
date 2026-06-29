@@ -426,7 +426,23 @@ If you want to save the model for monthly reporting, copy the formula into a Goo
 
 ![A jar of coins with a small plant growing from the top, representing the compounding long-term returns that characterize SEO investment relative to paid media](/assets/images/posts/roi-compounding-returns-jar.jpeg)
 
----
+## The bottom line on SEO ROI
+
+The median SEO ROI is 748%. For most businesses, the investment pays back between month 6 and month 12, then compounds significantly in years 2 and 3. The data is consistent across industries. Even the lowest-performing category (e-commerce at 317%) outperforms what most paid channels deliver at equivalent spend levels over 24 months.
+
+But none of that matters if you don't measure it. Only 28% of marketers have a solid ROI measurement system in place ([Nielsen, 2025](https://sender.net/marketing-glossary/return-on-investment-roi/statistics/)). The formula isn't complex. It's the commitment to tracking costs completely, attributing organic revenue accurately, and waiting long enough for compounding to show up.
+
+Key takeaways:
+
+- Median SEO ROI is 748%; industry range is 317% (e-commerce) to 1,389% (real estate)
+- Break-even typically hits at 6-12 months; compounding accelerates in year 2+
+- Measurement requires GA4 + Google Search Console + a consistent attribution model
+- SEO cost per lead ($31) is 5.8x cheaper than PPC ($181)
+- Adjust traffic forecasts 15-25% downward for AI Overview-impacted queries
+
+Start by setting up organic conversion tracking in GA4 today. Run the manual calculation above with your last 90 days of data. That number is your baseline and your argument for continued investment.
+
+Once your tracking is in place, revisit the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) to build a dashboard that connects organic sessions, conversions, and revenue into a single reporting view your leadership team can act on.
 
 ## Sources
 
@@ -459,26 +475,3 @@ Use the traffic value method as a proxy. Multiply your monthly organic sessions 
 ### Does AI change how you calculate SEO ROI?
 
 Yes, materially. [AI Overviews and AI search engines](https://dennisozmen.com/posts/ai-search) now appear on 13.14% of all Google queries and reduce organic CTR from approximately 15% to 8% for affected results ([SEOProfy, 2025](https://seoprofy.com/blog/seo-roi-statistics/)). If your target keywords trigger AI Overviews, check via Search Console's Search Appearance filter. Then reduce your traffic projections by 15-25% before calculating ROI expectations. Ignoring this adjustment leads to systematically overstated forecasts in 2025-2026 campaigns.
-
----
-
-## The bottom line on SEO ROI
-
-The median SEO ROI is 748%. For most businesses, the investment pays back between month 6 and month 12, then compounds significantly in years 2 and 3. The data is consistent across industries. Even the lowest-performing category (e-commerce at 317%) outperforms what most paid channels deliver at equivalent spend levels over 24 months.
-
-But none of that matters if you don't measure it. Only 28% of marketers have a solid ROI measurement system in place ([Nielsen, 2025](https://sender.net/marketing-glossary/return-on-investment-roi/statistics/)). The formula isn't complex. It's the commitment to tracking costs completely, attributing organic revenue accurately, and waiting long enough for compounding to show up.
-
-Key takeaways:
-
-- Median SEO ROI is 748%; industry range is 317% (e-commerce) to 1,389% (real estate)
-- Break-even typically hits at 6-12 months; compounding accelerates in year 2+
-- Measurement requires GA4 + Google Search Console + a consistent attribution model
-- SEO cost per lead ($31) is 5.8x cheaper than PPC ($181)
-- Adjust traffic forecasts 15-25% downward for AI Overview-impacted queries
-
-Start by setting up organic conversion tracking in GA4 today. Run the manual calculation above with your last 90 days of data. That number is your baseline and your argument for continued investment.
-
-Once your tracking is in place, revisit the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) to build a dashboard that connects organic sessions, conversions, and revenue into a single reporting view your leadership team can act on.
-
----
-
