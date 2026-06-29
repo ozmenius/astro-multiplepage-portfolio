@@ -193,6 +193,16 @@ Infographics and visual data assets work best as companions to data studies, not
 
 Index and ranking content ("Best Cities for X", "Top 50 Companies for Y") creates aspirational coverage. Brands, organizations, and individuals mentioned in the index share it, link to it, and sometimes write about it. The coverage scales beyond the initial outreach list.
 
+## The compounding case for digital PR
+
+Digital PR earns editorial links from DR 60+ publications by creating newsworthy assets, not by asking for links. Its primary SEO benefit is high-authority backlinks that standard outreach can't match. Its compound value now extends to AI citation visibility, where brand mentions are 3x more correlated with AI Overview presence than backlinks alone.
+
+The four-step framework, asset creation, publication targeting, journalist outreach, measurement, makes digital PR predictable. Campaigns average 42 unique referring domains per cycle. Ranking impact for link building generally shows up within a few months. And the brand mention signal generated along the way feeds AI search visibility simultaneously. To track these outcomes properly, the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) covers the backlink growth and AI visibility metrics that belong on your reporting dashboard. For quantifying the business return, the [ROI of SEO guide](https://dennisozmen.com/posts/roi-of-seo) provides the formula and industry benchmarks.
+
+- Create assets with a genuine news hook, a finding editors want to cover, not content that asks for coverage
+- Target DR 50+ publications and match the asset to the editorial beat
+- Measure both traditional SEO outcomes and AI Overview brand mention frequency
+- Run multiple campaign cycles: the authority compounds, the brand signal grows, and the AI citation potential increases with each placement
 
 ## Sources
 
@@ -225,18 +235,3 @@ Link-building efforts in general take an average of around 3 months to produce a
 ### Can digital PR help with AI search visibility?
 
 Yes, and this is the most underused argument for the tactic. Brand web mentions, the primary output of digital PR, correlate with Google AI Overview visibility at a coefficient of 0.664, compared to 0.218 for backlinks alone, a 3x difference across 75,000 brands ([Ahrefs, May 2025](https://ahrefs.com/blog/ai-overview-brand-correlation/)). Brands in the top quartile for web mentions averaged 169 AI Overview mentions versus 14 for the next tier. Digital PR is increasingly an AI citation strategy, not just a backlink strategy.
-
-## The compounding case for digital PR
-
-Digital PR earns editorial links from DR 60+ publications by creating newsworthy assets, not by asking for links. Its primary SEO benefit is high-authority backlinks that standard outreach can't match. Its compound value now extends to AI citation visibility, where brand mentions are 3x more correlated with AI Overview presence than backlinks alone.
-
-The four-step framework, asset creation, publication targeting, journalist outreach, measurement, makes digital PR predictable. Campaigns average 42 unique referring domains per cycle. Ranking impact for link building generally shows up within a few months. And the brand mention signal generated along the way feeds AI search visibility simultaneously. To track these outcomes properly, the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) covers the backlink growth and AI visibility metrics that belong on your reporting dashboard. For quantifying the business return, the [ROI of SEO guide](https://dennisozmen.com/posts/roi-of-seo) provides the formula and industry benchmarks.
-
-- Create assets with a genuine news hook, a finding editors want to cover, not content that asks for coverage
-- Target DR 50+ publications and match the asset to the editorial beat
-- Measure both traditional SEO outcomes and AI Overview brand mention frequency
-- Run multiple campaign cycles: the authority compounds, the brand signal grows, and the AI citation potential increases with each placement
-
-
----
-
