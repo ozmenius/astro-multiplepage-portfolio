@@ -270,6 +270,24 @@ Worth noting: the users most motivated to remove AI from search are often the hi
 - Search Engine Journal, *Study Confirms Google AI Overviews Cut Organic Clicks 38%* (ISB/Carnegie Mellon field study), Apr 2026, https://www.searchenginejournal.com/ai-overviews-cut-organic-clicks-38-field-study-finds/573145/
 - Fractl, *AI vs. SEO: How Generative Search Is Reshaping Discovery, Content Strategy, and Consumer Trust*, 2025, https://www.frac.tl/ai-vs-seo-how-generative-search-is-reshaping-discovery-content-strategy-and-consumer-trust-in-2025/
 
+## What AI search actually means for your strategy
+
+AI search isn't replacing traditional search overnight. Google still processes the overwhelming majority of queries. But it is redistributing how clicks get allocated. That redistribution is already large enough to show up in GSC data for informational content.
+
+The instinct to wait and see is understandable but costly. The brands accumulating AI citations now are building a discovery channel that compounds. Third-party coverage drives citations. Citations build topical authority signals. Topical authority improves retrieval candidacy. Retrieval candidacy determines whether you're in the answer at all.
+
+The practical priorities are clear:
+
+- Structure your introductions to answer the query directly, not to build to a conclusion
+- Treat third-party press coverage, analyst mentions, and community discussions as citation inputs, not just PR
+- Audit your top-performing pages against the first-30% citation pattern
+- Track AI-sourced traffic separately from organic in GA4, and monitor conversion quality, not just volume
+- Don't optimize only for one platform. ChatGPT, Perplexity, and Google AI Mode each have distinct citation patterns
+
+The teams that treat AI search as a parallel discovery channel alongside traditional SEO, rather than a threat to it, will be better positioned than those waiting for the dust to settle.
+
+For a deeper dive into the content signals that drive AI citation, the [generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization) walks through the Princeton research framework in full.
+
 ## Frequently Asked Questions
 
 ### What is AI Mode in search?
@@ -292,23 +310,4 @@ Not in total query volume terms. Google still holds roughly 77% of all digital q
 
 Put your direct answer in the first 150 words of the page. Structure content in tightly scoped 120-180-word sections with clear headings. Keep pages updated within three months. Earn third-party coverage on industry sites, publications, and community platforms. 85% of AI brand citations originate off-domain ([AirOps/Kevin Indig, 2026](https://www.airops.com/report/the-2026-state-of-ai-search)). Implement FAQPage and HowTo schema markup. Build topical authority across a cluster of related content rather than targeting isolated keywords.
 
-## What AI search actually means for your strategy
-
-AI search isn't replacing traditional search overnight. Google still processes the overwhelming majority of queries. But it is redistributing how clicks get allocated. That redistribution is already large enough to show up in GSC data for informational content.
-
-The instinct to wait and see is understandable but costly. The brands accumulating AI citations now are building a discovery channel that compounds. Third-party coverage drives citations. Citations build topical authority signals. Topical authority improves retrieval candidacy. Retrieval candidacy determines whether you're in the answer at all.
-
-The practical priorities are clear:
-
-- Structure your introductions to answer the query directly, not to build to a conclusion
-- Treat third-party press coverage, analyst mentions, and community discussions as citation inputs, not just PR
-- Audit your top-performing pages against the first-30% citation pattern
-- Track AI-sourced traffic separately from organic in GA4, and monitor conversion quality, not just volume
-- Don't optimize only for one platform. ChatGPT, Perplexity, and Google AI Mode each have distinct citation patterns
-
-The teams that treat AI search as a parallel discovery channel alongside traditional SEO, rather than a threat to it, will be better positioned than those waiting for the dust to settle.
-
-For a deeper dive into the content signals that drive AI citation, the [generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization) walks through the Princeton research framework in full.
-
 ---
-
