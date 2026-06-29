@@ -431,6 +431,16 @@ Add "explain your reasoning for each flag" to any audit prompt. This forces Clau
 - HubSpot, *Generative Engine Optimization Statistics*, 2025, https://blog.hubspot.com/marketing/generative-engine-optimization-statistics
 - Anthropic / Claude Support, *How large is the context window on paid Claude plans?*, 2026, https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans
 
+## Using these prompts in practice
+
+87% of content marketers now use AI in at least one stage of their workflow ([Ahrefs](https://ahrefs.com/blog/ai-seo-statistics/), Nov 2025). The teams who get the most out of it aren't running more prompts. They're running better-structured ones, with real context and specific output requirements.
+
+These prompts work when you do two things: provide actual data (your real keywords, your real pages, your real crawl exports), and treat Claude's output as a starting point. Validate schema before deploying. Check factual claims in audit results. Add first-hand context where the prompt can't know it.
+
+Pick one category, run the first prompt with your own data, and iterate from there. The prompts that work best in your workflow are the ones you've tuned to your specific context.
+
+The GEO and AI search prompts are the category worth starting with if you're already comfortable with the rest. That's where the competitive gap is widest. Most SEO teams aren't optimizing for AI citation yet, and the content that gets there first is what AI systems learn to reference. The [AI search guide](https://dennisozmen.com/posts/ai-search) covers how Google AI Mode, Perplexity, and AI Overviews are reshaping which content gets cited.
+
 ## Frequently Asked Questions
 
 ### Is Claude better than ChatGPT for SEO?
@@ -452,18 +462,3 @@ Paste your data directly into the prompt. Claude handles full Screaming Frog CSV
 ### Can Claude write schema markup that validates?
 
 Yes. Claude generates syntactically correct JSON-LD schema when prompted with full context: name, date, URL, description, and organization fields. Always validate the output in Google's Rich Results Test before deploying. For complex schema types like Product with offers or Event, provide all required fields explicitly in your prompt so Claude doesn't have to guess.
-
----
-
-## Using these prompts in practice
-
-87% of content marketers now use AI in at least one stage of their workflow ([Ahrefs](https://ahrefs.com/blog/ai-seo-statistics/), Nov 2025). The teams who get the most out of it aren't running more prompts. They're running better-structured ones, with real context and specific output requirements.
-
-These prompts work when you do two things: provide actual data (your real keywords, your real pages, your real crawl exports), and treat Claude's output as a starting point. Validate schema before deploying. Check factual claims in audit results. Add first-hand context where the prompt can't know it.
-
-Pick one category, run the first prompt with your own data, and iterate from there. The prompts that work best in your workflow are the ones you've tuned to your specific context.
-
-The GEO and AI search prompts are the category worth starting with if you're already comfortable with the rest. That's where the competitive gap is widest. Most SEO teams aren't optimizing for AI citation yet, and the content that gets there first is what AI systems learn to reference. The [AI search guide](https://dennisozmen.com/posts/ai-search) covers how Google AI Mode, Perplexity, and AI Overviews are reshaping which content gets cited.
-
----
-
