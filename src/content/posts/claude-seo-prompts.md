@@ -420,6 +420,16 @@ Paste full CSV exports, crawl data, or Google Search Console reports directly in
 
 Add "explain your reasoning for each flag" to any audit prompt. This forces Claude to surface its logic so you can validate recommendations rather than applying them blindly. For technical SEO audits especially, understanding why Claude flagged something is as valuable as the flag itself.
 
+## Using these prompts in practice
+
+87% of content marketers now use AI in at least one stage of their workflow ([Ahrefs](https://ahrefs.com/blog/ai-seo-statistics/), Nov 2025). The teams who get the most out of it aren't running more prompts. They're running better-structured ones, with real context and specific output requirements.
+
+These prompts work when you do two things: provide actual data (your real keywords, your real pages, your real crawl exports), and treat Claude's output as a starting point. Validate schema before deploying. Check factual claims in audit results. Add first-hand context where the prompt can't know it.
+
+Pick one category, run the first prompt with your own data, and iterate from there. The prompts that work best in your workflow are the ones you've tuned to your specific context.
+
+The GEO and AI search prompts are the category worth starting with if you're already comfortable with the rest. That's where the competitive gap is widest. Most SEO teams aren't optimizing for AI citation yet, and the content that gets there first is what AI systems learn to reference. The [AI search guide](https://dennisozmen.com/posts/ai-search) covers how Google AI Mode, Perplexity, and AI Overviews are reshaping which content gets cited.
+
 ---
 
 ## Sources
@@ -430,16 +440,6 @@ Add "explain your reasoning for each flag" to any audit prompt. This forces Clau
 - BrightEdge, *Survey: 68% of Marketers Are Embracing the AI Search Shift*, June 2025, https://www.brightedge.com/news/press-releases/brightedge-survey-reveals-68-marketers-are-embracing-ai-search-shift
 - HubSpot, *Generative Engine Optimization Statistics*, 2025, https://blog.hubspot.com/marketing/generative-engine-optimization-statistics
 - Anthropic / Claude Support, *How large is the context window on paid Claude plans?*, 2026, https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans
-
-## Using these prompts in practice
-
-87% of content marketers now use AI in at least one stage of their workflow ([Ahrefs](https://ahrefs.com/blog/ai-seo-statistics/), Nov 2025). The teams who get the most out of it aren't running more prompts. They're running better-structured ones, with real context and specific output requirements.
-
-These prompts work when you do two things: provide actual data (your real keywords, your real pages, your real crawl exports), and treat Claude's output as a starting point. Validate schema before deploying. Check factual claims in audit results. Add first-hand context where the prompt can't know it.
-
-Pick one category, run the first prompt with your own data, and iterate from there. The prompts that work best in your workflow are the ones you've tuned to your specific context.
-
-The GEO and AI search prompts are the category worth starting with if you're already comfortable with the rest. That's where the competitive gap is widest. Most SEO teams aren't optimizing for AI citation yet, and the content that gets there first is what AI systems learn to reference. The [AI search guide](https://dennisozmen.com/posts/ai-search) covers how Google AI Mode, Perplexity, and AI Overviews are reshaping which content gets cited.
 
 ## Frequently Asked Questions
 
