@@ -388,7 +388,18 @@ Surfer SEO's October 2025 analysis of 36 million AI Overviews and 46 million cit
 
 > **Citation Capsule:** AI citation patterns vary dramatically by industry vertical. Surfer SEO's analysis of 36 million AI Overviews found that in the Health vertical, NIH captures approximately 39% of all citations, nearly triple the share of any other domain. This indicates that in regulated or high-stakes verticals, GEO success requires aligning content with the authoritative institutions AI engines already trust, rather than competing against them directly.
 
----
+## The clearest path forward
+
+GEO is neither a replacement for SEO nor an optional add-on. It's the practice of ensuring content clears all three stages of the AI search pipeline, retrieval, ranking, and synthesis, using signals the Princeton research has now quantified in controlled conditions.
+
+The core takeaways from the evidence:
+
+- GEO content strategies can boost AI citation rates by up to 40%, with quotations (+41%), statistics (+32%), and authoritative citations (+30%) driving the largest gains. ([Aggarwal et al., ACM KDD 2024](https://dl.acm.org/doi/10.1145/3637528.3671900))
+- Only 38% of AI Overview citations overlap with top-10 organic rankings. Both channels now require dedicated optimization.
+- AI referral traffic grew 16x from 2024 to 2026, but GA4 captures only 10-20% of the true AI-influenced pipeline.
+- ChatGPT sends 74.78% of AI referral traffic. Tool and content prioritization should reflect that, not Perplexity's disproportionate share of GEO coverage.
+
+The most efficient starting point is a GEO content audit. Identify existing pages that already have topical relevance and domain authority for high-volume queries. Apply the Princeton signal framework to those first: add a sourced statistic and an expert quotation, restructure the opening paragraph as a direct answer, and link to primary research sources. These changes take hours, not months. The citation results can follow within weeks.
 
 ## Sources
 
@@ -427,21 +438,3 @@ For the full picture on how Google AI Overviews select citations and how platfor
 ### How do I measure GEO performance?
 
 Use a four-metric stack: direct citation rate (manually query 20-50 target keywords monthly across ChatGPT, Perplexity, and Google AI Mode); AI referral traffic in GA4 (source/medium: chatgpt.com, perplexity.ai, gemini.google.com); branded search trends in Google Search Console as a proxy for AI-driven awareness; and pipeline velocity for contacts who found you via AI-cited content.
-
----
-
-## The clearest path forward
-
-GEO is neither a replacement for SEO nor an optional add-on. It's the practice of ensuring content clears all three stages of the AI search pipeline, retrieval, ranking, and synthesis, using signals the Princeton research has now quantified in controlled conditions.
-
-The core takeaways from the evidence:
-
-- GEO content strategies can boost AI citation rates by up to 40%, with quotations (+41%), statistics (+32%), and authoritative citations (+30%) driving the largest gains. ([Aggarwal et al., ACM KDD 2024](https://dl.acm.org/doi/10.1145/3637528.3671900))
-- Only 38% of AI Overview citations overlap with top-10 organic rankings. Both channels now require dedicated optimization.
-- AI referral traffic grew 16x from 2024 to 2026, but GA4 captures only 10-20% of the true AI-influenced pipeline.
-- ChatGPT sends 74.78% of AI referral traffic. Tool and content prioritization should reflect that, not Perplexity's disproportionate share of GEO coverage.
-
-The most efficient starting point is a GEO content audit. Identify existing pages that already have topical relevance and domain authority for high-volume queries. Apply the Princeton signal framework to those first: add a sourced statistic and an expert quotation, restructure the opening paragraph as a direct answer, and link to primary research sources. These changes take hours, not months. The citation results can follow within weeks.
-
----
-
