@@ -355,6 +355,19 @@ When AI Overviews are present, organic CTR drops by approximately 67.8% compared
 
 ![An illustration of two URLs competing for the same query with split impressions — a cannibalization signal requiring consolidation or intent differentiation](/assets/images/posts/gsc-pages-cannibalization.jpeg)
 
+## Put the workflow to work
+
+GSC's Performance report is the most underused free tool in SEO. The striking-distance filter gives you the highest-ROI starting point. The regex question filter surfaces FAQ and snippet candidates your competitors aren't touching. Exporting to Sheets with an opportunity score turns raw data into a prioritized action list. And date comparison catches keyword decay before it becomes a traffic problem.
+
+What matters most, distilled:
+
+- The striking-distance filter (positions 4-20, sorted by impressions) is the fastest path to more traffic from existing pages.
+- The regex question filter surfaces FAQ and featured-snippet opportunities that most tools don't surface efficiently.
+- Honest data management matters: export quarterly, use the API for large sites, and don't mistake the 1,000-row sample for the full picture.
+- Date comparison is early warning infrastructure. Use it monthly, not reactively.
+
+Set aside 30 minutes this week to run the striking-distance filter on your GSC data. Pick the five pages with the highest impression counts between positions 4 and 20. Those are your next content updates. The data is already there. You just need to act on it.
+
 ## Sources
 
 - First Page Sage, *Google Click-Through Rates (CTRs) by Ranking Position*, May 2025, https://firstpagesage.com/reports/google-click-through-rates-ctrs-by-ranking-position/
@@ -387,19 +400,3 @@ Striking-distance keywords are queries where your page ranks between position 4 
 ### Is Google Search Console enough for keyword research?
 
 GSC is sufficient for optimizing existing content and finding quick wins on your own site. For discovering keywords you don't yet rank for, assessing keyword difficulty, or researching competitor gaps, you'll need a paid tool alongside it. The most effective approach: use GSC to drive content optimization decisions, and use Semrush or Ahrefs to identify net-new keyword targets worth building content around.
-
-## Put the workflow to work
-
-GSC's Performance report is the most underused free tool in SEO. The striking-distance filter gives you the highest-ROI starting point. The regex question filter surfaces FAQ and snippet candidates your competitors aren't touching. Exporting to Sheets with an opportunity score turns raw data into a prioritized action list. And date comparison catches keyword decay before it becomes a traffic problem.
-
-What matters most, distilled:
-
-- The striking-distance filter (positions 4-20, sorted by impressions) is the fastest path to more traffic from existing pages.
-- The regex question filter surfaces FAQ and featured-snippet opportunities that most tools don't surface efficiently.
-- Honest data management matters: export quarterly, use the API for large sites, and don't mistake the 1,000-row sample for the full picture.
-- Date comparison is early warning infrastructure. Use it monthly, not reactively.
-
-Set aside 30 minutes this week to run the striking-distance filter on your GSC data. Pick the five pages with the highest impression counts between positions 4 and 20. Those are your next content updates. The data is already there. You just need to act on it.
-
----
-
