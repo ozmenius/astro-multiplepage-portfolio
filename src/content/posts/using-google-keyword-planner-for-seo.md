@@ -21,7 +21,7 @@ This guide covers exact steps to access GKP without any ad spend, how to extract
 
 ## What is Google Keyword Planner?
 
-Google Keyword Planner is a free tool inside Google Ads, used by 7 million businesses running Google Ads campaigns ([DemandSage](https://www.demandsage.com/google-ads-statistics/), 2026). It was designed to help advertisers estimate search demand before setting up paid campaigns, not for organic SEO. But because it pulls from Google's own search data, SEOs use it as a starting point for [keyword research](/blog/keyword-research).
+Google Keyword Planner is a free tool inside Google Ads, used by 7 million businesses running Google Ads campaigns ([DemandSage](https://www.demandsage.com/google-ads-statistics/), 2026). It was designed to help advertisers estimate search demand before setting up paid campaigns, not for organic SEO. But because it pulls from Google's own search data, SEOs use it as a starting point for keyword research.
 
 GKP has two main features. "Discover new keywords" takes a seed term or URL and returns related keyword ideas with estimated volume ranges, average CPC, and advertiser competition. "Get search volume and forecasts" checks demand for a list of keywords you already have. Both are useful for SEO, with important caveats. For real-volume validation on keywords your site already ranks for, [Google Search Console](https://dennisozmen.com/posts/google-search-console-for-keyword-research/) is the stronger complement.
 
