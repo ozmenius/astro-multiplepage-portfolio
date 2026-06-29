@@ -239,6 +239,21 @@ The industry hasn't fully resolved this. Profound treats GEO and AEO as function
 
 For a deeper look at how Google AI Overviews select and cite sources, the [AI search guide](https://dennisozmen.com/posts/ai-search) walks through the retrieval-augmented generation pipeline in detail.
 
+## GEO and SEO are not a zero-sum choice
+
+The 68% zero-click rate is real. The 58% CTR drop at position 1 is real. The 54.5% overlap between AI Overview citations and organic rankings is equally real. These numbers don't cancel each other out. They point in the same direction.
+
+Build the SEO foundation. AI models favor the same things Google does: topical authority, trustworthy sources, well-structured content. Then layer GEO on top: add citation-optimized passages, statistics with named sources, and clear claim-answer-source paragraphs in each section. Measure AI citation frequency separately from organic metrics starting now, before industry tooling matures further.
+
+The brands that will perform well in 2027 and beyond are the ones that treated GEO as an additive strategy in 2026, not a replacement for SEO, and not something to defer until the shift is complete. The window is open.
+
+- Start GEO on your existing highest-traffic informational pages first
+- Add citation-optimized passages (a stat plus a named source) to each H2 section
+- Track AI visibility regularly alongside your standard organic metrics
+- Adjust your GEO/SEO budget split as your domain authority grows
+
+If you're ready to go deeper on GEO execution, the [full generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization) covers the Princeton research framework, GEO tools, and measurement in detail.
+
 ## Sources
 
 - Aggarwal, P. et al. (Princeton University / IIT Delhi), *GEO: Generative Engine Optimization*, ACM KDD 2024, https://arxiv.org/abs/2311.09735
@@ -272,21 +287,3 @@ Start with Google AI Overviews. It has the largest audience and the highest over
 ### Is the GEO/SEO budget split the same for every industry?
 
 Not exactly. The framework above (80/20 for small sites, 60/40 for mid-market, 50/50 for enterprise) is a starting point based on domain authority. Industries with high informational query volume, finance, healthcare, SaaS, B2B, tend to see AI Overviews triggered more frequently. That shifts the case for earlier GEO investment. Transactional-heavy industries like e-commerce may find SEO budget allocation tilted higher for longer, since product queries still drive strong direct CTR in traditional SERPs.
-
-## GEO and SEO are not a zero-sum choice
-
-The 68% zero-click rate is real. The 58% CTR drop at position 1 is real. The 54.5% overlap between AI Overview citations and organic rankings is equally real. These numbers don't cancel each other out. They point in the same direction.
-
-Build the SEO foundation. AI models favor the same things Google does: topical authority, trustworthy sources, well-structured content. Then layer GEO on top: add citation-optimized passages, statistics with named sources, and clear claim-answer-source paragraphs in each section. Measure AI citation frequency separately from organic metrics starting now, before industry tooling matures further.
-
-The brands that will perform well in 2027 and beyond are the ones that treated GEO as an additive strategy in 2026, not a replacement for SEO, and not something to defer until the shift is complete. The window is open.
-
-- Start GEO on your existing highest-traffic informational pages first
-- Add citation-optimized passages (a stat plus a named source) to each H2 section
-- Track AI visibility regularly alongside your standard organic metrics
-- Adjust your GEO/SEO budget split as your domain authority grows
-
-If you're ready to go deeper on GEO execution, the [full generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization) covers the Princeton research framework, GEO tools, and measurement in detail.
-
----
-
