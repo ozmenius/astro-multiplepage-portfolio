@@ -301,6 +301,19 @@ In practice: a human reviews AI-generated content before it publishes. A human a
   <figcaption>Source: HubSpot, AI Trends for Marketers, 2025 | % of marketers who used each AI tool type in the past 12 months</figcaption>
 </figure>
 
+## What AI in marketing actually requires
+
+AI in marketing isn't magic. It's infrastructure, fast, scalable infrastructure that amplifies good strategy and exposes weak strategy more quickly.
+
+It speeds up content production, improves targeting precision, reduces acquisition costs, and makes personalization economically viable at scale. The data on those outcomes is consistent: Netflix's $1B in annual retention savings, Adidas's 259% AOV jump, Unilever's 55% cost reduction in content production. These aren't outliers. They're the results that come from specific, measured AI deployment.
+
+But the 91%/41% gap is real, and it matters. Almost every team has adopted AI. Less than half can prove it's working. The difference isn't the tools.
+
+- AI works best when deployed against specific, measurable use cases
+- It performs best when paired with human oversight, not run autonomously
+- The risks, brand voice drift, privacy exposure, algorithmic bias, are manageable with the right guardrails
+- Proving ROI requires baselines. Set them before deployment, not after
+
 ## Sources
 
 - Jasper.ai, *State of AI Marketing 2026*, retrieved 2026-06-22, https://www.jasper.ai/state-of-ai-marketing-2026
@@ -337,19 +350,3 @@ ChatGPT leads among AI chatbots by a wide margin, used by 88% of AI-using market
 ### How do I measure the ROI of AI in marketing?
 
 Set baselines before you deploy. Track: content output velocity, cost-per-lead by channel, conversion rates, and time-per-task for the workflows you're automating. Compare those numbers at 30, 60, and 90 days post-deployment. According to Jasper.ai's 2026 State of AI Marketing report, only 41% of AI-using teams can prove ROI, and the primary cause is the absence of pre-deployment measurement benchmarks. Averi.ai's 2026 benchmarks report confirms it: 81% of content marketing teams have no AI-specific KPIs in place. The fix is simple in principle and often overlooked in practice: measure first, deploy second.
-
-## What AI in marketing actually requires
-
-AI in marketing isn't magic. It's infrastructure, fast, scalable infrastructure that amplifies good strategy and exposes weak strategy more quickly.
-
-It speeds up content production, improves targeting precision, reduces acquisition costs, and makes personalization economically viable at scale. The data on those outcomes is consistent: Netflix's $1B in annual retention savings, Adidas's 259% AOV jump, Unilever's 55% cost reduction in content production. These aren't outliers. They're the results that come from specific, measured AI deployment.
-
-But the 91%/41% gap is real, and it matters. Almost every team has adopted AI. Less than half can prove it's working. The difference isn't the tools.
-
-- AI works best when deployed against specific, measurable use cases
-- It performs best when paired with human oversight, not run autonomously
-- The risks, brand voice drift, privacy exposure, algorithmic bias, are manageable with the right guardrails
-- Proving ROI requires baselines. Set them before deployment, not after
-
----
-
