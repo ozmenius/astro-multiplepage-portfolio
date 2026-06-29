@@ -242,6 +242,18 @@ Three concrete hybrid patterns worth knowing:
 
 The question "n8n vs Claude Code" sets up a false choice. The right question is: which part of this problem is a coding problem, and which part is an automation problem?
 
+## The clearest way to choose
+
+n8n and Claude Code are not direct competitors. They never were. Claude Code is an AI coding agent for developers. It takes autonomous actions inside a codebase, writes code, runs tests, and pushes commits. n8n is a visual workflow automation platform for connecting systems reliably at scale, with AI as an optional node in a larger pipeline.
+
+The "build vs. operate" lifecycle framing is the most useful lens. Use Claude Code when you're building something that requires writing or understanding complex code. Switch to n8n when you need that logic to run reliably on a schedule, with error handling, monitoring, and connections to the rest of your stack. Many teams use Claude Code to build the logic and n8n to operate it. That pattern is both practical and increasingly common.
+
+- Coding problem: use Claude Code
+- Automation/integration problem: use n8n
+- Complex AI product with both problems: use both, at different stages
+
+If you're primarily a developer, start with Claude Code via the Anthropic Pro plan. If you're automating business processes, start with n8n's self-hosted Community Edition. It's free and runs unlimited executions. If you're building an AI-powered product that needs both construction and reliable long-running operation, you now know exactly how to split the work.
+
 ## Sources
 
 - Stack Overflow, *2025 Developer Survey* (65,000+ developers), https://survey.stackoverflow.co/2025/ai
@@ -277,19 +289,3 @@ Claude Code starts at $20/month via the Anthropic Pro plan. n8n is free to self-
 ### Can Claude Code build n8n workflows?
 
 Yes. Claude Code can generate valid n8n workflow JSON from a natural-language description of what you want the automation to do. You describe the logic in plain English. Claude Code produces the workflow file. You import it into n8n. This is an emerging use case where Claude Code's code-generation strength directly complements n8n's visual automation runtime. It cuts manual canvas-building time significantly for complex workflows.
-
-## The clearest way to choose
-
-n8n and Claude Code are not direct competitors. They never were. Claude Code is an AI coding agent for developers. It takes autonomous actions inside a codebase, writes code, runs tests, and pushes commits. n8n is a visual workflow automation platform for connecting systems reliably at scale, with AI as an optional node in a larger pipeline.
-
-The "build vs. operate" lifecycle framing is the most useful lens. Use Claude Code when you're building something that requires writing or understanding complex code. Switch to n8n when you need that logic to run reliably on a schedule, with error handling, monitoring, and connections to the rest of your stack. Many teams use Claude Code to build the logic and n8n to operate it. That pattern is both practical and increasingly common.
-
-- Coding problem: use Claude Code
-- Automation/integration problem: use n8n
-- Complex AI product with both problems: use both, at different stages
-
-If you're primarily a developer, start with Claude Code via the Anthropic Pro plan. If you're automating business processes, start with n8n's self-hosted Community Edition. It's free and runs unlimited executions. If you're building an AI-powered product that needs both construction and reliable long-running operation, you now know exactly how to split the work.
-
-
----
-
