@@ -302,6 +302,18 @@ The decision rule: if a mistake would take longer to fix than the task would hav
   <figcaption>Source: CoSchedule State of AI in Marketing, 2025 (n=1,000+ marketers). 83.82% reported increased productivity after adopting AI.</figcaption>
 </figure>
 
+## The bottom line
+
+AI adoption in SEO is mainstream now. The competitive advantage is no longer in having AI tools. It's in having a connected workflow that compounds the time savings across every repeatable task in your SEO process.
+
+The highest-ROI automation targets are clear: weekly reporting, bulk metadata generation, keyword clustering, and technical audit interpretation. These tasks run on a reliable weekly cycle, require no creative judgment, and are easy to quality-check at scale. Start there. Build the prompt templates. Then connect the layers.
+
+Don't automate strategy, link building, or content that requires real expertise. The cost of a wrong output in those categories exceeds the time savings by a wide margin. Use the Human Judgment Framework as your guide: if fixing the mistake takes longer than doing the task manually, it's not ready to automate.
+
+LLM referral traffic grew approximately 527% year-over-year (Previsible AI Traffic Report, 2025). AI visibility, whether your content gets cited by ChatGPT, Perplexity, or Google's AI Overview, is becoming a real SEO outcome. The workflow you build for automation today is the same infrastructure that positions your content for AI citation tomorrow.
+
+If you're tracking the ROI of all this automation effort, [how to measure the ROI of SEO](https://dennisozmen.com/posts/roi-of-seo) gives you a framework to quantify the returns.
+
 ## Sources
 
 - CoSchedule, *State of AI in Marketing 2025* (n=1,000+), https://coschedule.com/ai-marketing-statistics
@@ -331,18 +343,3 @@ Automation runs pre-defined workflows: every Monday, pull rankings and send a re
 ### Do I need n8n or Zapier to automate SEO?
 
 Not to start. Most SEO platforms have built-in automation for alerts and scheduled reports. n8n and Zapier become valuable when you want to connect multiple tools: for example, a rank drop triggers a Claude analysis prompt, which emails a summary to Slack. Start with platform-native automation in Week 1. Layer in workflow connectors once you know which integrations you actually need.
-
-## The bottom line
-
-AI adoption in SEO is mainstream now. The competitive advantage is no longer in having AI tools. It's in having a connected workflow that compounds the time savings across every repeatable task in your SEO process.
-
-The highest-ROI automation targets are clear: weekly reporting, bulk metadata generation, keyword clustering, and technical audit interpretation. These tasks run on a reliable weekly cycle, require no creative judgment, and are easy to quality-check at scale. Start there. Build the prompt templates. Then connect the layers.
-
-Don't automate strategy, link building, or content that requires real expertise. The cost of a wrong output in those categories exceeds the time savings by a wide margin. Use the Human Judgment Framework as your guide: if fixing the mistake takes longer than doing the task manually, it's not ready to automate.
-
-LLM referral traffic grew approximately 527% year-over-year (Previsible AI Traffic Report, 2025). AI visibility, whether your content gets cited by ChatGPT, Perplexity, or Google's AI Overview, is becoming a real SEO outcome. The workflow you build for automation today is the same infrastructure that positions your content for AI citation tomorrow.
-
-If you're tracking the ROI of all this automation effort, [how to measure the ROI of SEO](https://dennisozmen.com/posts/roi-of-seo) gives you a framework to quantify the returns.
-
----
-
