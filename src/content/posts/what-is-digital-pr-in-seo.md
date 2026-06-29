@@ -194,6 +194,16 @@ Infographics and visual data assets work best as companions to data studies, not
 Index and ranking content ("Best Cities for X", "Top 50 Companies for Y") creates aspirational coverage. Brands, organizations, and individuals mentioned in the index share it, link to it, and sometimes write about it. The coverage scales beyond the initial outreach list.
 
 
+## Sources
+
+- Ahrefs, *An Analysis of AI Overview Brand Visibility Factors (75K Brands Studied)*, May 2025, https://ahrefs.com/blog/ai-overview-brand-correlation/
+- Backlinko, *We Analyzed 912 Million Blog Posts*, https://backlinko.com/content-study
+- Backlinko, *We Analyzed 11.8 Million Google Search Results*, https://backlinko.com/search-engine-ranking
+- Editorial.link, *Link Building Statistics Based on a Survey of 518 SEO Experts (2026)*, https://editorial.link/link-building-statistics/
+- Reboot Online, *Digital PR Statistics 2026*, https://www.rebootonline.com/digital-pr-statistics/
+- Digitaloft, *Digital PR Campaign Benchmarks*, via Motive PR, 2025, https://www.motivepr.co.uk/blog/digital-pr-statistics-2025
+- Authority Hacker, *Link Building Survey (755 link builders)*, https://www.authorityhacker.com/
+
 ## Frequently Asked Questions
 
 ### What is digital PR in SEO?
@@ -230,12 +240,3 @@ The four-step framework, asset creation, publication targeting, journalist outre
 
 ---
 
-## Sources
-
-- Ahrefs, *An Analysis of AI Overview Brand Visibility Factors (75K Brands Studied)*, May 2025, https://ahrefs.com/blog/ai-overview-brand-correlation/
-- Backlinko, *We Analyzed 912 Million Blog Posts*, https://backlinko.com/content-study
-- Backlinko, *We Analyzed 11.8 Million Google Search Results*, https://backlinko.com/search-engine-ranking
-- Editorial.link, *Link Building Statistics Based on a Survey of 518 SEO Experts (2026)*, https://editorial.link/link-building-statistics/
-- Reboot Online, *Digital PR Statistics 2026*, https://www.rebootonline.com/digital-pr-statistics/
-- Digitaloft, *Digital PR Campaign Benchmarks*, via Motive PR, 2025, https://www.motivepr.co.uk/blog/digital-pr-statistics-2025
-- Authority Hacker, *Link Building Survey (755 link builders)*, https://www.authorityhacker.com/

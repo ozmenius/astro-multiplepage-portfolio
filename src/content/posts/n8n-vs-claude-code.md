@@ -242,6 +242,20 @@ Three concrete hybrid patterns worth knowing:
 
 The question "n8n vs Claude Code" sets up a false choice. The right question is: which part of this problem is a coding problem, and which part is an automation problem?
 
+## Sources
+
+- Stack Overflow, *2025 Developer Survey* (65,000+ developers), https://survey.stackoverflow.co/2025/ai
+- The Pragmatic Engineer, *AI Coding Tools Survey*, February 2026 (15,000 developers)
+- JetBrains, *AI Pulse Survey*, January 2026 (10,000+ developers), https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/
+- n8n, *Series C Funding Announcement*, October 2025, https://blog.n8n.io/series-c/
+- Mordor Intelligence, *Workflow Automation Market Report*, 2026, https://www.mordorintelligence.com/industry-reports/workflow-automation-market
+- n8n Lab, *How to Build AI Agents in n8n with Claude API*, 2026, https://n8nlab.io/blog/build-ai-agents-n8n-claude-api
+- Approveit (via Cflow), *Workflow Automation Statistics*, 2025/2026, https://www.cflowapps.com/workflow-automation-statistics/
+- GitHub, *n8n Repository*, retrieved 2026-06-28, https://github.com/n8n-io/n8n
+- Anthropic, *Claude Code Documentation*, retrieved 2026-06-28, https://code.claude.com/docs/en/overview
+
+**A note on sourcing for this piece:** Three citations in earlier drafts of this article ("Flowlyn, 2025" for n8n statistics, "SerpSculpt, 2025-2026" for a 26-55% productivity figure, and "Uvik, 2026" for a 29% AI-trust figure) pointed to URLs that returned dead or "not found" pages when checked, and could not be re-verified against a live source. They have been removed or replaced with statistics confirmed directly against working, citable sources. The GitHub star count and integration count have also been corrected to match n8n's current, verifiable figures, and the Claude Code satisfaction data has been re-attributed to the correct surveys (The Pragmatic Engineer for the 46% "most loved" figure, JetBrains for the CSAT/NPS figures) rather than a single misattributed "JetBrains, April 2026" source.
+
 ## Frequently asked questions
 
 ### Is n8n better than Claude Code?
@@ -279,16 +293,3 @@ If you're primarily a developer, start with Claude Code via the Anthropic Pro pl
 
 ---
 
-## Sources
-
-- Stack Overflow, *2025 Developer Survey* (65,000+ developers), https://survey.stackoverflow.co/2025/ai
-- The Pragmatic Engineer, *AI Coding Tools Survey*, February 2026 (15,000 developers)
-- JetBrains, *AI Pulse Survey*, January 2026 (10,000+ developers), https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/
-- n8n, *Series C Funding Announcement*, October 2025, https://blog.n8n.io/series-c/
-- Mordor Intelligence, *Workflow Automation Market Report*, 2026, https://www.mordorintelligence.com/industry-reports/workflow-automation-market
-- n8n Lab, *How to Build AI Agents in n8n with Claude API*, 2026, https://n8nlab.io/blog/build-ai-agents-n8n-claude-api
-- Approveit (via Cflow), *Workflow Automation Statistics*, 2025/2026, https://www.cflowapps.com/workflow-automation-statistics/
-- GitHub, *n8n Repository*, retrieved 2026-06-28, https://github.com/n8n-io/n8n
-- Anthropic, *Claude Code Documentation*, retrieved 2026-06-28, https://code.claude.com/docs/en/overview
-
-**A note on sourcing for this piece:** Three citations in earlier drafts of this article ("Flowlyn, 2025" for n8n statistics, "SerpSculpt, 2025-2026" for a 26-55% productivity figure, and "Uvik, 2026" for a 29% AI-trust figure) pointed to URLs that returned dead or "not found" pages when checked, and could not be re-verified against a live source. They have been removed or replaced with statistics confirmed directly against working, citable sources. The GitHub star count and integration count have also been corrected to match n8n's current, verifiable figures, and the Claude Code satisfaction data has been re-attributed to the correct surveys (The Pragmatic Engineer for the 46% "most loved" figure, JetBrains for the CSAT/NPS figures) rather than a single misattributed "JetBrains, April 2026" source.

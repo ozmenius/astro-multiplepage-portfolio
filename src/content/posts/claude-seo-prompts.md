@@ -422,6 +422,15 @@ Add "explain your reasoning for each flag" to any audit prompt. This forces Clau
 
 ---
 
+## Sources
+
+- Aira, *State of SEO Report 2025*, cited via SQ Magazine, retrieved 2026-06-28, https://sqmagazine.co.uk/ai-seo-statistics/
+- Ahrefs, *90+ AI SEO Statistics for 2025 (Fresh and Original Data)*, updated November 2025, https://ahrefs.com/blog/ai-seo-statistics/
+- CoSchedule, *State of AI in Marketing 2025* (survey of 1,005 marketing professionals, Dec 2024), https://coschedule.com/ai-marketing-statistics
+- BrightEdge, *Survey: 68% of Marketers Are Embracing the AI Search Shift*, June 2025, https://www.brightedge.com/news/press-releases/brightedge-survey-reveals-68-marketers-are-embracing-ai-search-shift
+- HubSpot, *Generative Engine Optimization Statistics*, 2025, https://blog.hubspot.com/marketing/generative-engine-optimization-statistics
+- Anthropic / Claude Support, *How large is the context window on paid Claude plans?*, 2026, https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans
+
 ## Frequently Asked Questions
 
 ### Is Claude better than ChatGPT for SEO?
@@ -458,11 +467,3 @@ The GEO and AI search prompts are the category worth starting with if you're alr
 
 ---
 
-## Sources
-
-- Aira, *State of SEO Report 2025*, cited via SQ Magazine, retrieved 2026-06-28, https://sqmagazine.co.uk/ai-seo-statistics/
-- Ahrefs, *90+ AI SEO Statistics for 2025 (Fresh and Original Data)*, updated November 2025, https://ahrefs.com/blog/ai-seo-statistics/
-- CoSchedule, *State of AI in Marketing 2025* (survey of 1,005 marketing professionals, Dec 2024), https://coschedule.com/ai-marketing-statistics
-- BrightEdge, *Survey: 68% of Marketers Are Embracing the AI Search Shift*, June 2025, https://www.brightedge.com/news/press-releases/brightedge-survey-reveals-68-marketers-are-embracing-ai-search-shift
-- HubSpot, *Generative Engine Optimization Statistics*, 2025, https://blog.hubspot.com/marketing/generative-engine-optimization-statistics
-- Anthropic / Claude Support, *How large is the context window on paid Claude plans?*, 2026, https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans

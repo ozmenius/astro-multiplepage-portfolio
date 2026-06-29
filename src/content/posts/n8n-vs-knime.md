@@ -253,6 +253,20 @@ The global workflow automation market was valued at $23.77 billion in 2025 ([Mor
 
 If your team is also considering how to use n8n for practical SEO workflows, [how to automate SEO with AI](https://dennisozmen.com/posts/how-to-automate-seo-with-ai) shows the full automation stack in action.
 
+## Sources
+
+- GitHub, *n8n-io/n8n repository*, retrieved 2026-06-28, https://github.com/n8n-io/n8n
+- n8n Blog, *n8n Series C announcement*, October 2025, https://blog.n8n.io/series-c/
+- Flowlyn, *n8n User Count: Figures, Growth, & Demographics*, November 2025, https://flowlyn.com/blog/n8n-user-count-statistics-growth
+- Gartner, *Magic Quadrant for Data Science and Machine Learning Platforms*, 2024, https://www.gartner.com/en/documents/5509595
+- KNIME / Wikipedia, *KNIME*, https://en.wikipedia.org/wiki/KNIME
+- KNIME, *KNIME Analytics Platform*, 2024-2025, https://www.knime.com/knime-analytics-platform
+- Enlyft, *KNIME company adoption data*, 2024-2025, https://enlyft.com/tech/products/knime
+- Mordor Intelligence, *Workflow Automation Market Report*, 2026, https://www.mordorintelligence.com/industry-reports/workflow-automation-market
+- n8n, *Pricing*, retrieved 2026-06-28, https://n8n.io/pricing
+
+**A note on sourcing for this piece:** The GitHub star count was corrected from "194,000" to the current, directly verified figure (180,000+; n8n's repository showed 186K stars at time of fact-checking in June 2026, and the article's April/May 2026 figure would necessarily have been lower than that). The "81,000+ Discord members and 30,000+ forum members" figures could not be confirmed against the cited Flowlyn source, which discusses n8n's community in qualitative terms and cites a 200K+ Reddit community instead — those specific numbers were removed rather than left unverified. The KNIME "six consecutive years as a Gartner Magic Quadrant Leader" claim was checked against KNIME's own current Wikipedia entry, which independently confirms the same "sixth year in a row" framing.
+
 ## Frequently asked questions
 
 ### Is n8n better than KNIME?
@@ -281,16 +295,3 @@ If you're firmly in the automation camp and choosing between platforms, the [n8n
 
 ---
 
-## Sources
-
-- GitHub, *n8n-io/n8n repository*, retrieved 2026-06-28, https://github.com/n8n-io/n8n
-- n8n Blog, *n8n Series C announcement*, October 2025, https://blog.n8n.io/series-c/
-- Flowlyn, *n8n User Count: Figures, Growth, & Demographics*, November 2025, https://flowlyn.com/blog/n8n-user-count-statistics-growth
-- Gartner, *Magic Quadrant for Data Science and Machine Learning Platforms*, 2024, https://www.gartner.com/en/documents/5509595
-- KNIME / Wikipedia, *KNIME*, https://en.wikipedia.org/wiki/KNIME
-- KNIME, *KNIME Analytics Platform*, 2024-2025, https://www.knime.com/knime-analytics-platform
-- Enlyft, *KNIME company adoption data*, 2024-2025, https://enlyft.com/tech/products/knime
-- Mordor Intelligence, *Workflow Automation Market Report*, 2026, https://www.mordorintelligence.com/industry-reports/workflow-automation-market
-- n8n, *Pricing*, retrieved 2026-06-28, https://n8n.io/pricing
-
-**A note on sourcing for this piece:** The GitHub star count was corrected from "194,000" to the current, directly verified figure (180,000+; n8n's repository showed 186K stars at time of fact-checking in June 2026, and the article's April/May 2026 figure would necessarily have been lower than that). The "81,000+ Discord members and 30,000+ forum members" figures could not be confirmed against the cited Flowlyn source, which discusses n8n's community in qualitative terms and cites a 200K+ Reddit community instead — those specific numbers were removed rather than left unverified. The KNIME "six consecutive years as a Gartner Magic Quadrant Leader" claim was checked against KNIME's own current Wikipedia entry, which independently confirms the same "sixth year in a row" framing.

@@ -390,6 +390,19 @@ Surfer SEO's October 2025 analysis of 36 million AI Overviews and 46 million cit
 
 ---
 
+## Sources
+
+- Aggarwal, S., et al., Princeton University, "GEO: Generative Engine Optimization," *ACM KDD 2024*, https://dl.acm.org/doi/10.1145/3637528.3671900
+- Ahrefs, "Update: AI Overviews Reduce Clicks by 58%," Dec 2025, https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/
+- Ahrefs Brand Radar, "Update: 38% of AI Overview Citations Pull From the Top 10," 2026, https://ahrefs.com/blog/ai-overview-citations-top-10/
+- BrightEdge, "AI Overviews at the One-Year Mark: Presence, Size, and What They're Citing," Feb 2026, https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing
+- SE Ranking, "AI Traffic Grew 16x From 2024 to 2026," Jun 2026, https://seranking.com/blog/ai-traffic-research-study/
+- Surfer SEO, "AI Citation Report," Oct 2025, https://surferseo.com/blog/ai-citation-report/
+- Kevin Indig / Growth Memo, "The Science of How AI Pays Attention," Feb 2026, https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention
+- TechCrunch, "Google's AI Overviews Have 2B Monthly Users, AI Mode 100M in the US and India," Jul 2025, https://techcrunch.com/2025/07/23/googles-ai-overviews-have-2b-monthly-users-ai-mode-100m-in-the-us-and-india/
+- TechCrunch, "ChatGPT Reaches 900M Weekly Active Users," Feb 27 2026, https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/
+- Mersel AI, "How to Prove GEO ROI: The Framework That Gets Board Buy-In," 2026, https://www.mersel.ai/blog/how-to-prove-roi-of-generative-engine-optimization
+
 ## Frequently Asked Questions
 
 ### What does GEO stand for?
@@ -432,15 +445,3 @@ The most efficient starting point is a GEO content audit. Identify existing page
 
 ---
 
-## Sources
-
-- Aggarwal, S., et al., Princeton University, "GEO: Generative Engine Optimization," *ACM KDD 2024*, https://dl.acm.org/doi/10.1145/3637528.3671900
-- Ahrefs, "Update: AI Overviews Reduce Clicks by 58%," Dec 2025, https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/
-- Ahrefs Brand Radar, "Update: 38% of AI Overview Citations Pull From the Top 10," 2026, https://ahrefs.com/blog/ai-overview-citations-top-10/
-- BrightEdge, "AI Overviews at the One-Year Mark: Presence, Size, and What They're Citing," Feb 2026, https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing
-- SE Ranking, "AI Traffic Grew 16x From 2024 to 2026," Jun 2026, https://seranking.com/blog/ai-traffic-research-study/
-- Surfer SEO, "AI Citation Report," Oct 2025, https://surferseo.com/blog/ai-citation-report/
-- Kevin Indig / Growth Memo, "The Science of How AI Pays Attention," Feb 2026, https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention
-- TechCrunch, "Google's AI Overviews Have 2B Monthly Users, AI Mode 100M in the US and India," Jul 2025, https://techcrunch.com/2025/07/23/googles-ai-overviews-have-2b-monthly-users-ai-mode-100m-in-the-us-and-india/
-- TechCrunch, "ChatGPT Reaches 900M Weekly Active Users," Feb 27 2026, https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/
-- Mersel AI, "How to Prove GEO ROI: The Framework That Gets Board Buy-In," 2026, https://www.mersel.ai/blog/how-to-prove-roi-of-generative-engine-optimization

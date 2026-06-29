@@ -302,6 +302,14 @@ The decision rule: if a mistake would take longer to fix than the task would hav
   <figcaption>Source: CoSchedule State of AI in Marketing, 2025 (n=1,000+ marketers). 83.82% reported increased productivity after adopting AI.</figcaption>
 </figure>
 
+## Sources
+
+- CoSchedule, *State of AI in Marketing 2025* (n=1,000+), https://coschedule.com/ai-marketing-statistics
+- ZoomInfo, *State of AI in Sales and Marketing 2025* (n=1,000+ GTM professionals), https://pipeline.zoominfo.com/marketing/ai-survey-marketing-2025
+- Previsible, *AI Traffic Report*, 2025 (cited for the ~527% LLM referral traffic growth figure; no single canonical URL identified)
+
+**A note on sourcing for this piece:** Several statistics in earlier drafts of this article (an "Ahrefs, November 2025" adoption figure, a "SEO Clarity" survey figure, a "SurveyMonkey / First Page Sage" figure, and a "Semrush, 2024" figure) could not be independently verified against a specific, citable report and have been removed or rewritten as qualitative statements rather than presented as sourced data. The CoSchedule and ZoomInfo figures above were checked directly against the underlying reports and are accurate as cited.
+
 ## Frequently Asked Questions
 
 ### How do I start automating SEO if I have no technical skills?
@@ -338,10 +346,3 @@ If you're tracking the ROI of all this automation effort, [how to measure the RO
 
 ---
 
-## Sources
-
-- CoSchedule, *State of AI in Marketing 2025* (n=1,000+), https://coschedule.com/ai-marketing-statistics
-- ZoomInfo, *State of AI in Sales and Marketing 2025* (n=1,000+ GTM professionals), https://pipeline.zoominfo.com/marketing/ai-survey-marketing-2025
-- Previsible, *AI Traffic Report*, 2025 (cited for the ~527% LLM referral traffic growth figure; no single canonical URL identified)
-
-**A note on sourcing for this piece:** Several statistics in earlier drafts of this article (an "Ahrefs, November 2025" adoption figure, a "SEO Clarity" survey figure, a "SurveyMonkey / First Page Sage" figure, and a "Semrush, 2024" figure) could not be independently verified against a specific, citable report and have been removed or rewritten as qualitative statements rather than presented as sourced data. The CoSchedule and ZoomInfo figures above were checked directly against the underlying reports and are accurate as cited.

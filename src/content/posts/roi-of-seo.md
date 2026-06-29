@@ -428,6 +428,16 @@ If you want to save the model for monthly reporting, copy the formula into a Goo
 
 ---
 
+## Sources
+
+- First Page Sage, *SEO ROI Statistics*, 2025, https://firstpagesage.com/reports/seo-roi-statistics-fc/
+- First Page Sage, *E-commerce SEO ROI Report (80 US Sites)*, 2025, https://firstpagesage.com/seo-blog/e-commerce-seo-roi-report/
+- HubSpot, *Inbound Marketing Statistics*, via SEOProfy, https://seoprofy.com/blog/seo-roi-statistics/
+- SEOProfy, *SEO ROI Statistics 2025*, https://seoprofy.com/blog/seo-roi-statistics/
+- Ahrefs, *B2B SEO Statistics*, 2025, https://ahrefs.com/blog/b2b-seo-statistics/
+- Nielsen, *2025 Annual Marketing ROI Blueprint*, via Sender.net, https://sender.net/marketing-glossary/return-on-investment-roi/statistics/
+- Search Engine Land, *Organic Search ROI Survey*, 2024, cited via SEOProfy, https://seoprofy.com/blog/seo-roi-statistics/
+
 ## Frequently Asked Questions
 
 ### What is a realistic ROI for SEO?
@@ -472,12 +482,3 @@ Once your tracking is in place, revisit the [SEO KPIs guide](https://dennisozmen
 
 ---
 
-## Sources
-
-- First Page Sage, *SEO ROI Statistics*, 2025, https://firstpagesage.com/reports/seo-roi-statistics-fc/
-- First Page Sage, *E-commerce SEO ROI Report (80 US Sites)*, 2025, https://firstpagesage.com/seo-blog/e-commerce-seo-roi-report/
-- HubSpot, *Inbound Marketing Statistics*, via SEOProfy, https://seoprofy.com/blog/seo-roi-statistics/
-- SEOProfy, *SEO ROI Statistics 2025*, https://seoprofy.com/blog/seo-roi-statistics/
-- Ahrefs, *B2B SEO Statistics*, 2025, https://ahrefs.com/blog/b2b-seo-statistics/
-- Nielsen, *2025 Annual Marketing ROI Blueprint*, via Sender.net, https://sender.net/marketing-glossary/return-on-investment-roi/statistics/
-- Search Engine Land, *Organic Search ROI Survey*, 2024, cited via SEOProfy, https://seoprofy.com/blog/seo-roi-statistics/

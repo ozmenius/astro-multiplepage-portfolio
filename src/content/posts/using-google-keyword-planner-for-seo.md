@@ -186,6 +186,14 @@ Sort exported data by CPC, not volume: after downloading your CSV, filter out th
 
 Cross-reference 3-5 targets in GSC before committing: before building a content piece around a GKP discovery, check your GSC data for related impressions. If Google is already showing your site for that keyword at position 15-50, targeting it directly is a faster path to traffic than starting from scratch.
 
+## Sources
+
+- Ahrefs, *GSC vs. GKP: Comparing Search Volumes for 72k Keywords*, November 2021, https://ahrefs.com/blog/gsc-gkp-search-volume-study/
+- DemandSage, *Google Ads Statistics 2026*, retrieved 2026-06-23, https://www.demandsage.com/google-ads-statistics/
+- Ranktracker, *Keyword Research Statistics: Data-Driven Insights for 2025*, Dec 2025, https://www.ranktracker.com/blog/keyword-research-statistics-2025/
+- Backlinko (cited via Ranktracker, *Keyword Research Statistics 2025*), analysis of 306 million keywords
+- Google Ads Help, *About Keyword Planner*, https://support.google.com/google-ads/answer/7337243
+
 ## Frequently Asked Questions
 
 ### Is Google Keyword Planner free to use?
@@ -223,10 +231,3 @@ If you're just starting with keyword research, GKP is the right place to begin. 
 
 ---
 
-## Sources
-
-- Ahrefs, *GSC vs. GKP: Comparing Search Volumes for 72k Keywords*, November 2021, https://ahrefs.com/blog/gsc-gkp-search-volume-study/
-- DemandSage, *Google Ads Statistics 2026*, retrieved 2026-06-23, https://www.demandsage.com/google-ads-statistics/
-- Ranktracker, *Keyword Research Statistics: Data-Driven Insights for 2025*, Dec 2025, https://www.ranktracker.com/blog/keyword-research-statistics-2025/
-- Backlinko (cited via Ranktracker, *Keyword Research Statistics 2025*), analysis of 306 million keywords
-- Google Ads Help, *About Keyword Planner*, https://support.google.com/google-ads/answer/7337243

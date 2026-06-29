@@ -301,6 +301,21 @@ In practice: a human reviews AI-generated content before it publishes. A human a
   <figcaption>Source: HubSpot, AI Trends for Marketers, 2025 | % of marketers who used each AI tool type in the past 12 months</figcaption>
 </figure>
 
+## Sources
+
+- Jasper.ai, *State of AI Marketing 2026*, retrieved 2026-06-22, https://www.jasper.ai/state-of-ai-marketing-2026
+- HubSpot, *AI Trends for Marketers*, 2025 (survey of 1,508 marketers, Feb–Mar 2025), retrieved 2026-06-22, https://offers.hubspot.com/ai-marketing
+- Averi.ai, *The State of AI Content Marketing: 2026 Benchmarks Report*, retrieved 2026-06-22, https://www.averi.ai/blog/the-state-of-ai-content-marketing-2026-benchmarks-report
+- DemandSage, *AI in Marketing Statistics 2026*, retrieved 2026-06-22, https://www.demandsage.com/ai-in-marketing-statistics/
+- Precedence Research, *AI in Marketing Market Size Report*, 2025
+- McKinsey, *The State of AI: How Organizations Are Rewiring to Capture Value*, 2025
+- Nielsen, *Google AI-Powered YouTube Campaign Performance*, 2025
+- Data to Storytelling, *Coca-Cola AI Content Engagement Analysis*, 2025
+- Consumer Goods Technology, *Unilever Digital Twins Content Production Report*, 2025
+- Ahrefs, *Content Marketing & AI Usage Survey*, 2025, https://ahrefs.com/blog
+- Improvado, *What Is AI Marketing in 2026?*, retrieved 2026-06-22, https://improvado.io/blog/what-is-ai-marketing
+- NASDAQ, *Netflix and the Economics of AI Recommendations*, retrieved 2026-06-22
+
 ## Frequently Asked Questions
 
 ### What is the difference between AI and automation in marketing?
@@ -338,17 +353,3 @@ But the 91%/41% gap is real, and it matters. Almost every team has adopted AI. L
 
 ---
 
-## Sources
-
-- Jasper.ai, *State of AI Marketing 2026*, retrieved 2026-06-22, https://www.jasper.ai/state-of-ai-marketing-2026
-- HubSpot, *AI Trends for Marketers*, 2025 (survey of 1,508 marketers, Feb–Mar 2025), retrieved 2026-06-22, https://offers.hubspot.com/ai-marketing
-- Averi.ai, *The State of AI Content Marketing: 2026 Benchmarks Report*, retrieved 2026-06-22, https://www.averi.ai/blog/the-state-of-ai-content-marketing-2026-benchmarks-report
-- DemandSage, *AI in Marketing Statistics 2026*, retrieved 2026-06-22, https://www.demandsage.com/ai-in-marketing-statistics/
-- Precedence Research, *AI in Marketing Market Size Report*, 2025
-- McKinsey, *The State of AI: How Organizations Are Rewiring to Capture Value*, 2025
-- Nielsen, *Google AI-Powered YouTube Campaign Performance*, 2025
-- Data to Storytelling, *Coca-Cola AI Content Engagement Analysis*, 2025
-- Consumer Goods Technology, *Unilever Digital Twins Content Production Report*, 2025
-- Ahrefs, *Content Marketing & AI Usage Survey*, 2025, https://ahrefs.com/blog
-- Improvado, *What Is AI Marketing in 2026?*, retrieved 2026-06-22, https://improvado.io/blog/what-is-ai-marketing
-- NASDAQ, *Netflix and the Economics of AI Recommendations*, retrieved 2026-06-22

@@ -239,6 +239,18 @@ The industry hasn't fully resolved this. Profound treats GEO and AEO as function
 
 For a deeper look at how Google AI Overviews select and cite sources, the [AI search guide](https://dennisozmen.com/posts/ai-search) walks through the retrieval-augmented generation pipeline in detail.
 
+## Sources
+
+- Aggarwal, P. et al. (Princeton University / IIT Delhi), *GEO: Generative Engine Optimization*, ACM KDD 2024, https://arxiv.org/abs/2311.09735
+- SparkToro / Similarweb, *Zero-Click Search Study: Jan-Apr 2026*, June 9, 2026, https://searchengineland.com/google-zero-click-searches-2026-study-479717
+- SparkToro / Datos, *2024 Zero-Click Search Study*, 2024, https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/
+- Ahrefs, *Update: AI Overviews Reduce Clicks by 58%*, February 2026, https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/
+- Seer Interactive, *AIO Impact on Google CTR: January 2025 (original study)*, February 2025, https://www.seerinteractive.com/insights/ctr-aio
+- Seer Interactive, *AIO Impact on Google CTR: September 2025 Update*, November 2025, https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update
+- BrightEdge, *AI Overview Citations Now 54% from Organic Rankings (16-month study, May 2024–Sept 2025)*, September 2025, https://www.brightedge.com/resources/weekly-ai-search-insights/rank-overlap-after-16-months-of-aio
+- Gartner (Alan Antin, VP Analyst), *Gartner Predicts Search Engine Volume Will Drop 25% by 2026*, February 2024, https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026-due-to-ai-chatbots-and-other-virtual-agents
+- Perplexity CEO Aravind Srinivas, May 2025, via JustThink.ai, https://www.justthink.ai/blog/perplexitys-780m-monthly-queries-signaling-the-ai-search-revolution
+
 ## Frequently Asked Questions
 
 ### Will GEO replace SEO?
@@ -278,14 +290,3 @@ If you're ready to go deeper on GEO execution, the [full generative engine optim
 
 ---
 
-## Sources
-
-- Aggarwal, P. et al. (Princeton University / IIT Delhi), *GEO: Generative Engine Optimization*, ACM KDD 2024, https://arxiv.org/abs/2311.09735
-- SparkToro / Similarweb, *Zero-Click Search Study: Jan-Apr 2026*, June 9, 2026, https://searchengineland.com/google-zero-click-searches-2026-study-479717
-- SparkToro / Datos, *2024 Zero-Click Search Study*, 2024, https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/
-- Ahrefs, *Update: AI Overviews Reduce Clicks by 58%*, February 2026, https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/
-- Seer Interactive, *AIO Impact on Google CTR: January 2025 (original study)*, February 2025, https://www.seerinteractive.com/insights/ctr-aio
-- Seer Interactive, *AIO Impact on Google CTR: September 2025 Update*, November 2025, https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update
-- BrightEdge, *AI Overview Citations Now 54% from Organic Rankings (16-month study, May 2024–Sept 2025)*, September 2025, https://www.brightedge.com/resources/weekly-ai-search-insights/rank-overlap-after-16-months-of-aio
-- Gartner (Alan Antin, VP Analyst), *Gartner Predicts Search Engine Volume Will Drop 25% by 2026*, February 2024, https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026-due-to-ai-chatbots-and-other-virtual-agents
-- Perplexity CEO Aravind Srinivas, May 2025, via JustThink.ai, https://www.justthink.ai/blog/perplexitys-780m-monthly-queries-signaling-the-ai-search-revolution

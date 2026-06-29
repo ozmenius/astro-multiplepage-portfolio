@@ -355,6 +355,17 @@ When AI Overviews are present, organic CTR drops by approximately 67.8% compared
 
 ![An illustration of two URLs competing for the same query with split impressions — a cannibalization signal requiring consolidation or intent differentiation](/assets/images/posts/gsc-pages-cannibalization.jpeg)
 
+## Sources
+
+- First Page Sage, *Google Click-Through Rates (CTRs) by Ranking Position*, May 2025, https://firstpagesage.com/reports/google-click-through-rates-ctrs-by-ranking-position/
+- Ahrefs, *Anonymized Queries Make Up Nearly Half of Google Search Console Traffic (22 billion clicks, 887,534 properties)*, February 2026, https://ahrefs.com/blog/gsc-anonymized-queries/
+- GrowthSRC, *Google Organic CTR Study 2025 (200,000+ keywords, 30+ websites)*, 2025, https://growthsrc.com/google-organic-ctr-study/
+- Conductor, *The 2024 Organic Search Traffic Benchmarks Report*, 2024, https://www.conductor.com/academy/organic-website-traffic-industry-benchmarks/
+- Conductor, *The State of SEO in 2025 (350-practitioner survey)*, 2025, https://www.conductor.com/academy/state-of-organic-marketing/
+- Rank Fuse Digital Marketing, *Paid and Organic CTR Trends: 12-Month Analysis (2024-2025)*, 2025, https://rankfuse.com/blog/paid-and-organic-ctr-trends-12-month-analysis-2024-2025/
+- Google Search Central, *A Deep Dive Into Search Console Performance Data Filtering and Limits*, ongoing, https://developers.google.com/search/blog/2022/10/performance-data-deep-dive
+- SEO Testing, *Google Search Console Data Limitations*, 2025, https://seotesting.com/google-search-console/data-limitations/
+
 ## Frequently Asked Questions
 
 ### How many keywords does Google Search Console show?
@@ -392,13 +403,3 @@ Set aside 30 minutes this week to run the striking-distance filter on your GSC d
 
 ---
 
-## Sources
-
-- First Page Sage, *Google Click-Through Rates (CTRs) by Ranking Position*, May 2025, https://firstpagesage.com/reports/google-click-through-rates-ctrs-by-ranking-position/
-- Ahrefs, *Anonymized Queries Make Up Nearly Half of Google Search Console Traffic (22 billion clicks, 887,534 properties)*, February 2026, https://ahrefs.com/blog/gsc-anonymized-queries/
-- GrowthSRC, *Google Organic CTR Study 2025 (200,000+ keywords, 30+ websites)*, 2025, https://growthsrc.com/google-organic-ctr-study/
-- Conductor, *The 2024 Organic Search Traffic Benchmarks Report*, 2024, https://www.conductor.com/academy/organic-website-traffic-industry-benchmarks/
-- Conductor, *The State of SEO in 2025 (350-practitioner survey)*, 2025, https://www.conductor.com/academy/state-of-organic-marketing/
-- Rank Fuse Digital Marketing, *Paid and Organic CTR Trends: 12-Month Analysis (2024-2025)*, 2025, https://rankfuse.com/blog/paid-and-organic-ctr-trends-12-month-analysis-2024-2025/
-- Google Search Central, *A Deep Dive Into Search Console Performance Data Filtering and Limits*, ongoing, https://developers.google.com/search/blog/2022/10/performance-data-deep-dive
-- SEO Testing, *Google Search Console Data Limitations*, 2025, https://seotesting.com/google-search-console/data-limitations/

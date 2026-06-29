@@ -410,6 +410,20 @@ A KPI worth adopting alongside the others: measure how consistently LLMs recomme
 
 For a deeper look at how AI Overviews and platforms like Perplexity are reshaping organic visibility, see the guide to [AI search engines and their impact on CTR](https://dennisozmen.com/posts/ai-search).
 
+## Sources
+
+- Seer Interactive, *AI Overview Impact on Google CTR: September 2025 Update*, retrieved 2026-06-23, https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update
+- Ahrefs, *AI Overviews Reduce Clicks: Updated Study*, Feb 2026, https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/
+- Semrush, *AI Overviews Study: 10M Keywords*, 2025, https://www.semrush.com/blog/semrush-ai-overviews-study/
+- Conductor, *State of Organic Marketing / State of SEO Survey*, Jan 2025, https://www.conductor.com/academy/state-of-organic-marketing/
+- McKinsey, *New Front Door to the Internet: Winning in the Age of AI Search*, Oct 2025 (CMO survey fielded Sep 2025), https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/new-front-door-to-the-internet-winning-in-the-age-of-ai-search
+- Ahrefs, *Google Says "Links Matter Less"—We Looked at 1,000,000 SERPs to See if It's True*, Jan 2025, https://ahrefs.com/blog/links-matter-less-but-still-matter/
+- 2025 Web Almanac, *Core Web Vitals*, https://developers.google.com/search/docs/appearance/core-web-vitals
+- First Page Sage, *Google Click-Through Rate Statistics*, May 2025, https://firstpagesage.com/seo-blog/google-click-through-rate-statistics/
+- Similarweb / Search Engine Land, *Organic Search Traffic Is Down 2.5% YoY*, Jan 2026, https://searchengineland.com/organic-search-traffic-down-yoy-data-467748
+- Previsible, *AI Traffic Report*, 2025 (cited for the 527% AI-sourced session growth figure)
+- Ahrefs, *ChatGPT vs. Google traffic share analysis*, Feb 2026 (cited for the 0.21% ChatGPT global traffic share figure)
+
 ## Frequently Asked Questions
 
 ### What are SEO KPIs?
@@ -449,16 +463,3 @@ High-maturity SEO organizations track 3x more metrics than low-maturity peers. N
 
 ---
 
-## Sources
-
-- Seer Interactive, *AI Overview Impact on Google CTR: September 2025 Update*, retrieved 2026-06-23, https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update
-- Ahrefs, *AI Overviews Reduce Clicks: Updated Study*, Feb 2026, https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/
-- Semrush, *AI Overviews Study: 10M Keywords*, 2025, https://www.semrush.com/blog/semrush-ai-overviews-study/
-- Conductor, *State of Organic Marketing / State of SEO Survey*, Jan 2025, https://www.conductor.com/academy/state-of-organic-marketing/
-- McKinsey, *New Front Door to the Internet: Winning in the Age of AI Search*, Oct 2025 (CMO survey fielded Sep 2025), https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/new-front-door-to-the-internet-winning-in-the-age-of-ai-search
-- Ahrefs, *Google Says "Links Matter Less"—We Looked at 1,000,000 SERPs to See if It's True*, Jan 2025, https://ahrefs.com/blog/links-matter-less-but-still-matter/
-- 2025 Web Almanac, *Core Web Vitals*, https://developers.google.com/search/docs/appearance/core-web-vitals
-- First Page Sage, *Google Click-Through Rate Statistics*, May 2025, https://firstpagesage.com/seo-blog/google-click-through-rate-statistics/
-- Similarweb / Search Engine Land, *Organic Search Traffic Is Down 2.5% YoY*, Jan 2026, https://searchengineland.com/organic-search-traffic-down-yoy-data-467748
-- Previsible, *AI Traffic Report*, 2025 (cited for the 527% AI-sourced session growth figure)
-- Ahrefs, *ChatGPT vs. Google traffic share analysis*, Feb 2026 (cited for the 0.21% ChatGPT global traffic share figure)

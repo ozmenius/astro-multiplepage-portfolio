@@ -268,6 +268,22 @@ The pattern makes practical sense. Make's visual canvas is faster for validating
 
 If you're running an automation-heavy operation, using both tools isn't a sign of tool sprawl. It's a sign of using the right tool for the right job. Prototype in Make. Graduate to n8n for production runs that need compliance, cost efficiency at volume, or AI agent capabilities.
 
+## Sources
+
+- n8n Official Blog, *n8n closes €55M Series B round led by Highland Europe*, March 2025, https://blog.n8n.io/series-b/
+- n8n Official Blog, *n8n raises $180m to get AI closer to value with orchestration (Series C)*, October 2025, https://blog.n8n.io/series-c/
+- TechCrunch, *Fair-code pioneer n8n raises $60M for AI-powered workflow automation*, March 2025, https://techcrunch.com/2025/03/24/fair-code-pioneer-n8n-raises-60m-for-ai-powered-workflow-automation/
+- Make.com Official Blog, *2024 Automation Wrap-Up*, January 2025, https://www.make.com/en/blog/2024-automation-wrap-up
+- Mordor Intelligence, *Workflow Automation Market Report*, 2025, https://www.mordorintelligence.com/industry-reports/workflow-automation-market
+- n8n Official Pricing, retrieved June 2026, https://n8n.io/pricing/
+- Make.com Official Pricing, retrieved June 2026, https://www.make.com/en/pricing
+- Zapier Official Pricing, retrieved June 2026, https://zapier.com/pricing
+- GitHub, *n8n-io/n8n repository*, retrieved 2026-06-28, https://github.com/n8n-io/n8n
+- Socket.dev, *n8n Tops 2025 JavaScript Rising Stars*, July 2025, https://socket.dev/blog/n8n-tops-2025-javascript-rising-stars
+- Gartner via Kissflow, *No-Code Automation Benchmarks: Enterprise Stats*, 2025, https://kissflow.com/no-code/no-code-automation-benchmarks-enterprise-stats/
+
+**A note on sourcing for this piece:** Earlier drafts of this article conflated n8n's two 2025 funding rounds — stating that n8n "raised $60M at a $2.5B valuation." In fact, the €55M ($60M) Series B (March 2025) did not come with a disclosed valuation; the $2.5B valuation was set seven months later by an entirely separate, much larger $180M Series C (October 2025). This has been corrected throughout, and the Series C — absent from earlier drafts despite the article's later publish date — has been added so the funding timeline is accurate and current. The GitHub star count has also been updated from a mid-2025 figure (123,000+) to the current count (180,000+), and Make's acquisition by Celonis has been correctly dated to 2020 (the 2022 date in earlier drafts referred only to the Integromat-to-Make rebrand, not the acquisition itself).
+
 ## Frequently Asked Questions
 
 ### Is n8n really free?
@@ -304,18 +320,3 @@ If you're a developer or building AI-powered automation, n8n's trajectory is har
 
 ---
 
-## Sources
-
-- n8n Official Blog, *n8n closes €55M Series B round led by Highland Europe*, March 2025, https://blog.n8n.io/series-b/
-- n8n Official Blog, *n8n raises $180m to get AI closer to value with orchestration (Series C)*, October 2025, https://blog.n8n.io/series-c/
-- TechCrunch, *Fair-code pioneer n8n raises $60M for AI-powered workflow automation*, March 2025, https://techcrunch.com/2025/03/24/fair-code-pioneer-n8n-raises-60m-for-ai-powered-workflow-automation/
-- Make.com Official Blog, *2024 Automation Wrap-Up*, January 2025, https://www.make.com/en/blog/2024-automation-wrap-up
-- Mordor Intelligence, *Workflow Automation Market Report*, 2025, https://www.mordorintelligence.com/industry-reports/workflow-automation-market
-- n8n Official Pricing, retrieved June 2026, https://n8n.io/pricing/
-- Make.com Official Pricing, retrieved June 2026, https://www.make.com/en/pricing
-- Zapier Official Pricing, retrieved June 2026, https://zapier.com/pricing
-- GitHub, *n8n-io/n8n repository*, retrieved 2026-06-28, https://github.com/n8n-io/n8n
-- Socket.dev, *n8n Tops 2025 JavaScript Rising Stars*, July 2025, https://socket.dev/blog/n8n-tops-2025-javascript-rising-stars
-- Gartner via Kissflow, *No-Code Automation Benchmarks: Enterprise Stats*, 2025, https://kissflow.com/no-code/no-code-automation-benchmarks-enterprise-stats/
-
-**A note on sourcing for this piece:** Earlier drafts of this article conflated n8n's two 2025 funding rounds — stating that n8n "raised $60M at a $2.5B valuation." In fact, the €55M ($60M) Series B (March 2025) did not come with a disclosed valuation; the $2.5B valuation was set seven months later by an entirely separate, much larger $180M Series C (October 2025). This has been corrected throughout, and the Series C — absent from earlier drafts despite the article's later publish date — has been added so the funding timeline is accurate and current. The GitHub star count has also been updated from a mid-2025 figure (123,000+) to the current count (180,000+), and Make's acquisition by Celonis has been correctly dated to 2020 (the 2022 date in earlier drafts referred only to the Integromat-to-Make rebrand, not the acquisition itself).

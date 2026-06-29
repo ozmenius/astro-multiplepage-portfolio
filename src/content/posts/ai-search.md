@@ -252,6 +252,24 @@ Here are the practical options for bypassing AI Overviews:
 
 Worth noting: the users most motivated to remove AI from search are often the high-information, research-oriented users who were most valuable to content publishers. Their preference for traditional results is a signal, not an anomaly.
 
+## Sources
+
+- Ahrefs, *Update: AI Overviews Reduce Clicks by 58%*, Feb 2026 (data through Dec 2025), https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/
+- SparkToro / Datos, *2024 Zero-Click Search Study*, Jul 2024, https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/
+- Kevin Indig / Growth Memo, *The Science of How AI Pays Attention*, Feb 2026, https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention
+- TechCrunch, *ChatGPT Reaches 900M Weekly Active Users*, Feb 27 2026, https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/
+- TechCrunch, *Google's AI Overviews Have 2B Monthly Users, AI Mode 100M in the US and India*, Jul 2025, https://techcrunch.com/2025/07/23/googles-ai-overviews-have-2b-monthly-users-ai-mode-100m-in-the-us-and-india/
+- Semrush, *We Studied the Impact of AI Search on SEO Traffic*, Jul 2025, https://www.semrush.com/blog/ai-search-seo-traffic-study/
+- Adobe Digital Insights, *AI Traffic Surges Across Industries, Retail Sees Biggest Gains*, Jan 2026, https://business.adobe.com/blog/ai-driven-traffic-surges-across-industries
+- First Page Sage, *Google vs. ChatGPT Market Share: 2026 Report*, Jun 2026, https://firstpagesage.com/seo-blog/google-vs-chatgpt-market-share-report/
+- Goodie, *2026 AI Search Traffic Report: ChatGPT Is Slipping*, May 2026 (Wave 2 data, Mar-Apr 2026), https://higoodie.com/blog/ai-search-traffic-report-2026/
+- AirOps / Kevin Indig, *The 2026 State of AI Search*, 2026, https://www.airops.com/report/the-2026-state-of-ai-search
+- SE Ranking, *70+ AI Search Stats for 2026*, Dec 2025, https://seranking.com/blog/ai-traffic-research-study/
+- SE Ranking, *How to Optimize for ChatGPT*, 2025, https://seranking.com/blog/how-to-optimize-for-chatgpt/
+- Seer Interactive, *AIO Impact on Google CTR: September 2025 Update*, Nov 2025, https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update
+- Search Engine Journal, *Study Confirms Google AI Overviews Cut Organic Clicks 38%* (ISB/Carnegie Mellon field study), Apr 2026, https://www.searchenginejournal.com/ai-overviews-cut-organic-clicks-38-field-study-finds/573145/
+- Fractl, *AI vs. SEO: How Generative Search Is Reshaping Discovery, Content Strategy, and Consumer Trust*, 2025, https://www.frac.tl/ai-vs-seo-how-generative-search-is-reshaping-discovery-content-strategy-and-consumer-trust-in-2025/
+
 ## Frequently Asked Questions
 
 ### What is AI Mode in search?
@@ -294,20 +312,3 @@ For a deeper dive into the content signals that drive AI citation, the [generati
 
 ---
 
-## Sources
-
-- Ahrefs, *Update: AI Overviews Reduce Clicks by 58%*, Feb 2026 (data through Dec 2025), https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/
-- SparkToro / Datos, *2024 Zero-Click Search Study*, Jul 2024, https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/
-- Kevin Indig / Growth Memo, *The Science of How AI Pays Attention*, Feb 2026, https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention
-- TechCrunch, *ChatGPT Reaches 900M Weekly Active Users*, Feb 27 2026, https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/
-- TechCrunch, *Google's AI Overviews Have 2B Monthly Users, AI Mode 100M in the US and India*, Jul 2025, https://techcrunch.com/2025/07/23/googles-ai-overviews-have-2b-monthly-users-ai-mode-100m-in-the-us-and-india/
-- Semrush, *We Studied the Impact of AI Search on SEO Traffic*, Jul 2025, https://www.semrush.com/blog/ai-search-seo-traffic-study/
-- Adobe Digital Insights, *AI Traffic Surges Across Industries, Retail Sees Biggest Gains*, Jan 2026, https://business.adobe.com/blog/ai-driven-traffic-surges-across-industries
-- First Page Sage, *Google vs. ChatGPT Market Share: 2026 Report*, Jun 2026, https://firstpagesage.com/seo-blog/google-vs-chatgpt-market-share-report/
-- Goodie, *2026 AI Search Traffic Report: ChatGPT Is Slipping*, May 2026 (Wave 2 data, Mar-Apr 2026), https://higoodie.com/blog/ai-search-traffic-report-2026/
-- AirOps / Kevin Indig, *The 2026 State of AI Search*, 2026, https://www.airops.com/report/the-2026-state-of-ai-search
-- SE Ranking, *70+ AI Search Stats for 2026*, Dec 2025, https://seranking.com/blog/ai-traffic-research-study/
-- SE Ranking, *How to Optimize for ChatGPT*, 2025, https://seranking.com/blog/how-to-optimize-for-chatgpt/
-- Seer Interactive, *AIO Impact on Google CTR: September 2025 Update*, Nov 2025, https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update
-- Search Engine Journal, *Study Confirms Google AI Overviews Cut Organic Clicks 38%* (ISB/Carnegie Mellon field study), Apr 2026, https://www.searchenginejournal.com/ai-overviews-cut-organic-clicks-38-field-study-finds/573145/
-- Fractl, *AI vs. SEO: How Generative Search Is Reshaping Discovery, Content Strategy, and Consumer Trust*, 2025, https://www.frac.tl/ai-vs-seo-how-generative-search-is-reshaping-discovery-content-strategy-and-consumer-trust-in-2025/
