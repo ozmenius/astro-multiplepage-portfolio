@@ -410,6 +410,20 @@ A KPI worth adopting alongside the others: measure how consistently LLMs recomme
 
 For a deeper look at how AI Overviews and platforms like Perplexity are reshaping organic visibility, see the guide to [AI search engines and their impact on CTR](https://dennisozmen.com/posts/ai-search).
 
+## What your SEO dashboard should look like in 2026
+
+The shift from measuring SEO as a traffic function to measuring it as a revenue function isn't optional anymore. AI Overviews now affect roughly one in four Google queries at their peak. Organic CTR is compressing on AI-impacted terms. The KPIs that showed SEO "working" in 2022 now show a picture that requires more context to be accurate.
+
+The practical changes are manageable. Add the GSC AI Overviews filter. Track non-branded CTR separately. Set up a monthly brand citation check across ChatGPT and Perplexity. Build your dashboard in three tiers: executive (traffic, conversions, revenue), ops (technical health, backlinks, indexation), and AI visibility (impression share, citation rate, AI-referred traffic).
+
+High-maturity SEO organizations track 3x more metrics than low-maturity peers. Not because they chase every number, but because they've built measurement infrastructure that shows the full picture. That infrastructure is what earns trust in front of leadership and protects SEO budgets when organic traffic dips for reasons outside your control.
+
+- Track KPIs that connect to revenue, not just traffic volume
+- Segment organic CTR and traffic by AI Overview presence for an accurate read
+- Add at least one AI-era KPI to your 2026 dashboard. Most of your competitors haven't.
+- Technical KPIs are health monitors: set alerts, resolve issues, report them when they affect revenue
+- Build separate dashboards for executive, ops, and AI visibility reporting cadences
+
 ## Sources
 
 - Seer Interactive, *AI Overview Impact on Google CTR: September 2025 Update*, retrieved 2026-06-23, https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update
@@ -445,21 +459,3 @@ Technical SEO KPIs measure crawlability, indexation, and page experience. Key me
 ### What SEO KPIs matter most for SaaS companies?
 
 SaaS SEO KPIs should center on bottom-of-funnel outcomes: trial and demo signups from organic, MQL pipeline influenced by SEO, and organic traffic to high-intent pages like /pricing, /vs/, and /alternatives/. Track non-branded keyword coverage for category-defining queries, and content-assisted pipeline using multi-touch attribution in GA4 or HubSpot. Standard traffic volume KPIs are useful for trend analysis but should never headline the SEO report shown to leadership.
-
-## What your SEO dashboard should look like in 2026
-
-The shift from measuring SEO as a traffic function to measuring it as a revenue function isn't optional anymore. AI Overviews now affect roughly one in four Google queries at their peak. Organic CTR is compressing on AI-impacted terms. The KPIs that showed SEO "working" in 2022 now show a picture that requires more context to be accurate.
-
-The practical changes are manageable. Add the GSC AI Overviews filter. Track non-branded CTR separately. Set up a monthly brand citation check across ChatGPT and Perplexity. Build your dashboard in three tiers: executive (traffic, conversions, revenue), ops (technical health, backlinks, indexation), and AI visibility (impression share, citation rate, AI-referred traffic).
-
-High-maturity SEO organizations track 3x more metrics than low-maturity peers. Not because they chase every number, but because they've built measurement infrastructure that shows the full picture. That infrastructure is what earns trust in front of leadership and protects SEO budgets when organic traffic dips for reasons outside your control.
-
-- Track KPIs that connect to revenue, not just traffic volume
-- Segment organic CTR and traffic by AI Overview presence for an accurate read
-- Add at least one AI-era KPI to your 2026 dashboard. Most of your competitors haven't.
-- Technical KPIs are health monitors: set alerts, resolve issues, report them when they affect revenue
-- Build separate dashboards for executive, ops, and AI visibility reporting cadences
-
-
----
-
