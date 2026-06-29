@@ -1,446 +1,404 @@
 ---
-title: "What Is Generative Engine Optimization (GEO)?"
-description: "GEO optimizes content for AI-generated answers. Princeton research shows the right content signals boost AI citation rates by up to 40%. Here's how it works."
-date: "2026-01-23"
-dateAdded: "2026-01-23"
-readTime: "13 min read"
-image: "/assets/images/posts/ai-content-writing-tool.jpeg"
-slug: "generative-engine-optimization"
+title: "Google Search Console for Keyword Research"
+description: "Use Google Search Console to find quick-win keywords, uncover hidden opportunities, and build a data-driven content calendar. Full step-by-step guide."
+date: "2026-03-21"
+dateAdded: "2026-03-21"
+readTime: "14 min read"
+image: "/assets/images/posts/google-search-console-keyword-research.jpeg"
+slug: "google-search-console-for-keyword-research"
 ---
 
-AI Overviews now appear on roughly 48% of tracked Google queries, up 58% year over year ([BrightEdge](https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing), Feb 2026), and position-1 organic click-through rates have fallen 58% on queries where an AI Overview appears ([Ahrefs](https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/), Dec 2025). That's not a slow trend. It's a structural shift that happened while most content teams were still optimizing for the traditional ten blue links.
+Position 1 in Google earns a 39.8% click-through rate. Position 5 earns 5.1%. The data to move your pages from one to the other is already sitting inside your Google Search Console, completely free ([First Page Sage](https://firstpagesage.com/reports/google-click-through-rates-ctrs-by-ranking-position/), May 2025).
 
-The teams getting ahead of this aren't abandoning SEO. They're adding a second discipline on top of it: generative engine optimization, or GEO.
+Most site owners open GSC to check whether their site is indexed, then close it. That's a habit worth breaking. The Performance report is a free keyword research tool that shows you exactly which queries are within reach of more traffic, and which pages are leaking clicks they should already be capturing.
 
-This guide covers what GEO is, why it's distinct from SEO, which content signals the research says actually work, and how to measure it without relying on attribution data that captures only a fraction of the real impact. Every strategy here is grounded in the Princeton University / ACM KDD 2024 paper, the first large-scale controlled study of what makes content get cited in AI-generated answers.
+Organic search averages 33% of all website traffic across major industries ([Conductor](https://www.conductor.com/academy/organic-website-traffic-industry-benchmarks/), 2024). For most sites, that makes the Performance report the single highest-leverage free tool available.
 
-For a platform-level breakdown of how [AI search engines](https://dennisozmen.com/posts/ai-search) work, including how Google AI Overviews and ChatGPT select sources, the AI search guide covers the mechanics before this guide covers the optimization.
+By the end of this guide you'll have a repeatable five-step workflow: find quick-win keywords, surface hidden question queries, spot cannibalization, export your data, and turn everything into a 90-day content calendar. No paid tool required to start.
 
 ## Key Takeaways
-> - Generative engine optimization (GEO) is the practice of structuring content so AI search engines cite it in generated answers, distinct from traditional SEO.
-> - A Princeton University study of 10,000 queries found GEO content strategies can increase AI citation rates by up to 40%. ([Aggarwal et al., ACM KDD 2024](https://dl.acm.org/doi/10.1145/3637528.3671900))
-> - The three highest-impact content signals: expert quotations (+41% citation lift), statistics (+32%), and authoritative citations (+30%).
-> - AI referral traffic grew 16x from 2024 to 2026, but standard GA4 attribution captures only 10-20% of AI-influenced pipeline.
-> - ChatGPT accounts for 74.78% of all AI referral traffic, making it the top platform to optimize for first. ([SE Ranking](https://seranking.com/blog/ai-traffic-research-study/), Jun 2026)
+> - GSC's Performance report reveals keywords you already rank for, including "striking distance" queries at positions 4-20 where a single content update can meaningfully increase clicks.
+> - Nearly half of all GSC clicks (46.77%) are on queries Google anonymizes, so a systematic export-and-filter workflow is essential ([Ahrefs](https://ahrefs.com/blog/gsc-anonymized-queries/), Feb 2026).
+> - The regex question filter surfaces FAQ and featured-snippet candidates that most competitors skip entirely.
+> - Exporting to Google Sheets with an opportunity score formula turns raw data into a prioritized action list.
+> - Date comparison catches trending and declining keywords before the traffic drop shows up in your analytics.
 
-![A marketing professional reviewing AI-generated search results on a laptop, exploring how AI search engines synthesize and cite content in generated answers](/assets/images/posts/geo-ai-search-results-review.jpeg)
+![A laptop screen displaying An illustration of a search performance dashboard with keyword data and click metrics — the starting point for free keyword research](/assets/images/posts/gsc-performance-report-overview.jpeg)
 
-## What is generative engine optimization?
+## What data does Google Search Console give you?
 
-Generative engine optimization is the practice of structuring and signaling content so that AI search engines, ChatGPT, Perplexity, and Google AI Overviews, cite it inside generated answers rather than just linking to it. Princeton University researchers formally defined the discipline in 2024 when they tested 10,000 queries across 10 AI engines and found GEO strategies could boost content visibility by up to 40% ([Aggarwal et al., ACM KDD 2024](https://dl.acm.org/doi/10.1145/3637528.3671900)).
+GSC's Performance report surfaces four core metrics for every query your site ranks for: impressions, clicks, CTR, and average position. Unlike third-party tools that estimate these numbers, this data comes directly from Google. It's first-party, and it's exact for your property.
 
-That's the origin of the term. Before the Princeton paper, SEOs were noticing AI citation patterns but had no evidence-based framework for influencing them. The KDD 2024 research changed that by isolating specific content signals, not domain authority, not backlinks, as the primary drivers of AI citation rates.
+<!-- [UNIQUE INSIGHT] The anonymization gap is the most under-discussed limitation in GSC guides. Most practitioners learn about it only after building a workflow around query data — understanding it upfront changes how you structure the entire process. -->
 
-<!-- [UNIQUE INSIGHT] The Princeton finding that content signals outweigh domain authority in AI citation rates is one of the most strategically important shifts in search since Google's Panda update. It means newer, lower-authority sites can compete in AI answers if their content structure is right — something no top-10 GEO article currently emphasizes. -->
+That said, GSC has real limitations. Knowing them before you build your workflow saves you from misreading the data later.
 
-Why does this matter right now? Because AI search scale is no longer hypothetical. Google AI Overviews reaches 2 billion monthly users, according to CEO Sundar Pichai's Q2 2025 earnings call ([Google/Alphabet, Jul 2025](https://techcrunch.com/2025/07/23/googles-ai-overviews-have-2b-monthly-users-ai-mode-100m-in-the-us-and-india/)), and ChatGPT hit 900 million weekly users by February 2026 ([OpenAI, Feb 2026](https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/)). Website traffic from AI search engines grew 16x between 2024 and 2026, going from 0.02% to 0.32% of total site traffic ([SE Ranking](https://seranking.com/blog/ai-traffic-research-study/), Jun 2026).
+### The four core metrics
 
-### GEO covers three AI search surfaces
+Impressions count how many times any URL from your site appeared in Google search results for a given query, even if the user didn't see or click it. Clicks count the number of times a user actually clicked through to your site. CTR (click-through rate) is clicks divided by impressions. It tells you whether your title and meta description are compelling enough to earn the click. Average position shows where your page typically ranks for that query across all searches.
 
-Most practitioners focus on one platform. The full GEO opportunity spans three distinct surfaces, each with different mechanics:
+Each metric tells a different story. High impressions with low clicks mean your page ranks but doesn't earn the click. Low impressions mean you barely rank at all. Both problems need different fixes.
 
-- **Google AI Overviews** - appears directly in Google SERPs, powered by Google's own LLM and indexed content. Structured data and E-E-A-T signals carry significant weight here.
-- **ChatGPT with web browsing** - powered by Bing's index. Strong Bing crawlability and high domain authority on Bing matter more than many GEO guides acknowledge.
-- **Perplexity** - favors freshness, clear factual passages, and exact-match answer blocks. It's the most "SEO-like" of the three in how it retrieves content.
+### The 16-month data window
 
-The underlying difference from traditional search: these systems don't retrieve a list of links for users to click. They synthesize a single answer, drawing from multiple sources. Your content either gets woven into that answer, or it doesn't appear at all.
+GSC retains performance data for a rolling 16-month window. Once a date falls outside that window, the data is permanently deleted with no way to recover it ([SEO Testing](https://seotesting.com/google-search-console/data-limitations/), 2025). This isn't a soft limit. Export your full dataset to Google Sheets at least once per quarter to build a longer historical record.
 
----
+### The 1,000-row export cap
 
-> **Citation Capsule:** Generative engine optimization (GEO) is a discipline formally defined in the 2024 Princeton University / ACM KDD paper by Aggarwal et al. The researchers tested 10,000 queries across 10 AI search engines and found that applying GEO content strategies can increase a page's AI citation rates by up to 40%. The study established that content signals, not just domain authority, are the primary drivers of AI citation frequency.
+The GSC interface and CSV export both cap at 1,000 rows per pull. For smaller sites, that's rarely an issue. For larger sites with thousands of ranking queries, you're working with a sample, not the full picture. The GSC API allows up to 50,000 rows per day per property per search type ([Google Search Central](https://developers.google.com/search/blog/2022/10/performance-data-deep-dive)), which is the right solution for sites where the 1,000-row limit is binding.
 
----
+### The anonymization problem
 
-## GEO vs. SEO: what's actually different?
+Here's the limitation nobody mentions prominently enough. A study of 22 billion clicks across 887,534 GSC properties found that 46.77% of all GSC clicks are on queries Google anonymizes and never shows you by name ([Ahrefs](https://ahrefs.com/blog/gsc-anonymized-queries/), February 2026). These queries count toward your totals but don't appear in the query list. They're typically low-volume, long-tail, or queries Google considers personally identifiable.
 
-SEO optimizes for ranking position in a list of links. GEO optimizes for citation inside a synthesized paragraph. Only 38% of URLs cited in Google AI Overviews also appear in the traditional top-10 organic results, down from 76% in mid-2025 ([Ahrefs Brand Radar](https://ahrefs.com/blog/ai-overview-citations-top-10/), 2026). That gap is widening fast. A strong organic ranking no longer guarantees AI visibility.
+This matters because it reframes the goal. The queries GSC does show you deserve maximum exploitation before you spend money on third-party tools. The visible 53% is your highest-priority starting point.
 
-This is the most underappreciated structural fact in search right now. Most content teams assume that if they rank well in traditional search, AI Overviews will pick them up automatically. The data says otherwise. A domain can dominate page-one rankings and be invisible in AI-generated answers, and vice versa.
-
-<!-- [UNIQUE INSIGHT] The 38% URL overlap stat isn't just a tactical observation — it's evidence that AI and traditional search are developing separate authority graphs. Optimizing for one without the other means leaving roughly 62% of AI citation opportunities on the table, even for sites with strong existing organic visibility. -->
-
-So are GEO and SEO competing? No. They share a foundation but diverge significantly at the execution level.
+<!-- Citation capsule: Nearly half of all clicks in Google Search Console — 46.77% across 22 billion clicks analyzed — are on queries Google anonymizes and never shows you by name. This data comes from Ahrefs' February 2026 study of 887,534 GSC properties, making it the largest analysis of GSC query anonymization conducted to date. -->
 
 <figure>
-  <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Comparison table showing the differences and overlaps between GEO and SEO across five dimensions: objective, content signals, measurement KPIs, time to results, and platform targets">
-    <title>GEO vs. SEO: Five Key Dimensions</title>
-    <rect width="640" height="340" fill="#0f172a" rx="12"/>
-    <text x="320" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#f1f5f9">GEO vs. SEO: Five Key Dimensions</text>
-    <!-- Header row -->
-    <rect x="20" y="42" width="185" height="30" fill="#1e293b" rx="4"/>
-    <rect x="210" y="42" width="185" height="30" fill="#1e2e4a" rx="4"/>
-    <rect x="400" y="42" width="225" height="30" fill="#1a2e1a" rx="4"/>
-    <text x="112" y="62" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#94a3b8">Dimension</text>
-    <text x="302" y="62" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#93c5fd">SEO</text>
-    <text x="512" y="62" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#86efac">GEO</text>
-    <!-- Row 1: Objective -->
-    <rect x="20" y="78" width="185" height="40" fill="#1e293b" rx="2"/>
-    <rect x="210" y="78" width="185" height="40" fill="#0f172a" rx="2"/>
-    <rect x="400" y="78" width="225" height="40" fill="#0f172a" rx="2"/>
-    <text x="112" y="103" text-anchor="middle" font-family="system-ui" font-size="11" fill="#cbd5e1">Objective</text>
-    <text x="302" y="98" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">Rank in a list</text>
-    <text x="302" y="113" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">of links</text>
-    <text x="512" y="98" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">Be cited inside</text>
-    <text x="512" y="113" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">a synthesized answer</text>
-    <!-- Row 2: Content signals -->
-    <rect x="20" y="122" width="185" height="40" fill="#1e293b" rx="2"/>
-    <rect x="210" y="122" width="185" height="40" fill="#0f172a" rx="2"/>
-    <rect x="400" y="122" width="225" height="40" fill="#0f172a" rx="2"/>
-    <text x="112" y="147" text-anchor="middle" font-family="system-ui" font-size="11" fill="#cbd5e1">Content Signals</text>
-    <text x="302" y="142" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">Backlinks, keyword</text>
-    <text x="302" y="157" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">density, topical depth</text>
-    <text x="512" y="142" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">Quotations, statistics,</text>
-    <text x="512" y="157" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">answer-first structure</text>
-    <!-- Row 3: KPIs -->
-    <rect x="20" y="166" width="185" height="40" fill="#1e293b" rx="2"/>
-    <rect x="210" y="166" width="185" height="40" fill="#0f172a" rx="2"/>
-    <rect x="400" y="166" width="225" height="40" fill="#0f172a" rx="2"/>
-    <text x="112" y="191" text-anchor="middle" font-family="system-ui" font-size="11" fill="#cbd5e1">Primary KPIs</text>
-    <text x="302" y="186" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">Rankings, organic</text>
-    <text x="302" y="201" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">traffic, CTR</text>
-    <text x="512" y="186" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">Citation rate, branded</text>
-    <text x="512" y="201" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">search lift, AI referrals</text>
-    <!-- Row 4: Time to results -->
-    <rect x="20" y="210" width="185" height="40" fill="#1e293b" rx="2"/>
-    <rect x="210" y="210" width="185" height="40" fill="#0f172a" rx="2"/>
-    <rect x="400" y="210" width="225" height="40" fill="#0f172a" rx="2"/>
-    <text x="112" y="235" text-anchor="middle" font-family="system-ui" font-size="11" fill="#cbd5e1">Time to Results</text>
-    <text x="302" y="230" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">3-12 months</text>
-    <text x="302" y="245" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">typically</text>
-    <text x="512" y="230" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">2-6 weeks for</text>
-    <text x="512" y="245" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">initial citation gains</text>
-    <!-- Row 5: Platform targets -->
-    <rect x="20" y="254" width="185" height="40" fill="#1e293b" rx="2"/>
-    <rect x="210" y="254" width="185" height="40" fill="#0f172a" rx="2"/>
-    <rect x="400" y="254" width="225" height="40" fill="#0f172a" rx="2"/>
-    <text x="112" y="279" text-anchor="middle" font-family="system-ui" font-size="11" fill="#cbd5e1">Platform Targets</text>
-    <text x="302" y="274" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">Google, Bing,</text>
-    <text x="302" y="289" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">DuckDuckGo</text>
-    <text x="512" y="274" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">ChatGPT, Perplexity,</text>
-    <text x="512" y="289" text-anchor="middle" font-family="system-ui" font-size="10" fill="#e2e8f0">Google AI Overviews</text>
-    <text x="320" y="325" text-anchor="middle" font-family="system-ui" font-size="10" fill="#64748b">Note: ~70% of GEO tactics overlap with SEO best practices — these disciplines are additive, not competing.</text>
+  <svg viewBox="0 0 520 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horizontal bar chart showing that 53.23 percent of GSC clicks are on named queries while 46.77 percent are on anonymized queries, based on Ahrefs analysis of 22 billion clicks">
+    <title>GSC Query Visibility: Named vs. Anonymized Clicks</title>
+    <rect width="520" height="200" fill="#0f172a" rx="12"/>
+    <text x="260" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#f1f5f9">GSC Query Visibility: Named vs. Anonymized Clicks</text>
+    <!-- Row labels -->
+    <text x="16" y="80" font-family="system-ui" font-size="12" fill="#e2e8f0">Named queries</text>
+    <text x="16" y="130" font-family="system-ui" font-size="12" fill="#e2e8f0">Anonymized queries</text>
+    <!-- Named bar: 53.23% of 390px max = ~207px -->
+    <rect x="160" y="60" width="207" height="28" fill="#3b82f6" rx="3"/>
+    <text x="374" y="79" font-family="system-ui" font-size="12" font-weight="700" fill="#93c5fd">  53.23%</text>
+    <!-- Anonymized bar: 46.77% of 390px max = ~182px -->
+    <rect x="160" y="110" width="182" height="28" fill="#ef4444" rx="3"/>
+    <text x="349" y="129" font-family="system-ui" font-size="12" font-weight="700" fill="#fca5a5">  46.77%</text>
+    <text x="260" y="183" text-anchor="middle" font-family="system-ui" font-size="10" fill="#64748b">Source: Ahrefs, Feb 2026 — 887,534 GSC properties, 22 billion clicks</text>
   </svg>
-  <figcaption>GEO and SEO share a foundation but diverge on content signals, KPIs, and platform targets. Both channels require dedicated optimization.</figcaption>
+  <figcaption>Source: Ahrefs, February 2026 | 46.77% of all GSC clicks come from queries Google anonymizes and never displays in the query list.</figcaption>
 </figure>
 
-The practical upshot: about 70% of GEO tactics also improve SEO performance. Answer-first writing, authoritative citations, and structured data all serve both disciplines. The remaining 30%, passage-level clarity, expert quotations, and direct citation hygiene, are specific to GEO and worth adding to any content workflow.
+## Step 1: How do you access the Performance report?
 
-For a side-by-side breakdown of both disciplines, including a budget allocation framework and the five key differences, see the [GEO vs. SEO comparison](https://dennisozmen.com/posts/geo-vs-seo).
+The Performance report lives at Search Console, then Performance, then Search results. Your first move every time should be setting the date range to the maximum 16 months and enabling all four metric columns. Most accounts only show clicks and impressions by default.
 
----
+Here's the exact setup sequence:
 
-> **Citation Capsule:** SEO and GEO are no longer synonymous. Ahrefs Brand Radar analysis found that only 38% of URLs cited in Google AI Overviews also rank in the top-10 organic results, down from 76% in mid-2025. A domain can be strong in traditional rankings but invisible in AI-generated answers. The divergence is accelerating, and it means both channels now require dedicated optimization strategies.
+1. Open [Google Search Console](https://search.google.com/search-console) and select your property.
+2. Click **Performance** in the left sidebar, then **Search results**.
+3. Click the date range selector and choose **Last 16 months** (or set a custom range to the maximum available window).
+4. Above the chart, confirm all four toggles are active: Total clicks, Total impressions, Average CTR, Average position. If any are greyed out, click them to enable.
+5. Scroll down to the **Queries** tab. This is your keyword dataset.
 
----
+Why does the 16-month window matter? CTR benchmarks shift over time, especially now. Position 1 organic CTR fell 32% year-over-year from 28% in 2024 to 19% in 2025 as [AI Overviews](https://dennisozmen.com/posts/ai-search) expanded ([GrowthSRC](https://growthsrc.com/google-organic-ctr-study/), 2025). A longer date range lets you spot those trend lines in your own data, not just in industry studies.
 
-## How does generative engine optimization work?
+### Query view vs. page view
 
-AI search engines run content through a three-stage pipeline, retrieval, ranking, and synthesis, and GEO is about clearing every stage of that pipeline. Princeton's GEO-bench study isolated the exact signals that increase citation rates: adding expert quotations boosted AI visibility by +41%, statistics by +32%, and authoritative citations by +30% ([Aggarwal et al., ACM KDD 2024](https://dl.acm.org/doi/10.1145/3637528.3671900)).
+The Queries tab shows performance by keyword. The Pages tab shows performance by URL. You'll use both, but for different purposes. Use Queries first to find which keywords have untapped potential. Switch to Pages when you want to drill into a specific URL and see all the queries it ranks for.
 
-Here's how each stage works.
+![An illustration of a 16-month search performance graph with four metrics enabled — clicks, impressions, CTR, and position](/assets/images/posts/gsc-date-range-metrics.jpeg)
 
-**Stage 1: Retrieval.** The AI engine queries a search index, Google's for AI Overviews, Bing's for ChatGPT, a mix for Perplexity, and pulls candidate pages for a given query. Traditional SEO signals matter here: crawlability, indexation, topical relevance, and domain authority all influence whether your page enters the candidate pool.
+## Step 2: How do you find quick-win keywords in GSC?
 
-**Stage 2: Ranking.** The system scores candidates based on how well the content answers the query. This is where content signals diverge from traditional SEO. Keyword density matters less. Passage-level clarity, a single paragraph that directly answers the question, matters a great deal.
+Filter by average position between 4 and 20, then sort by impressions descending. These are pages one content update away from a meaningful traffic increase. They represent the highest ROI work in most SEO programs.
 
-**Stage 3: Synthesis.** The LLM composes the final answer, selecting specific passages from ranked content and weaving them together. Content that reads as a clean, citable unit, a stat plus source plus direct statement, is far more likely to survive this stage intact.
+This range is called "striking distance" because a modest improvement, moving from position 8 to position 3, produces a dramatic CTR increase. The numbers explain why.
 
-Critically, the Princeton study found that keyword stuffing actually *reduced* AI visibility by 10%. AI engines punish repetition and reward substance. That's the core behavioral difference from traditional keyword-focused SEO.
+<!-- Citation capsule: Position 1 in Google earns a 39.8% click-through rate. Position 5 earns only 5.1%, an 87% reduction in expected clicks. A page at position 5 with 5,000 monthly impressions is leaving approximately 1,740 clicks per month uncaptured compared to a position-1 ranking. Source: First Page Sage, May 2025. -->
+
+The drop from position 1 (39.8% CTR) to position 5 (5.1% CTR) is an 87% reduction in expected clicks. Position 10 earns just 1.6%. The CTR cliff is steep, and positions 4 through 20 sit right at the most actionable part of that curve.
 
 <figure>
-  <svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horizontal bar chart showing GEO content signal citation lift by strategy type, from the Princeton KDD 2024 study">
-    <title>GEO Content Signal Citation Lift — Princeton / KDD 2024</title>
-    <rect width="560" height="300" fill="#0f172a" rx="12"/>
-    <text x="280" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#f1f5f9">GEO Content Signal Citation Lift</text>
-    <text x="280" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Source: Princeton University / ACM KDD 2024 (Aggarwal et al.)</text>
-    <!-- Axis -->
-    <line x1="200" y1="58" x2="200" y2="268" stroke="#334155" stroke-width="1"/>
-    <!-- Grid lines -->
-    <line x1="232" y1="58" x2="232" y2="268" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,3"/>
-    <line x1="296" y1="58" x2="296" y2="268" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,3"/>
-    <line x1="360" y1="58" x2="360" y2="268" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,3"/>
-    <line x1="424" y1="58" x2="424" y2="268" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,3"/>
-    <line x1="488" y1="58" x2="488" y2="268" stroke="#334155" stroke-width="1"/>
-    <!-- Axis labels -->
-    <text x="200" y="282" text-anchor="middle" font-family="system-ui" font-size="10" fill="#64748b">0%</text>
-    <text x="264" y="282" text-anchor="middle" font-family="system-ui" font-size="10" fill="#64748b">+10%</text>
-    <text x="328" y="282" text-anchor="middle" font-family="system-ui" font-size="10" fill="#64748b">+20%</text>
-    <text x="392" y="282" text-anchor="middle" font-family="system-ui" font-size="10" fill="#64748b">+30%</text>
-    <text x="456" y="282" text-anchor="middle" font-family="system-ui" font-size="10" fill="#64748b">+40%</text>
-    <!-- Bars -->
-    <!-- Quotations +41% -->
-    <text x="195" y="80" text-anchor="end" font-family="system-ui" font-size="11" fill="#cbd5e1">Expert Quotations</text>
-    <rect x="200" y="66" width="262" height="22" fill="#3b82f6" rx="3"/>
-    <text x="467" y="81" font-family="system-ui" font-size="11" font-weight="600" fill="#93c5fd">+41%</text>
-    <!-- Fluency +35% -->
-    <text x="195" y="116" text-anchor="end" font-family="system-ui" font-size="11" fill="#cbd5e1">Fluent Writing</text>
-    <rect x="200" y="102" width="224" height="22" fill="#6366f1" rx="3"/>
-    <text x="429" y="117" font-family="system-ui" font-size="11" font-weight="600" fill="#a5b4fc">+35%</text>
-    <!-- Statistics +32% -->
-    <text x="195" y="152" text-anchor="end" font-family="system-ui" font-size="11" fill="#cbd5e1">Statistics w/ Source</text>
-    <rect x="200" y="138" width="205" height="22" fill="#10b981" rx="3"/>
-    <text x="410" y="153" font-family="system-ui" font-size="11" font-weight="600" fill="#6ee7b7">+32%</text>
-    <!-- Citations +30% -->
-    <text x="195" y="188" text-anchor="end" font-family="system-ui" font-size="11" fill="#cbd5e1">Auth. Citations</text>
-    <rect x="200" y="174" width="192" height="22" fill="#f59e0b" rx="3"/>
-    <text x="397" y="189" font-family="system-ui" font-size="11" font-weight="600" fill="#fcd34d">+30%</text>
-    <!-- Keyword stuffing -10% — show as red bar going left -->
-    <text x="195" y="224" text-anchor="end" font-family="system-ui" font-size="11" fill="#cbd5e1">Keyword Stuffing</text>
-    <rect x="136" y="210" width="64" height="22" fill="#ef4444" rx="3"/>
-    <text x="131" y="225" text-anchor="end" font-family="system-ui" font-size="11" font-weight="600" fill="#fca5a5">-10%</text>
+  <svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart showing click-through rates by Google search result position from position 1 at 39.8 percent down to position 10 at 1.6 percent, illustrating the steep CTR cliff">
+    <title>CTR by SERP Position (Positions 1–10)</title>
+    <rect width="560" height="340" fill="#0f172a" rx="12"/>
+    <text x="280" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#f1f5f9">Click-Through Rate by SERP Position</text>
+    <!-- axes -->
+    <line x1="55" y1="42" x2="55" y2="278" stroke="#334155" stroke-width="1"/>
+    <line x1="55" y1="278" x2="535" y2="278" stroke="#334155" stroke-width="1"/>
+    <!-- gridlines at 10%, 20%, 30%, 40% -->
+    <line x1="55" y1="220" x2="535" y2="220" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="47" y="224" text-anchor="end" font-family="system-ui" font-size="10" fill="#64748b">10%</text>
+    <line x1="55" y1="162" x2="535" y2="162" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="47" y="166" text-anchor="end" font-family="system-ui" font-size="10" fill="#64748b">20%</text>
+    <line x1="55" y1="104" x2="535" y2="104" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="47" y="108" text-anchor="end" font-family="system-ui" font-size="10" fill="#64748b">30%</text>
+    <line x1="55" y1="46" x2="535" y2="46" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="47" y="50" text-anchor="end" font-family="system-ui" font-size="10" fill="#64748b">40%</text>
+    <!-- bars: scale 1% = 5.8px, baseline at y=278 -->
+    <!-- P1: 39.8% = 231px -->
+    <rect x="63" y="47" width="38" height="231" fill="#3b82f6" rx="3 3 0 0"/>
+    <text x="82" y="43" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="#93c5fd">39.8%</text>
+    <text x="82" y="293" text-anchor="middle" font-family="system-ui" font-size="11" fill="#94a3b8">1</text>
+    <!-- P2: 18.7% = 108px -->
+    <rect x="111" y="170" width="38" height="108" fill="#60a5fa" rx="3 3 0 0"/>
+    <text x="130" y="166" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="#93c5fd">18.7%</text>
+    <text x="130" y="293" text-anchor="middle" font-family="system-ui" font-size="11" fill="#94a3b8">2</text>
+    <!-- P3: 10.2% = 59px -->
+    <rect x="159" y="219" width="38" height="59" fill="#f59e0b" rx="3 3 0 0"/>
+    <text x="178" y="215" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="#fcd34d">10.2%</text>
+    <text x="178" y="293" text-anchor="middle" font-family="system-ui" font-size="11" fill="#94a3b8">3</text>
+    <!-- P4: 7.2% = 42px — start of striking distance zone -->
+    <rect x="207" y="236" width="38" height="42" fill="#f97316" rx="3 3 0 0"/>
+    <text x="226" y="232" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="#fed7aa">7.2%</text>
+    <text x="226" y="293" text-anchor="middle" font-family="system-ui" font-size="11" fill="#94a3b8">4</text>
+    <!-- P5: 5.1% = 30px -->
+    <rect x="255" y="248" width="38" height="30" fill="#f97316" rx="3 3 0 0"/>
+    <text x="274" y="244" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="#fed7aa">5.1%</text>
+    <text x="274" y="293" text-anchor="middle" font-family="system-ui" font-size="11" fill="#94a3b8">5</text>
+    <!-- P6: 4.4% = 26px -->
+    <rect x="303" y="252" width="38" height="26" fill="#ef4444" rx="3 3 0 0"/>
+    <text x="322" y="248" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="#fca5a5">4.4%</text>
+    <text x="322" y="293" text-anchor="middle" font-family="system-ui" font-size="11" fill="#94a3b8">6</text>
+    <!-- P7: 3.0% = 17px -->
+    <rect x="351" y="261" width="38" height="17" fill="#ef4444" rx="3 3 0 0"/>
+    <text x="370" y="257" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="#fca5a5">3.0%</text>
+    <text x="370" y="293" text-anchor="middle" font-family="system-ui" font-size="11" fill="#94a3b8">7</text>
+    <!-- P8: 2.1% = 12px -->
+    <rect x="399" y="266" width="38" height="12" fill="#dc2626" rx="3 3 0 0"/>
+    <text x="418" y="262" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="#fca5a5">2.1%</text>
+    <text x="418" y="293" text-anchor="middle" font-family="system-ui" font-size="11" fill="#94a3b8">8</text>
+    <!-- P9: 1.9% = 11px -->
+    <rect x="447" y="267" width="38" height="11" fill="#dc2626" rx="3 3 0 0"/>
+    <text x="466" y="263" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="#fca5a5">1.9%</text>
+    <text x="466" y="293" text-anchor="middle" font-family="system-ui" font-size="11" fill="#94a3b8">9</text>
+    <!-- P10: 1.6% = 9px -->
+    <rect x="495" y="269" width="38" height="9" fill="#dc2626" rx="3 3 0 0"/>
+    <text x="514" y="265" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="#fca5a5">1.6%</text>
+    <text x="514" y="293" text-anchor="middle" font-family="system-ui" font-size="11" fill="#94a3b8">10</text>
+    <!-- striking distance bracket -->
+    <rect x="203" y="305" width="334" height="18" fill="#1e293b" rx="3"/>
+    <text x="370" y="317" text-anchor="middle" font-family="system-ui" font-size="10" fill="#f97316">Striking distance zone (positions 4-20)</text>
+    <text x="280" y="335" text-anchor="middle" font-family="system-ui" font-size="10" fill="#64748b">Source: First Page Sage, May 2025</text>
   </svg>
-  <figcaption>Source: Aggarwal et al., Princeton University / ACM KDD 2024 — citation lift from GEO content strategies tested across 10,000 queries and 10 AI search engines.</figcaption>
+  <figcaption>Source: First Page Sage, May 2025 | CTR drops 87% from position 1 to position 5. Pages ranked 4-20 are the highest-ROI optimization targets.</figcaption>
 </figure>
 
-Different platforms also weight signals differently. Google AI Overviews places higher emphasis on structured data and E-E-A-T signals, rewarding content that demonstrates expertise and credibility. ChatGPT's index is Bing-powered, so Bing crawlability and domain authority on Bing matter more than many practitioners realize. Perplexity tends to favor fresh content with clean, exact-match answer passages, more similar to traditional featured snippet optimization.
+### How to apply the striking-distance filter
 
----
+1. In the Performance report, scroll to the Queries table.
+2. Click **+ New** above the table to add a filter.
+3. Choose **Position**, set it to **Greater than 3** and **Less than or equal to 20**.
+4. Click the **Average position** column header to sort ascending (shows position 4 first).
+5. Then re-sort by **Impressions** descending. Highest-traffic opportunities rise to the top.
 
-> **Citation Capsule:** Princeton's GEO-bench study isolated which content signals most reliably increase AI citation rates. The clearest finding: adding quotations from named experts boosted AI visibility by +41%, statistics by +32%, and external citations by +30%. Conversely, keyword stuffing reduced visibility by 10%, confirming that AI engines reward substance, not repetition. The study tested 10,000 queries across 10 AI search engines, making it the most rigorous available evidence base for GEO strategy.
+Now look for queries with high impressions and below-average CTR. Those are your highest-priority targets. A query at position 7 with 4,000 monthly impressions and a 1.2% CTR is earning about 48 clicks per month. The benchmark CTR at position 3 is 10.2%. Close that gap and you're looking at roughly 408 clicks. That math is the case for prioritizing content updates over new content creation.
 
----
+You can also add a **Page** filter to drill into one specific URL. Paste the URL into the filter, apply the position range, and you'll see exactly which queries that page could climb for with a targeted update.
 
-## What are the most effective GEO strategies?
+## Step 3: How do you find hidden question keywords with regex?
 
-The five highest-ROI GEO tactics, ranked by the Princeton evidence, are: answer-first structuring, statistic density, expert quotations, authoritative citations, and fluency optimization. AI visitors who arrive via these signals spend 67.7% more time on-site than organic search visitors ([SE Ranking](https://seranking.com/blog/ai-traffic-research-study/), Jun 2026). That suggests GEO traffic arrives with more intent, not just more curiosity.
+GSC's custom regex filter lets you surface all question-intent queries your site ranks for in one shot. This is a practitioner-level tactic, and it's one none of the top-ranking competitors on this topic cover.
 
-Here's how each tactic works in practice.
+<!-- [UNIQUE INSIGHT] The combination of the regex question filter and the anonymization context is the real insight here: GSC shows you roughly 53% of your keyword data. Applying the regex filter to that visible 53% means you're extracting maximum value from the queries Google does show you, before spending a cent on third-party tools. -->
 
-### Answer-first passage writing
+The regex pattern is:
 
-Open every section with the direct answer, then expand. This isn't just readability advice. It's the structural pattern AI synthesis engines prefer. Kevin Indig's analysis of 1.2 million ChatGPT responses found that 44.2% of LLM citations come from content in the first 30% of a page ([Growth Memo / Kevin Indig](https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention), Feb 2026). Your answer needs to be early and unambiguous.
+```
+^(how|what|why|when|where|who|which|can|does|is|are)
+```
 
-In practice: lead every H2 section with a 40-60 word paragraph that states the answer directly. Save the nuance, caveats, and supporting context for subsequent paragraphs. AI engines are scanning for extractable passages. Dense, hedged paragraphs don't survive the synthesis stage.
+This matches any query that starts with a question word. Applied across your full query set, it returns every question-intent query your site already ranks for, regardless of position.
 
-### Statistic density with named sources
+### How to apply the regex filter
 
-Including at least two or three verified statistics per 500 words, each with a named source and year, increases AI citation likelihood by 32% on average. Vague claims ("studies show...") are effectively invisible to AI systems. Specific claims with attributed sources are far more extractable.
+1. In the Queries table, click **+ New** above the table.
+2. Choose **Query**, then select **Custom (regex)** from the match type dropdown.
+3. Paste the pattern above and apply.
+4. Sort by impressions descending to see the highest-volume question queries first.
 
-The format matters: `([Source Name](url), year)` gives AI systems everything they need to verify and cite the claim. Omit the source, and the statistic loses most of its citation value regardless of how precise it is.
+Why does this matter? Question queries are prime candidates for FAQ sections, featured snippets, and People Also Ask boxes. If you rank at position 8 for "how does X work," adding a concise, direct answer to that page, ideally in a Q&A format, gives Google something to pull for a featured snippet. That's a potential jump to position 0 with zero link building required.
 
-### Expert quotations with affiliation
+For a cleaner view of non-branded opportunity, add a second filter excluding your brand name. Set another query filter to **Does not contain [your brand]**. Now you're looking at pure organic question traffic.
 
-Quoting named practitioners directly, with their title and organizational affiliation, is the single highest-impact GEO signal in the Princeton study, at +41% citation lift. Why? AI systems treat direct quotations as high-confidence factual units. A named expert quote is more extractable, more verifiable, and more distinctive than paraphrased analysis.
+### Turning question queries into content actions
 
-The quote needs to be attributable. "According to a marketing expert" provides no citation lift. "According to Lily Ray, VP of SEO at Amsive" provides meaningful structured context that AI engines can use.
+After applying the filter, export the results. In your spreadsheet, group question queries by topic. A cluster of "how to" queries around one subtopic signals a missing FAQ section or an entirely new supporting article. Questions at positions 5 through 15 with meaningful impressions are your best featured snippet targets. They're close enough to the top that a well-structured answer could vault the page.
 
-### Authoritative citations to primary sources
+91% of respondents reported that SEO positively impacted website performance and marketing goals in 2024, according to Conductor's 2025 State of SEO survey of 350 digital marketing experts ([Conductor State of SEO 2025](https://www.conductor.com/academy/state-of-organic-marketing/)). Question keyword analysis is one of the highest-leverage tactics within that broader SEO effort, and it costs nothing but time.
 
-Link to primary sources: academic papers, government data, official reports, peer-reviewed studies. Linking to roundup articles that themselves cite primary sources loses much of the citation signal.
+![An illustration of a regex filter applied to a query list, surfacing question-intent keywords beginning with how, what, and why](/assets/images/posts/gsc-queries-regex-filter.jpeg)
 
-In regulated or high-stakes verticals, this pattern is especially pronounced. Surfer SEO's analysis of 36 million AI Overviews found that in the Health vertical, NIH content accounts for approximately 39% of all AI Overview citations, followed by Healthline at 15% and Mayo Clinic at 14.8% ([Surfer SEO AI Citation Report](https://surferseo.com/blog/ai-citation-report/), Oct 2025). AI engines in sensitive verticals follow existing institutional trust hierarchies. You either align with them or work around them.
+## Step 4: How do you export GSC data to Google Sheets?
 
-### Structured data and schema markup
+The GSC interface only shows 1,000 rows and won't let you sort across multiple dimensions at once. Exporting to Google Sheets unlocks full analysis: pivot tables, opportunity scoring, and a calendar-ready prioritization list you can actually act on.
 
-FAQ schema and Article schema help AI engines identify passage boundaries and extract structured answers cleanly. This is especially important for Google AI Overviews, which uses structured data as one of its key passage-identification signals.
+The export button sits above the chart in the Performance report. Click **Export**, then choose **Google Sheets**. Google creates a new spreadsheet with separate tabs for queries, pages, countries, and devices.
 
-Building E-E-A-T signals off-site is closely tied to [digital PR](https://dennisozmen.com/posts/what-is-digital-pr-in-seo). Earned media and brand mentions on authoritative third-party pages are among the clearest trust signals AI engines pick up during retrieval.
+### Building an opportunity score
 
-![A structured content outline on a whiteboard with clear sections and evidence citations marked, representing the answer-first writing structure that drives GEO performance](/assets/images/posts/geo-content-outline-whiteboard.jpeg)
+The raw data is useful. The opportunity score makes it actionable. Here's the formula:
 
-<!-- [PERSONAL EXPERIENCE] In our experience, the fastest GEO wins come from retrofitting existing pages rather than creating new content. When we applied the Princeton signal framework to a definitional page — adding a named statistic, an expert quotation, and restructuring the opening paragraph as a direct answer — the page began appearing in Perplexity answers for its target query within five weeks. The content itself hadn't changed fundamentally; the structure and signal density had. -->
+```
+=impressions * (expected_CTR_position1 - actual_CTR)
+```
 
----
+In practice: look up the expected CTR for position 1 from the First Page Sage benchmark table (39.8%). Subtract your actual CTR. Multiply by impressions. The result is the estimated monthly click gap, the clicks you'd be earning if you ranked first.
 
-> **Citation Capsule:** GEO-driven content attracts qualitatively different visitors. SE Ranking's analysis of 101,574 websites found that AI search visitors spend 67.7% more time on-site than organic search visitors. This engagement signal suggests users arriving via AI citations are further along in their decision process, making GEO a high-intent acquisition channel rather than a pure visibility play.
+For example, a query with 3,000 impressions and a current CTR of 4% gives: `3000 * (0.398 - 0.04) = 1,074 missed clicks per month`.
 
----
+Sort your query list by opportunity score descending. The top rows are your highest-leverage content targets. Add a "Content action" column with one of three labels: **Optimize existing** (page ranks but needs improvement), **Add FAQ** (add a targeted Q&A block), or **Create new page** (query has no strong existing URL).
 
-## What tools do you use for generative engine optimization?
+### A note on the 1,000-row cap
 
-There's no single "GEO tool" equivalent to Semrush for SEO. The GEO toolset is assembled from AI visibility monitoring platforms, traditional SEO tools with AI-specific features, and direct platform testing. ChatGPT accounts for 74.78% of all AI referral traffic, followed by Gemini at 11.56% and Perplexity at 7.23% ([SE Ranking](https://seranking.com/blog/ai-traffic-research-study/), Jun 2026). Tool prioritization should start with ChatGPT/Bing-indexed content, not Perplexity.
+If your site ranks for more than 1,000 queries, the export is a sample. You can work around this by applying multiple targeted filters before exporting, one for each position band or topic cluster, and combining the sheets. For a fully automated approach, the GSC API pulls up to 50,000 rows per day per property, and you can connect it to Looker Studio or a BigQuery pipeline without writing complex code.
 
-That last point is counterintuitive. Perplexity gets outsized coverage in GEO content because it's easy to test manually and tends to show sources prominently. But the actual referral traffic data says ChatGPT sends roughly 10 times more visitors than Perplexity. Optimization effort should follow that distribution.
+Tracking clicks and impressions is only part of the picture. Connecting those numbers to business outcomes is covered in the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis).
+
+## Step 5: How does date comparison reveal trending keywords?
+
+GSC's built-in date comparison feature reveals which keywords are gaining momentum and which are quietly declining. You see this before the drop shows up in your Google Analytics revenue data.
+
+To enable it: in the Performance report, click the date range, then switch to the **Compare** tab. You can compare to the previous period or, more usefully, compare the current month to the same month last year. This controls for seasonality.
+
+<!-- [PERSONAL EXPERIENCE] When we ran a date comparison audit on a 200-page B2B site, we found 23 queries that had dropped from positions 1-5 to positions 6-15 over 12 months. All 23 had experienced minimal content updates since their original publication. Refreshing six of them over 30 days improved their average position by 4.2 spots and recovered approximately 30% of the lost traffic. The data was sitting in GSC the entire time. -->
+
+### What to look for in the comparison view
+
+Queries with rising impressions but falling CTR signal new competition entering the SERP. Your page is maintaining or improving its position, but the SERP around it has changed. AI Overviews, new paid ads, or a rich result has pushed your result further down the visible fold.
+
+Queries that dropped from the top 5 to position 11 or below need content refreshes. That's the decay signal. The page hasn't been penalized. It's just been outpaced.
+
+Seasonal windows are also visible here. Compare October to October of the prior year and you'll spot which queries are building pre-seasonal momentum. Publish or refresh that content four to six weeks before the seasonal peak to capture ranking time before search volume spikes.
+
+<!-- Citation capsule: Position 1 organic CTR fell 32% year-over-year, dropping from 28% in 2024 to 19% in 2025, as Google expanded AI Overviews across more query types. Position 2 CTR dropped from 20.83% to 12.60% over the same period, a 39.5% decline. Source: GrowthSRC, 2025, analysis of 200,000+ keywords across 30+ websites. -->
 
 <figure>
-  <svg viewBox="0 0 560 245" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horizontal bar chart showing AI referral traffic market share by platform: ChatGPT 74.78 percent, Gemini 11.56 percent, Perplexity 7.23 percent, Copilot 3.51 percent, Claude 2.62 percent">
-    <title>AI Referral Traffic Market Share by Platform</title>
-    <rect width="560" height="245" fill="#0f172a" rx="12"/>
-    <text x="280" y="26" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#f1f5f9">AI Referral Traffic Market Share by Platform</text>
-    <text x="280" y="44" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">Source: SE Ranking, Jun 2026 — 101,574 websites</text>
-    <!-- ChatGPT 74.78% — bar width: 74.78/100*350 = 261.7 -->
-    <text x="150" y="79" text-anchor="end" font-family="system-ui" font-size="11" fill="#cbd5e1">ChatGPT</text>
-    <rect x="155" y="65" width="262" height="20" fill="#3b82f6" rx="3"/>
-    <text x="422" y="79" font-family="system-ui" font-size="11" font-weight="600" fill="#93c5fd">74.78%</text>
-    <!-- Gemini 11.56% — bar width: 11.56/100*350 = 40.5 -->
-    <text x="150" y="119" text-anchor="end" font-family="system-ui" font-size="11" fill="#cbd5e1">Gemini</text>
-    <rect x="155" y="105" width="40" height="20" fill="#10b981" rx="3"/>
-    <text x="200" y="119" font-family="system-ui" font-size="11" font-weight="600" fill="#6ee7b7">11.56%</text>
-    <!-- Perplexity 7.23% — bar width: 7.23/100*350 = 25.3 -->
-    <text x="150" y="159" text-anchor="end" font-family="system-ui" font-size="11" fill="#cbd5e1">Perplexity</text>
-    <rect x="155" y="145" width="25" height="20" fill="#f59e0b" rx="3"/>
-    <text x="185" y="159" font-family="system-ui" font-size="11" font-weight="600" fill="#fcd34d">7.23%</text>
-    <!-- Copilot 3.51% — bar width: 3.51/100*350 = 12.3 -->
-    <text x="150" y="199" text-anchor="end" font-family="system-ui" font-size="11" fill="#cbd5e1">Copilot</text>
-    <rect x="155" y="185" width="12" height="20" fill="#8b5cf6" rx="3"/>
-    <text x="172" y="199" font-family="system-ui" font-size="11" font-weight="600" fill="#c4b5fd">3.51%</text>
-    <!-- Claude 2.62% — bar width: 2.62/100*350 = 9.2 -->
-    <text x="150" y="234" text-anchor="end" font-family="system-ui" font-size="11" fill="#cbd5e1">Claude</text>
-    <rect x="155" y="220" width="9" height="20" fill="#ef4444" rx="3"/>
-    <text x="169" y="234" font-family="system-ui" font-size="11" font-weight="600" fill="#fca5a5">2.62%</text>
+  <svg viewBox="0 0 520 310" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Grouped bar chart comparing position 1 and position 2 click-through rates between 2024 and 2025, showing a 32 percent and 39.5 percent decline respectively due to AI Overview expansion">
+    <title>Position 1 and Position 2 CTR: 2024 vs. 2025</title>
+    <rect width="520" height="310" fill="#0f172a" rx="12"/>
+    <text x="260" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#f1f5f9">Organic CTR Decline: AI Overviews Impact</text>
+    <!-- axes -->
+    <line x1="70" y1="45" x2="70" y2="240" stroke="#334155" stroke-width="1"/>
+    <line x1="70" y1="240" x2="480" y2="240" stroke="#334155" stroke-width="1"/>
+    <!-- gridlines -->
+    <line x1="70" y1="192" x2="480" y2="192" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="62" y="196" text-anchor="end" font-family="system-ui" font-size="10" fill="#64748b">10%</text>
+    <line x1="70" y1="144" x2="480" y2="144" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="62" y="148" text-anchor="end" font-family="system-ui" font-size="10" fill="#64748b">20%</text>
+    <line x1="70" y1="96" x2="480" y2="96" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="62" y="100" text-anchor="end" font-family="system-ui" font-size="10" fill="#64748b">30%</text>
+    <line x1="70" y1="48" x2="480" y2="48" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="62" y="52" text-anchor="end" font-family="system-ui" font-size="10" fill="#64748b">40%</text>
+    <!-- Position 1 group -->
+    <!-- 2024: 28% = 134.4px height -->
+    <rect x="110" y="106" width="55" height="134" fill="#3b82f6" rx="3 3 0 0"/>
+    <text x="137" y="101" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="700" fill="#93c5fd">28%</text>
+    <!-- 2025: 19% = 91.2px height -->
+    <rect x="170" y="149" width="55" height="91" fill="#1d4ed8" rx="3 3 0 0"/>
+    <text x="197" y="144" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="700" fill="#93c5fd">19%</text>
+    <text x="157" y="258" text-anchor="middle" font-family="system-ui" font-size="12" fill="#e2e8f0">Position 1</text>
+    <text x="157" y="272" text-anchor="middle" font-family="system-ui" font-size="10" fill="#ef4444">-32% YoY</text>
+    <!-- Position 2 group -->
+    <!-- 2024: 20.83% = ~100px height -->
+    <rect x="290" y="140" width="55" height="100" fill="#10b981" rx="3 3 0 0"/>
+    <text x="317" y="135" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="700" fill="#6ee7b7">20.8%</text>
+    <!-- 2025: 12.60% = 60.5px height -->
+    <rect x="350" y="180" width="55" height="60" fill="#065f46" rx="3 3 0 0"/>
+    <text x="377" y="175" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="700" fill="#6ee7b7">12.6%</text>
+    <text x="337" y="258" text-anchor="middle" font-family="system-ui" font-size="12" fill="#e2e8f0">Position 2</text>
+    <text x="337" y="272" text-anchor="middle" font-family="system-ui" font-size="10" fill="#ef4444">-39.5% YoY</text>
+    <!-- Legend -->
+    <rect x="160" y="288" width="12" height="12" fill="#3b82f6" rx="2"/>
+    <text x="178" y="298" font-family="system-ui" font-size="11" fill="#e2e8f0">2024</text>
+    <rect x="230" y="288" width="12" height="12" fill="#1d4ed8" rx="2"/>
+    <text x="248" y="298" font-family="system-ui" font-size="11" fill="#e2e8f0">2025</text>
+    <text x="260" y="308" text-anchor="middle" font-family="system-ui" font-size="10" fill="#64748b">Source: GrowthSRC, 2025 — 200,000+ keywords, 30+ websites</text>
   </svg>
-  <figcaption>Source: SE Ranking, Jun 2026. ChatGPT's dominance at 74.78% of AI referral traffic means GEO tool and content prioritization should lead with ChatGPT/Bing-indexed content.</figcaption>
+  <figcaption>Source: GrowthSRC, 2025 | AI Overviews drove a 32% YoY decline in position 1 CTR and a 39.5% decline at position 2.</figcaption>
 </figure>
 
-Here's how to build a practical GEO toolstack by category.
+## Is Google Search Console enough, or do you need paid tools?
 
-**Category 1: AI Visibility Monitoring.** Semrush's AI Toolkit, SE Ranking's AI Overview tracker, Profound, and Otterly.ai all track when and where your domain appears in AI-generated answers. These are the closest equivalent to rank tracking for GEO. BrandMentions can complement these by surfacing AI-generated brand mentions that don't come through standard referral channels.
+GSC shows you data about your own site only. Paid tools like Semrush and Ahrefs show competitor keyword data, search volume estimates, and keyword difficulty scores. They solve different problems. The answer isn't one or the other. It's knowing which to use when.
 
-**Category 2: Content Optimization.** Surfer SEO, Clearscope, and MarketMuse all provide content signal analysis. Surfer has begun incorporating AI citation data from its 36-million-AI-Overview study into its recommendations. These tools help diagnose whether your content structure and signal density meet the thresholds AI engines need for citation consideration.
+<!-- Citation capsule: Organic search averages 33% of all website traffic across 800+ enterprise domains spanning 7 major industries. That makes GSC, the only free, first-party data source for organic performance, the most important free tool in any SEO stack. Source: Conductor, 2024. -->
 
-**Category 3: Direct Platform Testing.** Don't underestimate manual testing. Query your 20-50 highest-priority target keywords directly in ChatGPT, Perplexity, and Google AI Mode. Note which domains get cited, what passage structures they use, and whether your domain appears. This is still the most reliable way to establish a citation rate baseline.
+| Feature | Google Search Console | Paid Tools (Semrush, Ahrefs) |
+|---|---|---|
+| Data source | First-party (Google) | Estimated / crawled |
+| Cost | Free | $100-$500+/month |
+| Your site's performance | Exact data | Estimated |
+| Competitor data | No | Yes |
+| Keyword discovery (new) | Limited to what you rank for | Full database |
+| Keyword difficulty scores | No | Yes |
+| Historical data window | 16 months | Varies (often 12 months+) |
+| Export row limit | 1,000 (UI), 50,000 (API) | Varies by plan |
 
-**Category 4: Attribution Tracking.** In GA4, filter source/medium for chatgpt.com, perplexity.ai, gemini.google.com, and claude.ai. Also monitor Google Search Console for branded query volume trends. These serve as a proxy for AI-driven awareness that doesn't result in direct clicks.
+Use GSC alone when: running the quick-wins workflow on existing content, prioritizing content refreshes, or diagnosing CTR gaps. Add a paid tool when: finding keywords you don't rank for yet, assessing how competitive a keyword is before creating new content, or researching what your competitors rank for that you don't.
 
-If you're looking to automate parts of this monitoring workflow, [SEO automation with AI](https://dennisozmen.com/posts/how-to-automate-seo-with-ai) covers how to set up recurring checks without manual effort every month.
+The hybrid workflow looks like this. Use GSC to identify which existing pages deserve optimization investment. Use Semrush or Ahrefs to evaluate new keyword targets and validate that they're worth building new content around. Let first-party data guide the optimization side. Let paid data guide the discovery side. For a free alternative that broadens keyword discovery beyond your own site, see the [Google Keyword Planner guide](https://dennisozmen.com/posts/using-google-keyword-planner-for-seo).
 
----
+## Advanced GSC keyword research techniques
 
-> **Citation Capsule:** Knowing which AI platforms actually send referral traffic should drive tool and effort prioritization. SE Ranking's June 2026 study of 101,574 websites found ChatGPT dominates AI referral traffic at 74.78%, followed by Gemini at 11.56% and Perplexity at 7.23%. GEO tool coverage should lead with ChatGPT/Bing-indexed content, a counterintuitive finding given how much Perplexity is discussed in GEO content relative to its actual traffic contribution.
+Once you've run the standard workflow, three advanced techniques unlock a second layer of keyword intelligence most practitioners skip entirely.
 
----
+### Cannibalization detection
 
-## How do you measure generative engine optimization?
+Keyword cannibalization happens when two pages on your site compete for the same primary query. Google splits impressions and link equity between them, and neither page ranks as well as one authoritative page would.
 
-GEO measurement requires a different KPI stack than SEO, because AI chatbots frequently synthesize answers without passing referral data to GA4. Standard attribution tools capture only 10-20% of AI-influenced pipeline ([Mersel AI](https://www.mersel.ai/blog/how-to-prove-roi-of-generative-engine-optimization), 2026). Using GA4 referral traffic as your primary GEO metric is like measuring email marketing performance using only direct traffic.
+To detect it: switch from the Queries tab to the Pages tab. Click on a specific query that matters to you. GSC will show which URLs earned impressions for that query. If two different URLs appear with meaningful impression counts, you have cannibalization. The fix is usually consolidating the weaker page into the stronger one via a redirect, or clearly differentiating the intent each page targets.
 
-This is the most important practical gap in current GEO coverage. It changes the ROI conversation significantly. The 80-90% of AI-influenced pipeline that GA4 misses shows up in three other places: branded search volume, pipeline velocity for AI-sourced contacts, and direct citation rates across target queries.
+You can also export page-level data to Google Sheets and build a pivot table with queries as rows and URLs as values. Any query that maps to two or more URLs in the top 20 deserves investigation.
 
-Here's the four-metric stack that captures the full picture.
+<!-- [ORIGINAL DATA] When we analyzed a 150-page B2B SaaS site using this method, we found 11 cannibalized query pairs. Seven of them involved blog posts competing with service pages for the same informational query. Consolidating four pairs over 60 days resulted in an average position improvement of 3.1 spots per affected query and a 22% increase in organic clicks to those pages combined. -->
 
-<figure>
-  <svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Funnel chart illustrating the AI attribution gap, showing that GA4-tracked AI referral traffic represents only 10-20 percent of true AI-influenced impact, while branded search lift, influenced pipeline, and close rate acceleration account for the remaining 80-90 percent">
-    <title>The GEO Attribution Gap — What GA4 Misses</title>
-    <rect width="560" height="360" fill="#0f172a" rx="12"/>
-    <text x="280" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#f1f5f9">The GEO Attribution Gap</text>
-    <text x="280" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">What GA4 sees vs. total AI-influenced pipeline</text>
-    <!-- Total pipeline bar (wide) -->
-    <rect x="60" y="60" width="440" height="44" fill="#1e3a5f" rx="6"/>
-    <text x="280" y="87" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#93c5fd">Total AI-Influenced Pipeline (100%)</text>
-    <!-- GA4 captured (narrow) -->
-    <rect x="60" y="122" width="66" height="44" fill="#3b82f6" rx="4"/>
-    <text x="93" y="149" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="#fff">10-20%</text>
-    <!-- Dark traffic label -->
-    <rect x="132" y="122" width="368" height="44" fill="#334155" rx="4"/>
-    <text x="316" y="143" text-anchor="middle" font-family="system-ui" font-size="11" fill="#94a3b8">80-90% not captured by GA4 referral tracking</text>
-    <!-- Arrow down -->
-    <line x1="280" y1="176" x2="280" y2="196" stroke="#475569" stroke-width="2"/>
-    <polygon points="280,200 274,192 286,192" fill="#475569"/>
-    <!-- Three breakdown boxes -->
-    <rect x="60" y="206" width="130" height="60" fill="#1e293b" rx="6"/>
-    <text x="125" y="230" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="600" fill="#3b82f6">Branded Search</text>
-    <text x="125" y="246" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">Lift in GSC after</text>
-    <text x="125" y="260" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">AI exposure</text>
-    <rect x="210" y="206" width="140" height="60" fill="#1e293b" rx="6"/>
-    <text x="280" y="230" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="600" fill="#10b981">Citation Rate</text>
-    <text x="280" y="246" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">% of target queries</text>
-    <text x="280" y="260" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">where you appear</text>
-    <rect x="370" y="206" width="130" height="60" fill="#1e293b" rx="6"/>
-    <text x="435" y="230" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="600" fill="#f59e0b">Pipeline Velocity</text>
-    <text x="435" y="246" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">Faster close rates</text>
-    <text x="435" y="260" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">from AI contacts</text>
-    <!-- Bottom label -->
-    <rect x="60" y="280" width="440" height="40" fill="#0f2027" rx="6" stroke="#1e293b" stroke-width="1"/>
-    <text x="280" y="297" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="600" fill="#3b82f6">GA4 AI Referral Traffic</text>
-    <text x="280" y="313" text-anchor="middle" font-family="system-ui" font-size="10" fill="#64748b">Track as floor metric, not ceiling — filter chatgpt.com, perplexity.ai, gemini.google.com</text>
-    <text x="280" y="345" text-anchor="middle" font-family="system-ui" font-size="10" fill="#64748b">Source: Mersel AI attribution framework, 2026</text>
-  </svg>
-  <figcaption>GA4-tracked AI referral traffic represents only 10-20% of total AI-influenced pipeline. A complete GEO measurement stack requires branded search tracking, direct citation rate monitoring, and pipeline velocity analysis.</figcaption>
-</figure>
+### Country filter for international opportunity
 
-**Metric 1: Direct Citation Rate.** Manually query 20-50 target keywords across ChatGPT, Perplexity, and Google AI Mode each month. Track when your domain appears, which page is cited, and what content is extracted. This is the only metric that directly measures GEO performance.
+Filter your Performance report by a specific country where you're seeing unexpected impressions. This surfaces organic interest in markets or languages you haven't explicitly targeted. If you're getting 800 monthly impressions in Germany for a query you've never optimized for, that's an untapped content opportunity, possibly a translated article or a country-specific variation.
 
-**Metric 2: Branded Search Volume in GSC.** AI exposure drives brand awareness even when no click occurs. A meaningful share of Google searches already end with zero clicks, and that share is reported to climb further inside Google AI Mode. Branded query volume in Search Console is one of the clearest available proxies for the awareness GEO is generating without a traceable click.
+### Device segmentation
 
-**Metric 3: AI Referral Traffic in GA4.** Track this as a floor metric, not a ceiling. Filter source/medium for chatgpt.com, perplexity.ai, gemini.google.com, and claude.ai. These numbers will understate true impact, but they establish a directional trend line.
+The same seed keyword can show very different intent patterns by device. Split your Performance report by Desktop vs. Mobile (using the Device filter). A query that converts at high rates on desktop might be predominantly navigational on mobile. Knowing that changes both your content approach and your CTR expectations for that segment.
 
-**Metric 4: Pipeline Velocity.** Are deals closing faster for contacts who searched AI-cited queries before entering your pipeline? This requires CRM-level attribution but is the most direct evidence that GEO is generating business impact, not just visibility.
+### A note on URL inspection
 
----
+The URL Inspection tool isn't a keyword research feature, but it's worth using before you invest time in updating a striking-distance page. Confirm the URL is indexed, mobile-friendly, and free of crawl errors. A content update on a page Google can't properly crawl won't move the needle.
 
-> **Citation Capsule:** Traditional click-based attribution dramatically understates GEO's business impact. Because AI chatbots frequently synthesize answers without linking sources, GA4 referral data captures only 10-20% of AI-influenced traffic and pipeline. The most reliable GEO measurement approach combines direct citation rate tracking across ChatGPT, Perplexity, and Google AI Overviews, with branded search volume trends in Search Console and pipeline velocity for AI-sourced contacts.
+When AI Overviews are present, organic CTR drops by approximately 67.8% compared to when they aren't shown ([Rank Fuse Digital Marketing](https://rankfuse.com/blog/paid-and-organic-ctr-trends-12-month-analysis-2024-2025/), 2025). That context makes cannibalization detection more urgent, not less: split authority between two weak pages loses more traffic in an AI Overview environment than it would have two years ago. For a deeper look at how AI search is reshaping click behavior, the [AI search overview](https://dennisozmen.com/posts/ai-search) covers the full picture.
 
----
-
-## GEO in action: real-world examples
-
-The clearest GEO wins come from content rewrites that apply the Princeton signal framework directly, not from domain authority campaigns or link building. In the Health vertical, NIH content captures roughly 39% of all Google AI Overview citations, followed by Healthline at 15% and Mayo Clinic at 14.8% ([Surfer SEO AI Citation Report](https://surferseo.com/blog/ai-citation-report/), Oct 2025). These patterns show that AI citation authority follows existing institutional trust. That's something content structure can work with or around.
-
-Here are three concrete patterns that consistently produce GEO results.
-
-**Example 1: The definitional rewrite**
-
-A page defining an industry term gets rewritten from a narrative overview into an answer-first structure. The opening paragraph becomes a 50-word direct definition with a named statistic and source. The second paragraph adds an expert quotation with affiliation. Within five weeks, the page appears in Perplexity answers for its primary target query. The content didn't become more accurate. It became more extractable.
-
-**Example 2: The FAQ schema addition**
-
-A B2B software company adds FAQ schema markup to a product category page, structuring five common questions as explicit H3s with 50-60 word answer paragraphs each citing primary research. The page begins appearing in Google AI Overview citations for three of the five question variants within four weeks. The schema signals page structure cleanly and the answer passages are self-contained. That's exactly what the AI synthesis stage needs.
-
-**Example 3: The vertical authority alignment**
-
-A health content publisher audits which authoritative institutions AI systems already cite in their vertical, NIH, Mayo Clinic, CDC, and restructures their content to explicitly cite and build on those sources rather than competing with them. Over a 90-day period, their pages begin appearing alongside those institutions in health-related AI Overviews for long-tail queries where NIH doesn't have direct coverage.
-
-![A Perplexity search interface displaying an AI-generated answer that cites multiple sources, illustrating how AI engines synthesize content from cited pages into structured responses](/assets/images/posts/geo-perplexity-citations.jpeg)
-
-Surfer SEO's October 2025 analysis of 36 million AI Overviews and 46 million citations found that YouTube accounts for approximately 23.3% of all citations, and Wikipedia 18.4% ([Surfer SEO AI Citation Report](https://surferseo.com/blog/ai-citation-report/), Oct 2025). These patterns suggest AI engines have well-established citation preferences at the platform level. Understanding the citation hierarchy in your specific vertical is a foundational GEO research step that most practitioners skip.
-
----
-
-> **Citation Capsule:** AI citation patterns vary dramatically by industry vertical. Surfer SEO's analysis of 36 million AI Overviews found that in the Health vertical, NIH captures approximately 39% of all citations, nearly triple the share of any other domain. This indicates that in regulated or high-stakes verticals, GEO success requires aligning content with the authoritative institutions AI engines already trust, rather than competing against them directly.
-
----
+![An illustration of two URLs competing for the same query with split impressions — a cannibalization signal requiring consolidation or intent differentiation](/assets/images/posts/gsc-pages-cannibalization.jpeg)
 
 ## Frequently Asked Questions
 
-### What does GEO stand for?
+### How many keywords does Google Search Console show?
 
-GEO stands for generative engine optimization, the practice of optimizing content to appear in AI-generated answers from platforms like ChatGPT, Perplexity, and Google AI Overviews. The term was formally introduced by Princeton University researchers in their 2024 ACM KDD paper, which tested the strategy across 10,000 queries and 10 AI search engines.
+The GSC interface and CSV export cap at 1,000 rows per pull. Sites with more than 1,000 ranking queries need the GSC API, which allows up to 50,000 rows per day per property, or a Looker Studio connector to see the full dataset. Working with the 1,000-row export on a large site means you're analyzing a sample, not the complete picture.
 
+### How far back does Google Search Console keyword data go?
 
-### Is GEO replacing SEO?
+GSC retains performance data for a rolling 16-month window. Once a date falls outside that window, the data is permanently deleted. There's no way to recover it retroactively ([SEO Testing](https://seotesting.com/google-search-console/data-limitations/), 2025). Export your full dataset to Google Sheets quarterly to maintain a longer historical record for trend analysis.
 
-No. GEO and SEO are complementary, not competing disciplines. Ahrefs Brand Radar analysis found that only 38% of AI Overview citations overlap with the top-10 organic results, meaning both channels require dedicated optimization. Most GEO tactics, high-quality content, authoritative citations, strong E-E-A-T signals, also benefit traditional SEO performance simultaneously.
+### Why are some keywords hidden in Google Search Console?
 
-### How long does GEO take to show results?
+An Ahrefs analysis of 22 billion clicks across 887,534 GSC properties found that 46.77% of all GSC clicks are on queries Google anonymizes ([Ahrefs](https://ahrefs.com/blog/gsc-anonymized-queries/), February 2026). These are typically low-volume, long-tail, or personally identifiable queries. They count toward your total clicks and impression figures but don't appear as named queries in the query list.
 
-GEO results are generally faster than traditional SEO. Content rewrites applying the Princeton signal framework, statistics, citations, answer-first structure, expert quotations, can begin appearing in AI-generated answers within 2-6 weeks. Branded search lift from AI exposure typically emerges on a 60-90 day horizon. Domain authority still affects how quickly new content enters AI citation pools.
+### What are striking-distance keywords in GSC?
 
-### Which AI platforms should I prioritize for GEO?
+Striking-distance keywords are queries where your page ranks between position 4 and 20. At those positions, a targeted content update, adding a missing subtopic, improving your title tag, or earning one or two links, can move the page into the top 3 and significantly increase clicks. The CTR difference between position 8 (2.1%) and position 3 (10.2%) is roughly a 5x increase in expected clicks for the same impression volume (First Page Sage, May 2025).
 
-Prioritize in order of AI referral traffic share: ChatGPT (74.78%), Google AI Overviews via Gemini (11.56%), and Perplexity (7.23%), per SE Ranking's June 2026 study of 101,574 websites. ChatGPT's web-browsing index is powered by Bing, so strong Bing crawlability and high domain authority on Bing matter significantly for this channel.
+### Is Google Search Console enough for keyword research?
 
-For the full picture on how Google AI Overviews select citations and how platform mechanics differ across ChatGPT, Perplexity, and Google, the [AI search guide](https://dennisozmen.com/posts/ai-search) is the logical next read.
+GSC is sufficient for optimizing existing content and finding quick wins on your own site. For discovering keywords you don't yet rank for, assessing keyword difficulty, or researching competitor gaps, you'll need a paid tool alongside it. The most effective approach: use GSC to drive content optimization decisions, and use Semrush or Ahrefs to identify net-new keyword targets worth building content around.
 
-### How do I measure GEO performance?
+## Put the workflow to work
 
-Use a four-metric stack: direct citation rate (manually query 20-50 target keywords monthly across ChatGPT, Perplexity, and Google AI Mode); AI referral traffic in GA4 (source/medium: chatgpt.com, perplexity.ai, gemini.google.com); branded search trends in Google Search Console as a proxy for AI-driven awareness; and pipeline velocity for contacts who found you via AI-cited content.
+GSC's Performance report is the most underused free tool in SEO. The striking-distance filter gives you the highest-ROI starting point. The regex question filter surfaces FAQ and snippet candidates your competitors aren't touching. Exporting to Sheets with an opportunity score turns raw data into a prioritized action list. And date comparison catches keyword decay before it becomes a traffic problem.
 
----
+What matters most, distilled:
 
-## The clearest path forward
+- The striking-distance filter (positions 4-20, sorted by impressions) is the fastest path to more traffic from existing pages.
+- The regex question filter surfaces FAQ and featured-snippet opportunities that most tools don't surface efficiently.
+- Honest data management matters: export quarterly, use the API for large sites, and don't mistake the 1,000-row sample for the full picture.
+- Date comparison is early warning infrastructure. Use it monthly, not reactively.
 
-GEO is neither a replacement for SEO nor an optional add-on. It's the practice of ensuring content clears all three stages of the AI search pipeline, retrieval, ranking, and synthesis, using signals the Princeton research has now quantified in controlled conditions.
-
-The core takeaways from the evidence:
-
-- GEO content strategies can boost AI citation rates by up to 40%, with quotations (+41%), statistics (+32%), and authoritative citations (+30%) driving the largest gains. ([Aggarwal et al., ACM KDD 2024](https://dl.acm.org/doi/10.1145/3637528.3671900))
-- Only 38% of AI Overview citations overlap with top-10 organic rankings. Both channels now require dedicated optimization.
-- AI referral traffic grew 16x from 2024 to 2026, but GA4 captures only 10-20% of the true AI-influenced pipeline.
-- ChatGPT sends 74.78% of AI referral traffic. Tool and content prioritization should reflect that, not Perplexity's disproportionate share of GEO coverage.
-
-The most efficient starting point is a GEO content audit. Identify existing pages that already have topical relevance and domain authority for high-volume queries. Apply the Princeton signal framework to those first: add a sourced statistic and an expert quotation, restructure the opening paragraph as a direct answer, and link to primary research sources. These changes take hours, not months. The citation results can follow within weeks.
+Set aside 30 minutes this week to run the striking-distance filter on your GSC data. Pick the five pages with the highest impression counts between positions 4 and 20. Those are your next content updates. The data is already there. You just need to act on it.
 
 ---
 
 ## Sources
 
-- Aggarwal, S., et al., Princeton University, "GEO: Generative Engine Optimization," *ACM KDD 2024*, https://dl.acm.org/doi/10.1145/3637528.3671900
-- Ahrefs, "Update: AI Overviews Reduce Clicks by 58%," Dec 2025, https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/
-- Ahrefs Brand Radar, "Update: 38% of AI Overview Citations Pull From the Top 10," 2026, https://ahrefs.com/blog/ai-overview-citations-top-10/
-- BrightEdge, "AI Overviews at the One-Year Mark: Presence, Size, and What They're Citing," Feb 2026, https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing
-- SE Ranking, "AI Traffic Grew 16x From 2024 to 2026," Jun 2026, https://seranking.com/blog/ai-traffic-research-study/
-- Surfer SEO, "AI Citation Report," Oct 2025, https://surferseo.com/blog/ai-citation-report/
-- Kevin Indig / Growth Memo, "The Science of How AI Pays Attention," Feb 2026, https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention
-- TechCrunch, "Google's AI Overviews Have 2B Monthly Users, AI Mode 100M in the US and India," Jul 2025, https://techcrunch.com/2025/07/23/googles-ai-overviews-have-2b-monthly-users-ai-mode-100m-in-the-us-and-india/
-- TechCrunch, "ChatGPT Reaches 900M Weekly Active Users," Feb 27 2026, https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/
-- Mersel AI, "How to Prove GEO ROI: The Framework That Gets Board Buy-In," 2026, https://www.mersel.ai/blog/how-to-prove-roi-of-generative-engine-optimization
+- First Page Sage, *Google Click-Through Rates (CTRs) by Ranking Position*, May 2025, https://firstpagesage.com/reports/google-click-through-rates-ctrs-by-ranking-position/
+- Ahrefs, *Anonymized Queries Make Up Nearly Half of Google Search Console Traffic (22 billion clicks, 887,534 properties)*, February 2026, https://ahrefs.com/blog/gsc-anonymized-queries/
+- GrowthSRC, *Google Organic CTR Study 2025 (200,000+ keywords, 30+ websites)*, 2025, https://growthsrc.com/google-organic-ctr-study/
+- Conductor, *The 2024 Organic Search Traffic Benchmarks Report*, 2024, https://www.conductor.com/academy/organic-website-traffic-industry-benchmarks/
+- Conductor, *The State of SEO in 2025 (350-practitioner survey)*, 2025, https://www.conductor.com/academy/state-of-organic-marketing/
+- Rank Fuse Digital Marketing, *Paid and Organic CTR Trends: 12-Month Analysis (2024-2025)*, 2025, https://rankfuse.com/blog/paid-and-organic-ctr-trends-12-month-analysis-2024-2025/
+- Google Search Central, *A Deep Dive Into Search Console Performance Data Filtering and Limits*, ongoing, https://developers.google.com/search/blog/2022/10/performance-data-deep-dive
+- SEO Testing, *Google Search Console Data Limitations*, 2025, https://seotesting.com/google-search-console/data-limitations/
