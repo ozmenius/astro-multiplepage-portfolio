@@ -14,7 +14,7 @@ Here's what's driving it: 84% of professional developers now use or plan to use 
 
 By the end of this article, you'll know exactly what each tool does, which problems each one actually solves, and when using both together is the right call.
 
-For context on where AI tools sit in marketing workflows more broadly, see [what AI in marketing actually covers](https://dennisozmen.com/posts/what-is-ai-in-marketing).
+For context on where AI tools sit in marketing workflows more broadly, see [what AI in marketing actually covers](https://dennisozmen.com/posts/what-is-ai-in-marketing/).
 
 ## Key Takeaways
 > - Claude Code is an AI coding agent for developers. It writes, edits, and runs code autonomously in your terminal.
@@ -48,7 +48,7 @@ It runs in the terminal, VS Code, JetBrains, and Claude.ai/code. Terminal comfor
 
 ![A developer working in a dark terminal environment running Claude Code — showing CLI output, file diffs, and autonomous code editing in action](/assets/images/posts/n8n-claude-code-terminal.jpeg)
 
-For Claude prompts designed specifically for SEO tasks, [Claude SEO prompts](https://dennisozmen.com/posts/claude-seo-prompts) is a practical companion resource.
+For Claude prompts designed specifically for SEO tasks, [Claude SEO prompts](https://dennisozmen.com/posts/claude-seo-prompts/) is a practical companion resource.
 
 ## What is n8n?
 
@@ -72,7 +72,7 @@ AI is native to n8n, not bolted on. The platform includes a built-in Anthropic C
 
 ![The n8n visual workflow canvas showing an AI agent workflow — nodes representing a Claude model, data transformations, and downstream integrations connected in a clear pipeline](/assets/images/posts/n8n-claude-code-workflow-canvas.jpeg)
 
-Wondering how n8n stacks up against other automation platforms? The [n8n vs Make comparison](https://dennisozmen.com/posts/n8n-vs-make) covers pricing, AI agent capabilities, and when each tool wins.
+Wondering how n8n stacks up against other automation platforms? The [n8n vs Make comparison](https://dennisozmen.com/posts/n8n-vs-make/) covers pricing, AI agent capabilities, and when each tool wins.
 
 ## How do n8n and Claude Code actually compare?
 
@@ -146,7 +146,7 @@ The clearest summary: Claude Code is the AI doing the work. n8n is the platform 
 
 **Data sovereignty** is worth calling out separately. Claude Code sends your code to Anthropic's cloud. Self-hosted n8n keeps all data on your own infrastructure. For teams in regulated industries - healthcare, finance, legal - this is often the deciding factor. It's rarely mentioned in standard tool comparisons.
 
-If data pipeline work is on your radar alongside automation, the [n8n vs KNIME comparison](https://dennisozmen.com/posts/n8n-vs-knime) draws a clear line between automation and data science tooling.
+If data pipeline work is on your radar alongside automation, the [n8n vs KNIME comparison](https://dennisozmen.com/posts/n8n-vs-knime/) draws a clear line between automation and data science tooling.
 
 ## When should you use Claude Code?
 
@@ -183,7 +183,7 @@ On that last point: using Claude Haiku for cheap classification steps and Claude
 
 > **Citation capsule:** Teams running multi-step AI workflows in n8n can use Claude Haiku for classification and Claude Sonnet for reasoning, saving up to 80% on API costs compared to a single-model approach. n8n's native Anthropic Chat Model node makes this dual-model strategy straightforward to implement. ([n8n Lab](https://n8nlab.io/blog/build-ai-agents-n8n-claude-api))
 
-For a concrete example of how n8n fits into a real SEO automation stack, [how to automate SEO with AI](https://dennisozmen.com/posts/how-to-automate-seo-with-ai) walks through the full workflow.
+For a concrete example of how n8n fits into a real SEO automation stack, [how to automate SEO with AI](https://dennisozmen.com/posts/how-to-automate-seo-with-ai/) walks through the full workflow.
 
 ## Can n8n and Claude Code work together?
 

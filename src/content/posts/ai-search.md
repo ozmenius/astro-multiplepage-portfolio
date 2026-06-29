@@ -21,7 +21,7 @@ This guide explains what AI search is, which platforms matter most in 2026, how 
 > - AI visitors convert at 4.4x the rate of traditional organic visitors ([Semrush, 2025](https://www.semrush.com/blog/ai-search-seo-traffic-study/)), so fewer clicks doesn't always mean less revenue.
 > - 85% of AI brand citations come from third-party pages, not the brand's own site ([AirOps/Kevin Indig, 2026](https://www.airops.com/report/the-2026-state-of-ai-search)).
 
-For a broader look at how these changes fit into the marketing stack, see [what AI means for marketing as a whole](https://dennisozmen.com/posts/what-is-ai-in-marketing).
+For a broader look at how these changes fit into the marketing stack, see [what AI means for marketing as a whole](https://dennisozmen.com/posts/what-is-ai-in-marketing/).
 
 ## What is AI search?
 
@@ -31,7 +31,7 @@ The timeline moves fast. ChatGPT launched in November 2022 and introduced most o
 
 The core difference from traditional search is intent resolution. Traditional search returns documents that might contain your answer. AI search attempts to resolve your intent directly, compiling an answer from several sources and citing between three and eight URLs. The user may never visit those URLs at all.
 
-If you want to understand how this fits into a broader content strategy, [GEO vs. SEO](https://dennisozmen.com/posts/geo-vs-seo) explains how the two disciplines relate and where to focus effort first.
+If you want to understand how this fits into a broader content strategy, [GEO vs. SEO](https://dennisozmen.com/posts/geo-vs-seo/) explains how the two disciplines relate and where to focus effort first.
 
 ![A side-by-side annotated comparison of a traditional Google SERP showing ten blue links versus a Google AI Overview response with inline source citations highlighted](/assets/images/posts/ai-search-serp-vs-overview-comparison.jpeg)
 
@@ -164,7 +164,7 @@ The honest picture is this: click volume is down for many informational queries,
   <figcaption>Source: Ahrefs, Dec 2025 | Average CTR by position with and without AI Overview present. Based on 300,000 keyword sample. Illustrative position-level estimates derived from aggregate 58% CTR reduction finding.</figcaption>
 </figure>
 
-Tracking which metrics actually matter as CTR declines is its own challenge. The [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) covers how to adapt your measurement framework for this shift.
+Tracking which metrics actually matter as CTR declines is its own challenge. The [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis/) covers how to adapt your measurement framework for this shift.
 
 ## What is AI image search, and how does it work?
 
@@ -192,7 +192,7 @@ Here are the five levers that the evidence consistently points to:
 
 **3. Keep content current.** SE Ranking's 2025 research found that content updated within the past three months is roughly twice as likely to be cited as older, outdated pages ([SE Ranking, 2025](https://seranking.com/blog/how-to-optimize-for-chatgpt/)). Stale content, even high-quality stale content, loses ground to fresher sources. Quarterly review cycles for top-performing pages aren't optional in an AI search world.
 
-**4. Earn third-party mentions.** This is where most optimization programs miss. Research from AirOps, conducted with growth strategist Kevin Indig, found that 85% of AI brand citations originate from third-party pages, not the brand's own site ([AirOps/Kevin Indig, 2026](https://www.airops.com/report/the-2026-state-of-ai-search)). Press coverage, industry roundups, analyst reports, and community discussions on Reddit and LinkedIn all contribute to the signal pool that AI systems draw from. Off-site visibility is now a direct citation input. [Digital PR](https://dennisozmen.com/posts/what-is-digital-pr-in-seo) is one of the most direct levers for building this off-site signal base.
+**4. Earn third-party mentions.** This is where most optimization programs miss. Research from AirOps, conducted with growth strategist Kevin Indig, found that 85% of AI brand citations originate from third-party pages, not the brand's own site ([AirOps/Kevin Indig, 2026](https://www.airops.com/report/the-2026-state-of-ai-search)). Press coverage, industry roundups, analyst reports, and community discussions on Reddit and LinkedIn all contribute to the signal pool that AI systems draw from. Off-site visibility is now a direct citation input. [Digital PR](https://dennisozmen.com/posts/what-is-digital-pr-in-seo/) is one of the most direct levers for building this off-site signal base.
 
 **5. Implement structured data markup.** FAQPage and HowTo schema give AI systems machine-readable signals about your content's structure and question-answer pairs. They don't guarantee citation, but they reduce the friction between your content and AI extraction.
 
@@ -286,7 +286,7 @@ The practical priorities are clear:
 
 The teams that treat AI search as a parallel discovery channel alongside traditional SEO, rather than a threat to it, will be better positioned than those waiting for the dust to settle.
 
-For a deeper dive into the content signals that drive AI citation, the [generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization) walks through the Princeton research framework in full.
+For a deeper dive into the content signals that drive AI citation, the [generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization/) walks through the Princeton research framework in full.
 
 ## Frequently Asked Questions
 

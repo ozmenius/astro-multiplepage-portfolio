@@ -145,7 +145,7 @@ According to Conductor's January 2025 survey of 350+ marketing professionals, 91
 
 **What good looks like:** positive and improving SEO ROI, with organic contributing a documented share of total pipeline or revenue.
 
-For a full breakdown of how to measure and benchmark this number, see the [ROI of SEO guide](https://dennisozmen.com/posts/roi-of-seo).
+For a full breakdown of how to measure and benchmark this number, see the [ROI of SEO guide](https://dennisozmen.com/posts/roi-of-seo/).
 
 ### 6. Backlink growth (new referring domains per month)
 
@@ -157,7 +157,7 @@ The goal is net-positive referring domain growth month over month. Lost domains 
 
 **What good looks like:** consistent net-positive referring domain growth, with earned links from relevant, authoritative domains in your niche.
 
-For earning high-authority referring domains through editorial coverage, [digital PR in SEO](https://dennisozmen.com/posts/what-is-digital-pr-in-seo) is the most effective tactic according to 48.6% of SEO professionals.
+For earning high-authority referring domains through editorial coverage, [digital PR in SEO](https://dennisozmen.com/posts/what-is-digital-pr-in-seo/) is the most effective tactic according to 48.6% of SEO professionals.
 
 <figure>
   <svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horizontal bar chart showing Spearman correlation of backlink metrics with Google rankings from Ahrefs 1 million SERP study, January 2025">
@@ -336,7 +336,7 @@ One capability worth enabling now: GSC's "AI Overviews" Search Appearance filter
 
 ![A business reporting dashboard open on a laptop screen, showing SEO performance metrics including organic traffic, keyword rankings, and conversion data charts](/assets/images/posts/seo-kpis-reporting-dashboard.jpeg)
 
-Not sure how to set up these filters? The [Google Search Console for keyword research guide](https://dennisozmen.com/posts/google-search-console-for-keyword-research) walks through the Performance report setup in detail.
+Not sure how to set up these filters? The [Google Search Console for keyword research guide](https://dennisozmen.com/posts/google-search-console-for-keyword-research/) walks through the Performance report setup in detail.
 
 ## AI-era SEO KPIs: what to track in 2026
 
@@ -348,7 +348,7 @@ Four AI-era KPIs to add to your dashboard:
 Source: GSC Performance, filtered by "Search appearance: AI Overviews." This tells you whether your content is being pulled into AI answer blocks, even when it doesn't generate a click. Track month-over-month change. Growing AI Overview impression share for your target queries means your content is being recognized as authoritative enough to cite. This compounds brand authority even without a click.
 
 **B. Brand citation rate in AI answers**
-Manual method: query your 20 top keywords in ChatGPT, Perplexity, and Google AI Overviews monthly. Log how often your brand or domain is cited. Calculate: citations divided by total queries sampled, multiplied by 100, equals your brand citation rate percentage. Tool method: Profound or Otterly at scale. Only 16% of brands do this systematically ([McKinsey](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/new-front-door-to-the-internet-winning-in-the-age-of-ai-search), Oct 2025). Starting now means tracking from a real baseline rather than scrambling later. The [generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization) covers the citation signals that drive AI answer visibility, including how to structure content for AI extraction.
+Manual method: query your 20 top keywords in ChatGPT, Perplexity, and Google AI Overviews monthly. Log how often your brand or domain is cited. Calculate: citations divided by total queries sampled, multiplied by 100, equals your brand citation rate percentage. Tool method: Profound or Otterly at scale. Only 16% of brands do this systematically ([McKinsey](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/new-front-door-to-the-internet-winning-in-the-age-of-ai-search), Oct 2025). Starting now means tracking from a real baseline rather than scrambling later. The [generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization/) covers the citation signals that drive AI answer visibility, including how to structure content for AI extraction.
 
 **C. AI-referred traffic**
 In GA4, filter Session default channel group for Referral, then look for sessions from chatgpt.com, perplexity.ai, gemini.google.com, and claude.ai. The absolute numbers are still small (ChatGPT delivers roughly 0.21% of traffic globally, per Ahrefs' February 2026 analysis). Track the trend, not the current volume.
@@ -408,7 +408,7 @@ A KPI worth adopting alongside the others: measure how consistently LLMs recomme
   <figcaption>Source: Semrush 10M Keyword Study, 2025 | AI Overview prevalence peaked at 24.61% in July 2025, declined to 15.69% by November. It remains a structurally significant SERP feature affecting CTR at scale.</figcaption>
 </figure>
 
-For a deeper look at how AI Overviews and platforms like Perplexity are reshaping organic visibility, see the guide to [AI search engines and their impact on CTR](https://dennisozmen.com/posts/ai-search).
+For a deeper look at how AI Overviews and platforms like Perplexity are reshaping organic visibility, see the guide to [AI search engines and their impact on CTR](https://dennisozmen.com/posts/ai-search/).
 
 ## What your SEO dashboard should look like in 2026
 

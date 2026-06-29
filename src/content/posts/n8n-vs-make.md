@@ -21,7 +21,7 @@ This guide covers pricing, AI agent capabilities, ease of use, and the three-way
 > - n8n's native LangChain and Agent-to-Agent features (launched 2025) make it the stronger choice for AI workflow automation.
 > - For teams with developers and high execution volume: n8n. For mixed-skill teams prototyping SaaS connections: Make.
 
-If you're evaluating automation tools for SEO tasks specifically, see [how to automate SEO with AI](https://dennisozmen.com/posts/how-to-automate-seo-with-ai) for a practical workflow breakdown.
+If you're evaluating automation tools for SEO tasks specifically, see [how to automate SEO with AI](https://dennisozmen.com/posts/how-to-automate-seo-with-ai/) for a practical workflow breakdown.
 
 ## n8n vs Make at a glance
 
@@ -63,7 +63,7 @@ n8n describes itself as "open-source" but the fair-code license is more nuanced 
 
 For most teams, the practical reality is: self-hosted n8n is free. The cost is a server (~$5-7/month VPS), initial setup time, and roughly 2 hours per month of maintenance overhead.
 
-If you're also evaluating how n8n compares to developer-first tools, the [n8n vs Claude Code breakdown](https://dennisozmen.com/posts/n8n-vs-claude-code) clarifies a common point of confusion.
+If you're also evaluating how n8n compares to developer-first tools, the [n8n vs Claude Code breakdown](https://dennisozmen.com/posts/n8n-vs-claude-code/) clarifies a common point of confusion.
 
 ## What is Make?
 
@@ -139,7 +139,7 @@ The billing model is the single most important difference. It determines which t
 
 n8n's source code is publicly available on GitHub with 180,000+ stars. The fair-code license means self-hosting is free for internal use, with commercial thresholds applying to managed service providers. Make.com has no self-hosting option. If your data cannot leave your infrastructure — due to GDPR, HIPAA, client contracts, or internal IT policy — n8n is the only viable choice in this comparison.
 
-For a head-to-head on how n8n handles data science workloads compared to a different category of tool, the [n8n vs KNIME comparison](https://dennisozmen.com/posts/n8n-vs-knime) covers that territory.
+For a head-to-head on how n8n handles data science workloads compared to a different category of tool, the [n8n vs KNIME comparison](https://dennisozmen.com/posts/n8n-vs-knime/) covers that territory.
 
 ### Pricing structure at scale
 
@@ -201,7 +201,7 @@ n8n introduced native LangChain integration and Agent-to-Agent workflows in 2025
 
 **Citation capsule:** n8n's Agent-to-Agent feature, launched in 2025 and backed by a €55M ($60M) Series B, enables AI agents to call other AI agents as tools within a single workflow, enabling multi-step reasoning and memory chains that Make.com cannot replicate natively. ([n8n Official Blog](https://blog.n8n.io/series-b/), March 2025)
 
-For a practical look at how these platforms slot into a working SEO automation stack, see [how to automate SEO with AI](https://dennisozmen.com/posts/how-to-automate-seo-with-ai).
+For a practical look at how these platforms slot into a working SEO automation stack, see [how to automate SEO with AI](https://dennisozmen.com/posts/how-to-automate-seo-with-ai/).
 
 ## How does n8n compare to Make vs Zapier?
 

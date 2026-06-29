@@ -23,7 +23,7 @@ This guide covers exact steps to access GKP without any ad spend, how to extract
 
 Google Keyword Planner is a free tool inside Google Ads, used by 7 million businesses running Google Ads campaigns ([DemandSage](https://www.demandsage.com/google-ads-statistics/), 2026). It was designed to help advertisers estimate search demand before setting up paid campaigns, not for organic SEO. But because it pulls from Google's own search data, SEOs use it as a starting point for [keyword research](/blog/keyword-research).
 
-GKP has two main features. "Discover new keywords" takes a seed term or URL and returns related keyword ideas with estimated volume ranges, average CPC, and advertiser competition. "Get search volume and forecasts" checks demand for a list of keywords you already have. Both are useful for SEO, with important caveats. For real-volume validation on keywords your site already ranks for, [Google Search Console](https://dennisozmen.com/posts/google-search-console-for-keyword-research) is the stronger complement.
+GKP has two main features. "Discover new keywords" takes a seed term or URL and returns related keyword ideas with estimated volume ranges, average CPC, and advertiser competition. "Get search volume and forecasts" checks demand for a list of keywords you already have. Both are useful for SEO, with important caveats. For real-volume validation on keywords your site already ranks for, [Google Search Console](https://dennisozmen.com/posts/google-search-console-for-keyword-research/) is the stronger complement.
 
 One thing to clarify upfront: the "Competition" column in GKP shows how many advertisers bid on a keyword in Google Ads. It has nothing to do with how hard it is to rank for that keyword organically. High advertiser competition can overlap with high organic difficulty, but it's not a reliable proxy.
 
@@ -160,7 +160,7 @@ Long-tail blind spot: 94.74% of all keywords receive 10 or fewer monthly searche
 
 ## How does Google Keyword Planner compare to other free tools?
 
-GKP is most useful as a discovery and trend-checking tool. It doesn't cover every SEO need, and pairing it with [Google Search Console](https://dennisozmen.com/posts/google-search-console-for-keyword-research) and one supplementary tool covers most gaps without a paid subscription. Here's how the common alternatives stack up.
+GKP is most useful as a discovery and trend-checking tool. It doesn't cover every SEO need, and pairing it with [Google Search Console](https://dennisozmen.com/posts/google-search-console-for-keyword-research/) and one supplementary tool covers most gaps without a paid subscription. Here's how the common alternatives stack up.
 
 GKP vs. Google Search Console: GSC shows actual click and impression data for keywords your site already ranks for. These are real volumes from your own organic performance, not estimates. GKP shows potential keywords you haven't targeted yet, at estimated volumes. The best practice: use GKP to discover new targets, then validate demand and intent using GSC data for any keyword your site already has some footprint on.
 
@@ -170,7 +170,7 @@ GKP vs. Ubersuggest: Ubersuggest surfaces long-tail suggestions and shows SEO di
 
 GKP vs. Keywords Everywhere: Keywords Everywhere is a browser extension that overlays volume data (sourced partly from GKP) directly on Google SERPs, at roughly $10 per 100,000 credits. It's useful for quick research during normal browsing. GKP is better for bulk discovery and CSV export when you're building out a keyword list systematically.
 
-The practical free stack for most budget SEOs: GKP for discovery and trends, GSC for validation and volume reality checks, and one supplementary tool for organic difficulty scoring. If AI search is part of your strategy, understanding how [AI Overviews and tools like Perplexity](https://dennisozmen.com/posts/ai-search) are changing which queries drive clicks adds important context to volume estimates.
+The practical free stack for most budget SEOs: GKP for discovery and trends, GSC for validation and volume reality checks, and one supplementary tool for organic difficulty scoring. If AI search is part of your strategy, understanding how [AI Overviews and tools like Perplexity](https://dennisozmen.com/posts/ai-search/) are changing which queries drive clicks adds important context to volume estimates.
 
 ## Pro tips for getting more from Google Keyword Planner
 
@@ -197,7 +197,7 @@ The honest version: treat it as a discovery and trend tool, not a volume measure
 - The "Competition" metric is for advertisers. Use GSC or a paid tool for organic difficulty.
 - Best results come from pairing GKP with GSC and one supplementary tool for difficulty scoring.
 
-If you're just starting with keyword research, GKP is the right place to begin. It's free, it pulls from Google's own data, and working with it teaches you to think in terms of search demand. When you're ready for exact volumes and organic difficulty scoring, Ahrefs, Semrush, and Moz each offer meaningful upgrades. Once you have a keyword list, the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) shows how to connect ranking and traffic targets to measurable business outcomes.
+If you're just starting with keyword research, GKP is the right place to begin. It's free, it pulls from Google's own data, and working with it teaches you to think in terms of search demand. When you're ready for exact volumes and organic difficulty scoring, Ahrefs, Semrush, and Moz each offer meaningful upgrades. Once you have a keyword list, the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis/) shows how to connect ranking and traffic targets to measurable business outcomes.
 
 ## Sources
 

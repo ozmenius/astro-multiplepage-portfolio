@@ -14,7 +14,7 @@ The problem isn't access. It's that most prompt guides online are written for Ch
 
 This guide gives you 30+ copy-paste Claude prompts, organized by SEO task. Each one is tested and ready to run. Find your current task, copy the prompt, replace the bracketed context with your own data, and go.
 
-If you want broader context on how AI is changing the marketing toolkit, the [AI in marketing overview](https://dennisozmen.com/posts/what-is-ai-in-marketing) covers the space beyond SEO.
+If you want broader context on how AI is changing the marketing toolkit, the [AI in marketing overview](https://dennisozmen.com/posts/what-is-ai-in-marketing/) covers the space beyond SEO.
 
 ## Key Takeaways
 > - 86% of SEO pros now use AI in their workflow. Most prompts online aren't built for Claude's specific strengths. ([Aira, State of SEO Report 2025](https://sqmagazine.co.uk/ai-seo-statistics/))
@@ -100,7 +100,7 @@ Act as an SEO researcher. For the keyword "[keyword]", generate 20 questions tha
 I'll paste a list of my site's target keywords and their current ranking URLs. Identify any keyword cannibalization issues (multiple pages targeting the same keyword), and suggest which URL should be the canonical target for each keyword group. [Paste keyword + URL data]
 ```
 
-For pulling real keyword data to feed into these prompts, the [Google Search Console keyword research guide](https://dennisozmen.com/posts/google-search-console-for-keyword-research) walks through the exact export workflow.
+For pulling real keyword data to feed into these prompts, the [Google Search Console keyword research guide](https://dennisozmen.com/posts/google-search-console-for-keyword-research/) walks through the exact export workflow.
 
 ---
 
@@ -182,7 +182,7 @@ My page answers the question "[question keyword]". Write 5 title tag variations 
 
 The audit prompts here are most effective when paired with chain-of-thought instructions. Adding "explain your reasoning for each flag" forces Claude to surface the logic behind each recommendation. That way you can validate it rather than blindly accept it.
 
-These prompts work best when you know which metrics matter most. The [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) covers what to track and how to tie on-page improvements to measurable outcomes.
+These prompts work best when you know which metrics matter most. The [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis/) covers what to track and how to tie on-page improvements to measurable outcomes.
 
 **Prompt 15: Full on-page audit**
 
@@ -314,7 +314,7 @@ Here is my hreflang implementation across [X] pages: [paste hreflang tags or lis
 
 The formatting insight matters here: LLMs are 28-40% more likely to cite content with clear headings, bullets, and tables ([HubSpot Research](https://blog.hubspot.com/marketing/generative-engine-optimization-statistics), 2025). These prompts help you audit and rewrite content specifically for AI extractability.
 
-For a full breakdown of how Generative Engine Optimization differs from traditional SEO, the [GEO guide](https://dennisozmen.com/posts/generative-engine-optimization) covers citation signals, content structure, and what AI systems prioritize when selecting sources.
+For a full breakdown of how Generative Engine Optimization differs from traditional SEO, the [GEO guide](https://dennisozmen.com/posts/generative-engine-optimization/) covers citation signals, content structure, and what AI systems prioritize when selecting sources.
 
 **Prompt 31: AI Overview citability audit**
 
@@ -428,7 +428,7 @@ These prompts work when you do two things: provide actual data (your real keywor
 
 Pick one category, run the first prompt with your own data, and iterate from there. The prompts that work best in your workflow are the ones you've tuned to your specific context.
 
-The GEO and AI search prompts are the category worth starting with if you're already comfortable with the rest. That's where the competitive gap is widest. Most SEO teams aren't optimizing for AI citation yet, and the content that gets there first is what AI systems learn to reference. The [AI search guide](https://dennisozmen.com/posts/ai-search) covers how Google AI Mode, Perplexity, and AI Overviews are reshaping which content gets cited.
+The GEO and AI search prompts are the category worth starting with if you're already comfortable with the rest. That's where the competitive gap is widest. Most SEO teams aren't optimizing for AI citation yet, and the content that gets there first is what AI systems learn to reference. The [AI search guide](https://dennisozmen.com/posts/ai-search/) covers how Google AI Mode, Perplexity, and AI Overviews are reshaping which content gets cited.
 
 ---
 

@@ -86,7 +86,7 @@ Here's the exact setup sequence:
 4. Above the chart, confirm all four toggles are active: Total clicks, Total impressions, Average CTR, Average position. If any are greyed out, click them to enable.
 5. Scroll down to the **Queries** tab. This is your keyword dataset.
 
-Why does the 16-month window matter? CTR benchmarks shift over time, especially now. Position 1 organic CTR fell 32% year-over-year from 28% in 2024 to 19% in 2025 as [AI Overviews](https://dennisozmen.com/posts/ai-search) expanded ([GrowthSRC](https://growthsrc.com/google-organic-ctr-study/), 2025). A longer date range lets you spot those trend lines in your own data, not just in industry studies.
+Why does the 16-month window matter? CTR benchmarks shift over time, especially now. Position 1 organic CTR fell 32% year-over-year from 28% in 2024 to 19% in 2025 as [AI Overviews](https://dennisozmen.com/posts/ai-search/) expanded ([GrowthSRC](https://growthsrc.com/google-organic-ctr-study/), 2025). A longer date range lets you spot those trend lines in your own data, not just in industry studies.
 
 ### Query view vs. page view
 
@@ -239,7 +239,7 @@ Sort your query list by opportunity score descending. The top rows are your high
 
 If your site ranks for more than 1,000 queries, the export is a sample. You can work around this by applying multiple targeted filters before exporting, one for each position band or topic cluster, and combining the sheets. For a fully automated approach, the GSC API pulls up to 50,000 rows per day per property, and you can connect it to Looker Studio or a BigQuery pipeline without writing complex code.
 
-Tracking clicks and impressions is only part of the picture. Connecting those numbers to business outcomes is covered in the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis).
+Tracking clicks and impressions is only part of the picture. Connecting those numbers to business outcomes is covered in the [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis/).
 
 ## Step 5: How does date comparison reveal trending keywords?
 
@@ -323,7 +323,7 @@ GSC shows you data about your own site only. Paid tools like Semrush and Ahrefs 
 
 Use GSC alone when: running the quick-wins workflow on existing content, prioritizing content refreshes, or diagnosing CTR gaps. Add a paid tool when: finding keywords you don't rank for yet, assessing how competitive a keyword is before creating new content, or researching what your competitors rank for that you don't.
 
-The hybrid workflow looks like this. Use GSC to identify which existing pages deserve optimization investment. Use Semrush or Ahrefs to evaluate new keyword targets and validate that they're worth building new content around. Let first-party data guide the optimization side. Let paid data guide the discovery side. For a free alternative that broadens keyword discovery beyond your own site, see the [Google Keyword Planner guide](https://dennisozmen.com/posts/using-google-keyword-planner-for-seo).
+The hybrid workflow looks like this. Use GSC to identify which existing pages deserve optimization investment. Use Semrush or Ahrefs to evaluate new keyword targets and validate that they're worth building new content around. Let first-party data guide the optimization side. Let paid data guide the discovery side. For a free alternative that broadens keyword discovery beyond your own site, see the [Google Keyword Planner guide](https://dennisozmen.com/posts/using-google-keyword-planner-for-seo/).
 
 ## Advanced GSC keyword research techniques
 
@@ -351,7 +351,7 @@ The same seed keyword can show very different intent patterns by device. Split y
 
 The URL Inspection tool isn't a keyword research feature, but it's worth using before you invest time in updating a striking-distance page. Confirm the URL is indexed, mobile-friendly, and free of crawl errors. A content update on a page Google can't properly crawl won't move the needle.
 
-When AI Overviews are present, organic CTR drops by approximately 67.8% compared to when they aren't shown ([Rank Fuse Digital Marketing](https://rankfuse.com/blog/paid-and-organic-ctr-trends-12-month-analysis-2024-2025/), 2025). That context makes cannibalization detection more urgent, not less: split authority between two weak pages loses more traffic in an AI Overview environment than it would have two years ago. For a deeper look at how AI search is reshaping click behavior, the [AI search overview](https://dennisozmen.com/posts/ai-search) covers the full picture.
+When AI Overviews are present, organic CTR drops by approximately 67.8% compared to when they aren't shown ([Rank Fuse Digital Marketing](https://rankfuse.com/blog/paid-and-organic-ctr-trends-12-month-analysis-2024-2025/), 2025). That context makes cannibalization detection more urgent, not less: split authority between two weak pages loses more traffic in an AI Overview environment than it would have two years ago. For a deeper look at how AI search is reshaping click behavior, the [AI search overview](https://dennisozmen.com/posts/ai-search/) covers the full picture.
 
 ![An illustration of two URLs competing for the same query with split impressions — a cannibalization signal requiring consolidation or intent differentiation](/assets/images/posts/gsc-pages-cannibalization.jpeg)
 

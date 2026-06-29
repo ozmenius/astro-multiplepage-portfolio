@@ -14,7 +14,7 @@ SEO is full of repetitive, data-heavy tasks that run on the same weekly cycle. R
 
 This guide covers which SEO tasks have high automation potential, which tools to use for each, and how to wire them into a working AI-powered workflow. No theory. Just the workflow.
 
-If you're new to AI in marketing more broadly, start with [what AI in marketing actually means before getting into workflows](https://dennisozmen.com/posts/what-is-ai-in-marketing).
+If you're new to AI in marketing more broadly, start with [what AI in marketing actually means before getting into workflows](https://dennisozmen.com/posts/what-is-ai-in-marketing/).
 
 ## Key Takeaways
 > - AI adoption in SEO is mainstream, but most teams only automate one or two tasks rather than building a connected workflow that compounds the time savings.
@@ -126,7 +126,7 @@ One emerging development worth tracking: Model Context Protocol (MCP) is becomin
 
 Keyword research has three AI-automatable sub-tasks: clustering, intent classification, and gap identification. Most businesses report improved SEO returns after integrating AI into their research workflows. The key distinction is that keyword discovery still benefits from human strategic judgment. AI excels at organizing and classifying keywords you've already identified.
 
-Clustering at scale: export your keyword list from Semrush or Ahrefs into a spreadsheet. (You can also pull keyword data directly from [Google Search Console for keyword research](https://dennisozmen.com/posts/google-search-console-for-keyword-research) as a free starting point.) Feed it into Claude with this prompt structure:
+Clustering at scale: export your keyword list from Semrush or Ahrefs into a spreadsheet. (You can also pull keyword data directly from [Google Search Console for keyword research](https://dennisozmen.com/posts/google-search-console-for-keyword-research/) as a free starting point.) Feed it into Claude with this prompt structure:
 
 > "Here is a list of [N] keywords. Group them into topic clusters, label each cluster, identify the primary keyword per cluster, and flag which clusters have overlapping intent that could cause cannibalization."
 
@@ -136,7 +136,7 @@ Intent classification: feed your keyword list to Claude and ask it to classify e
 
 Content gap identification: export competitor keyword data from Ahrefs or Semrush, filter for keywords where your site has no ranking URL, and ask Claude to identify which gaps represent the highest-priority opportunities based on volume, intent, and topic adjacency to your existing content.
 
-If you want to go deeper on finding the right keywords before clustering them, [Google Keyword Planner for SEO](https://dennisozmen.com/posts/using-google-keyword-planner-for-seo) is a solid free starting point.
+If you want to go deeper on finding the right keywords before clustering them, [Google Keyword Planner for SEO](https://dennisozmen.com/posts/using-google-keyword-planner-for-seo/) is a solid free starting point.
 
 ## How to automate content and metadata with AI
 
@@ -150,7 +150,7 @@ Content brief generation: feed a target keyword, the top 5 SERP URLs, and any br
 
 Internal link suggestions: use Ahrefs' WordPress plugin or Link Whisper for passive suggestions as you publish. For active audits, paste your content inventory into Claude and ask: "Given this page's content, suggest 5 pages to link to with anchor text, based on topical relevance." Run this quarterly against your most recent content additions.
 
-For ready-to-use Claude prompts that handle brief generation, metadata, and clustering tasks, see [Claude SEO prompts](https://dennisozmen.com/posts/claude-seo-prompts).
+For ready-to-use Claude prompts that handle brief generation, metadata, and clustering tasks, see [Claude SEO prompts](https://dennisozmen.com/posts/claude-seo-prompts/).
 
 ## How to automate technical SEO with AI
 
@@ -245,9 +245,9 @@ Week 2: build a meta description generation prompt template. Test it on 20-30 pa
 
 Week 3: automate keyword clustering for your content calendar. Take your next month's keyword targets and run them through a clustering prompt. Group into topic clusters and assign primary keywords per cluster.
 
-Month 2: connect tools via n8n or Zapier. Build the rank drop alert to AI analysis pipeline. When a significant drop triggers, a prompt automatically runs against the affected pages and emails a prioritized diagnosis. (Choosing between these platforms? See the [n8n vs Make comparison](https://dennisozmen.com/posts/n8n-vs-make) for a direct breakdown.)
+Month 2: connect tools via n8n or Zapier. Build the rank drop alert to AI analysis pipeline. When a significant drop triggers, a prompt automatically runs against the affected pages and emails a prioritized diagnosis. (Choosing between these platforms? See the [n8n vs Make comparison](https://dennisozmen.com/posts/n8n-vs-make/) for a direct breakdown.)
 
-Before building automated reports, make sure you know [which SEO KPIs are worth tracking](https://dennisozmen.com/posts/seo-kpis). Automated dashboards are only useful when the metrics are right.
+Before building automated reports, make sure you know [which SEO KPIs are worth tracking](https://dennisozmen.com/posts/seo-kpis/). Automated dashboards are only useful when the metrics are right.
 
 ## What not to automate in SEO
 
@@ -312,7 +312,7 @@ Don't automate strategy, link building, or content that requires real expertise.
 
 LLM referral traffic grew approximately 527% year-over-year (Previsible AI Traffic Report, 2025). AI visibility, whether your content gets cited by ChatGPT, Perplexity, or Google's AI Overview, is becoming a real SEO outcome. The workflow you build for automation today is the same infrastructure that positions your content for AI citation tomorrow.
 
-If you're tracking the ROI of all this automation effort, [how to measure the ROI of SEO](https://dennisozmen.com/posts/roi-of-seo) gives you a framework to quantify the returns.
+If you're tracking the ROI of all this automation effort, [how to measure the ROI of SEO](https://dennisozmen.com/posts/roi-of-seo/) gives you a framework to quantify the returns.
 
 ## Sources
 

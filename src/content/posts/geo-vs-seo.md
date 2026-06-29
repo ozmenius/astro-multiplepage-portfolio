@@ -14,7 +14,7 @@ Marketers are being told to "do GEO" alongside their SEO work. But almost nothin
 
 This article defines both disciplines clearly. It maps five key differences with real data, explains where AEO fits in the terminology debate, and gives you a practical framework for deciding how to split your effort between them. No hype. No "SEO is dead" framing. Just the data and a usable strategy.
 
-For context on the broader shift behind this, see [what AI means for digital marketing](https://dennisozmen.com/posts/what-is-ai-in-marketing) as a starting point.
+For context on the broader shift behind this, see [what AI means for digital marketing](https://dennisozmen.com/posts/what-is-ai-in-marketing/) as a starting point.
 
 ## Key Takeaways
 > - GEO (Generative Engine Optimization) optimizes content to appear as a cited source in AI-generated answers from ChatGPT, Perplexity, Google AI Overviews, and Gemini.
@@ -56,7 +56,7 @@ SEO still excels at high-intent transactional queries, local search, and brand d
 
 The reframe that matters: SEO is the foundation. GEO is the optimization layer you build on top of it. Strong SEO pages, those with topical authority, solid backlinks, and structured content, are already close to GEO-ready. The additional investment required is smaller than most teams assume.
 
-Understanding how to measure the SEO foundation that supports GEO is equally important. The [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis) covers which metrics to track as AI search reshapes click behavior.
+Understanding how to measure the SEO foundation that supports GEO is equally important. The [SEO KPIs guide](https://dennisozmen.com/posts/seo-kpis/) covers which metrics to track as AI search reshapes click behavior.
 
 ## GEO vs SEO: the 5 key differences
 
@@ -84,7 +84,7 @@ Here's what each difference means in practice.
 
 The underlying academic research on this is consistent on direction, even if exact magnitudes vary across the secondary write-ups covering it: adding statistics, citing credible sources, and including direct quotations are the strongest levers for AI visibility, an authoritative writing style helps to a smaller degree, and keyword stuffing, the one classic SEO trick tested, showed no positive effect ([Aggarwal et al., ACM KDD 2024](https://arxiv.org/abs/2311.09735)). If you need precise per-tactic percentages for a deck or client report, pull them directly from the paper rather than from a secondary summary, since different write-ups of this same study report noticeably different numbers.
 
-For a full breakdown of how [AI search engines](https://dennisozmen.com/posts/ai-search) work and which platforms matter most in 2026, the AI search guide covers the platform details.
+For a full breakdown of how [AI search engines](https://dennisozmen.com/posts/ai-search/) work and which platforms matter most in 2026, the AI search guide covers the platform details.
 
 ## Why does this matter now? The AI search shift
 
@@ -149,7 +149,7 @@ The danger is treating GEO and SEO as competing investments, pulling budget from
 
 ![Two roads merging into a single path through a forest, representing the convergence of GEO and SEO strategies toward a shared content foundation](/assets/images/posts/geo-vs-seo-roads-merging.jpeg)
 
-Building third-party authority across the web is one of the most efficient ways to strengthen both channels simultaneously. [Digital PR in SEO](https://dennisozmen.com/posts/what-is-digital-pr-in-seo) explains how earned media and brand mentions feed directly into GEO citation signals.
+Building third-party authority across the web is one of the most efficient ways to strengthen both channels simultaneously. [Digital PR in SEO](https://dennisozmen.com/posts/what-is-digital-pr-in-seo/) explains how earned media and brand mentions feed directly into GEO citation signals.
 
 ## How to build a dual GEO + SEO strategy
 
@@ -237,7 +237,7 @@ The industry hasn't fully resolved this. Profound treats GEO and AEO as function
 
 **Practical verdict:** Use GEO when discussing optimization for ChatGPT, Perplexity, Google AI Overviews, and Gemini. Use AEO when specifically discussing traditional featured snippets and voice search, where the term retains historical clarity. Don't let the terminology debate delay your strategy. Whether you call it GEO or AEO, the tactical requirements overlap substantially.
 
-For a deeper look at how Google AI Overviews select and cite sources, the [AI search guide](https://dennisozmen.com/posts/ai-search) walks through the retrieval-augmented generation pipeline in detail.
+For a deeper look at how Google AI Overviews select and cite sources, the [AI search guide](https://dennisozmen.com/posts/ai-search/) walks through the retrieval-augmented generation pipeline in detail.
 
 ## GEO and SEO are not a zero-sum choice
 
@@ -252,7 +252,7 @@ The brands that will perform well in 2027 and beyond are the ones that treated G
 - Track AI visibility regularly alongside your standard organic metrics
 - Adjust your GEO/SEO budget split as your domain authority grows
 
-If you're ready to go deeper on GEO execution, the [full generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization) covers the Princeton research framework, GEO tools, and measurement in detail.
+If you're ready to go deeper on GEO execution, the [full generative engine optimization guide](https://dennisozmen.com/posts/generative-engine-optimization/) covers the Princeton research framework, GEO tools, and measurement in detail.
 
 ## Sources
 
