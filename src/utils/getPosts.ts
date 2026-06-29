@@ -54,7 +54,7 @@ export function getAllPosts(): Post[] {
       readTime: frontmatter.readTime || '5 min read',
       image: frontmatter.image || '/assets/images/posts/post1.jpg',
       slug: slug,
-      href: `/posts/${slug}`,
+      href: `/posts/${slug}/`,
     });
   }
 
