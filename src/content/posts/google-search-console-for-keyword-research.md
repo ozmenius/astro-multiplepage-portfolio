@@ -6,6 +6,17 @@ dateAdded: "2026-03-21"
 readTime: "14 min read"
 image: "/assets/images/posts/google-search-console-keyword-research.jpeg"
 slug: "google-search-console-for-keyword-research"
+faq:
+  - question: "How many keywords does Google Search Console show?"
+    answer: "The GSC interface and CSV export cap at 1,000 rows per pull. Sites with more than 1,000 ranking queries need the GSC API, which allows up to 50,000 rows per day per property, or a Looker Studio connector to see the full dataset. Working with the 1,000-row export on a large site means you're analyzing a sample, not the complete picture."
+  - question: "How far back does Google Search Console keyword data go?"
+    answer: "GSC retains performance data for a rolling 16-month window. Once a date falls outside that window, the data is permanently deleted. There's no way to recover it retroactively (SEO Testing, 2025). Export your full dataset to Google Sheets quarterly to maintain a longer historical record for trend analysis."
+  - question: "Why are some keywords hidden in Google Search Console?"
+    answer: "An Ahrefs analysis of 22 billion clicks across 887,534 GSC properties found that 46.77% of all GSC clicks are on queries Google anonymizes (Ahrefs, February 2026). These are typically low-volume, long-tail, or personally identifiable queries. They count toward your total clicks and impression figures but don't appear as named queries in the query list."
+  - question: "What are striking-distance keywords in GSC?"
+    answer: "Striking-distance keywords are queries where your page ranks between position 4 and 20. At those positions, a targeted content update, adding a missing subtopic, improving your title tag, or earning one or two links, can move the page into the top 3 and significantly increase clicks. The CTR difference between position 8 (2.1%) and position 3 (10.2%) is roughly a 5x increase in expected clicks for the same impression volume (First Page Sage, May 2025)."
+  - question: "Is Google Search Console enough for keyword research?"
+    answer: "GSC is sufficient for optimizing existing content and finding quick wins on your own site. For discovering keywords you don't yet rank for, assessing keyword difficulty, or researching competitor gaps, you'll need a paid tool alongside it. The most effective approach: use GSC to drive content optimization decisions, and use Semrush or Ahrefs to identify net-new keyword targets worth building content around."
 ---
 
 Position 1 in Google earns a 39.8% click-through rate. Position 5 earns 5.1%. The data to move your pages from one to the other is already sitting inside your Google Search Console, completely free ([First Page Sage](https://firstpagesage.com/reports/google-click-through-rates-ctrs-by-ranking-position/), May 2025).

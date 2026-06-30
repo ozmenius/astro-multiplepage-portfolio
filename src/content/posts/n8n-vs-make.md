@@ -6,6 +6,17 @@ dateAdded: "2026-05-07"
 readTime: "14 min read"
 image: "/assets/images/posts/n8n-vs-make-automation-tools.jpeg"
 slug: "n8n-vs-make"
+faq:
+  - question: "Is n8n really free?"
+    answer: "The self-hosted Community Edition is free forever with unlimited executions. n8n Cloud, the managed hosting version, starts at approximately €24/month for 2,500 executions. The \"free\" label requires a server: typically a $5-7/month VPS, initial setup time (2-4 hours if you're comfortable with Docker), and roughly 2 hours per month of maintenance. For teams with DevOps capacity, total cost is around $7-10/month. For teams without it, n8n Cloud at €24/month is the realistic entry point."
+  - question: "Can n8n replace Make.com?"
+    answer: "For most automation use cases, yes, if your team has technical capacity. n8n's main gaps compared to Make are fewer pre-built integrations (400 vs. 2,100+) and a steeper learning curve for non-technical users. If your workflows touch apps outside n8n's 400 native nodes, you'll need to build a custom HTTP integration. That's manageable for developers and time-consuming for everyone else."
+  - question: "Which is better for AI agents — n8n or Make?"
+    answer: "n8n is significantly stronger for AI agent workflows. Its native LangChain integration and Agent-to-Agent feature (launched 2025) enable multi-step reasoning, tool use, and memory in ways Make cannot replicate natively. Make added AI module support (OpenAI, Claude) but treats AI as an add-on to its existing module framework. For teams building LLM-powered automations in 2026, n8n's architecture is purpose-built for this use case. Make's is not."
+  - question: "What happened to Make.com's pricing in August 2025?"
+    answer: "Make switched from \"operations\" to a \"credits\" billing model on August 27, 2025. Before the change, each module step cost exactly one operation, regardless of data volume. Under the credit system, AI modules consume credits proportional to token usage. A 10-step workflow calling an LLM now consumes anywhere from 10 to 50+ credits per run, depending on response length. For simple SaaS-to-SaaS automations, the impact is minimal. For AI-augmented workflows, cost predictability drops significantly."
+  - question: "Is n8n or Make better based on Reddit communities?"
+    answer: "Both have active communities. n8n's r/n8n subreddit is highly active among developers and AI builders. The dominant discussion topics are self-hosting setups, AI agent builds, and custom node development. Make's community is larger overall but more focused on no-code business automation and SaaS connections. The consensus that emerges: developers choose n8n, non-technical users choose Make. Teams that need both audiences in the same workflow often run both."
 ---
 
 Make.com has 3.1 million users and ran 5.6 billion scenarios in 2024. n8n raised a €55M Series B in March 2025, then a much larger $180M Series C just seven months later, putting its valuation at $2.5 billion for the first time. Both tools automate workflows. But they're built for fundamentally different people, with fundamentally different cost structures.

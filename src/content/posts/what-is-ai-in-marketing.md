@@ -5,6 +5,17 @@ date: "2026-06-22"
 readTime: "12 min read"
 image: "/assets/images/posts/what-is-ai-in-marketing-hero.jpeg"
 slug: "what-is-ai-in-marketing"
+faq:
+  - question: "What is the difference between AI and automation in marketing?"
+    answer: "Automation follows fixed rules: if a subscriber does X, trigger email Y on day Z. It's powerful but static. The rules don't adapt based on performance. AI learns from data and improves over time. An AI-powered email system selects the subject line, content block, and send time per recipient based on what's actually working for similar users. Both have a place in a modern marketing stack. AI is significantly more capable when personalization at scale is the goal."
+  - question: "Is AI replacing marketing jobs?"
+    answer: "Not replacing, restructuring. HubSpot's 2025 AI Trends for Marketers report found that 65% of marketers say AI frees up their time so they can focus on the more creative, strategic parts of their job, the work that's hardest to automate and most valuable when done well. Entry-level roles centered on manual execution face the most disruption. Strategists, brand directors, and performance analysts are the least at risk, and those roles get substantially more powerful when AI handles the analytical groundwork."
+  - question: "How much does AI in marketing actually cost?"
+    answer: "Entry-level toolstacks, Jasper, HubSpot AI features, Semrush AI, typically run $100-$500 per month. Mid-market setups with CRM integrations and personalization tools run $1K-$10K per month. Enterprise-grade AI marketing infrastructure, including data pipelines and integration work, ranges from $34K to $1.42M depending on scope, according to Improvado's 2025 cost analysis. Most teams at entry and mid-market tiers see positive ROI within 6-12 months."
+  - question: "Which AI tools are most widely used in marketing?"
+    answer: "ChatGPT leads among AI chatbots by a wide margin, used by 88% of AI-using marketers, according to HubSpot's 2025 AI Trends for Marketers report, well ahead of Google Gemini (52%) and Microsoft Copilot (44%). Jasper and Copy.ai dominate dedicated copywriting. HubSpot and Salesforce lead on CRM-integrated AI personalization. Semrush and Ahrefs lead on AI-assisted SEO research and keyword analysis. For visual content, Midjourney and Adobe Firefly are the most commonly cited platforms among creative and brand teams."
+  - question: "How do I measure the ROI of AI in marketing?"
+    answer: "Set baselines before you deploy. Track: content output velocity, cost-per-lead by channel, conversion rates, and time-per-task for the workflows you're automating. Compare those numbers at 30, 60, and 90 days post-deployment. According to Jasper.ai's 2026 State of AI Marketing report, only 41% of AI-using teams can prove ROI, and the primary cause is the absence of pre-deployment measurement benchmarks. Averi.ai's 2026 benchmarks report confirms it: 81% of content marketing teams have no AI-specific KPIs in place. The fix is simple in principle and often overlooked in practice: measure first, deploy second."
 ---
 Here's a number that should give every marketing leader pause: in 2026, 91% of marketing teams use AI in some form, but only 41% can prove it's actually delivering business value ([Jasper.ai, *State of AI Marketing 2026*](https://www.jasper.ai/state-of-ai-marketing-2026)).
 

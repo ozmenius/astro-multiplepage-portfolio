@@ -6,6 +6,17 @@ dateAdded: "2026-01-18"
 readTime: "14 min read"
 image: "/assets/images/posts/claude-seo-prompts-ai-coding.jpeg"
 slug: "claude-seo-prompts"
+faq:
+  - question: "Is Claude better than ChatGPT for SEO?"
+    answer: "Neither is universally better. Claude handles bulk data more reliably, thanks to a context window that scales up to 1 million tokens on current models. Paste a full crawl export, GSC report, or multiple competitor pages in one prompt. It also follows detailed formatting constraints more precisely, which matters for title tag batches, schema generation, and style-constrained content. ChatGPT has broader plugin integrations. Use Claude when you need to process large datasets or need precise formatting control."
+  - question: "Can Claude do keyword research on its own?"
+    answer: "Claude can't pull live search volume data. It has no direct connection to Ahrefs, Semrush, or Google Keyword Planner. What it handles well is analyzing keyword lists you provide: clustering by intent, identifying cannibalization, generating long-tail variations, and mapping keywords to content types. The right workflow: export your data from a keyword tool, then let Claude do the analysis."
+  - question: "What is the best prompt structure for Claude SEO tasks?"
+    answer: "Use the role, context, task, constraints, output format sequence. Open with a role (\"You are a senior SEO strategist\"), provide site and keyword context before the task, specify constraints (character limits, markdown format, number of items), and define the exact output format. This structure eliminates the most common failure mode: Claude returning general advice instead of specific, actionable output."
+  - question: "How do I use Claude for bulk SEO tasks?"
+    answer: "Paste your data directly into the prompt. Claude handles full Screaming Frog CSV exports, GSC performance reports, and multiple competitor pages in a single prompt. State clearly what columns or data you're providing and what analysis you want. For recurring tasks, save your prompt template and swap in the new data each time. It takes seconds instead of minutes."
+  - question: "Can Claude write schema markup that validates?"
+    answer: "Yes. Claude generates syntactically correct JSON-LD schema when prompted with full context: name, date, URL, description, and organization fields. Always validate the output in Google's Rich Results Test before deploying. For complex schema types like Product with offers or Event, provide all required fields explicitly in your prompt so Claude doesn't have to guess."
 ---
 
 Here's where the SEO industry actually stands: 86% of SEO professionals have integrated AI into their workflow as of 2025, up from 65% the year before ([Aira, State of SEO Report 2025](https://sqmagazine.co.uk/ai-seo-statistics/)). That's majority adoption. It's not a trend. It's the baseline.

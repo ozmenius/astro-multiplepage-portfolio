@@ -5,6 +5,15 @@ date: "2026-06-29"
 readTime: "11 min read"
 image: "/assets/images/posts/pseo-hero-data-network.jpeg"
 slug: "what-is-programmatic-seo"
+faq:
+  - question: "Is programmatic SEO dead in 2026?"
+    answer: "No. Google's 2026 core updates killed thin, templated doorway pages. They did not kill the programmatic SEO model itself. Pages built on unique structured data with roughly 500 or more unique words still rank normally (Arvow, 2026)."
+  - question: "Is programmatic SEO worth it in 2026?"
+    answer: "Yes, when each page answers a distinct query no other page on the site already answers. Weigh the $5 to $50 cost per pSEO page against $500 to $2,000 for manual content (Marketing Enigma, 2026). Budget for real data acquisition, not just templating."
+  - question: "What's the difference between programmatic SEO and AI-generated content?"
+    answer: "Programmatic SEO is a content-production system built on a template plus a dataset. AI text generation is just one way to fill that template's fields. A pSEO page can use zero AI-written prose if the dataset itself supplies the unique value, such as prices, listings, or coordinates."
+  - question: "How many pages do I need for programmatic SEO to work?"
+    answer: "There's no fixed minimum. Successful implementations range from a few hundred pages for niche directories to tens of millions for sites like Zillow and Wise. What matters is that every single page clears the unique-data and differentiation threshold. Page count is a side effect of dataset size, not a target to hit."
 ---
 In May 2026, Google's core update deindexed thousands of templated pages within days. Wise still pulls more than 100 million monthly visits across its 10-million-page network, anchored by 8.5 million currency-converter pages alone. Zillow draws 243 million visits from a programmatic page library built the same way ([Backlinko](https://backlinko.com/programmatic-seo), *Programmatic SEO: What It Is*, 2026).
 

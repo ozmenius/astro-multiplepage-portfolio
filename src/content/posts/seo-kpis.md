@@ -6,6 +6,17 @@ dateAdded: "2026-05-26"
 readTime: "14 min read"
 image: "/assets/images/posts/seo-kpis-metrics-dashboard.jpeg"
 slug: "seo-kpis"
+faq:
+  - question: "What are SEO KPIs?"
+    answer: "SEO KPIs (Key Performance Indicators) are specific, measurable metrics that connect SEO activity to business outcomes. They differ from generic SEO metrics by linking to revenue, leads, or strategic goals rather than just activity. Common examples include organic traffic, conversions from organic search, keyword rankings, and backlink growth. The distinction matters: reporting metrics without business context is reporting activity, not performance."
+  - question: "What are the most important SEO KPIs?"
+    answer: "The 10 most important SEO KPIs are: organic traffic, keyword rankings, organic CTR, conversions from organic, revenue from organic (SEO ROI), referring domain growth, branded versus non-branded traffic split, Core Web Vitals, crawl health and indexation rate, and AI visibility / brand citation rate. In 2026, the AI visibility KPI is increasingly critical. AI Overviews reduce traditional CTR by up to 61% for affected queries (Seer Interactive, Sep 2025)."
+  - question: "Which of these are the most important KPIs to consider for SEO?"
+    answer: "Universally, organic conversions and revenue prove business impact. They're the KPIs that justify SEO investment in front of any leadership team. Organic traffic shows reach, and keyword rankings show competitive positioning. For 2026, add organic CTR segmented by AI Overview presence and brand citation rate in AI answers. Avoid reporting branded traffic or bounce rate as primary KPIs. Both are easily distorted and rarely drive strategic decisions."
+  - question: "What are technical SEO KPIs?"
+    answer: "Technical SEO KPIs measure crawlability, indexation, and page experience. Key metrics: Core Web Vitals pass rate (LCP, INP, CLS), indexation rate (indexed versus submitted URLs), crawl error count (4xx/5xx), mobile usability issues, and duplicate content instances. Only 48% of mobile pages pass all three Core Web Vitals (2025 Web Almanac). That's a competitive gap addressable for most sites with focused technical work."
+  - question: "What SEO KPIs matter most for SaaS companies?"
+    answer: "SaaS SEO KPIs should center on bottom-of-funnel outcomes: trial and demo signups from organic, MQL pipeline influenced by SEO, and organic traffic to high-intent pages like /pricing, /vs/, and /alternatives/. Track non-branded keyword coverage for category-defining queries, and content-assisted pipeline using multi-touch attribution in GA4 or HubSpot. Standard traffic volume KPIs are useful for trend analysis but should never headline the SEO report shown to leadership."
 ---
 
 Here's a number worth stopping on: organic CTR dropped 61%, from 1.76% to 0.61%, for queries where an AI Overview appeared, across 25.1 million organic impressions ([Seer Interactive](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update), Sep 2025). If you're still judging SEO success by total clicks alone, your dashboard is showing you a distorted picture.
