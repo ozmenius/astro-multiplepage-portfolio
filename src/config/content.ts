@@ -301,7 +301,7 @@ const projectInputs: Omit<Project, "href">[] = [
       "+135.8% top-10 keywords, 2x Sistrix visibility, and -57% cost per acquisition through combined SEO and SEA.",
     image: "/assets/images/projects/pottsalat.jpg",
     imageAsset: pottsalatImg,
-    category: "SEO & SEA",
+    category: "SEO & PPC",
     period: "15-month program (Nov 2022 – Feb 2024)",
     summary:
       "Running organic and paid search side by side to grow visibility for the Ruhr-area salad and bowl brand Pottsalat while cutting acquisition costs.",
