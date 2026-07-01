@@ -298,7 +298,7 @@ const projectInputs: Omit<Project, "href">[] = [
     name: "Pottsalat",
     title: "Pottsalat — +135.8% Top-10 Keywords",
     description:
-      "+135.8% top-10 keywords, 2x Sistrix visibility, and -57% cost per acquisition through combined SEO and SEA.",
+      "+135.8% top-10 keywords, 2x Sistrix visibility, and -57% cost per acquisition through combined SEO and PPC.",
     image: "/assets/images/projects/pottsalat.jpg",
     imageAsset: pottsalatImg,
     category: "SEO & PPC",
