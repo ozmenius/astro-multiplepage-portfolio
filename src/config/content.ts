@@ -9,7 +9,7 @@ import pottsalatImg from "../assets/images/projects/pottsalat.jpg";
 
 export const siteConfig = {
   name: "Dennis Özmen",
-  title: "Dennis Özmen — SEO & Digital Marketing",
+  title: "Dennis Özmen | SEO, GEO & Digital Marketing",
   description:
     "Strategic SEO and digital marketing expert with 10+ years of experience scaling organic visibility, GEO, and marketing automation.",
   social: {
